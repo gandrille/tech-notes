@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-03-06T10:18:41+01:00
+
+====== Containers and Java ======
+
+* https://keulkeul.blogspot.fr/2017/12/liens-pratiques-de-la-semaine-le-retour.html
+* https://developers.redhat.com/blog/2016/06/22/how-to-run-java-fat-jars-in-docker-kubernetes-and-openshift/
+* https://developers.redhat.com/blog/2017/03/14/java-inside-docker/
+* https://spring.io/blog/2018/11/08/spring-boot-in-a-container

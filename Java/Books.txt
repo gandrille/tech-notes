@@ -1,0 +1,63 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-11-20T16:52:57+01:00
+
+====== Books ======
+
+===== Head First Java =====
+Kathy Sierra and Bert Bates
+Head First Java is a perfect fit for beginner to intermediate Java programmers. The book is fun to read, entertaining and motivating –it is full of images, exercises, puzzles, and jokes,
+yet still covers a LOT of ground in a very short time. I just checked on Amazon, it has about 310 5 star ratings, and besides that it is the #1 in books about Object-Oriented Design #1 in Java books #1 in books about Object-Oriented Software Design.
+
+===== Head First Design Patterns =====
+Eric Freeman, Elisabeth Robson, Kathy Sierra and Bert Bates
+Yet another great Java book of the famous O’Reilly Head First series. Fun to read and very motivating. Much easier to digest then the original Gang of Four book!
+
+===== SCJP Sun Certified Programmer for Java 6 Study Guide =====
+Kathy Sierra and Bert Bates
+They’ve done it again! This Java book is aimed at more experienced Java developers. You need to have a few years of experience in Java before reading this book. It will teach you Java from scratch – just in WAY more detail. It is aimed at developers who want to do the SCJP certificate, but I would recommend this book to anyone who wants to get a deep understanding of the Java programming language. I personally use this book as a reference, or as inspiration for many of my video tutorials.
+
+===== Effective Java: A Programming Language Guide (Java Series) =====
+Joshua Bloch
+This Java book is another all-time favorite of mine in my Java library of a few hundred books. In the 2nd edition of this famous book, Josh Bloch gives you 78 actionable items
+that will improve your clean coding style. I personally use it as a reference as well as an inspiration for my Java Clean Coding videos!
+
+===== Clean Code: A Handbook of Agile Software Craftsmanship =====
+Robert C. Martin
+I am a big fan of Robert C. Martin. He originally coined the term “Clean Code”. What else can I say? Read this book! I devoured the book in a matter of days!
+
+===== The Clean Coder: A Code of Conduct for Professional Programmers =====
+Robert C. Martin
+Yet another awesome book from Robert C. Martin, or Uncle Bob! You seriously need to read this book! As with “Clean Code”, I devoured the book in a matter of days.
+
+===== The Pragmatic Programmer. From Journeyman to Master =====
+Andrew Hunt and David ThomasAs this book was first published in 1999, it is probably the grandfather of all Agile / Clean Coding books. If you seriously want to become a Software Craftsman, then you must read this book.
+
+===== Coding: On Software Design Process =====
+Jonathan Locke
+A very slim (72 pages) book, that will guide you along your way from journeyman to a Master Software Craftsman.
+
+===== The Passionate Programmer: Creating a Remarkable Career in Software Development (Pragmatic Life) =====
+Chad Fowler
+After reading this book I joined a local Java user group as well as a Software Craftsman guild, and soon after that I started this blog. If you execute what Chad teaches you, this book can change your life!
+
+===== Practical Unit Testing with JUnit and Mockito =====
+Tomek Kaczanowski
+I love short, pragmatic, actionable books, without too much pathos. This book will teach you how to do (Unit)-Testing properly.
+
+===== Bad Tests, Good Tests =====
+Tomek Kaczanowski
+Yet another great book from this great author. After reading two of his books, I am addicted, and have committed to buy just about any book he is going to publish in the future. 🙂
+
+===== Domain-Driven Design: Tackling Complexity in the Heart of Software =====
+Eric Evans
+This book is tough. Not an easy read, and it took me a while to digest. Still, it is also a must- read book. Once you have understood Domain-Driven-Design, you will never want to program in any other style. I have integrated some of the concepts of Domain-Driven-Design into my video tutorials.
+
+===== Implementing Domain-Driven Design =====
+Vaughn Vernon
+In this book Vaughn Vernon aims at explaining Domain-Driven Design in an easier way. Well, digesting it was easier for me, but that might also be because I read it many years after reading the book from Eric Evans. If you want to seriously get in touch with Domain-Driven Design, then you should definitely also read this book.
+
+===== Release It! Design and Deploy Production-Ready Software (Pragmatic Programmers) =====
+Michael T. Nygard
+A famous book that covers a completely different, but very important aspect of software development – releasing it. Full of great ideas and stories, and an easy read.Amazon USA | 
+

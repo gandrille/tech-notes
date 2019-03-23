@@ -1,0 +1,19 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-11-20T17:19:14+01:00
+
+====== Lambdas and streams ======
+
+
+**Comparator**
+	
+'''
+List<Human> humans = Lists.newArrayList(
+  new Human("Sarah", 12), 
+  new Human("Sarah", 10), 
+  new Human("Zack", 12)
+);
+
+humans.sort(Comparator.comparing(Human::getName).thenComparing(Human::getAge));
+'''
+

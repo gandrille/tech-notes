@@ -1,0 +1,6 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-03-06T10:11:22+01:00
+
+====== Kubernetes ======
+* [[https://www.youtube.com/watch?v=tEvzJBFIzV4|Kubernetes for Java Developers (Edson Yanaga, Rafael Benevides)]]

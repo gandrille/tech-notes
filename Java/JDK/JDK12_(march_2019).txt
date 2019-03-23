@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-11-20T16:40:24+01:00
+
+====== JDK12 (march 2019) ======
+**Sources**
+* https://openjdk.java.net/projects/jdk/12/
+
+**JEP list**
+* [[https://openjdk.java.net/jeps/230|JEP 230: Microbenchmark Suite]]
+* [[https://openjdk.java.net/jeps/325|JEP 325: Switch Expressions (Preview)]]
+* [[https://openjdk.java.net/jeps/326|JEP 326: Raw String Literals (Preview)]]
+* [[https://openjdk.java.net/jeps/340|JEP 340: One AArch64 Port, Not Two]]
+* [[https://openjdk.java.net/jeps/341|JEP 341: Default CDS Archives]]
+

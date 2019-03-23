@@ -1,0 +1,7 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-11-20T16:25:26+01:00
+
+====== Java ======
+* Java basics : http://www.baeldung.com/java-tutorial
+

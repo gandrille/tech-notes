@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-03-06T11:23:19+01:00
+
+====== OpenID Connect ======
+
+* OpenID Connect = OAuth2 + IDToken (en JWT)
+* et aussi discovery,...
+
+idtoken (en jwt) en complément de l'access token avec des clés normalisées
+
+http://localhost:8080/auth/realms/master/.well-known/openid-configuration
+
+Open ID connect v1.0 --> nov 2014
+surcouche au dessus de OAuth2 pour faire de la gestion d'identité.
+

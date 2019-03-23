@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2018-11-20T17:08:58+01:00
+
+====== Language ======
+**Scanner**
+* pour parser des fichiers texte
+* http://thecodersbreakfast.net/index.php?post/2010/03/03/Au-coeur-du-JDK-la-classe-Scanner&utm_source=feedburner
+
+**WatchService**
+* pour réagir a une modification de fichier dans le filesystem
+* http://thecodersbreakfast.net/index.php?post/2011/05/18/Filesystem-notifications-with-Java-7
+
+**TimeUnit**
+* pour faire des conversions d'unités temporelles
+* http://thecodersbreakfast.net/index.php?post/2011/01/04/Au-coeur-du-JDK-:-TimeUnit

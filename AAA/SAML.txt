@@ -1,0 +1,25 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-03-06T11:21:10+01:00
+
+====== SAML ======
+autentication
+authorization
+
+SAML 1.0 novembre 2002
+SAML 1.1 novembre 2003
+SAML 2.0 mars 2005
+
+Deux rôles
+* SP (service provider)
+* IdP (identity Provider)
+
+Avantages
+* SSO
+* attributes based authentication
+
+Concepts
+* assertions : message
+* protocols 
+* binding
+* profils

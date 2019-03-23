@@ -1,0 +1,40 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2019-03-06T11:12:44+01:00
+
+====== OAuth2 ======
+Oauth2 prévoit QUATRE manières différentes pour l'authentification, qui correspondent à QUATRE usages différents.
+
+* **Authorization code :** c'est pour le use case de l'appli PHP classique. Tout est calculé sur le serveur client, et le résultat est renvoyé à l'utilisateur. Le token d'accès reste sur le serveur client qui maintient un session. C'est le top côté sécurité.
+* **Implicit :** pour l'appli angular. Comme c'est le javascript client qui va effectuer les appels, un système différent est mis en place.
+* **Ressource owner password credentials :** quand le client est fait par la même personne que celle qui fait l'authorization server. A ce moment, on peut se permettre de donner login et password pour l'authentification au niveau du client.
+* **Client credentials :** pour la communication serveur à serveur. Client id + client secret oiur récupérer un token qui autorise l'accès...
+
+TRES bonne synthèse :
+* http://www.bubblecode.net/fr/2016/01/22/comprendre-oauth2/
+* https://www.ibm.com/developerworks/library/se-oauthjavapt3/
+
+
+**Permet**
+* de s'authentifier (social login)
+* d'autoriser un service tiers à agir en mon nom
+
+**Exemple : le flow authorization code**
+* l'utilisateur est redirrigé ver une url chez (par ex) GitHub avec dans l'url client id, url de redirrection
+* l'utilisateur s'authentifie chez GitHub
+* redirection vers le callback avec un code
+* l'appli échange le code contre un access token
+* l'appli peut utiliser cet access token pour interoger GitHub SUR LES URL SPECIFIQUES DE GIT HUB
+
+**Problème**
+* l'access token ne comporte aucune identification. C'est une référence sur un profil. Il faut les urls (et json) spécifiques de GitHub, de Google,...
+* pas de single sign out
+
+**Refresh token**
+* pour regénérer de manière transparente pour l'utilisateur l'access token
+* permet de s'adapter à l'évolution des droits de l'utilisateur
+→ bonne pratique : refresh token a durée de vie très longue (google a probablement une durée de vie d'un an) mais access token a durée de vie de 5 minutes.
+
+**Tokens**
+* OAuth2 utilise des tokens qui ne sont PAS JWT. Ces tokens sont une simple référence. Il est nécessaire côté serveur de transformer cette référence en une identité en interrogeant une map.
+* Note : sur keycloak, l'access token est un token JWT (ce qui est un détail d'implem)

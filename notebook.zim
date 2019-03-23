@@ -1,0 +1,12 @@
+[Notebook]
+version=0.4
+name=My technical notes
+interwiki=
+home=AAA
+icon=
+document_root=
+shared=True
+endofline=unix
+disable_trash=False
+profile=
+
