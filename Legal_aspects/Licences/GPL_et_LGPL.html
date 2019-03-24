@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>GPL et LGPL</title>
+    <meta name="generator" content="Zim 0.72.0">
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="../../_resources/style.css" type="text/css"/>
+    <style type="text/css">
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: local('Roboto Light'), local('Roboto-Light'), url(../../_resources/Roboto/Roboto-Light.ttf) format('truetype');
+        }
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: local('Roboto'), local('Roboto-Regular'), url(../../_resources/Roboto/Roboto-Regular.ttf) format('truetype');
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div id="navigation">
+            <svg class="toggle">
+                <line x1="10" y1="10" x2="40" y2="10" />
+                <line x1="10" y1="20" x2="40" y2="20" />
+                <line x1="10" y1="30" x2="40" y2="30" />
+            </svg> 
+            <ul>
+<li><a href="../../Actualités_techniques.html" title="Actualités techniques" class="page">Actualités techniques</a></li>
+<li><a href="../../Big_Data_and_AI.html" title="Big Data and AI" class="page">Big Data and AI</a></li>
+<li><a href="../../Blockchain.html" title="Blockchain" class="page">Blockchain</a></li>
+<li><a href="../../Business_model_and_startup_mistakes.html" title="Business model and startup mistakes" class="page">Business model and startup mistakes</a></li>
+<li><a href="../../DDD_and_API_design.html" title="DDD and API design" class="page">DDD and API design</a></li>
+<li><a href="../../Deployment.html" title="Deployment" class="page">Deployment</a></li>
+<li><a href="../../Devoxx.html" title="Devoxx" class="page">Devoxx</a></li>
+<li><a href="../../Eclipse_Ecosystem.html" title="Eclipse Ecosystem" class="page">Eclipse Ecosystem</a></li>
+<li><a href="../../File_Formats.html" title="File Formats" class="page">File Formats</a></li>
+<li><a href="../../Génie_Logiciel_et_organisation.html" title="Génie Logiciel et organisation" class="page">Génie Logiciel et organisation</a></li>
+<li><a href="../../GIT.html" title="GIT" class="page">GIT</a></li>
+<li><a href="../../Google_ecosystem.html" title="Google ecosystem" class="page">Google ecosystem</a></li>
+<li><a href="../../Java.html" title="Java" class="page">Java</a></li>
+<li><a href="../../Langages_(autre_que_Java).html" title="Langages (autre que Java)" class="page">Langages (autre que Java)</a></li>
+<li><a href="../../Legal_aspects.html" title="Legal aspects" class="page">Legal aspects</a>
+<ul>
+<li><a href="../CGU.html" title="CGU" class="page">CGU</a></li>
+<li><a href="../Droit_à_l'oubli.html" title="Droit à l'oubli" class="page">Droit à l'oubli</a></li>
+<li><a href="../GDPR.html" title="GDPR" class="page">GDPR</a></li>
+<li><a href="../Licences.html" title="Licences" class="page">Licences</a>
+<ul>
+<li><a href="./Cecill.html" title="Cecill" class="page">Cecill</a></li>
+<li><a href="./FAQ.html" title="FAQ" class="page">FAQ</a></li>
+<li><b>GPL et LGPL</b></li>
+</ul></li>
+</ul>
+</li>
+<li><a href="../../Management_et_RH.html" title="Management et RH" class="page">Management et RH</a></li>
+<li><a href="../../Microservices.html" title="Microservices" class="page">Microservices</a></li>
+<li><a href="../../Monitoring.html" title="Monitoring" class="page">Monitoring</a></li>
+<li><a href="../../RDF.html" title="RDF" class="page">RDF</a></li>
+<li><a href="../../Security.html" title="Security" class="page">Security</a></li>
+<li><a href="../../Spring.html" title="Spring" class="page">Spring</a></li>
+<li><a href="../../SQL_and_NoSQL.html" title="SQL and NoSQL" class="page">SQL and NoSQL</a></li>
+<li><a href="../../UML.html" title="UML" class="page">UML</a></li>
+<li><a href="../../Web_Design.html" title="Web Design" class="page">Web Design</a></li>
+</ul>
+
+        </div>
+
+        <div id="content">
+
+
+                    <h1>GPL et LGPL <a name='Legal aspects:Licences:GPL et LGPL'></a></h1>
+                    <div id="toc">			
+                        <div class="toctitle">Contents</div>				
+                        <ul id="tocdata"></ul>
+                    </div>		
+
+<p>
+The intention of the GPL (General Public License) is to promote free open source software. You can use the software under GPL, redistribute it, and modify it. But the result is always bound to be under the GPL license too. You can also combine GPL software with other software — as long as the combined work is licensed and distributed under GPL. This means that the GPL is “contagious” — if you use a GPL component in a system, the entire system has to be released under the GPL. The reasoning behind this is to promote open source. If a great library is only available under GPL it will force software that wants to use the library to be free and open source, too.
+</p>
+
+<p>
+The LGPL is a weaker form of the GPL that is not contagious over library boundaries. Originally, LGPL was read out as Library General Public License. It has now been reinterpreted to be read out as the Lesser General Public License. I assume they mean lesser, as in less strong in forcing software to be open source.
+</p>
+
+<p>
+Applying LGPL to a library ensures that the library itself and any modified versions of it will remain open source. But it can be used by closed source software.
+</p>
+
+<p>
+With web based products this reasoning doesn’t work. I can offer a service over the web, by using GPLed software. But I’m never distributing the software itself — it sits on my servers only. Which means I’m not bound to release the code of the product, even if it is using GPLed components. To remedy this, another license was born, the Affero General Public License, which requires anyone using the software to offer services to offer the source code to everyone that can access the services.
+</p>
+
+<p>
+But as far as plain GPL and LGPL are concerned, a web-based product is an internal application that doesn’t incur any requirement to distribute the source.
+</p>
+
+<p>
+LGPL<br>
+<ul>
+<li>If you’re not distributing the software — you’re free to use and modify the library without doing something special.</li>
+<li>If you distribute software using the library, you must offer to supply the source code of the library. If you’re just using the official builds, you don’t have to do anything special as the code is already available on GitHub.</li>
+<li>If you distribute a modified version of the library, you must offer to supply the source of that modified version.</li>
+</ul>
+</p>
+
+
+                        <div class="footblock">
+                            <hr class='footrule'>
+                            <b>Attachments</b>
+                            <ul>
+                    <li><a href="./GPL_et_LGPL/Capture d’écran_2017-07-07_13-41-38.png">Capture d’écran_2017-07-07_13-41-38.png (72.6kb)</a></li>
+                    <li><a href="./GPL_et_LGPL/gpl-compat-matrix.png">gpl-compat-matrix.png (83.8kb)</a></li>
+                            </ul>
+                        </div>
+		
+
+                
+        </div>
+
+        <div id="credits">
+            <p>Proudly Powered by <a href="http://zim-wiki.org">Zim 0.72.0</a>.</p>
+            <p>Template by <a href="https://github.com/gandrille/zim-simple-web-template">Etienne Gandrille</a>, based on <a href="https://github.com/jaap-karssenberg/zim-desktop-wiki/blob/master/data/templates/html/ZeroFiveEight.html">ZeroFiveEight</a> and using <a href="https://ndabas.github.io/toc/">JQuery Toc Plugin</a>.</p>
+        </div>
+
+    </div>
+	
+    <script src="../../_resources/jquery-1.12.4.min.js" type="text/javascript"></script>
+    <script src="../../_resources/jquery-toc-0.4.0.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        if ($("h2").length != 0)
+            $("#tocdata").toc({content: "div#content", headings: "h2,h3,h4"});
+        else
+            $("#toc").hide();
+        $("#navigation").children("ul").prepend("<li class='index-item'><a href='../../index.html'>Index</a></li>");
+        $(".toggle").click(function(){
+            $("#navigation").children("ul").toggle();
+        });
+    </script>
+</body>
+</html>
+

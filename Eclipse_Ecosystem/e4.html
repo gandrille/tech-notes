@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>e4</title>
+    <meta name="generator" content="Zim 0.72.0">
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="../_resources/style.css" type="text/css"/>
+    <style type="text/css">
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: local('Roboto Light'), local('Roboto-Light'), url(../_resources/Roboto/Roboto-Light.ttf) format('truetype');
+        }
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: local('Roboto'), local('Roboto-Regular'), url(../_resources/Roboto/Roboto-Regular.ttf) format('truetype');
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div id="navigation">
+            <svg class="toggle">
+                <line x1="10" y1="10" x2="40" y2="10" />
+                <line x1="10" y1="20" x2="40" y2="20" />
+                <line x1="10" y1="30" x2="40" y2="30" />
+            </svg> 
+            <ul>
+<li><a href="../Actualités_techniques.html" title="Actualités techniques" class="page">Actualités techniques</a></li>
+<li><a href="../Big_Data_and_AI.html" title="Big Data and AI" class="page">Big Data and AI</a></li>
+<li><a href="../Blockchain.html" title="Blockchain" class="page">Blockchain</a></li>
+<li><a href="../Business_model_and_startup_mistakes.html" title="Business model and startup mistakes" class="page">Business model and startup mistakes</a></li>
+<li><a href="../DDD_and_API_design.html" title="DDD and API design" class="page">DDD and API design</a></li>
+<li><a href="../Deployment.html" title="Deployment" class="page">Deployment</a></li>
+<li><a href="../Devoxx.html" title="Devoxx" class="page">Devoxx</a></li>
+<li><a href="../Eclipse_Ecosystem.html" title="Eclipse Ecosystem" class="page">Eclipse Ecosystem</a>
+<ul>
+<li><b>e4</b></li>
+<li><a href="./EMF.html" title="EMF" class="page">EMF</a></li>
+<li><a href="./Sirius.html" title="Sirius" class="page">Sirius</a></li>
+<li><a href="./XText.html" title="XText" class="page">XText</a></li>
+<li><a href="./Zest.html" title="Zest" class="page">Zest</a></li>
+</ul>
+</li>
+<li><a href="../File_Formats.html" title="File Formats" class="page">File Formats</a></li>
+<li><a href="../Génie_Logiciel_et_organisation.html" title="Génie Logiciel et organisation" class="page">Génie Logiciel et organisation</a></li>
+<li><a href="../GIT.html" title="GIT" class="page">GIT</a></li>
+<li><a href="../Google_ecosystem.html" title="Google ecosystem" class="page">Google ecosystem</a></li>
+<li><a href="../Java.html" title="Java" class="page">Java</a></li>
+<li><a href="../Langages_(autre_que_Java).html" title="Langages (autre que Java)" class="page">Langages (autre que Java)</a></li>
+<li><a href="../Legal_aspects.html" title="Legal aspects" class="page">Legal aspects</a></li>
+<li><a href="../Management_et_RH.html" title="Management et RH" class="page">Management et RH</a></li>
+<li><a href="../Microservices.html" title="Microservices" class="page">Microservices</a></li>
+<li><a href="../Monitoring.html" title="Monitoring" class="page">Monitoring</a></li>
+<li><a href="../RDF.html" title="RDF" class="page">RDF</a></li>
+<li><a href="../Security.html" title="Security" class="page">Security</a></li>
+<li><a href="../Spring.html" title="Spring" class="page">Spring</a></li>
+<li><a href="../SQL_and_NoSQL.html" title="SQL and NoSQL" class="page">SQL and NoSQL</a></li>
+<li><a href="../UML.html" title="UML" class="page">UML</a></li>
+<li><a href="../Web_Design.html" title="Web Design" class="page">Web Design</a></li>
+</ul>
+
+        </div>
+
+        <div id="content">
+
+
+                    <h1>e4 <a name='Eclipse Ecosystem:e4'></a></h1>
+                    <div id="toc">			
+                        <div class="toctitle">Contents</div>				
+                        <ul id="tocdata"></ul>
+                    </div>		
+
+<p>
+What every Eclipse Developer should know about e4<br>
+<a href="mailto:jhelming@eclipsesource.com" title="jhelming@eclipsesource.com" class="mailto">jhelming@eclipsesource.com</a>
+</p>
+
+<p>
+<ul>
+<li>Installation Eclipse</li>
+<li>Please download a fresh <a href="https://www.eclipse.org/downloads/packages/eclipse-modeling-tools/oxygen1a" title="Eclipse Modeling Tools Oxygen" class="https">Eclipse Modeling Tools Oxygen</a> for your OS:</li>
+<li>Please stick to this version, we will not have the time to solve any potential incompatibility issues.</li>
+<li>Please unzip the download, start Eclipse and chose a fresh (empty) workspace. Please close the “Welcome Screen”, switch to the Java Perspective and you should see an empty workspace now.</li>
+</ul>
+</p>
+
+<p>
+<ul>
+<li>Download examples and slides</li>
+<li>Please download <a href="https://drive.google.com/open?id=0B9Z14BmM7bRBb0NxOGxrWGxQQXM" title="e4tutorial.zip" class="https">e4tutorial.zip</a></li>
+<li>and unzip it anywhere on your machine, where you can access it.</li>
+<li>The archive contains the slides of the tutorial as PDF, as well as the code examples. You don’t need to unzip start.zip or solution1-3.zip</li>
+</ul>
+</p>
+
+<p>
+<ul>
+<li>Import the start code</li>
+<li>We are almost done! To ensure that everything is working, please launch the example application once. If there any problems, you will identify them in advance, enabling us to help you. The start.zip already contains a simple application, during the tutorial, we will fill this application with new features.</li>
+<li>In your running Eclipse, please select the menu “File”=&gt;”Import”. In the dialog, please select “General”=&gt;”Existing Projects into workspace” and click on “Next”. On top, please chose the option “Select archive file” and click on “Browse”. Please select the downloaded archive “start.zip”. Below the dialog should show 5 selected projects now, please click on finish.</li>
+</ul>
+</p>
+
+<p>
+<ul>
+<li>Start the example application once</li>
+<li>There should be 5 bundles in your workspace now. Please unfold the bundle “org.eclipse.example.e4”. On the root level, there is a file “e4example.product”, please open it (double click). The file is shown in the editor area now. Please launch the product by clicking the green arrow in the top-right corner of the opened editor (Tooltip “Launch an Eclipse Application”). An empty window should open up. If this works, you are completely set-up. We will explain all following steps during the tutorial.</li>
+</ul>
+</p>
+
+
+                        <div class="footblock">
+                            <hr class='footrule'>
+                            <b>Attachments</b>
+                            <ul>
+                    <li><a href="./e4/e4Tutorial.pdf">e4Tutorial.pdf (931kb)</a></li>
+                    <li><a href="./e4/solution1.zip">solution1.zip (74.7kb)</a></li>
+                    <li><a href="./e4/solution2.zip">solution2.zip (77.2kb)</a></li>
+                    <li><a href="./e4/solution3.zip">solution3.zip (80.4kb)</a></li>
+                    <li><a href="./e4/start.zip">start.zip (71.6kb)</a></li>
+                            </ul>
+                        </div>
+		
+
+                
+        </div>
+
+        <div id="credits">
+            <p>Proudly Powered by <a href="http://zim-wiki.org">Zim 0.72.0</a>.</p>
+            <p>Template by <a href="https://github.com/gandrille/zim-simple-web-template">Etienne Gandrille</a>, based on <a href="https://github.com/jaap-karssenberg/zim-desktop-wiki/blob/master/data/templates/html/ZeroFiveEight.html">ZeroFiveEight</a> and using <a href="https://ndabas.github.io/toc/">JQuery Toc Plugin</a>.</p>
+        </div>
+
+    </div>
+	
+    <script src="../_resources/jquery-1.12.4.min.js" type="text/javascript"></script>
+    <script src="../_resources/jquery-toc-0.4.0.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        if ($("h2").length != 0)
+            $("#tocdata").toc({content: "div#content", headings: "h2,h3,h4"});
+        else
+            $("#toc").hide();
+        $("#navigation").children("ul").prepend("<li class='index-item'><a href='../index.html'>Index</a></li>");
+        $(".toggle").click(function(){
+            $("#navigation").children("ul").toggle();
+        });
+    </script>
+</body>
+</html>
+

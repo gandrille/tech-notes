@@ -1,0 +1,19 @@
+#!/bin/bash
+
+dirName=$(dirname $0)
+progName=$(basename $0)
+
+set -eu
+
+fic=$dirName/../Baeldung.txt
+
+echo "Content-Type: text/x-zim-wiki"           > $fic
+echo "Wiki-Format: zim 0.4"                    >> $fic
+echo ""                                        >> $fic
+echo "====== Baeldung ======"                  >> $fic
+curl -s https://www.baeldung.com/full_archive | sed -n "/<ul class=\"car-list\">/,/<\/div>/p" | sed "s/^<li>..: <a href=\"\(.*\)\">\(.*\)<\/a>.*$/* [[\1|\2]]/" | grep -v "</ul>" | grep -v "</li>" | grep -v "</div>" | grep -v "<ul class=\"car-monthlisting\">" | grep -v "<ul class=\"car-list\">" | sed "s/^<li><span class=\"car-yearmonth\">\(.*\) <span.*$/\n**\1**/" >> $fic
+
+
+
+
+

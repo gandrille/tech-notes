@@ -1,0 +1,419 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>RDF</title>
+    <meta name="generator" content="Zim 0.72.0">
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="./_resources/style.css" type="text/css"/>
+    <style type="text/css">
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: local('Roboto Light'), local('Roboto-Light'), url(./_resources/Roboto/Roboto-Light.ttf) format('truetype');
+        }
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: local('Roboto'), local('Roboto-Regular'), url(./_resources/Roboto/Roboto-Regular.ttf) format('truetype');
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div id="navigation">
+            <svg class="toggle">
+                <line x1="10" y1="10" x2="40" y2="10" />
+                <line x1="10" y1="20" x2="40" y2="20" />
+                <line x1="10" y1="30" x2="40" y2="30" />
+            </svg> 
+            <ul>
+<li><a href="./Actualités_techniques.html" title="Actualités techniques" class="page">Actualités techniques</a></li>
+<li><a href="./Big_Data_and_AI.html" title="Big Data and AI" class="page">Big Data and AI</a></li>
+<li><a href="./Blockchain.html" title="Blockchain" class="page">Blockchain</a></li>
+<li><a href="./Business_model_and_startup_mistakes.html" title="Business model and startup mistakes" class="page">Business model and startup mistakes</a></li>
+<li><a href="./DDD_and_API_design.html" title="DDD and API design" class="page">DDD and API design</a></li>
+<li><a href="./Deployment.html" title="Deployment" class="page">Deployment</a></li>
+<li><a href="./Devoxx.html" title="Devoxx" class="page">Devoxx</a></li>
+<li><a href="./Eclipse_Ecosystem.html" title="Eclipse Ecosystem" class="page">Eclipse Ecosystem</a></li>
+<li><a href="./File_Formats.html" title="File Formats" class="page">File Formats</a></li>
+<li><a href="./Génie_Logiciel_et_organisation.html" title="Génie Logiciel et organisation" class="page">Génie Logiciel et organisation</a></li>
+<li><a href="./GIT.html" title="GIT" class="page">GIT</a></li>
+<li><a href="./Google_ecosystem.html" title="Google ecosystem" class="page">Google ecosystem</a></li>
+<li><a href="./Java.html" title="Java" class="page">Java</a></li>
+<li><a href="./Langages_(autre_que_Java).html" title="Langages (autre que Java)" class="page">Langages (autre que Java)</a></li>
+<li><a href="./Legal_aspects.html" title="Legal aspects" class="page">Legal aspects</a></li>
+<li><a href="./Management_et_RH.html" title="Management et RH" class="page">Management et RH</a></li>
+<li><a href="./Microservices.html" title="Microservices" class="page">Microservices</a></li>
+<li><a href="./Monitoring.html" title="Monitoring" class="page">Monitoring</a></li>
+<li><b>RDF</b>
+<ul>
+<li><a href="./RDF/Dans_du_HTML_ou_XML.html" title="Dans du HTML ou XML" class="page">Dans du HTML ou XML</a></li>
+<li><a href="./RDF/Dans_JSON_-_JSON-LD.html" title="Dans JSON - JSON-LD" class="page">Dans JSON - JSON-LD</a></li>
+<li><a href="./RDF/Dans_SVG.html" title="Dans SVG" class="page">Dans SVG</a></li>
+</ul>
+</li>
+<li><a href="./Security.html" title="Security" class="page">Security</a></li>
+<li><a href="./Spring.html" title="Spring" class="page">Spring</a></li>
+<li><a href="./SQL_and_NoSQL.html" title="SQL and NoSQL" class="page">SQL and NoSQL</a></li>
+<li><a href="./UML.html" title="UML" class="page">UML</a></li>
+<li><a href="./Web_Design.html" title="Web Design" class="page">Web Design</a></li>
+</ul>
+
+        </div>
+
+        <div id="content">
+
+
+                    <h1>RDF <a name='RDF'></a></h1>
+                    <div id="toc">			
+                        <div class="toctitle">Contents</div>				
+                        <ul id="tocdata"></ul>
+                    </div>		
+
+<p>
+<b>See also…</b><br>
+<ul>
+<li><a href="http://ogp.me/" title="The Open Graph protocol" class="http">The Open Graph protocol</a></li>
+<li><a href="https://jena.apache.org/" title="https://jena.apache.org/" class="https">https://jena.apache.org/</a></li>
+<li><a href="https://marmotta.apache.org/" title="https://marmotta.apache.org/" class="https">https://marmotta.apache.org/</a></li>
+</ul>
+</p>
+
+<h2>Key resources</h2>
+
+<p>
+<ul>
+<li><a href="https://www.w3.org/TR/rdf11-primer/" title="RDF primer" class="https">RDF primer</a> Probablement le meilleur document pour avoir un panorama complet de RDF.</li>
+<li><a href="http://www.w3.org/People/Ivan/CorePresentations/SWTutorial/" title="Tutorial on Semantic Web" class="http">Tutorial on Semantic Web</a> de <a href="https://www.ivan-herman.net/" title="Ivan Herman" class="https">Ivan Herman</a></li>
+<li>Firefox <a href="https://addons.mozilla.org/en-US/firefox/addon/openlink-structured-data-sniff/" title="Structured data sniff plugin" class="https">Structured data sniff plugin</a></li>
+</ul>
+</p>
+
+<h2>Introduction</h2>
+
+<h3>Motivation</h3>
+
+<p>
+Le web est classiquement organisé en documents, liés les uns aux autres par des liens hypertexte. Historiquement, la recherche (donc la compréhension par les machines) dans le web se fait à l'aide de mots clé… auquels aucune sémantique n'est donc associée, et qui ne connaissent pas les frontières des objets rencontrés dans chaque page. Se pose donc la question de fournir aux machines (pas directement aux humains !) un niveau plus élevé de compréhension des informations en les structurant sémantiquement. Pour cela, on va chercher à fournir une manière de lier les données les unes aux autres, de mettre ensemble les morceaux de connaissances relatifs à une même donnée et éparpillés sur le web. Par ce changement de perspective, le concept central n'est plus le document, mais la donnée. On passe ainsi des données sur le web au web des données.
+</p>
+
+<p>
+<ul>
+<li>since 2013 : <a href="https://www.w3.org/2013/data/" title="W3C Data" class="https">W3C Data</a> mais rien depuis décembre 2015…</li>
+<li>2001-2013 : <a href="https://www.w3.org/2001/sw/" title="W3C Semantic Web" class="https">W3C Semantic Web</a></li>
+</ul>
+</p>
+
+<p>
+"I will never touch that crap of RDF or the semantic web; this is a pipe dream of reality ignoring academics and I will not have it. I will only use JSON-LD."<br>
+Phil Archer, W3C Data Activity Lead<br>
+Keynote of Semantics 2014
+</p>
+
+<h3>Les microformats adresse la préoccupation sémantique</h3>
+
+<p>
+Ceci n'est pas une spécification du Web sémantique (du W3C). C'est une approche simple et pragmatique pour inclure des informations sémantiques dans une page HTML. Pour cela, les attributs `class`, `rel` et `rev` sont utilisés pour embarquer les informations spécifiques à des domaines bien identifiés. De nombreux domaines sont pris en charge par les principaux moteurs de recherche.
+</p>
+
+<p>
+<ul>
+<li><a href="http://microformats.org/about" title="http://microformats.org/about" class="http">http://microformats.org/about</a></li>
+<li><a href="http://microformats.org/wiki/microformats2" title="http://microformats.org/wiki/microformats2" class="http">http://microformats.org/wiki/microformats2</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Microformat" title="https://en.wikipedia.org/wiki/Microformat" class="https">https://en.wikipedia.org/wiki/Microformat</a></li>
+</ul>
+</p>
+
+<p>
+Plusieurs vocabulaires spécifiques a un domaine sont standardisés :
+</p>
+
+<p>
+<ul>
+<li>hCard qui a un mapping 1:1 sur vcard</li>
+<li>hCalendar vasé sur iCalendar</li>
+<li>hProduct</li>
+<li>hReview</li>
+<li>and many more…</li>
+</ul>
+</p>
+
+<p>
+Exemple avec microformat v1 (<tt>vcard</tt>) et v2 (<tt>h-card</tt>):
+</p>
+
+<pre>
+&lt;ul class="h-card vcard"&gt;
+   &lt;li class="p-name fn"&gt;Joe Doe&lt;/li&gt;
+   &lt;li class="p-org org"&gt;The Example Company&lt;/li&gt;
+   &lt;li class="p-tel tel"&gt;604-555-1234&lt;/li&gt;
+   &lt;li&gt;&lt;a class="u-url url" href="http://example.com/"&gt;http://example.com/&lt;/a&gt;&lt;/li&gt;
+ &lt;/ul&gt;
+</pre>
+
+<p>
+A noter que les classes s'utilisent de manière imédiate sans nécessité de référence à une définition vocabulaire.
+</p>
+
+<h3>Le concept de Linked data adresse le lien entre les données</h3>
+
+<p>
+<a href="https://www.w3.org/DesignIssues/LinkedData.html" title="https://www.w3.org/DesignIssues/LinkedData.html" class="https">https://www.w3.org/DesignIssues/LinkedData.html</a>
+</p>
+
+<h3>Approche</h3>
+
+<p>
+Pour que le web soit sémantique, il faut :
+</p>
+
+<p>
+<ul>
+<li>de la sémantique associée aux objets</li>
+<li>des objets liés entre eux (linked data)</li>
+</ul>
+</p>
+
+<p>
+→ c'est là tout le propos de RDF !
+</p>
+
+<h2>RDF concepts et syntaxe abstratite</h2>
+
+<p>
+Le document de référence sur cette partie est le suivant : <a href="https://www.w3.org/TR/rdf11-concepts/" title="https://www.w3.org/TR/rdf11-concepts/" class="https">https://www.w3.org/TR/rdf11-concepts/</a>. Attention, la lecture de ce document nécessite une précompréhension de RDF que l'on peut facilement obtenir par la lecture du <a href="https://www.w3.org/TR/rdf11-primer/" title="RDF primer" class="https">RDF primer</a>.
+</p>
+
+<p>
+Cette section va présenter les concepts suivants :
+</p>
+
+<p>
+<ul>
+<li>statement RDF</li>
+<li>terme RDF</li>
+<li>graph RDF</li>
+<li>dataset RDF</li>
+<li>vocabulaire RDF</li>
+</ul>
+</p>
+
+<p>
+Le concept de base de RDF est le `statement`. Chaque `statement` est une pensée sur le monde. Il permet permet de lier deux ressources par une connexion orientée qui est étiquetée (labeled connection).
+</p>
+
+<p>
+Chaque statement est représenté formellement par un `RDF triple`, un triplet `(s,p,o)` formé de :
+</p>
+
+<p>
+<ul>
+<li>sujet</li>
+<li>predicat (ou par abus de langage une "propriété", car le prédicat référence une propriété)</li>
+<li>objet</li>
+</ul>
+</p>
+
+<p>
+Ainsi, dans "Dave likes cookies", Dave est le sujet, likes est le prédicat, et cookies est l'objet.
+</p>
+
+<p>
+Les termes RDF sont les suivants
+</p>
+
+<p>
+<ul>
+<li><a href="https://tools.ietf.org/html/rfc3987" title="IRI" class="https">IRI</a> : en pratique, souvent une URL</li>
+<li>literal : un object qui peut avoir un <a href="https://www.w3.org/TR/rdf11-concepts/#xsd-datatypes" title="datatype" class="https">datatype</a> et un language (fr, en,…) dans le cas ou le datatype est une chaîne de caractères. Notons que les datatypes valides ne font pas partie de la spec, même si une liste d'URI de data types "bien connus" est fournie (RDF-compatible XSD types).</li>
+<li>blank node : un objet anonyme</li>
+</ul>
+</p>
+
+<table>
+<thead><tr>
+  <th>termes RDF</th>
+  <th>sujet</th>
+  <th>predicat</th>
+  <th>object</th>
+</tr></thead>
+<tr>
+  <td>IRI</td>
+  <td>X</td>
+  <td>X</td>
+  <td>X</td>
+</tr>
+<tr>
+  <td>literal</td>
+  <td>&nbsp;</td>
+  <td>&nbsp;</td>
+  <td>X</td>
+</tr>
+<tr>
+  <td>blank node</td>
+  <td>X</td>
+  <td>&nbsp;</td>
+  <td>X</td>
+</tr>
+</table>
+
+<p>
+Notons que deux `literal` peuvent ne pas avoir le même terme RDF, mais représenter la même valeur. Par exemple `"1"^^xs:integer` et `"01"^^xs:integer`.
+</p>
+
+<p>
+La ressource pointée/référencée par une IRI est qualifiée de `referent`, et un litéral représentant une ressource est qualifié de `literal value`.
+</p>
+
+<p>
+<ul>
+<li>Un <b>graph RDF</b> est constitué d'un ensemble de statements RDF.</li>
+<li>Un <b>dataset RDF</b> est constitué d'un ensemble de graphes RDF. </li>
+<li>Un <b>vocabulaire RDF</b> (RDF vocabulary) est une collection d'IRIs destinés à être utilisés dans des graphes RDF.</li>
+</ul>
+</p>
+
+<p>
+<b>Les namespaces ne font PAS partie du data modèle RDF</b>, même s'ils sont très utilisés dans les formats de sérialisation. De plus, le terme "namespace" n'a pas de contenu bien défini dans le contexte de RDF, même s'il est souvent utilisé de manière informelle pour désigner un vocabulaire RDF ou la partie commune aux URIs de ce vocabulaire (souvent transformé en prefixe dans les sérialisations).
+</p>
+
+<h2>Sémantic extensions</h2>
+
+<h3>RDF Schema</h3>
+
+<p>
+RDF Schema est une <a href="https://www.w3.org/TR/rdf11-mt/#semantic-extensions-and-entailment-regimes" title="extension sémantique" class="https">extension sémantique</a> qui apporte un vocabulaire (donc un ensemble d'IRI) pour modéliser d'autres vocabulaires plus complexes en associant des règles sémantiques et logiques à ce vocabulaire de base. C'est donc un langage de description des vocabulaires RDF. Cette extension est tellement utilisée qu'elle fait presque partie de RDF.
+</p>
+
+<p>
+RDF Schema est écrit en RDF, et défini notamment
+</p>
+
+<p>
+<ul>
+<li>un système de typage et de sous typage (l'ensemble des instances d’une classe est appelée son extension)</li>
+<li>des propriétés qui peuvent être arrangées en une hiérarchie</li>
+<li>des datatypes</li>
+<li>Les concepts de `domain` et de `range`</li>
+</ul>
+</p>
+
+<p>
+Ce sont les deux concepts clé, qui sont cependant destabilisants au premier regard. Habituellement, en POO, on défini une classe qui a des attributs typés. Par exemple, nous définissons la classe `eg:Book` qui a un attribut `eg:author` de type `eg:Person`. Le problème de cette approche qui part de la classe est l'impossibilité de modifier une classe existante sans la sousclasser. C'est là le point que cherche à adresser les concepts de `domain` et de `range`.
+</p>
+
+<p>
+Avec les Schema RDF, nous dirons au contraire que la propriété `eg:author` a le domaine `eg:Book` et le range `eg:Person`. On vient donc greffer les attributs (propriétés) aux classes.
+</p>
+
+<p>
+<b>Référence</b><br>
+<ul>
+<li><a href="https://www.w3.org/TR/rdf-schema/" title="RDF schema" class="https">RDF schema</a></li>
+<li><a href="https://www.w3.org/TR/rdf-schema/#ch_sumclasses" title="RDF classes" class="https">RDF classes</a></li>
+<li><a href="https://www.w3.org/TR/rdf-schema/#ch_sumproperties" title="RDF properties" class="https">RDF properties</a></li>
+</ul>
+</p>
+
+<h3>OWL</h3>
+
+<p>
+Langage d'ontologies avec un vocabulaire plus comple et un pouvoir expressif plus important :
+</p>
+
+<p>
+<ul>
+<li>cardinalité des propriétés (min, max et exact)</li>
+<li>propriétés (transitive, réflexive, symétrique, fonctionnelle, etc.)</li>
+<li>vision ensembliste : intersection, union de classes,…</li>
+</ul>
+</p>
+
+<h3>RIF</h3>
+
+<p>
+Generic framework to define rules on terms and data. 
+</p>
+
+<h2>Vocabulaires RDF "standards de fait" basés sur RDF schema</h2>
+
+<p>
+see : <a href="http://lov.okfn.org/dataset/lov/" title="Linked Open Vocabularies" class="http">Linked Open Vocabularies</a>
+</p>
+
+<p>
+<ul>
+<li>dterms : Dublin Core terms</li>
+<li>dce : Dublin Core Metadata Element Set</li>
+<li>foaf : Friend of a Friend vocabulary</li>
+<li>vann : vocabulary for annotating vocabulary descriptions</li>
+<li>skos : Simple Knowledge Organization System (thesauri, glossaries,…)</li>
+<li>cc : Creative Commons Rights Expression Language</li>
+<li>schema : schema.org vocabulary, metadata for search engines (<a href="https://schema.org/docs/full.html" title="all vocabularies" class="https">all vocabularies</a>).</li>
+</ul>
+</p>
+
+<h2>SPARQL (Query Language for RDF)</h2>
+
+<p>
+<ul>
+<li><a href="http://www.w3.org/TR/rdf-sparql-query/" title="SPARQL Query Language" class="http">SPARQL Query Language</a></li>
+<li><a href="http://www.cambridgesemantics.com/semantic-university/sparql-by-example" title="SPARQL by Example" class="http">SPARQL by Example</a></li>
+</ul>
+</p>
+
+<h2>Syntaxes concrètes pour sérialiser des statements RDF</h2>
+
+<p>
+Un <b>document RDF</b> est un document qui encode un graphe RDF ou un dataset RDF dans une syntaxe concrète.
+</p>
+
+
+                        <div class="footblock">
+                            <hr class='footrule'>
+                            <b>Attachments</b>
+                            <ul>
+                    <li><a href="./RDF/20160322-AT135-Wikidata.pdf">20160322-AT135-Wikidata.pdf (1.30Mb)</a></li>
+                    <li><a href="./RDF/20160503-AT139-web-semantique.pdf">20160503-AT139-web-semantique.pdf (1.23Mb)</a></li>
+                    <li><a href="./RDF/img1.png">img1.png (30.4kb)</a></li>
+                    <li><a href="./RDF/img2.jpg">img2.jpg (56.2kb)</a></li>
+                    <li><a href="./RDF/rdfs-schema1.dia">rdfs-schema1.dia (6.76kb)</a></li>
+                    <li><a href="./RDF/rdfs-schema2.dia">rdfs-schema2.dia (4.98kb)</a></li>
+                    <li><a href="./RDF/rdfs_entities.jpg">rdfs_entities.jpg (78.5kb)</a></li>
+                            </ul>
+                        </div>
+		
+
+                
+        </div>
+
+        <div id="credits">
+            <p>Proudly Powered by <a href="http://zim-wiki.org">Zim 0.72.0</a>.</p>
+            <p>Template by <a href="https://github.com/gandrille/zim-simple-web-template">Etienne Gandrille</a>, based on <a href="https://github.com/jaap-karssenberg/zim-desktop-wiki/blob/master/data/templates/html/ZeroFiveEight.html">ZeroFiveEight</a> and using <a href="https://ndabas.github.io/toc/">JQuery Toc Plugin</a>.</p>
+        </div>
+
+    </div>
+	
+    <script src="./_resources/jquery-1.12.4.min.js" type="text/javascript"></script>
+    <script src="./_resources/jquery-toc-0.4.0.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        if ($("h2").length != 0)
+            $("#tocdata").toc({content: "div#content", headings: "h2,h3,h4"});
+        else
+            $("#toc").hide();
+        $("#navigation").children("ul").prepend("<li class='index-item'><a href='./index.html'>Index</a></li>");
+        $(".toggle").click(function(){
+            $("#navigation").children("ul").toggle();
+        });
+    </script>
+</body>
+</html>
+

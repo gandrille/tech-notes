@@ -1,7 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2018-11-20T17:23:52+01:00
-
-====== Oracle Mooc ======
-https://www.youtube.com/playlist?list=PLMod1hYiIvSZL1xclvHcsV2dMiminf19x
-http://www.oracle.com/webfolder/technetwork/tutorials/moocjdk8/documents/week3/lesson-3-7.pdf

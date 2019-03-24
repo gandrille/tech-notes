@@ -1,0 +1,332 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Lean</title>
+    <meta name="generator" content="Zim 0.72.0">
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="../_resources/style.css" type="text/css"/>
+    <style type="text/css">
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: local('Roboto Light'), local('Roboto-Light'), url(../_resources/Roboto/Roboto-Light.ttf) format('truetype');
+        }
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: local('Roboto'), local('Roboto-Regular'), url(../_resources/Roboto/Roboto-Regular.ttf) format('truetype');
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div id="navigation">
+            <svg class="toggle">
+                <line x1="10" y1="10" x2="40" y2="10" />
+                <line x1="10" y1="20" x2="40" y2="20" />
+                <line x1="10" y1="30" x2="40" y2="30" />
+            </svg> 
+            <ul>
+<li><a href="../Actualités_techniques.html" title="Actualités techniques" class="page">Actualités techniques</a></li>
+<li><a href="../Big_Data_and_AI.html" title="Big Data and AI" class="page">Big Data and AI</a></li>
+<li><a href="../Blockchain.html" title="Blockchain" class="page">Blockchain</a></li>
+<li><a href="../Business_model_and_startup_mistakes.html" title="Business model and startup mistakes" class="page">Business model and startup mistakes</a></li>
+<li><a href="../DDD_and_API_design.html" title="DDD and API design" class="page">DDD and API design</a></li>
+<li><a href="../Deployment.html" title="Deployment" class="page">Deployment</a></li>
+<li><a href="../Devoxx.html" title="Devoxx" class="page">Devoxx</a></li>
+<li><a href="../Eclipse_Ecosystem.html" title="Eclipse Ecosystem" class="page">Eclipse Ecosystem</a></li>
+<li><a href="../File_Formats.html" title="File Formats" class="page">File Formats</a></li>
+<li><a href="../Génie_Logiciel_et_organisation.html" title="Génie Logiciel et organisation" class="page">Génie Logiciel et organisation</a>
+<ul>
+<li><a href="./Agile_(généralités).html" title="Agile (généralités)" class="page">Agile (généralités)</a></li>
+<li><a href="./DevOps.html" title="DevOps" class="page">DevOps</a></li>
+<li><b>Lean</b></li>
+<li><a href="./Scrum.html" title="Scrum" class="page">Scrum</a></li>
+</ul>
+</li>
+<li><a href="../GIT.html" title="GIT" class="page">GIT</a></li>
+<li><a href="../Google_ecosystem.html" title="Google ecosystem" class="page">Google ecosystem</a></li>
+<li><a href="../Java.html" title="Java" class="page">Java</a></li>
+<li><a href="../Langages_(autre_que_Java).html" title="Langages (autre que Java)" class="page">Langages (autre que Java)</a></li>
+<li><a href="../Legal_aspects.html" title="Legal aspects" class="page">Legal aspects</a></li>
+<li><a href="../Management_et_RH.html" title="Management et RH" class="page">Management et RH</a></li>
+<li><a href="../Microservices.html" title="Microservices" class="page">Microservices</a></li>
+<li><a href="../Monitoring.html" title="Monitoring" class="page">Monitoring</a></li>
+<li><a href="../RDF.html" title="RDF" class="page">RDF</a></li>
+<li><a href="../Security.html" title="Security" class="page">Security</a></li>
+<li><a href="../Spring.html" title="Spring" class="page">Spring</a></li>
+<li><a href="../SQL_and_NoSQL.html" title="SQL and NoSQL" class="page">SQL and NoSQL</a></li>
+<li><a href="../UML.html" title="UML" class="page">UML</a></li>
+<li><a href="../Web_Design.html" title="Web Design" class="page">Web Design</a></li>
+</ul>
+
+        </div>
+
+        <div id="content">
+
+
+                    <h1>Lean <a name='Génie Logiciel et organisation:Lean'></a></h1>
+                    <div id="toc">			
+                        <div class="toctitle">Contents</div>				
+                        <ul id="tocdata"></ul>
+                    </div>		
+
+<h2>Le Lean Kesako</h2>
+
+<h3>Introduction</h3>
+
+<p>
+A la fin de la seconde guerre mondiale, Toyota a cherché à mettre en place une nouvelle organisation d'entreprise pour la production automobile. Cette mise en place n'a été que très progressive, jusqu'en 1972. Cette organisation a été théorisée par le MIT, qui lui a donné le nom de Lean.
+</p>
+
+<p>
+Nous allons traiter trois aspects<br>
+<ul>
+<li>management visuel</li>
+<li>auto organisation des équipes</li>
+<li>traitement des problèmes</li>
+</ul>
+</p>
+
+<p>
+L'esprit du Lean : tout repose sur les gens, sur l'équipe. Il y a un pacte social, sinon, c'est de la bureaucratie. L'idée est de fluidifier les interactions entre personnes.
+</p>
+
+<h3>Management visuel : Affichage !</h3>
+
+<p>
+Au lieu de faire des réunions pour collecter et aggréger des indicateurs sur l'avancement du projet, le Lean insiste sur l'affichage en permanence, basé sur des cartes Kanban. Ces cartes recouvrent :<br>
+<ul>
+<li>plannification</li>
+<li>fonctionalités</li>
+<li>graphique d'avancement</li>
+<li>problèmes</li>
+</ul>
+</p>
+
+<p>
+Avantage<br>
+<ul>
+<li>réduit la nécessité des réunions</li>
+<li>permet de trouver au plus tôt l'appartion de problème en raison de l'accumulation de cartes, ou de cartes qui n'avancent pas.</li>
+</ul>
+</p>
+
+<h3>Auto-organisation de l'équipe</h3>
+
+<p>
+<b>C'est à l'équipe de décider ce qu'elle va faire!</b><br>
+<ul>
+<li>l'équipe se réuni chaque jour</li>
+<li>matérialisation du flux de production de valeur sur un tableau</li>
+<li>limiter l'en cours : pas trop de tâches en parallèle!</li>
+<li>minimiser la taille des fonctionnalités</li>
+</ul>
+</p>
+
+<h3>Traitement des problèmes : PDCA</h3>
+
+<p>
+<b>Le Lean constate que</b><br>
+<ul>
+<li>il est inévitable d'avoir des erreurs</li>
+<li>plus un problème est détecté tôt, moins il est onéreux de le corriger.</li>
+</ul>
+</p>
+
+<p>
+<b>Une méthode en quatre étapes est proposée pour corriger le erreurs : PDCA</b><br>
+<ul>
+<li>Plan : caractériser le problème, les impacts,… → phase la plus difficile et la plus importante, qui peut être facilité par l'emploi de questions "Pourquoi?" a cinq personnes différentes, afin de trouver la cause profonde et non la cause apparente.</li>
+<li>Do : avec une date de début et de fin (c'est très important de l'inscire dabns le temps)</li>
+<li>Check : vérification. Nécessite un indicateur pour vérifier.</li>
+<li>Act : empêcher le retour en arrière si le pb a été résolu. Si le pb est encore là, recommencer PDCA!</li>
+</ul>
+</p>
+
+<h2>Le Lean ou le management par la résolution de problèmes (Michael Ballé)</h2>
+
+<p>
+Le Lean est en fait le Toyota Production System : un exercice quotidien pour s'améliorer. Ce n'est pas le système de production de Toyota!<br>
+Les bons produits et les bons services ne viennent pas des systèmes les mieux organisés. C'est la monté en compétence générale qui permet d'obtenir de meilleurs produits.
+</p>
+
+<p>
+<b>Un changement de paradigme</b><br>
+<ul>
+<li>Taylor : les "gens intelligents" organisent le travail des "idiots". </li>
+<li>Lean : tout le monde doit penser. On ne veut pas seulement les mains des gens, on veut leur tête</li>
+</ul>
+</p>
+
+<p>
+<b>Les processus</b><br>
+<ul>
+<li>Taylor : on cherche des solutions globales qui vont régler le problème une fois pour toutes. Remplacer AS400 par SAP…</li>
+<li>Avec le Lean, on cherche des solutions locales : les meilleurs processus vont venir des savoir faire et connaissances individuelles</li>
+</ul>
+</p>
+
+<p>
+<b>Le Kanban</b><br>
+<ul>
+<li>On applique le taylorisme à la ligne hiérarchique (verticale)</li>
+<li>Pas de supervision globale, mais Kanban. Des cartes. On se sert de l'informatique non pas pour ordonnancer, mais pour superviser.</li>
+</ul>
+</p>
+
+<p>
+<b>Points clé de la méthode</b><br>
+<ul>
+<li>Analyser son code, le détail de ce que l'on fait</li>
+<li>Reconnaitre ses gaspillages dans mon travail, pour moi ou pour les autres. C'est difficile. Conséquence dans la façon dont ils travaillent.</li>
+<li>Analyser les causes profondes. Résoudre les problèmes jusqu'au bout. Faire les choses jusqu'au bout, plutôt que les faire bien.</li>
+</ul>
+</p>
+
+<p>
+<b>Et en pratique</b><br>
+<ul>
+<li>Standardiser SES modèles de travail pour apprendre par la répétition.</li>
+<li>Kaisen : résoudre le problème localement, dans le standard de travail.</li>
+<li>Kaikaku : pour tirer les conclusions de cet apprentissage et mener des changements radicaux</li>
+</ul>
+</p>
+
+<p>
+<b>Le changement</b><br>
+<ul>
+<li>Taylor : on impose un nouveau process global</li>
+<li>Lean : le changement par apprentissage</li>
+</ul>
+</p>
+
+<p>
+<b>Pratique du Lean</b><br>
+<ul>
+<li>Aller sur le terrain. Rien ne sert de parler dans une salle, il faut voir le terrain. Rien ne sert de parler dans une salle, il faut voir le terrain</li>
+<li>visualiser les process (management visuel, pas microsoft project) (management visuel, pas microsoft project)</li>
+<li>révéler les problèmes et agir au plus vite</li>
+<li>résoudre les les un par un en recherchant les causes profondes</li>
+<li>améliorer les pratiques de management </li>
+</ul>
+</p>
+
+<p>
+<b>Le Kaisen</b><br>
+<ul>
+<li>L'apprentissage en continu est une clé de réussite du lean</li>
+<li>Apprendre maintenant, pas quand on est prêt! On n'est jamais prêt, il faut commencer maintenant.</li>
+<li>Apprentissage chalenge. L'essentiel, c'est pas d'être parfait, c'est de progresser.</li>
+</ul>
+</p>
+
+<p>
+<b>L'humain reste menant</b><br>
+<ul>
+<li>Taylor : l'humain fait ce que la machine ne peut pas faire. L'homme assiste la machine</li>
+<li>Lean : L'outil aide l'humain en le soulageant de la pénibilité</li>
+<li>Et en lui permettant d'identifier les zones à problème</li>
+<li>L'outil n'a pas besoin d'être baby sitté</li>
+</ul>
+</p>
+
+<p>
+Dans le lean, c'est le chef de projet qui défini son process de management<br>
+C'est à chacun de tenir ses check list, c'est pas le système qui impose
+</p>
+
+<p>
+Développer l'expertise et éliminer les causes de couts<br>
+Eviter les éreurs et couper les couts
+</p>
+
+<p>
+<b>SI Classique</b><br>
+<ul>
+<li>automatise la décision pour les idiots</li>
+<li>élargit l'acquisition et le stockage de l'info</li>
+<li>centralise la coordination : ERP…</li>
+<li>réduit les couts de formation et de recrutement</li>
+<li>mène le changement</li>
+</ul>
+</p>
+
+<p>
+<b>SI Lean</b><br>
+<ul>
+<li>automatise un usage pénible</li>
+<li>donne de la visibilité</li>
+<li>permet de simuler les effets d'une décision</li>
+<li>monitore les points critiques</li>
+<li>permet le kaizen</li>
+</ul>
+</p>
+
+<p>
+<b>Management lean</b><br>
+<ul>
+<li>prendre la responsabilité</li>
+<li>aller sur place</li>
+<li>bien comprendre le problème</li>
+<li>développer le leadership local</li>
+<li>Kaisen : résoudre pas à pas sans investir</li>
+<li>Garder une direction claire</li>
+<li>Transformer radicalement les process</li>
+</ul>
+</p>
+
+<p>
+<b>En pratique, comment commencer?</b><br>
+<ul>
+<li>être coaché</li>
+<li>aller sur le terrain</li>
+<li>management visuel</li>
+<li>encourager le kaisen : essayez de trouver une solution</li>
+</ul>
+</p>
+
+<p>
+<b>Non classé</b><br>
+<ul>
+<li>Qualité en premier, sécurité toujours : arrêt de la chaine dès le premier problème détecté</li>
+<li>améliorer l'environnement de travail par le travail standardisé et le kaisen</li>
+</ul>
+</p>
+
+
+		
+
+                
+        </div>
+
+        <div id="credits">
+            <p>Proudly Powered by <a href="http://zim-wiki.org">Zim 0.72.0</a>.</p>
+            <p>Template by <a href="https://github.com/gandrille/zim-simple-web-template">Etienne Gandrille</a>, based on <a href="https://github.com/jaap-karssenberg/zim-desktop-wiki/blob/master/data/templates/html/ZeroFiveEight.html">ZeroFiveEight</a> and using <a href="https://ndabas.github.io/toc/">JQuery Toc Plugin</a>.</p>
+        </div>
+
+    </div>
+	
+    <script src="../_resources/jquery-1.12.4.min.js" type="text/javascript"></script>
+    <script src="../_resources/jquery-toc-0.4.0.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        if ($("h2").length != 0)
+            $("#tocdata").toc({content: "div#content", headings: "h2,h3,h4"});
+        else
+            $("#toc").hide();
+        $("#navigation").children("ul").prepend("<li class='index-item'><a href='../index.html'>Index</a></li>");
+        $(".toggle").click(function(){
+            $("#navigation").children("ul").toggle();
+        });
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,241 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Spring Web Reactive</title>
+    <meta name="generator" content="Zim 0.72.0">
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="../../_resources/style.css" type="text/css"/>
+    <style type="text/css">
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: local('Roboto Light'), local('Roboto-Light'), url(../../_resources/Roboto/Roboto-Light.ttf) format('truetype');
+        }
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: local('Roboto'), local('Roboto-Regular'), url(../../_resources/Roboto/Roboto-Regular.ttf) format('truetype');
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div id="navigation">
+            <svg class="toggle">
+                <line x1="10" y1="10" x2="40" y2="10" />
+                <line x1="10" y1="20" x2="40" y2="20" />
+                <line x1="10" y1="30" x2="40" y2="30" />
+            </svg> 
+            <ul>
+<li><a href="../../Actualités_techniques.html" title="Actualités techniques" class="page">Actualités techniques</a></li>
+<li><a href="../../Big_Data_and_AI.html" title="Big Data and AI" class="page">Big Data and AI</a></li>
+<li><a href="../../Blockchain.html" title="Blockchain" class="page">Blockchain</a></li>
+<li><a href="../../Business_model_and_startup_mistakes.html" title="Business model and startup mistakes" class="page">Business model and startup mistakes</a></li>
+<li><a href="../../DDD_and_API_design.html" title="DDD and API design" class="page">DDD and API design</a></li>
+<li><a href="../../Deployment.html" title="Deployment" class="page">Deployment</a></li>
+<li><a href="../../Devoxx.html" title="Devoxx" class="page">Devoxx</a></li>
+<li><a href="../../Eclipse_Ecosystem.html" title="Eclipse Ecosystem" class="page">Eclipse Ecosystem</a></li>
+<li><a href="../../File_Formats.html" title="File Formats" class="page">File Formats</a></li>
+<li><a href="../../Génie_Logiciel_et_organisation.html" title="Génie Logiciel et organisation" class="page">Génie Logiciel et organisation</a></li>
+<li><a href="../../GIT.html" title="GIT" class="page">GIT</a></li>
+<li><a href="../../Google_ecosystem.html" title="Google ecosystem" class="page">Google ecosystem</a></li>
+<li><a href="../../Java.html" title="Java" class="page">Java</a></li>
+<li><a href="../../Langages_(autre_que_Java).html" title="Langages (autre que Java)" class="page">Langages (autre que Java)</a></li>
+<li><a href="../../Legal_aspects.html" title="Legal aspects" class="page">Legal aspects</a></li>
+<li><a href="../../Management_et_RH.html" title="Management et RH" class="page">Management et RH</a></li>
+<li><a href="../../Microservices.html" title="Microservices" class="page">Microservices</a></li>
+<li><a href="../../Monitoring.html" title="Monitoring" class="page">Monitoring</a></li>
+<li><a href="../../RDF.html" title="RDF" class="page">RDF</a></li>
+<li><a href="../../Security.html" title="Security" class="page">Security</a></li>
+<li><a href="../../Spring.html" title="Spring" class="page">Spring</a>
+<ul>
+<li><a href="../Spring_Boot.html" title="Spring Boot" class="page">Spring Boot</a></li>
+<li><a href="../Spring_Cloud.html" title="Spring Cloud" class="page">Spring Cloud</a></li>
+<li><a href="../Spring_Framework.html" title="Spring Framework" class="page">Spring Framework</a>
+<ul>
+<li><a href="./Open_API.html" title="Open API" class="page">Open API</a></li>
+<li><b>Spring Web Reactive</b></li>
+</ul>
+</li>
+<li><a href="../Spring_Security.html" title="Spring Security" class="page">Spring Security</a></li>
+<li><a href="../Spring_Web_-_MVC.html" title="Spring Web - MVC" class="page">Spring Web - MVC</a></li>
+<li><a href="../Tests.html" title="Tests" class="page">Tests</a></li>
+</ul>
+</li>
+<li><a href="../../SQL_and_NoSQL.html" title="SQL and NoSQL" class="page">SQL and NoSQL</a></li>
+<li><a href="../../UML.html" title="UML" class="page">UML</a></li>
+<li><a href="../../Web_Design.html" title="Web Design" class="page">Web Design</a></li>
+</ul>
+
+        </div>
+
+        <div id="content">
+
+
+                    <h1>Spring Web Reactive <a name='Spring:Spring Framework:Spring Web Reactive'></a></h1>
+                    <div id="toc">			
+                        <div class="toctitle">Contents</div>				
+                        <ul id="tocdata"></ul>
+                    </div>		
+
+<p>
+<b>Youtube talks</b><br>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=rdgJ8fOxJhc" title="Reactive Web Applications with Spring 5" class="https">Reactive Web Applications with Spring 5</a></li>
+<li><a href="https://www.youtube.com/watch?v=Cj4foJzPF80" title="Developing Reactive applications with Reactive Streams and Java 8" class="https">Developing Reactive applications with Reactive Streams and Java 8</a></li>
+</ul>
+</p>
+
+<p>
+<b>Resources</b><br>
+<ul>
+<li><a href="https://spring.io/blog/2016/04/19/understanding-reactive-types" title="Article spring" class="https">Article spring</a></li>
+<li><a href="http://techblog.netflix.com/2016/09/zuul-2-netflix-journey-to-asynchronous.html" title="Article Netflix de référence" class="http">Article Netflix de référence</a></li>
+</ul>
+</p>
+
+<h2>Motivation et objectif</h2>
+
+<p>
+End of moore's now : only more cores, not faster ones !
+</p>
+
+<p>
+Single threaded eventloop à la (node js) : New way to achieving scale<br>
+<ul>
+<li>never block (wait) the thread</li>
+<li>db call, api call → callback !</li>
+</ul>
+</p>
+
+<p>
+Reactive<br>
+<ul>
+<li>async </li>
+<li>non blocking</li>
+<li>back pressure : ça sert à rien de fournir une donnée par call back si le client http qui doit l'utiliser derrière n'est pas prêt.</li>
+</ul>
+</p>
+
+<p>
+On peut faire des threads (asynchrones), mais qui bloquent. Il y a un coût associé à cela, que l'on désire supprimer. 
+</p>
+
+<p>
+Callback : onNext, onComplete, onError
+</p>
+
+<p>
+L'important, c'est pas seulement l'API, mais la facilité de composition avec une api fluent : nécessité d'operators : transform, timeouts,…
+</p>
+
+<p>
+<ul>
+<li><b>La latence côté producteur</b> est gérée à l'aide d'un retour immédiat à l'aide de Mono et de Flux (dans le cas de Reactor), avec même un Mono&lt;Void&gt;, void étant synchrone.</li>
+<li><b>La latence côté consommateur</b> est traitée à l'aide d'un mécanisme de "Back pressure". Le consommateur notifie le producteur pour lui dire quand envoyer des éléments.</li>
+</ul>
+</p>
+
+<p>
+→ concurency : débug est difficile…
+</p>
+
+<h2>Par rapport à l'existant</h2>
+
+<p>
+<ul>
+<li><b>Future&lt;T&gt;</b> introduit en java 5, c'est effectivement asynchrone MAIS pour obtenir la valeur, il faut faire un get qui lui est… bloquant ! Future n'est donc ni non-bloquant, ni un stream.</li>
+<li><b>CompletableFuture&lt;T&gt;</b> introduit par java 8, il est asynchrone, non bloquant (mais pas un stream). Du coup, pour une liste on est obligé d'attendre la liste complète avant de pouvoir consommer le premier élément.</li>
+<li><b>Stream&lt;T&gt;</b> introduit par java 8. Pas fait pour des données qui arrivent avec de la latence ! Dès qu'on a des I/O. pull style (bloquant)</li>
+<li><b>InputStream / OutputStream</b> for streaming byte arrays. Bloquant. Certes, cervlet 3.1 permet un aspect non bloquant, mais c'est bien difficile à utiliser</li>
+</ul>
+</p>
+
+<h2>Comparatif des implems</h2>
+
+<p>
+Très dur à implanter (pour la partie publisher); Il y a un TCK.
+</p>
+
+<p>
+<a href="https://akarnokd.blogspot.fr/2016/03/operator-fusion-part-1.html" title="Très bon comparatif des implems" class="https">Très bon comparatif des implems</a>
+</p>
+
+<p>
+Regarder le tableau à 20 minutes !<br>
+<ul>
+<li>RxJava 1      : PAS de backpressure</li>
+<li>Akka Stream 2 : FULL reactive stream</li>
+<li>Reactor core 3: FULL reactive stream</li>
+<li>RxJava 2      : SEUL flowable est reactive, les autres ne le sont pas !</li>
+</ul>
+</p>
+
+<p>
+Qui choisir fin 2016 ?<br>
+<ul>
+<li>Reactor 3 avec Java 8+</li>
+<li>RxJava 2  avec Java 6+</li>
+</ul>
+</p>
+
+<h2>Dans Spring 5 : Spring Web Reactive</h2>
+
+<p>
+Serveurs web suportés par spring réactive<br>
+<ul>
+<li>netty (serveur classique pour faire du non blocking)</li>
+<li>undertow</li>
+<li>jetty</li>
+<li>tomcat</li>
+</ul>
+</p>
+
+<p>
+Exemple de code à regarder la <a href="https://www.youtube.com/watch?v=Cj4foJzPF80" title="démo à partir de 1h23" class="https">démo à partir de 1h23</a> !
+</p>
+
+
+                        <div class="footblock">
+                            <hr class='footrule'>
+                            <b>Attachments</b>
+                            <ul>
+                    <li><a href="./Spring_Web_Reactive/2016 spring-web-reactive.pdf">2016 spring-web-reactive.pdf (7.35Mb)</a></li>
+                    <li><a href="./Spring_Web_Reactive/2017 Reactor_3.pdf">2017 Reactor_3.pdf (4.07Mb)</a></li>
+                            </ul>
+                        </div>
+		
+
+                
+        </div>
+
+        <div id="credits">
+            <p>Proudly Powered by <a href="http://zim-wiki.org">Zim 0.72.0</a>.</p>
+            <p>Template by <a href="https://github.com/gandrille/zim-simple-web-template">Etienne Gandrille</a>, based on <a href="https://github.com/jaap-karssenberg/zim-desktop-wiki/blob/master/data/templates/html/ZeroFiveEight.html">ZeroFiveEight</a> and using <a href="https://ndabas.github.io/toc/">JQuery Toc Plugin</a>.</p>
+        </div>
+
+    </div>
+	
+    <script src="../../_resources/jquery-1.12.4.min.js" type="text/javascript"></script>
+    <script src="../../_resources/jquery-toc-0.4.0.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        if ($("h2").length != 0)
+            $("#tocdata").toc({content: "div#content", headings: "h2,h3,h4"});
+        else
+            $("#toc").hide();
+        $("#navigation").children("ul").prepend("<li class='index-item'><a href='../../index.html'>Index</a></li>");
+        $(".toggle").click(function(){
+            $("#navigation").children("ul").toggle();
+        });
+    </script>
+</body>
+</html>
+
