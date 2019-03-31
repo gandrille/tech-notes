@@ -1,0 +1,65 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== 2014 ======
+
+===== Réseaux =====
+* guerre des prix sur la 4G (free) et la téléphonie fixe (Bouygues)
+* SFR acheté par… numéricable
+
+===== Tendances =====
+Bracelets, healthcare, personal monitoring
+* chute, pas, tension artérielle,…
+* …
+→ conso et puissance de calcul
+
+Interfaces
+* TV (et devices en général) : fin de la télécommande, au profit de la voix et des gestes → perte de vitesse relative du tactile
+* personnalisation avec la reconnaissance faciale
+
+Le software est un gisement de thunes dans le home : applis, souscription dans le healthcare,…
+
+explosion de docker, basé sur LXC et qui brouille les cartes entre IaaS et PaaS après tout juste un an de création.
+
+===== Java =====
+* JDK8 !
+
+===== Google =====
+**Rachats de google**
+* Nest pour 3.2 milliards
+* BostonDynamics
+* Vic Gundotra, créateur de Google+ donne sa démission
+
+* Adroid livre l'api wear → focus sur les card et sur Google Now
+* Android dans la voiture
+* Material Design, pour concurrencer Apple sur son terrain
+
+* GWT, AngularJS, Go sont un peu eclipsés…
+
+===== Microsoft =====
+XBoxOne : presque 2 millions de ventes
+* cross device
+* interface homogène
+* voix et gestes
+→ homeOS de ms : pas le nom d'un os, mais d'abord une stratégie
+déportation d'écran, synchro d'appli, protocoles de com supportés, commandes vocales…
+la solution la plus aboutie aujourd'hui
+
+fin du support de XP, alors que plus d'1/4 des ordinateurs de la planète tournent encore sous Windows XP
+Minecraft racheté par Microsoft
+
+===== Facebook =====
+Facebook achète successivement sur Instagram et WhatsApp.
+
+Depuis le rachat de Oculus Rift par Facebook le mois dernier ([[http://www.marketingvirtuel.fr/2014/04/09/secteur-realite-virtuelle-en-pleine-ebullition/#sthash.55JitlsA.dpuf|source]])
+
+===== Amazon =====
+Ça a commencé avec les livres électroniques en 2007, un segment dont Amazon est maintenant le leader incontesté (Amazon less dominant in e-book market outside UK), puis avec les tablettes en 2011 (Amazon à l'assaut du segment low-cost avec les nouveaux Kindle), une stratégie de diversification qui s'est intensifiée depuis (Amazon agrandit sa gamme de tablettes et entre en guerre avec Apple et Google). ([[http://www.terminauxalternatifs.fr/2014/04/16/amazon-les-fronts-fire-tv-dash-smartphone/#sthash.CkGX8wca.dpuf|source]])
+
+Pressentie depuis quelques mois, la set top box d'Amazon est enfin là : la Fire TV se présente donc sous la forme d'un petit boitier qui se branche sur votre TV et vous donne accès à tous les produits et services d'Amazon (films, séries TV). Propulsé par Android, ce boitier vous permet également de consulter vos photos stockées sur Amazon Cloud Drive et d'exploiter toutes les applications de streaming (Netflix, Hulu) : 10 Things You Need To Know About The Amazon Fire TV. ([[http://www.terminauxalternatifs.fr/2014/04/16/amazon-les-fronts-fire-tv-dash-smartphone/#sthash.CkGX8wca.dpuf|source]])
+
+===== Sécurité =====
+* trois bugs majeurs (Heartbleed, Shellshock et dans SSL v3) ont été découverts et un grand nombre de sites web ont été touchés.
+* affaire truecrypt
+* [[https://fr.wikipedia.org/wiki/Piratage_de_Sony_Pictures_Entertainment|piratage de Sony]]
+* La révolution ukrainienne de Maïdan et le départ du président Viktor Yanoukovitch en février 2014, marque le début d'une vague de cyberattaques contre l'Ukraine. Lors de l'élection, le système de comptage des voix a été infecté par un virus afin de proclammé de faux résultats. 

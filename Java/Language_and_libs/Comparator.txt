@@ -1,0 +1,19 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Comparator ======
+https://reversecoding.net/java-8-comparator-how-to-sort-a-list/
+
+'''
+List<Human> humans = Lists.newArrayList(
+  new Human("Sarah", 12), 
+  new Human("Sarah", 10), 
+  new Human("Zack", 12)
+);
+
+humans.sort(Comparator.comparing(Human::getName).thenComparing(Human::getAge));
+'''
+
+
+
+

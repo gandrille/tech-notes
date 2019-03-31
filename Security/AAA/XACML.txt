@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== XACML ======
+* An abstract architecture : PAP (produit les règles XACML), PEP, PDP,…
+* A policy language → On décrit dans du XML une hiérarchie de droits.
+* A request – response protocol
+
+**Vocabulaire**
+* Scope = verbe tq view, edit, delete,…
+* Ressource : endpoint REST, HTML,… objet oui aggregat que l'on souhaite protéger
+* Permission : X can do Y on resource Z
+* Policy : condition à satisfaire (attribute based, role based,…)

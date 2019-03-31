@@ -1,0 +1,172 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== 0000 ======
+
+===== 1991 =====
+* James Gosling travaille avec son équipe chez SUN Microsystems sur le projet s'appelle Oak (chêne en anglais). 
+* Le crédo Write once, run everywhere est là…
+
+===== 1996 =====
+**Java**
+* JDK 1.0
+* Java One 1.0 à San Francisco (3500 developpers)
+* 220 000 downloads JDK 1.3 in 3 weeks
+
+**Matériel**
+* Apparaition grand public de l'USB
+
+===== 1997 =====
+* JDK 1.1
+	* inner class
+	* sérialisation
+	* réflection
+	* API JDBC
+	* RMI
+* Java One 2 : 8000 personnes
+* SUN Microsystems attaquera Microsoft pour violation de la licence du JDK fin 97
+* HTML4
+
+
+===== 1998 =====
+* JDK 1.1 2 000 000 downloads
+* Just In Time compiler
+* première version de Swing
+* première mise à jour de l'API Collections
+* Création du JCP (Java Community Process)
+* JavaOne totalisera 14 000 personnes, presque le double
+* SUN présente JProfessionnal Edition, l'ancetre de la plateforme Java EE.
+
+* Fondation de Google par Sergey Brin et Larry Page (papier : The Anatomy of a Large-Scale Hypertextual Web Search Engine)
+
+* rachat de Nestscape par AOL pour 4.2 milliards de $
+
+* le journaliste Duncan Campbell révèle l'existence d'un programme de renseignement, Echelon, dans un article pour The New Statesman qui s'intitulait «Somebody's listening».  Le projet Echelon désignait un système mondial d'interception des communications privées et publiques (SIGINT) via les satellites, et regroupant les États-Unis (NSA), le Royaume-Uni (GCHQ), le Canada (CSTC), l’Australie (DSD) et la Nouvelle-Zélande (GCSB) dans le cadre du traité UKUSA.
+
+===== 1999 =====
+→ Début de la bulle Internet
+
+* 20 000 personnes à JavaOne. 
+* On parle de J2ME et de J2EE, c'est la sortie de la partie entreprise de Java.
+
+* Wi-fi 808.11b : normalisation avec un débit théorique de 11Mb/s. Début de diffusion chez les "early-adopters"
+
+* rachat de Geocities par Yahoo! pour 3.6 milliards de $… pour un service finalement fermé peux après aux Etats-Unis
+
+===== 2000 =====
+**Réseaux**
+* lancement effectif de l'ADSL en France
+* début de diffusion massive de l'USB
+* création de l'USB 2.0 (480 Mbit/s soit 60 Mo/s)
+
+**Java**
+* sortie de J2SE 1.3 Hotspot VM
+* Martin Odersky, le fondateur de Scala, est appelé par SUN pour réécrire le javac et améliorer cette partie ainsi que les Generics. 
+* JavaOne : 25 000 personnes
+
+===== 2001 =====
+* la bulle Internet a éclaté : de nombreuses startups mettent la clé sous la porte
+* JavaOne ne verra « que » 19 000 personnes
+* Sortie de J2EE 1.3
+* Fin du lawsuit entre Microsoft et SUN, avec à la clé un gros chèque je crois pour SUN, presque 700 millions d'USD.
+* Compaq racheté par HP pour 25 milliards $ (pour une société qui faisait déjà 40 milliards de CA / an)
+
+===== 2002 =====
+* J2SE 1.4 est la première version de Java sortie et développée avec le processus du JCP
+* 2 millions de dl de J2EE
+* JavaOne ne verra que 14000 personnes
+* Microsoft sort la première version de C#.
+* Amazon lance Amazon AWS (le 1er IaaS !)
+
+===== 2003 =====
+**Java**
+* JavaOne 12 000 personnes
+* J2EE 1.4
+* 4,5 millions développeurs java
+* 2,5 milliards de device Java
+
+**Matériel**
+* diffusion plus importante du Wi-fi : les puces Intel Centrino facilitent l'intégration 
+* normalisation du Wi-fi 802.11g, avec des débits théoriques de 54Mbit/s
+
+**Entreprises**
+* création de Skype par des anciens de KaZaa
+
+===== 2004 =====
+* Java 5 ou J2SE 5.0
+* JavaOne 14000 visiteurs
+
+===== 2005 =====
+* 15000 personnes à JavaOne
+* Microsoft sort la v2.0 du C#.
+* Adobe rachète Macromédia, et met ainsi la main sur la technologie Flash, grand succès dans les RIA (avant son déclin dans les années 2010+).
+* émergence d'AJAX
+* création de YouTube (par tois anciens de PayPal)
+* création de DailyMotion
+
+===== 2006 =====
+* Java SE 6
+* Java EE 5
+* 13000 personnes à JavaONE
+* Sun lance l'OpenJDK
+* javac et la jvm hotspot passent sous licence GPLv2 (with classloader exception).
+* début des soucis au sein du JCP avec la licence du TCK modifiée par SUN, malgré ses engagements pris en 2002.
+   → Harmony est clairement visé…
+   → Le gros souci c'est le blocage de SUN, qui a peur de perdre une source énorme de revenu : le développement d'applications Java pour Mobile.
+* sortie de la Wii. Un grand succès pour cette console en rupture avec le marché préexistant.
+* lancement de Twitter
+* première version de GWT
+* Google achète YouTube pour 1.6 milliard de $
+ 
+
+===== 2007 =====
+* OpenJDK est presque terminé
+* Java Open source
+* JavaFXScript en première version (abandonné fin 2010)
+* Microsoft sort la version 3 du langage C#, avec Linq
+* Apple lance l'iPhone, qui redistribue les cartes des smartphones en France. Le concept d'AppStore décole et se développe à partir de là.
+* Google lance Android (par rachat) à la fin de l'année. 
+* lancement de la 3G
+* rachat de DoubleClick par Google pour 3.1 milliards de $
+ 
+
+===== 2008 =====
+* JQuery cartonne
+* langages dynamiques : Groovy
+* RIA en plein essor
+	* Google, avec son offre GWT en Open Source
+	* Adobe Flash/Flex/AIR
+	* Deuxième version de Microsoft Silverlight
+	* JavaFX de Sun, qui a été un bid en 1.0
+* internet mobile devient incontournable
+* la virtualisation est très à la mode
+* JavaOne réunit 15000 personnes
+* le JCP tourne au ralenti, à cause de différents sur les closures et autres sujets polémiques…
+* Facebook tente de racheter Twitter… mais n'y arrive pas !
+
+* lancement de Google App Engine (1er PaaS !)
+* lancement de Google Chrome
+* premier téléphone Android vendu en octobre
+
+===== 2009 =====
+* rachat de Sun par Oracle pour 7.5 milliards	
+* émergence du Cloud computing pour payer à la consommation
+	* Pas encore mature
+	* IAAS → les concepts se stabilisent dans l'année (ex: EC2, S3)
+	* PAAS → encore flou. El dorado marketing (ex: AppEngine)
+	* SAAS = Gros succès de SalesForce
+* éditeurs cloud computing
+	* Google App Engine
+	* Rachat SpringSource par VMWare
+	* Bases de données NoSQL qui adressent la navigation dans un cloud
+* le NoSQL : ça buzz, mais peu l'utilisent hors Google, Twitter, Facebook…
+	* Pas encore très industrialisable, mais émergeant
+* Java EE 6 (en fait, en janvier 2010)
+* langages sur la JVM : Scala, Fantom
+* sortie du langage Go de Google
+* 15k personnes à JavaOne
+* SUN est toujours très critiqué, en particulier par la fondation appache qui ne vote pas au JCP en représalles… la guerre continue.
+* sortie de la norme wi-fi 802.11n : 540 Mbit/s théoriques
+* lancement de Google Wave… arrêté en 2012
+
+

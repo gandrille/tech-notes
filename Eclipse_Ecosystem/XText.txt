@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== XText ======
+http://spoenemann.blogspot.de/2015/05/editing-dsls-in-web-browser.html
+
+===== Parsing =====
+Le parsing de XText se fait à l'aide de antlr. Le processus est divisé en deux étapes : le lexer, et le parser (proprement parler).
+
+Lexer : le lexer est bête et méchant, pour être rapide
+* Il interprète les règles terminales pour les transformer en primitives.
+
+Parser : le parser a pour objectif de construire une réification sous forme d'arbre.
+* parser rules (production rules) : EClass
+* DataTypes rules : DataTypes primitifs tels que String, Int, BigDecimal, Enum…

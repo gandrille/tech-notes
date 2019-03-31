@@ -1,0 +1,277 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== 2013 ======
+* VMWare demande la propriété de Vert.x, suite au départ du développeur
+* France Télécom / Orange détient 100% de DailyMotion
+* STB : en dehors de la catch up TV, pas vraiement d'usage
+* année du lancement officiel d'HbbTV : le télétexte 2.0 (?!) avec HTML5, CSS, JS,…
+* grosse pression asiatique : imminence d'un raz de marée ?
+	- smartphones chinois : Xiaomi, LTE, Oppo, Huawei, Yulong, Coolpad, Meizu
+	- commerce en ligne : Rakuten ou Alibaba
+* montée en puissance inexorable des tablettes.
+* internet des objets : beaucoup de gadgets… de niche. Pas de diffusion de masse, même si les premières montres connectées marquent un pas.
+
+===== Vie privée =====
+* scandale PRISM au mois de juin : un service d'écoute de la NSA permet d'espionner les comptes google, apple, yahoo, facebook…
+	* surveillance massive : 97 milliard de données unitaires pour mars 2013
+	* surveillance avec la participation des géants du web
+* Il est aussi avéré que les états unis surveillent aussi les correspondances de courrier papier : les enveloppes sont scannées, et certaines ouvertes (une "mise sur écoute" de la correspondance écrite)
+
+===== Usage grand public =====
+Deux domaines principaux
+* casual game
+* education
+
+===== Smartphones =====
+* Canonical planifie un ubuntu pour les smartphones
+* lancement de Firefox OS avec 4 opérateurs, dans 14 pays (dont 6 européens) et 3 combinés, moins de deux ans après le début du projet
+* TIZEN cible le haut de gamme
+* windows phone marche moyennement
+
+===== Technologies client web =====
+* HTML5 & CSS3
+* JQuery 2.0 ne supporte plus IE6 à IE8
+* JavaScript est partout
+* Coffee script
+* Framework MVC (databinding) : backbone.js (avec Marionnette et Chaplin ?), Ember (même si pas très stable), AngularJS (buzz plein pot)… Knockout.js disparait du radar ?
+* underscore.js
+* Dart: ne décolle pas et (presque) personne n'en parle…
+→ HTML5 se supplante toujours pas les applis mobiles
+
+===== Bataille dans les PaaS =====
+* GAE (Google)
+* Azure (Microsoft)
+* CloudFoundry - pivotal initiative (VMWare)
+* Heroku (SalesForce)
+* OpenShift (RedHat)
+
+===== Matériel et réseaux =====
+* déploiement réel de la 4G dans plusieurs villes françaises
+* lancement de la fibre optique, avec des débits annoncés de 200Mo
+* Wi-fi 802.11ac : ratification de la norme avec des débits de 500Mbit/s par canal (possiblité d'en utiliser plusieurs en parallèle)
+
+===== Tous dans les nuages ? =====
+* la migration vers le cloud se fait par petits bouts, et les startup n'hésitent pas à utiliser dès le début de nombreux services pour commencer…
+* BigData : Hadoop cristalise l'attention
+* NoSQL du plus au moins populaire dans le top 4 : MongoDb (document), Redis (clé-valeur), cassandra (colonne), Neo4j (graphe) 
+
+===== Apple =====
+* recul de l'action d'Apple : un signe fort et très inquiétant alors que l'entreprise semble être en panne d'innovation depuis le décès de Steeve Jobs
+* on apprend qu'apple conserve les requêtes SIRI jusqu'à deux ans
+* pas de révolutions dans les produits apple, avec un ipad air,…
+* cependant, les mises à jour gratuites de MacOS montrent une volonté de faire un pas de plus dans l'unification de l'écosystème cross-devices d'apple
+
+===== Google =====
+* toujours extrêmement forte croissance d'Android (900 millions de devices activés)
+* Google+ est toujours l'objet de beaucoup de développements, et prend de plus en plus de place dans les produits Google. Le social graph est au coeur de la stratégie de Google
+* Google Hangouts va unifier tous les systèmes de messaging et vision instantanné chez Google. Problème : contrairement à Talks basé sur XMPP, Hangouts n'est pas du tout interopérable…
+* lancement de Google Play Music All Access, pour concurrencer Deeser et Spootify
+* stratégie plus que jamais centrée sur les données : les transformer, les enrichir, les améliorer, les corréler
+* acquisition de plusieurs entreprises dans le secteur de la robotique
+* création de Calico
+
+===== Samsung =====
+* stratégie d'innovation basée sur Android
+* ventes explosent, grâce à Android. Difficile de savoir qui dépend le plus de l'autre entre Google et Samsung
+* lancement d'une montre connectée, avant l'iWatch que tout le monde attendait et qui n'est en définitive pas sortie
+
+===== Microsoft =====
+* microsoft peine à revenir : widows Phone ne fait clairement pas le buzz escompté. Côté windows 8, gros markéting autour de surface, mais de même, sans le buzz escompté…
+* nouvelle interface. Unification plus difficile que prévue…
+* la XBox One marche très bien. Elle nécessite une connexion au moins une fois par jour à Internet, et doit avoir la keynect branchée pour démarrer… avec du calcul dans le cloud, on va vers une console de jeu virtualisée ?
+* Microsoft achète Nokia pour 5,44 milliards d'euros : deux bras cassés ensemble
+
+===== Yahoo! =====
+* Yahoo! achète Tumblr. Le groupe de débat alors qu'il a accumulé un retard considérable.
+* malgré quelques annonces encourragentes de sa nouvelle dirigente, pas de réelle révolution… pas de décollage non plus…
+
+===== Intervention de Larry Page à Google IO =====
+http://www.mis-asia.com/print-article/34723/
+
+**CITATIONS**
+
+And I think everyone today is excited about technology. You know, we don't have to worry about that so much anymore.
+
+Technology should do the hard work so that people can get on with the things that make them the happiest in life.
+
+I think we're all here because we share a deep sense of optimism about the potential of technology to improve people's lives, and the world, as part of that.
+
+We should be building great things that don't exist. Right? Being negative is not how we make progress. And most important things are not zero sum. There's a lot of opportunity out there. And we can use technology to make really new and really important things to make people's lives better.
+
+I think back to a very long time ago. All of humanity was basically farming or hunting all the time. And if you lived at that time, you probably hoped that you could feed your family. And unfortunately that's still true for a lot of people in the world. But certainly for us, we don't worry about that. And the reason for that is technology. We've improved how we grow food and so on, and the technology has allowed people to focus on other things if they choose. By the way, I think being a farmer is great if that's what you want to do. But it's not great if that's what you have to do. And that's what technology lets us do, is free up ourselves to do more different things.
+
+So today we're still just scratching the surface of what's possible.
+
+My compatriot Sergei Brin, last year arranged the skydiving, but this year did not. He's focused, Google X is focused, on real atoms and not bits. Part of why is they feel there's a lot of opportunity there. And Sergei's having a great time doing that. That's, I think, a really fascinating and amazing job.
+
+And every successive one is going to be better, obviously.
+
+In my very long-term world view—you know, 50 years from now or something—hopefully, our software understands deeply what you're knowledgeable about, what you're not, and how to organize the world so that the world can solve important problems. You know, people are starving in the world not 'cause we don't have enough food. It's 'cause we're not organized to solve that problem. And our computers aren't helping us do that.
+
+
+Prashan, developer from India: Most of my opinion, I can trace back to a Google search. As search becomes more and more personalized, and predictive, I worry that it informs my world view and rules out the possibility of some other serendipitous discovery. Any comment on that?
+People have a lot of concern about that-—I'm totally not worried about that at all. It sounds kind of funny to say but that's totally under your control. And our control is cool. So I think, I think it's very important to have a kind of a wide world view, to have education, all those kind of things.
+
+The other thing in my mind is we also haven't maybe built mechanisms to allow experimentation. There's many, many exciting and important things you could do that you just can't do 'cause they're illegal or they're not allowed by regulation. And that makes sense, we don't want our world to change too fast. But maybe we should set aside some small part of the world, you know, like going to Burning Man, for example. Which I'm sure many of you have been to. Yeah, a few Burners out there. That's an environment where people try out different things, but not everybody has to go. And I think that's a great thing, too. I think as technologists we should have some safe places where we can try out some new things and figure out: What is the effect on society? What's the effect on people? Without having to deploy it into the normal world. And people who like those kinds of things can go there and experience that. And we don't have mechanisms for that. So those are the kind of things I would think about.
+
+That's a great segue from the previous question. I think it's been difficult. We had Google Health, but we didn't make that much progress on it. I think primarily we found that all the issues were regulatory. It's very hard to get technological leverage there. I was talking about how we're one percent where we can be. That's by doing real, amazing technological things. And, you know, we found in the kinds of things we were working on in health care, we weren't able to move beyond that due to all the constraints that we were under. And so I think we'll see amazing things in health care, but I think they'll be things that have technological leverage, like DNA sequencing. We're all going to have that. It'll cost a dollar or whatever, you're all going to have your sequence, and something amazing will happen.
+
+I just disclosed yesterday my voice issues. I got so many great emails from people. And thoughtful advice. And I realized, you know, I kind of had the notion that stuff should be really private, but at least in my case I felt I should have done it sooner. And I'm not sure if that answer's not true for most people. So I asked, why are people so focused on keeping your medical history private? The answer is probably insurance. You're very worried that you're going to be denied insurance. That makes no sense! So we should change the rules around insurance, so they have to insure people. The whole point of insurance is that it insures everyone.
+
+Jeffrey Sica, University of Michigan: Are you going to do anything with DNA sequencing, and also image analysis with things like surgical slides?
+I don't have anything to announce at this time, but we always look at these areas. But I think we have felt it's a difficult area for us to work in. I think it's certainly worth doing, though.
+
+
+
+
+
+=====================================
+
+TEXTE COMPLET
+
+I'm really excited to be here. First I want to start with a story. I was very, very lucky growing up, and I was thinking about this as we were preparing for Google I/O. My dad was really interested in technology. And I was just remembering, he actually drove me and my family all the way across the country to go to a robotics conference, and then we got there, and he thought it was so important that his young son go to the conference--one of the few times I've seen him really argue with someone, to get someone in who was underage--successfully, into the conference, and that was me.
+
+And one of the themes I just wanted to talk to you about is how important it is for developers here in the room and watching to really focus on technology and get more people involved in it. And also thinking about my dad. His degree, he was lucky enough to get a degree in communication sciences. And you might ask, what the heck is communication sciences? Thats what they called computer science when computers were a passing fad. Sounds kind of funny now, right? I bet that there was a time when that was true.
+
+And I think everyone today is excited about technology. You know, we don't have to worry about that so much anymore. And I think Android and things like that are being adopted much faster than anything else in the past. I look at the rate of adoption of those things, on any basis, are much, much faster. And it's incredible. I pull out my smartphone, it's amazing what we have in the smartphones. We have almost every sensor we've ever come up with. You know, I recently got a scale, and it measures air quality, and it uploads it to the Internet. I'm sure those things will end up in your smartphone, right? That's amazing. And your phone can talk to anyone in the world, almost anywhere in the world.
+
+I was talking to my teams about this. You take out your phone, and you hold it out, it's almost as big as the TV or a screen you're looking at. It has the same resolution as well. And so if you're nearsighted, a smartphone and a big display are kind of the same thing now. Which is amazing. Absolutely amazing.
+
+So I think we also have a lot more devices that we use interchangeably. We use tablets, phones, laptops, and even the Google Glass. All those things we're using. And that's why we put so much focus on our platforms on Android and Chrome. It's really important in helping developers and Google build great user experiences across these devices. To have these platforms. And I'm tremendously excited about all the innovation that you're bringing to life.
+
+Technology should do the hard work so that people can get on with the things that make them the happiest in life. Take search, for example. Perfect search engine, as Amit mentioned, is the "Star Trek" computer, right? Can understand exactly what you meant, can give you exactly what you wanted. And our Knowledge Graph, which you saw, really brings this a lot closer.
+
+I think Google Now, which Johanna just demonstrated, gives you information without even having to ask. And it understands the context of what you talked about before, so you can use things like pronouns, it's amazing. Flight times, your boarding passes, directions, next appointment, all with no effort. Think about a really smart assistant doing all those things for you so you don't have to think about it. You saw how easy some of those experiences felt. And we're just getting started.
+
+Negativity and progress
+The opportunities we have are tremendous. We haven't seen this rate of change in computing for a long time. Probably not since the birth of the personal computer. But when I think about it, I think we're all here because we share a deep sense of optimism about the potential of technology to improve people's lives, and the world, as part of that.
+
+And I'm amazed every day I come to work, the list of things that needs to be done is longer than the day before. And the opportunity of those things is bigger than it was before. And because of that we, as Google, and as an industry--all of you--really only have one percent of what is possible. Probably even less than that.
+
+And despite the faster change we have in the industry, we're still moving slow relative to the opportunities that we have. And some of that, I think, has to do with the negativity. You know, every story I read about Google, it's kind of us versus some other company, or some stupid thing. And I just don't find that very interesting. We should be building great things that don't exist. Right? Being negative is not how we make progress. And most important things are not zero sum. There's a lot of opportunity out there. And we can use technology to make really new and really important things to make people's lives better.
+
+I think back to a very long time ago. All of humanity was basically farming or hunting all the time. And if you lived at that time, you probably hoped that you could feed your family. And unfortunately that's still true for a lot of people in the world. But certainly for us, we don't worry about that. And the reason for that is technology. We've improved how we grow food and so on, and the technology has allowed people to focus on other things if they choose. By the way, I think being a farmer is great if that's what you want to do. But it's not great if that's what you have to do. And that's what technology lets us do, is free up ourselves to do more different things.
+
+And I'm sure that people in the future will think we're just as crazy as we think everyone in the past was in having to do things like farming or hunting all the time. So to give an example of this, Sergei and I talk about cars. He's working on automated cars now. And imagine how self-driving cars will change our lives, and the landscape. More green space, fewer parking lots, greater mobility, fewer accidents, more freedom, fewer hours wasted behind the wheel of a car. And the average American probably spends almost 50 minutes commuting. Imagine if you got most of that time back to use for other things. And unfortunately in other countries the commute times are still pretty large. Not as large as the U.S. but still pretty significant.
+
+Now to get there, we need more people like you, more kids falling in love with science and math at school, more students graduating from school with science and engineering degrees, and more people working on important technological problems. And it's why Google got involved with the movie "The Internship." I'm not sure we entirely had a choice, but they were making a movie and we decided it would be good to get involved. Laurie is up front, she's really responsible for that. And I think the reason why we got involved in that is that computer science has a marketing problem. We're the nerdy curmudgeons. I don't know about you, but that's what I am. Well, in this movie the guy who plays the head of search is by far the coolest character in the movie. And we're really excited about that.
+
+So today we're still just scratching the surface of what's possible. That's why I'm so excited Google's really working on the platforms, in support of all of your innovations. I can not wait to see what comes next. I got goosebumps as I was watching some of the presentations here. And I really want to thank you for all of your contributions. So with that I'm going to do something kind of unconventional and try to take some questions, actually, from all of you…
+
+There's over one million people watching this live over YouTube. It's unbelievable. So let's thank them for participating.
+
+Q&A
+Robert Scoble: Where are we going with sensors in devices?
+
+This is a big area of focus, I think you saw that in the presentations. I think really being able to get computers out of the way and really focus on what people really need. Mobile's been a great learning experience for us and for all of you. You know, the smaller screens, you can't have all this clutter. I think you saw on the new Google Maps how we got all sorts of stuff out of the way. You know there's like 100 times less things on the screen than there was before.
+
+And I think that's gonna happen with all of your devices, they're going to understand the context. You know, just before I came on stage I had to turn off all of my phones. So I'm not interrupting all of you. That's crazy. That's not a very hard thing to figure out. So all that context that's in your life, all these different sensors are going to help pick that up and just make your life better, and I think we're, again, only at the very, very early stages of that. It's very, very exciting.
+
+Daniel Buckner, Mozilla: Question about future of web development.
+
+Sorry, you're asking about the future of the Web? We've been very excited about the web, obviously, being birthed from it as a company. And I think that we've really invested a lot into the open standards behind all that. And I've personally been quite saddened at the industry's behavior around all these things. You just take something as simple as instant messaging. We've kind of had an offer forever that we'll interoperate on instant messaging. I think just this week Microsoft took advantage of that by interoperating with us, but not doing the reverse. Which is really sad, right? And that's not the way to make progress. You need to actually have interoperation, not just people milking off one company for their own benefit
+
+So I think Google's always stood for that. I've been sad that the industry hasn't been able to advance those things. I think generally, because of a focus on negativity and on zero-sum games. So I hope we try to be on the right side of all of those things, but we also try to be practical and look at what other people are doing, and not just rely on our principles to shoot ourselves in the foot, and our users in the process.
+
+So I don't know how to deal with all those things. And I'm sad that the Web's probably not advancing as fast as it should be. We certainly struggle with people like Microsoft. We've had a great relationship with Mozilla, I think, and value that deeply. I'd like to see more open standards, more people getting behind things, that just work, and more companies involved in those ecosystems. I think that's why this conference is so important. But I wouldn't grade the industry well in terms of where we've gotten to.
+
+In the very long term, I don't think you should have to think about, as a developer, am I developing for this platform or another, or something like that. I think you should be able to work at a much higher level. And software you write should run everywhere, easily. And people like Mozilla should be able to add meaningfully to that, and make platforms and other things. So that's how I think about it.
+
+It's a very, very complex and important question, though.
+
+Woman from Colombia: Question about Google's policies toward free speech.
+
+This is part of the area where business gets interesting. I think we at Google pretty clearly have a strong desire for freedom of speech, for a free flow of information, and one of the main things we do is probably translate that into practice in hundreds of countries around the world, and make sure we're talking to government leaders, and making sure we're all helping advance that. And our chairman, Eric Schmidt, has been kind of traveling the world talking about that, and I really applaud those efforts in thinking about that.
+
+So we're working very hard on that, making sure we're protecting your private information, making sure that we're ensuring computer security, which is required, to make sure we're protecting your freedom of speech and your private information as a part of that. And making sure we're as transparent as we can about the requests we get from government and things like that.
+
+So it's a big area of focus for us. And hopefully we can do a lot to help the world and move it along there.
+
+Ryan from Provo, Utah. Question about Google Fiber.
+
+I mean, from an engineering point of view it's just kind of a no-brainer. We got started building data centers, and one of the biggest problems we had is networking in the data centers. And so I guess as a computer scientist I just view it as kind of sad we have all these computers out there, and they're connected through a tiny, tiny, tiny little pipe that's super slow. And so in a sense, most of the computers we have in the world are in people's houses, most of them can't be used for anything useful.
+
+So it's obviously a ways to go from where we are now, we don't really have software that's designed to use those things yet, but we know if we build that capacity we'll be able to use those computers for all sorts of interesting things. And even basic things like the bandwidth of your visual system, it's pretty high compared to the bandwidth most people have. And I think it's pretty clear we want to deliver bits to your eyes. Just as a basic thing. So I'm really excited about what we'll be able to do and what you'll all be able to do as we get more people with super high-speed connections. And probably gigabits are just the beginning for that. What we really need are low-latency connections that operate at computer speed, whatever that is, that you have inside of your house. So I'm excited about that. We're just getting started.
+
+Yaniv Talmor from Vancouver: Question about Google's physical endeavors like Google Fiber and the self-driving cars and renewable energy. What further projects are you planning there?
+
+My compatriot Sergei Brin, last year arranged the skydiving, but this year did not. He's focused, Google X is focused, on real atoms and not bits. Part of why is they feel there's a lot of opportunity there. And Sergei's having a great time doing that. That's, I think, a really fascinating and amazing job.
+
+I think that possibilities for some of those things are incredibly great. If you look at technology applied to transportation, it hasn't really started yet. We haven't really done that. Automated cars are just one thing you could do. You could do many other things. So I think we're very excited about that area.
+
+We also think it's a way that the company can scale. I think that to the extent that all our products are interrelated, we actually need to do a fair amount of management of those projects to make sure you get a seamless experience, both as a user and a developer, that all makes sense. When we do some of these other kinds of things, like automated cars, they have a longer time-frame and less interaction, so I actually encourage maybe more companies to try to do things that are a little outside their comfort zone, because I think it gets them more scalability in what they can get done.
+
+We've been surprised, also, even when we do things that are kind of crazy, like these automated cars, it turns out--you just saw the mapping stuff that we finished with--the technology for doing mapping and automated cars turns out to be the same. And so we have a bunch of great engineers that just moved over from those efforts, and they did it naturally, and scalably. And they're excited about it. So I'm really, really excited about that too.
+
+Every time we've done something crazy-—Gmail when we launched it, I think we had 100 people when we launched Gmail. And people said you're nuts, you're a search company, why are you doing Gmail? 'Cause we understood some things about data centers and serving and storage that we applied to email. And that was a great thing that we did that. And so I think almost every time we try to do something crazy we've made progress. Not all the times, but almost every time. So we've become a bit emboldened by that.
+
+And the good news is, too, no matter how much money we try to spend on automated cars or Gmail in the early stages, they end up being small checks. So they don't really cause a business issue, either. So I'm really excited about that. And I tried to talk about that in my remarks. That's why I say we're at one percent of what's possible.
+
+Greg with DSky9: What are the largest areas of opportunities for developing on Glass outside of what Google is going to do, and what will the production run be for consumers?
+
+I have to ask Sergei that. I don't know what the production numbers will be. We're more focused on, with Glass, Glass is a new category, it's quite different than existing computing devices, so I think it's great that we've started on it, but I think our mail goal is to get happy users using Glass. And so we put a bunch out to developers, I see a lot of people with them in the audience. We want to make sure we're building experiences that really make people happy. So the team has tried to build the minimal set of things, just for practical sake, a minimal set of things that will provide a great experience and make happy users. And then we can get going and work on it for the next 10 years. And every successive one is going to be better, obviously.
+
+So I think part of the answer is, we don't know. I think the basic use cases we have around photography are amazing. I love taking pictures of my kids with Glass, and movies, and so on. And I find that for me, that's enough. I have young kids. For me, that's enough reason to have Glass, just there. I think if you didn't have young kids you might not feel exactly that way. Communications are also pretty amazing, navigation is amazing. Certainly if you're walking, if you're in Manhattan or something, having Glass for navigation is unbelievable. I find it's really, really nice. Some of the core experiences we have are, I think, pretty amazing. Communications, phone calls, SMSes, voice, you saw the things we're doing around voice--it's amazing to always have a device there to do that.
+
+So I think ultimately a lot of your experiences can move to Glass. And we're relying on all of you to figure all of that out. We're trying to get the base thing to make happy users so we can get on with things.
+
+Kaoba Allen: What advice would you give to the rising generation of technologists? What would help technology keep moving at the pace it's been moving at, and how would they do that responsibly?
+
+I think for me, actually, I try to use Google a lot, and I research things really deeply. So you know, before we get something started, I try to actually understand it. And not just really understand it, but understand the crazy people in the area. And Google's great for that. You can find the craziest person in any given area. And normally I think people don't do that.
+
+So you want to think about the base thing, whatever it is. Obviously working on smartphones a lot, they're relatively expensive now. With Nexus 4, we tried to improve that a bit, but if you look at the raw cost of a smartphone, I guess it's mostly glass and silicon. Tiny bit of silicon, a little bit of fiberglass. I don't know, the raw materials cost of that is probably like a dollar or something like that. I think glass is 50 cents a pound or something like that. Metals are 20 cents a pound. Phones don't weigh very much, right? And silicon is very, very cheap.
+
+So I think when I see people in industries like who are making things, I ask this question: How far are you off the raw materials cost? And they never know the answer to that question. So I think, kind of as an engineer, as a technologist, trying to go to first principles and say, what is the real issue? What is the real issue around our power grids? Or what's the real issue around manufacturing or whatever it is. I think people usually don't answer those questions, and as a result, most of the work that's done is very incremental. And because of that, we don't make the progress we need to.
+
+With that said, I mean it's very hard, if you're going to make a smart phone for a dollar. One dollar, that's obviously almost impossible to do. But I think, you know, if you took a 50 year time frame or something like that, if you took a longer view, you'd probably start to make the investments you needed to. And along the way, you'd probably figure out how to make money. So I just kind of encourage non-incremental thinking and a real, deep understanding of whatever you're doing. That's what I try to do.
+
+[Question about the future of Android. With Oracle in control of Java from 7 forward, how does Google advance Android when one of the core technical underpinnings is not in its control.]
+
+Yeah, I mean, I think we've had a difficult relationship with Oracle. Including having to appear in court as a result of it. So I think, again I think we'd like to have a cooperative relationship with them, that hasn't seemed possible. And I think, again, money is probably more important to them than having any kind of collaboration or things like that. So I think that's been very difficult. I think we'll get through that. And I think obviously Android's very, very important to the Java ecosystem. And so we'll get through that just fine. Just not in an ideal way.
+
+Prashan, developer from India: Most of my opinion, I can trace back to a Google search. As search becomes more and more personalized, and predictive, I worry that it informs my world view and rules out the possibility of some other serendipitous discovery. Any comment on that?
+
+People have a lot of concern about that-—I'm totally not worried about that at all. It sounds kind of funny to say but that's totally under your control. And our control is cool. So I think, I think it's very important to have a kind of a wide world view, to have education, all those kind of things.
+
+But the right solution to that is not randomness. You can't really argue doing a bad job of returning whatever you wanted is the right way to educate you. It's just not. It would be better to return exactly what you wanted, when you want it and use that saved time to have you read the news or read textbooks or books or other things that might be more general. So I think we can put that into the algorithms.
+
+In my very long-term world view—you know, 50 years from now or something—hopefully, our software understands deeply what you're knowledgeable about, what you're not, and how to organize the world so that the world can solve important problems. You know, people are starving in the world not 'cause we don't have enough food. It's 'cause we're not organized to solve that problem. And our computers aren't helping us do that.
+
+So I think, if you think about it that way, if you think about, we need to make computer software on the internets that helps people solve important problems in the world. That will cause, as a side effect, more people to be educated about the things they should get educated about. And that's not the same as a demand. 'I'm asking for a particular thing, I'm searching for…' Those are different modes. Just kind of make sure we're serving both modes and that computers can help you do that. So I'm… I cannot be more optimistic about that. I think computers and software and things that you all write, and we all write, are going to help us solve those problems for people rather than just doing it at random.
+
+[Kevin Nielsen from New Jersey: I was intrigued about your comment about the positivity and the negativity and I'm very interested in helping other people be positive about technology--as you are--and I'm interested in what your advice would be to help us sort of reduce the negativity and focus on positive, and focus on changing the world.]
+
+I think people naturally are concerned about change. And certainly not all change is good. I do think the pace of change in the world is increasing. Part of what I would think about is, I think that we haven't adapted mechanisms to deal with some of our old institutions like the law and so on aren't keeping up with the rate of change that we've caused through technology. You know, if you look different kinds of laws we make, and things like that, they're very old. I mean, the laws when we went public were 50 years old. Law can't be right if it's 50 years old. Like, it's before the Internet. That's pretty major change in how you might go public. So, I think we need to—maybe some of you, maybe the million people watching you all love technology--maybe more of us need to go into other areas and help those areas improve and understand technology. I think that that's not happened at the rate at it needs to happen.
+
+The other thing in my mind is we also haven't maybe built mechanisms to allow experimentation. There's many, many exciting and important things you could do that you just can't do 'cause they're illegal or they're not allowed by regulation. And that makes sense, we don't want our world to change too fast. But maybe we should set aside some small part of the world, you know, like going to Burning Man, for example. Which I'm sure many of you have been to. Yeah, a few Burners out there. That's an environment where people try out different things, but not everybody has to go. And I think that's a great thing, too. I think as technologists we should have some safe places where we can try out some new things and figure out: What is the effect on society? What's the effect on people? Without having to deploy it into the normal world. And people who like those kinds of things can go there and experience that. And we don't have mechanisms for that. So those are the kind of things I would think about.
+
+I also think we need to be honest that we don't always know the impact of changes. We should be humble about that. I'm not sure getting up on stage and saying, "Everything is amazing," and so on, is the right thing. Maybe we should be more humble and see what the effect is, and the doubt, as we go. So those are kind of my thoughts.
+
+Ben Schachter, McQuarrie: How can you improve health care?
+
+That's a great segue from the previous question. I think it's been difficult. We had Google Health, but we didn't make that much progress on it. I think primarily we found that all the issues were regulatory. It's very hard to get technological leverage there. I was talking about how we're one percent where we can be. That's by doing real, amazing technological things. And, you know, we found in the kinds of things we were working on in health care, we weren't able to move beyond that due to all the constraints that we were under. And so I think we'll see amazing things in health care, but I think they'll be things that have technological leverage, like DNA sequencing. We're all going to have that. It'll cost a dollar or whatever, you're all going to have your sequence, and something amazing will happen.
+
+I just disclosed yesterday my voice issues. I got so many great emails from people. And thoughtful advice. And I realized, you know, I kind of had the notion that stuff should be really private, but at least in my case I felt I should have done it sooner. And I'm not sure if that answer's not true for most people. So I asked, why are people so focused on keeping your medical history private? The answer is probably insurance. You're very worried that you're going to be denied insurance. That makes no sense! So we should change the rules around insurance, so they have to insure people. The whole point of insurance is that it insures everyone.
+
+So again, maybe we have a safe place where people can go and live in a world like that, where they make those kind of changes. We can see if they work, and then the world can learn from that and move on, but not everybody has to participate in it. Because I'm worried we're not making some of the fundamental changes we need to make fast enough.
+
+John Sarriugarte with Form and Reform: Women and the development community. What can we do to encourage women to be here?
+
+We've been super focused on that forever. I think Sergei and I, when we're interviewing people, we spend a lot of time interviewing women for that reason. Trying to make sure the company didn't end up all male, which I think is a really, really bad thing. So I think ultimately, the only answer is we have to start early and make sure we're getting more young women and girls really excited about technology. And I think if we do that, there's no question we'll more than double the rate of progress that we have in the technology world.
+
+So we all need to do that. We're trying to help with that that in any way we can.
+
+Jeffrey Sica, University of Michigan: Are you going to do anything with DNA sequencing, and also image analysis with things like surgical slides?
+
+I don't have anything to announce at this time, but we always look at these areas. But I think we have felt it's a difficult area for us to work in. I think it's certainly worth doing, though.
+
+Josh Constine, TechCrunch: Discuss Google's plan for bringing the developing world online? And what are the impacts of democratized access to the Internet?
+
+One of the things I always talk about when I talk to the company is that smartphones are going to basically be amazing in these places. And so, you don't quite have smartphones, for example, going into India or Africa, because they're just too expensive. The average cost of a phone in India is very, very cheap. $50 or $100 or less. I think more like $50. We need to make sure the prices of what we all are using quickly make it down to those levels, and I think they will. That'll be the smartphone you have today, two or three years from now will be in Africa and India, and that'll be amazing. Because I try to mostly use smartphones now, just to make sure I'm living that future. I find I can get almost everything I need done. Unfortunately, I don't get to program that much, but I can do most things I need to do to run the company on my phone.
+
+So I think that's pretty amazing, to think that that can go to three billion, four billion, five billion, six billion, seven billion plus, in not very long period of time. And I think people are probably underestimating how fast that's going to happen. I think it's clearly going to happen very, very quickly. And I'm really, really excited about that. We're trying to help that happen quicker. But I'm very excited about that.
+
+Thank you all so much for spending so much time.
+
+

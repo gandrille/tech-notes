@@ -1,0 +1,23 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== e4 ======
+What every Eclipse Developer should know about e4
+jhelming@eclipsesource.com
+
+* Installation Eclipse
+* Please download a fresh [[https://www.eclipse.org/downloads/packages/eclipse-modeling-tools/oxygen1a|Eclipse Modeling Tools Oxygen]] for your OS:
+* Please stick to this version, we will not have the time to solve any potential incompatibility issues.
+* Please unzip the download, start Eclipse and chose a fresh (empty) workspace. Please close the “Welcome Screen”, switch to the Java Perspective and you should see an empty workspace now.
+
+* Download examples and slides
+* Please download [[https://drive.google.com/open?id=0B9Z14BmM7bRBb0NxOGxrWGxQQXM|e4tutorial.zip]]
+* and unzip it anywhere on your machine, where you can access it.
+* The archive contains the slides of the tutorial as PDF, as well as the code examples. You don’t need to unzip start.zip or solution1-3.zip
+
+* Import the start code
+* We are almost done! To ensure that everything is working, please launch the example application once. If there any problems, you will identify them in advance, enabling us to help you. The start.zip already contains a simple application, during the tutorial, we will fill this application with new features.
+* In your running Eclipse, please select the menu “File”=>”Import”. In the dialog, please select “General”=>”Existing Projects into workspace” and click on “Next”. On top, please chose the option “Select archive file” and click on “Browse”. Please select the downloaded archive “start.zip”. Below the dialog should show 5 selected projects now, please click on finish.
+
+* Start the example application once
+* There should be 5 bundles in your workspace now. Please unfold the bundle “org.eclipse.example.e4”. On the root level, there is a file “e4example.product”, please open it (double click). The file is shown in the editor area now. Please launch the product by clicking the green arrow in the top-right corner of the opened editor (Tooltip “Launch an Eclipse Application”). An empty window should open up. If this works, you are completely set-up. We will explain all following steps during the tutorial.

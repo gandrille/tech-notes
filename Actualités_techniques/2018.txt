@@ -1,0 +1,72 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== 2018 ======
+
+===== Acquisitions =====
+* Red Hat par IBM: 34 milliards de dollars
+* GitHub par Microsoft: 7,5 milliards de dollars.
+* Mulesoft par Salesforce (6 milliards $)
+
+===== L'année du RGPD =====
+* entrée en vigeur le 25 mai
+* La CNIL annonce qu'elle va laisser un temps de mise en conformité… mauvais signal transmis aux plates-formes.
+
+===== Java =====
+https://www.baeldung.com/java-in-2018
+https://www.jetbrains.com/research/devecosystem-2018/java/
+
+**Trends**
+* Java 8 75% adoption
+* Kotlin continue sa traction
+* GraalVM
+* Microservices
+* Reactive : tout le monde en parle… mais dans les faits ?!
+* Kubernetes est définitivement la vague après Docker, qui reste également très populaire
+* Prometheus a le vent en poupe et concurrence Nagios
+
+**Versions clé**
+* Spring Boot 2
+* Microprofile 2.0
+* Istio 1.0
+* Micronaut 1.0
+* JDK 10 et JDK11 LTS
+
+**Microframeworks**
+Montée en puissance dans un context web, serverless, container, microservices…
+* Micronaut 1.0 (microframework par les équipes de Grails)
+* spark
+* Javalin
+→ Spring Boot moins hype dans ce contexte (cold start, mémoire,…)
+
+**Fin de Java EE**
+* JakartaEE is officially out
+* …et c'est laborieux…
+
+===== Web =====
+* TLS 1.3 approuvé par l'IETF
+* Tous les navigateurs ont annoncé l'abandon du support de TLS 1.0 et 1.1 en 2020
+* Chrome marque tous les sites HTTP comme "non sûrs" à partir de Juillet 2018
+* BootStrap 4
+* Tik Tok : une progression spectaculaire
+
+===== Sécurité =====
+Spectre et Meltdown qui affectent les processeurs Intel (mais pas seulement) en tiant parti
+* du branchement prédictuif dans les pipelines
+* d'attaques par timer pour savoir si une donnée est dans le cache du processeur
+
+===== Facebook : l'année noire =====
+* Scandale Cambridge Analytica : 87 millions d’utilisateurs de Facebook ont été aspirées par cette entreprise d’influence politique travaillant pour Trum
+* mardi 10 avril 2018 : audition historique de Mark Zuckerberg (mis en difficulté) devant le Sénat américain… en même temps, les sanctions ne suivront pas
+* l'année durant laquelle tout le monde parle des //fake news//
+* 50 millions de comptes compromis chez Facebook (réévalué à 30 millions)
+→ [[https://www.wired.com/story/facebook-scandals-2018/|21 scandales chez Facebook en 2018]]
+
+===== Google =====
+* juillet 2018 : amende 4,34 milliards d’euros pour abus de position dominante d’Android
+* octobre : à la suite d'une faille de sécurité, Google annonce la fermeture de son réseau social Google+, lancé en 2011 pour concurrencer Facebook.
+* refus de Larry Page de témoigner devant le Congrès à l'été 2018 sur les affaires d'interférences russes dans l'élection présidentielle américaine de 2018. Aucun membre de la direction de Google ne s'était présenté à l'audition, contrairement à Jack Dorsey (patron de Twitter) ou Sheryl Sandberg (numéro 2 de Facebook).
+* novembre 2018, environ 20.000 employé·es ont manifesté dans cinquante villes du monde pour protester contre des accusations de racisme et de harcèlement sexuel au sein de l'entreprise et l'absence de mesures prises par la direction. Quelques mois plus tôt, des milliers de salarié·es s'étaient opposé·es au Projet Maven, un programme pilote d'intelligence artificielle qui aurait pu être utilisé pour des frappes de drones –forçant Google à rétropédaler et mettre fin au projet.
+
+===== Microsoft =====
+* Edge rebase sur Chromium

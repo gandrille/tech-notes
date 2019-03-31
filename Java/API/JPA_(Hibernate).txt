@@ -1,0 +1,6 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== JPA (Hibernate) ======
+http://blog.octo.com/en/audit-with-jpa-creation-and-update-date/
+

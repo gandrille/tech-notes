@@ -1,0 +1,56 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== 2017 ======
+
+===== Trends =====
+* la guerre des chat bots : siri vs Google assistant vs cortona vs Amazon Alexa
+* HTTPS (vraiement) partout
+
+===== Java =====
+* sortie de Java 7 après l'échec JigSaw…
+* new release model (every 6 months)
+* Java EE passe chez Eclipse → Jakarta EE
+* décolage de Kotlin, grâce à la traction d'Android
+
+===== Monétisation du lien social =====
+* 8 mai : AirBnb lance « Experience », en plus de l’appart, le propriétaire vous organise des soirées, visites, etc.
+* 26 juin : La poste lance le service « veiller sur mes parents » 
+
+===== Uberisation =====
+* 28 août, les salariés de la plateforme de livraison Deliveroo se mettent en grève, « On est des esclaves modernes. »
+* 22 septembre, Uber perd sa licence à Londres : la Régie des transports dénonce son manque de « responsabilité » sur les questions de « sécurité. »
+* 27 septembre, c’est la première conférence de CoopCycle, (la coopérative de livreurs qui lutte contre le modèle Deliveroo), ça va faire date.
+* 02 octobre, six centres de distribution Amazon entrent en grève.
+* 11 octobre, Uber est sommé (au Royaume-Uni) de considérer ses chauffeurs comme des employés et de les rémunérer en conséquence.
+
+===== Réseaux sociaux =====
+* 19 octobre, Le hashtag #balancetonporc fait la Une de Libé. 
+* 12 décembre, Le Figaro rapporte qu’un ancien cadre de Facebook déclare regretter avoir contribué à créer un outil [[http://www.lefigaro.fr/secteur/high-tech/2017/12/12/32001-20171212ARTFIG00144-un-ancien-cadre-de-facebook-nous-avons-cree-des-outils-qui-dechirent-le-tissu-social.php|« qui déchire le lien social »]].
+
+===== Surveillance =====
+* 21 octobre, Wired sort une enquête très complète sur le « social credit system » en Chine, un système qui attribue une bonne note aux citoyens grâce au suivi de leurs actions mises en données.
+* 21 novembre, on découvre que Google reçoit des données géolocalisées de ses utilisateurs même lorsque ceux-ci ont désactivé la fonction « géolocalisation. »
+* le pistage par les régies publicitaire ([[https://www.numerama.com/politique/282934-enquete-comment-les-apps-figaro-lequipe-ou-closer-participent-au-pistage-de-10-millions-de-francais.html|source]])
+
+===== Sécuité =====
+* wanna cry : crise médiatique
+	* tout ce qui ne pouvait pas être arrêté a été rebooté en 24h
+	* tout l'impatchable a été paché
+	* autoroute de com pour les solutions de sécurité
+	* pas tant d'infections que ça
+	* pas de fishing contrairement à ce qui a été dit au début
+* l'année des ransomware
+* [[https://en.wikipedia.org/wiki/2017_cyberattacks_on_Ukraine|Cyberattaque NotPetya]] : le [[https://fr.wikipedia.org/wiki/Cyberattaque_NotPetya|malware NotPetya]], distribué par une mise à jour du logiciel de comptabilité MeDoc paralyse l'Ukraine.
+
+===== Ethique =====
+* premier colloque design éthique à Lyon
+
+===== IA =====
+* 6 décembre, le député En Marche Cédric Villani lance une consultation sur l’intelligence artificielle.
+* Tout le monde parle d'IA, et personne ne sait ce que c'est…
+
+===== Misc =====
+* 22 décembre, Apple est accusé de ralentir ses anciens modèles de smartphone
+* 27 juin 2017, amende de 2,42 milliards d’euros à Google pour avoir abusé de sa position dominante dans la recherche en ligne en favorisant son comparateur de prix « Google Shopping » au détriment de services concurrents.
+* Fortnite est lancé par Epic Games 

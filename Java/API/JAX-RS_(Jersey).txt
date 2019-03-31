@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== JAX-RS (Jersey) ======
+**References**
+* [[https://github.com/eclipse-ee4j/jaxrs-api|API]]
+* [[https://projects.eclipse.org/projects/ee4j.jaxrs|Project Web Page]]
+
+2019 : [[https://rieckpil.de/whatis-jakarta-restful-web-services-jax-rs/|Introduction about JAX-RS 2.1]]
+* RestEnpoint definition
+* WebClient usage
+
+
+

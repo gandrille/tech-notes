@@ -1,0 +1,30 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== JDK9 (Sept 2017) ======
+**Sources**
+* [[https://en.wikipedia.org/wiki/Java_version_history#Java_SE_9|Wikipedia]]
+* [[https://howtodoinjava.com/java9/java9-new-features-enhancements/|Java 9 Features and Enhancements]]
+* [[https://www.baeldung.com/java-9-migration-issue|Java 9 migration]]
+
+**JEP/JSR list**
+* [[https://openjdk.java.net/projects/jigsaw/spec/|JSR 376: Java Platform Module System]] → Jigsaw, le système modulaire
+* [[https://openjdk.java.net/jeps/222|JEP 222: JEP 222: jshell: The Java Shell (Read-Eval-Print Loop)]]
+* [[https://openjdk.java.net/jeps/295|JEP 295: Ahead-of-Time Compilation]]
+* [[https://openjdk.java.net/jeps/268|JEP 268: XML Catalogs]]
+* [[https://openjdk.java.net/jeps/266|JEP 266: More Concurrency Updates]] → Java implementation of Reactive Streams, including a new Flow class that included the interfaces previously provided by Reactive Streams
+* [[https://openjdk.java.net/jeps/193|JEP 193: Variable Handles]] → define a standard means to invoke the equivalents of various java.util.concurrent.atomic and sun.misc.Unsafe operations
+* [[https://openjdk.java.net/jeps/282|JEP 282: jlink: The Java Linker]] → create a tool that can assemble and optimize a set of modules and their dependencies into a custom run-time image. It effectively allows to produce a fully usable executable including the JVM to run it
+* [[https://openjdk.java.net/jeps/263|JEP 263: HiDPI Graphics on Windows and Linux]]
+
+JavaDB was removed from JDK
+
+**Key features**
+* Méthodes privées dans les interfaces
+* Better Try-with-resources
+* Instanciation de collections immuables
+* Better annotation ''@Deprecated''
+* Deprecated
+   - Applets et la plateforme de déploiement Web Start
+
+

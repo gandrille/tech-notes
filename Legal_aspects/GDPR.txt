@@ -1,0 +1,5 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== GDPR ======
+https://www.cnil.fr/fr/la-cnil-publie-un-nouveau-modele-de-registre-simplifie

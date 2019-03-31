@@ -1,6 +1,5 @@
 Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.4
-Creation-Date: 2019-03-06T11:01:28+01:00
 
 ====== Spring Web Reactive ======
 **Youtube talks**
@@ -16,7 +15,7 @@ End of moore's now : only more cores, not faster ones !
 
 Single threaded eventloop à la (node js) : New way to achieving scale
 * never block (wait) the thread
-* db call, api call --> callback !
+* db call, api call → callback !
 
 Reactive
 * async 
@@ -27,15 +26,15 @@ On peut faire des threads (asynchrones), mais qui bloquent. Il y a un coût asso
 
 Callback : onNext, onComplete, onError
 
-L'important, c'est pas seulement l'API, mais la facilité de composition avec une api fluent : nécessité d'operators : transform, timeouts,...
+L'important, c'est pas seulement l'API, mais la facilité de composition avec une api fluent : nécessité d'operators : transform, timeouts,…
 
 * **La latence côté producteur** est gérée à l'aide d'un retour immédiat à l'aide de Mono et de Flux (dans le cas de Reactor), avec même un Mono<Void>, void étant synchrone.
 * **La latence côté consommateur** est traitée à l'aide d'un mécanisme de "Back pressure". Le consommateur notifie le producteur pour lui dire quand envoyer des éléments.
 
-→ concurency : débug est difficile...
+→ concurency : débug est difficile…
 
 ===== Par rapport à l'existant =====
-* **Future<T>** introduit en java 5, c'est effectivement asynchrone MAIS pour obtenir la valeur, il faut faire un get qui lui est... bloquant ! Future n'est donc ni non-bloquant, ni un stream.
+* **Future<T>** introduit en java 5, c'est effectivement asynchrone MAIS pour obtenir la valeur, il faut faire un get qui lui est… bloquant ! Future n'est donc ni non-bloquant, ni un stream.
 * **CompletableFuture<T>** introduit par java 8, il est asynchrone, non bloquant (mais pas un stream). Du coup, pour une liste on est obligé d'attendre la liste complète avant de pouvoir consommer le premier élément.
 * **Stream<T>** introduit par java 8. Pas fait pour des données qui arrivent avec de la latence ! Dès qu'on a des I/O. pull style (bloquant)
 * **InputStream / OutputStream** for streaming byte arrays. Bloquant. Certes, cervlet 3.1 permet un aspect non bloquant, mais c'est bien difficile à utiliser

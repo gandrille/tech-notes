@@ -1,0 +1,42 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== cookies ======
+[[https://www.youtube.com/watch?v=KL9MR721c4w|RetourAuxSources Les cookies HTTP (H. Sablonnière) - Devoxx Fr 2018]]
+
+===== Options envoyées par le SERVEUR =====
+Durée de rétension
+* sans expires : jusqu'à la fermeture du navigateur
+* Expires : date… si expires est dans le passé, on supprime le cookie
+
+Attribut domain
+* s'il est absent, il faut EXACTEMENT le même domaine
+* s'in est présent, le dommaine indiqué et TOUS les sous domaines
+
+Attribut path
+* absent : tous les paths
+* présents : tous les paths qui commencent par la chaine indiquée, avec un '/' ajouté à la fin ex : '/api' matche '/api/**'
+
+Attribut secure
+* absent : les cookies sont envoyés que l'on soit en HTTP ou HTTPS !!!
+* présent : cookies envoyés uniquement en HTTPS
+→ depuis peu, on ne peux plus déposer de cookies secure avec une requête HTTP
+
+Et les ports ???
+* les cookies nes sont pas sensibles aux ports…
+
+===== Attaque CSRF =====
+On navique sur une page lambda. Une requête part vers un site sécurisé (via AJAX, par exemple). Le cookie est automatiquement ajouté… et ça fait des choses dans notre dos.
+
+===== Attaque XSS =====
+En javascript, il est possible de faire document.cookie pour récupérer les cookies…
+Donc, en faisant une injection de javascript dans une page, on peut lire les cookies et les enjoyer en ajax…
+
+Attribut HttpOnly
+* avec, les cookies sont invisibles au javascript !
+
+Une page d'un site web intègre une image hébergée chez foo.com
+Quand le navigateur fait en arrière plan la requête vers foo.com pour récupérer l'image, il met AUTOMATIQUEMENT le cookie.
+
+===== SameSite cookie =====
+En 2019, Google propose [[https://blog.chromium.org/2019/05/improving-privacy-and-security-on-web.html|SameSite cookie]]; pour des cookies plus sûrs...

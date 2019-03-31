@@ -1,0 +1,25 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== A box of tools to spy on Java ======
+[[https://pagedout.institute/download/PagedOut_001_beta1.pdf|Source (p37)]]
+
+OpenJDK has been improving its tools lately and provides us with some powerful spying tools - all of them come with man pages, if in doubt take a look there! Some might require the newest JDK - 11.
+
+**jps​** - launched without any flags it will simply ​**list all Java processes and their pids​**, but there are some useful flags you might want to include, such as ​-v​ (lists arguments passed to the JVM), ​-m​ (lists arguments passed to the main method) or ​-l​ (shows package names).
+
+**jstack​ - ​prints all Java thread stack traces with useful information​**, such as what state the thread is in and what code it’s currently executing. Very useful for identifying deadlocks, livelocks and similar. The states a Java thread can be in include (among others) ​BLOCKED​ (thread is waiting for entry to a critical section), WAITING​ (thread blocked from code - ​Object.wait()​), ​TIMED_WAITING​ (​Object.wait()​ with a timeout argument). There is much more useful information, such as ​daemon_prio​ (priority inside JVM), ​os_prio(priority in the OS), ​tid​ (id of the thread), ​nid​ (id of the thread in the OS), address on heap. Especially ​nid​ might come in useful to use some more advanced OS tools to learn more about the thread.
+
+**jmap​** - this tool will give you ​**a look into the heap​**. It can do a heapdump on JDK below version 11, since JDK 11 you should do that with ​jcmd​ (note that dumping the heap causes a “stop the world” event so don’t do that on critical processes). Some useful flags include ​-clstats​ (display stats for each class), ​-histo​ (for histogram) and ​-finalizerinfo​ (to view classes which are gathered by Garbage Collector but their finalize()​ methods have not been called yet)
+
+**jstat​** - samples a running JVM for selected metrics. Useful to quickly identify easy-to-spot issues but won’t help with more ephemeral ones. Some useful flags include ​-gcutil​ (for stats on GC) and -printcompilation​ (displays the last successful JIT compilation).
+
+**jcmd​** - introduced in JDK 7, this tool is the ​**swiss army knife of JVM diagnostic tools​** - it sends a command to a running JVM to accomplish most of what other tools allow for and more. Launched without any commands acts as ​jps​. Use ​jcmd <pid> help​ to view what commands are available for a given process (as they might differ depending on what JVM version is the process running on).
+
+**jhsdb​** (Java HotSpot debugger) is your go-to tool for ​**post-mortem analysis​**, introduced in JDK 9. If you provide it with a core dump file and a path to the JVM that was used to launch the process ​**it will let you launch most of the aforementioned tools on a dead process**​. Usage: ​jhsdb jstack|jmap|jinfo --core <path-to-core-dump> --exe <path-to-JVM>​. It can also be used to debug a living process. Remember you need to enable core dumps first (with ​ulimit​).
+
+**java -Xlog​** gives access to ​**Unified Logging of JVM messages**​. Using tags, logging levels, decorators and selectors it gives you a lot of customization options on what to log. For example, ​java -Xlog:gc+heapwill give you all the messages that have both the gc and heap tags. Some of the useful things you might want to inspect using this tool are: safepoints with ​java -Xlog:safepoint​ (safepoints in JVM are stop-the-world events where all the threads stop in well-defined spots in order to allow JVM to perform some house cleaning, often used by GC), Thread Local Allocation Buffers with ​-Xlog:tlab​, JIT with -Xlog:jit+inlining,compilation+jit​, etc. For more information about the usage, use ​java -Xlog:help​. 
+
+**Java Flight Recorder​**, previously a commercial tool from Oracle, is part of OpenJDK since Java 11. It has very little overhead, needs to be enabled when starting a java process with ​java -XX:+FlightRecorder -XX:StartFlightRecording=duration=60s,filename=xxx​ - it dumps a binary file that needs to be viewed with Java Mission Control (which is a separate tool, not part of JDK).
+
+

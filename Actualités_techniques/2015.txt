@@ -1,0 +1,59 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== 2015 ======
+La guerre des assistants personnels : cortona, google now, siri…
+
+===== Google =====
+* Android M sera capable d'utiliser le contexte des app dans google now
+
+===== Microsoft =====
+* lancement de >indows 10, avec cortona bien au centre.
+
+===== Facebook =====
+* Novembre 2015 : activation du Safety Check de Facebook pour les attentats du Bataclan. S'en est suivi une polémique légtime. Pourquoi activer le safety check pour le bataclan et pas pour d'autres attentats au moyen orient tout aussi meurtriers ? certaines vies vallent-elles plus que d'autres ?
+
+===== Montre connectée =====
+* les trackers d'activité se tournent vers la montre connectée
+* la montre connectée comme platforme pour demain ?
+* peu d'innovation, sinon…
+
+===== Autres objets connects et smart home =====
+* on reste beaucoup dans le gadget connecté, et la valeur ajoutée est difficile à identifier
+* Samsung et LG Electronics cherchent à intégrer leurs Smart TV dans la smart home 
+
+réalité immersive et augmentée 
+* Okulus Rift
+* course contre la montre pour attaquer un marché émergent (et assez inconnu)
+* le gagnant aura la plateforme, et pas uniquement le matériel copiable en 15 jours par les chinois…
+
+===== Drones et automobile =====
+* croissance du marché des drones, principalement pour la captation vidéo.
+* conduite assistée qui est un enjeu clé de l’industrie automobile 
+
+===== Machine learning =====
+Mise en avant en particulier par les équipementiers dans l’automobile (Nvidia, Qualcomm, Mobileeye, Bosch, Valéo, etc). L’IA joue un rôle clé pour le futur de l’industrie automobile et dans presque toutes les industries.
+ex : camera netatmo → caractérise personne, voiture et animaux.
+
+===== Sécurité =====
+* piratages de la base de compte du site de rencontres extra-conjugales Ashley Madison
+* piratage d’une voiture (Jeep), avec prise de contrôle à distance
+* [[https://en.wikipedia.org/wiki/December_2015_Ukraine_power_grid_cyberattack|attaque contre des scada en Ukraine]] : 230 000 personnes se retrouvent dans le noir
+* attaques ciblées sur des chaines hôtelières, banques, compagnies d’assurance, les administrations, et même les sociétés spécialisées dans la sécurité (MacKeeper) et fabricants de jouets (VTech).
+* [[https://fr.wikipedia.org/wiki/Cyberattaque_contre_TV5_Monde|attaque de TV 5 Monde]] : le 8 avril 2015, des attaquants se revendiquant du //Cybercaliphate// (alors qu'il n'en est rien) coupent la diffusion de la chaîne. Il faudra 6 mois pour remonter les systèmes… sachant qu'ils n'ont pas été certains d'y parvenir…
+
+===== Ubérisation =====
+* La distribution (avec Amazon ou Etsy), la musique (avec Apple ou Spotify), les transports (avec Uber ou Tesla), l’hébergement (avec AirBnB ou Booking)
+
+
+07 janvier – Des attentats dans Paris, Charlie, Je suis Charlie (#jesuischarlie), Porte de Vincennes. La terreur.
+25 mars – Facebook Rachète Oculus Rift, ça vous est peut-être égal mais sachez que ce genre de signaux à 2 milliards de dollars en disent long sur l’avenir du web
+
+24 avril – Apple lance l’Apple Watch, la montre qui fait bip bip tagada tsoin tsoin.
+24 juin – La loi sur le renseignement est officiellement votée par l’Assemblée. Ça se passe de commentaire
+10 août – Google change de nom et devient Alphabet, mais c’est avant tout pour flouzer les lois antitrust.
+18 septembre – Le constructeur automobile Volkwsagen au centre d’un scandale,
+
+05 novembre – La pin-up d’Instagram, Essana O’Neill, quitte les réseaux sociaux (notamment Instagram). Elle déclare que tout ça est un peu superficiel et que sa vie n’a rien à voir avec l’image qu’elle renvoie.
+13 novembre – Attentats dans Paris. 
+13 novembre – Dans la foulée, Facebook active son safety check pour les parisiens, et seulement pour les parisiens.

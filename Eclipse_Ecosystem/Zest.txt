@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Zest ======
+* [[http://www.eclipse.org/gef/zest/index.php|Zest home]]
+* [[http://wiki.eclipse.org/index.php/GEF_Zest_Visualization|Zest - Eclipsepedia]]
+* [[http://dev.eclipse.org/viewcvs/viewvc.cgi/org.eclipse.gef/test/org.eclipse.zest.tests/src/org/eclipse/zest/tests/swt/GraphSnippet3.jav?root=Tools_Project&view=co|Zest snippet]]
+* [[http://www.vogella.de/articles/EclipseZest/article.html|Zest - vogella Tutorial]]

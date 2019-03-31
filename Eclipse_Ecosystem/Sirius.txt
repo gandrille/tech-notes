@@ -1,0 +1,27 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Sirius ======
+* https://www.eclipse.org/sirius/overview.html
+* https://www.eclipse.org/sirius/overview.html
+* https://www.eclipse.org/sirius/doc/specifier/diagrams/Diagrams.html
+* https://wiki.eclipse.org/Sirius/Tutorials/StarterTutorial
+* http://alain-bernard.developpez.com/tutoriels/eclipse/sirius-intro/
+
+===== Sirius 3 =====
+* rapide avec un million d'instances dans le modèle EMF
+* profiler, pour diagnostiquer les appels les plus consommateurs en temps
+* lancement du langage AQL, qu'il FAUT utiliser (cela va structurer Sirius dans le temps). Ce langage est proche d'OCL, avec !une syntaxe un peu plus contrainte.
+
+===== Sirius 4 =====
+Lors de chaque version de Sirius, la migration des .odesign (et .aird) se fait automatiquement, lors du chargement. Ce processus devrait donc être transparent. Par contre, les API internes peuvent changer. Cela signifie que du code pet être impacté par cet upgrade. On retrouve bien ici la philosophie de Sirius, qui veut mettre en avant le .odesign.
+
+Sirus 4 apportera quelques évolutions, dont les deux les plus significatives sont :
+* une meilleure prise en charge des images au format svg, en particulier en prenant en compte leur transparence dans le raccordement de celles-ci à des arcs.
+* une possibilité de personnaliser les properties view de manière avancée à l'aide du .odesign.
+
+===== Ressources =====
+* Sirius Lab
+* slide share melbats
+* site web de Cédric Brun dans talks
+* Eclipse Con

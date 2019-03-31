@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== JDK3 (May 2000) ======
+**Sources**
+* [[https://en.wikipedia.org/wiki/Java_version_history#J2SE_1.3|Wikipedia]]
+
+**Key features**
+* JPDA pour le Debug
+* dynamic proxies
+* JNDI
+* Java Sound

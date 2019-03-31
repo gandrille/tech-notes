@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Micronaut ======
+https://micronaut.io
+
+* par les équipes de Grails
+* pas de proxy (donc pas des stacktrace immenses)
+* nouvelles API

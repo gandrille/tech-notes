@@ -1,0 +1,68 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Tests ======
+**Documents**
+* [[https://rieckpil.de/spring-webtestclient-for-efficient-testing-of-your-rest-api/|Spring WebTestClient for efficient testing of your REST API]]
+* [[https://github.com/sannidhi/tdd-boot-demo/blob/master/CHEATSHEET.md|description des annotations !]]
+* [[https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-testing.html|Spring Boot features : Testing]]
+* [[https://developer.okta.com/blog/2019/03/28/test-java-spring-boot-junit5|Pour les débutants]]
+* [[https://www.baeldung.com/spring-test-pyramid-practical-example|Exemple hiérarchie des tests]]
+
+**Vidéos**
+* [[https://www.youtube.com/watch?v=lTSJCr7xdbM|Josh Long (2017)]]
+* [[https://www.youtube.com/watch?v=a6TXg_WIcIQ|Sannidhi Jalukar (2017)]]
+* Ne pas utiliser → Phil Webb (2016)
+
+===== @DataJpaTest =====
+Pour les tests JPA (autoconfigure h2 si c'est dans le classpath)
+
+'''
+@Autowired
+private TestEntityManager entityManager;
+'''
+
+
+Pour tester la persistence des données (fait un find par l'id, éventuellement généré) :
+User user = this.entityManager.persistFlushFind(new User("donald"));
+
+===== Test d'un composant SANS Spring Framework =====
+Sur la classe, mettre l'annotation ''@RunWith(MockitoJUnitRunner.class)''
+
+Déclarer le composant sous test
+''private UnderTestComponent cmp;''
+
+Mocker les dépendances du composant sous test
+''@Mock private Dependency1 dependency1;''
+
+Créer le UnderTestComponent dans le before
+'''
+@Before
+public void setUp() throws Exception {
+  cmp = new UnderTestComponent(dependency1);
+}
+'''
+
+
+Ensuite, écrire les tests :
+
+'''
+when(dependency1.ssth(anyString())).thenReturn(...);
+Val val = cmp.ceQueJeTeste(...);
+assertThat(val).isEqualTo(...);
+verify(linkRepository).findByFullUrl(anyString());
+'''
+
+
+===== Test de comportements asynchrones =====
+Exemple, il faut attendre que qqch soit processé par une queue…
+
+Si on fait en synchrone (je pousse dans la queue, je relis), ça marche un coup sur deux…
+
+Solution : utiliser await ! Qui fait du polling (par défaut, pendant 10 secondes).
+
+''Awaitility.await().until(...);''
+see : 
+* https://github.com/awaitility/awaitility
+* https://github.com/awaitility/awaitility/wiki/Usage#example-7---java-8
+

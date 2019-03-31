@@ -1,0 +1,34 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Websockets vs sse ======
+* [[https://www.youtube.com/watch?v=2To3_mYT2hc|Usage with Spring]]
+* [[https://www.youtube.com/watch?v=NDDp7BiSad4|Websockets vs SSE]]
+
+'''
+|      Websockets     |  Server Sent Event  |
++---------------------+---------------------+
+|        2008         |        2006         |
+| bi-dirrectionnal    | uni-directionnel    |
+| text + binary       | text only           |
+| tcp based protocol  | plain HTTP 1.1      |
+| proxy config !      | just HTTP :-)       |
+| payload             | typed message…      |
+| manual reconnection | reconnect timeout   |
+'''
+
+**Websockets**
+* Chrome 51
+* FireFox 46
+* Safari 9.1
+* Opera 37
+* IE 11
+* Edge 13
+
+**SSE**
+* Chrome 51
+* FireFox 46
+* Safari 9.1
+* Opera 37
+* IE 11 with polyfil
+* Edge under consideration :-(

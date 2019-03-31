@@ -1,0 +1,5 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Devoxx ======
+Bash is my friend : ''cat youtube-dump.html | sed "s/</\n</g" | sed "s/>/>\n/g" | tr -s ' ' | sed "s/^ //" | sed "s/ $//" | tr -s '\n' | grep -E "<a|^[^<]" | grep -v "video-title" | grep -v "En cours de lecture" | grep -v "vues$" | grep -v "^il y a" | sed "s/<a .*\(href=.*>\)/<a \1/" | tr "\n" " " | sed "s/</\n</g" | sed "s|/watch|https://www.youtube.com/watch|" |sed "s/<a href=\"/\* [[/" | sed "s/\"> /|/" | sed "s/ $/]]/"''

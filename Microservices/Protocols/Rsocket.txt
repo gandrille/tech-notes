@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Rsocket ======
+Excellent article présentant les motivations.
+https://www.infoq.com/articles/give-rest-a-rest-rsocket/
+
+

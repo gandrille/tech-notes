@@ -1,0 +1,31 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Assertions ======
+
+===== Assertions dans le code (validation de paramètres) =====
+'''
+import org.springframework.util.Assert;
+Assert.hasLength(...);
+'''
+
+
+===== Assertions dans les tests =====
+
+==== JUnit : old fashion ====
+'''
+assertEquals(str1, str2);
+assertTrue (val1 < val2);
+assertFalse(val1 > val2);
+assertNotNull(str1);
+'''
+
+
+==== Assertj : more fluent, typed… ====
+Easier to type,…
+
+'''
+import static org.assertj.core.api.Assertions.assertThat;
+
+assertThat(str).contains("...");
+'''

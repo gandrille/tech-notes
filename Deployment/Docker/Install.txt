@@ -1,6 +1,5 @@
 Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.4
-Creation-Date: 2019-03-06T10:16:54+01:00
 
 ====== Install ======
 https://docs.docker.com/engine/instalation/
@@ -8,16 +7,17 @@ https://docs.docker.com/engine/instalation/
 ===== Sous Linux =====
 **The NEW way**
 
-regarder docker ce…
+Regarder docker ce…
 
 **The OLD way**
 
+'''
 wget https://get.docker.com/
 chmod 777 ./index.html
 sudo ./index.html
+'''
 
 
 ===== Sous Windows et Mac (Docker CE 64 bits) =====
-Historiquement, il fallait utiliser Boot to Docker. Par la suite, c'est Docker machine https://docs.docker.com/machine qui a pris le relai comme un installer. Au début peu fiable, cela s'est amélioré vers l'année 2016.
-
-Finalement, le nouveau standard, en 2017 est un installer dédié, Docker for Mac https://www.docker.com/docker-mac et Docker for Windows https://www.docker.com/docker-windows.
+Historiquement, il fallait utiliser Boot to Docker. Par la suite, c'est [[https://docs.docker.com/machine|Docker machine]] qui a pris le relai comme un installer. Au début peu fiable, cela s'est amélioré vers l'année 2016.
+Finalement, le nouveau standard, en 2017 est un installer dédié, [[https://www.docker.com/docker-mac|Docker for Mac]] et [[https://www.docker.com/docker-windows|Docker for Windows]].

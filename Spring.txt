@@ -1,8 +1,14 @@
 Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.4
-Creation-Date: 2019-03-06T10:35:28+01:00
 
 ====== Spring ======
+[[https://www.eclipse.org/community/eclipse_newsletter/2019/september/microprofile.php?mc_cid=2530b7bff4&mc_eid=b1f53f2ffa|Spring vs Microprofile]]
+
+**En 2019, deux trends (attendre un peu avant de mettre en prod)**
+* R2DBC
+* RSocket
+
+
 **misc**
 * https://www.baeldung.com/spring-dependency-injection
 * http://www.baeldung.com/spring-state-machine

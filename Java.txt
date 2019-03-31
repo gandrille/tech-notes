@@ -1,7 +1,15 @@
 Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.4
-Creation-Date: 2018-11-20T16:25:26+01:00
 
 ====== Java ======
-* Java basics : http://www.baeldung.com/java-tutorial
+[[https://www.baeldung.com/get-started-with-java-series|Learning Java]]
+
+**Newsletter**
+* [[http://www.javamagazine.mozaicreader.com/|Java Magazine]]
+* [[https://info.jetbrains.com/Java-Annotated-Subscription.html|Java annotated Monthly]]
+* [[https://www.baeldung.com/java-web-weekly|Java weekly Baeldung]]
+
+**Podcasts**
+* [[https://lescastcodeurs.com/|Les castcodeurs]]
+* [[https://www.javapubhouse.com/|Java Pub House]]
 

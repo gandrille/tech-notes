@@ -1,0 +1,6 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Oracle Mooc ======
+* [[https://www.youtube.com/playlist?list=PLMod1hYiIvSZL1xclvHcsV2dMiminf19x|Youtube]]
+* http://www.oracle.com/webfolder/technetwork/tutorials/moocjdk8/documents/week3/lesson-3-7.pdf

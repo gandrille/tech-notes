@@ -1,0 +1,122 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== 2012 ======
+
+===== Grandes tendances =====
+**Développement mobile**
+* le responsive web design est popularisé
+* penser aux plateformes mobiles est maintenant une évidence
+* les OS sont "normalement" pensés avec une déclinaison, mobile. Avec Windows 8, c'est typiquement le cas
+* le taux de pénétration des smartphones en France est de 53%
+* en décembre 2012, 71% des mobiles vendus étaient des smartphones
+* en décembre 2012, tous les pays européens ont passé le cap des 50% de pénétration du smartphone ;
+* la France est en 3eme position en nombre d'usagers mobiles en Europe. Allemagne : 61M, UK : 50M, France : 48M, Italie : 48M, Espagne : 35.
+* la moitié des smartphones en France sont des Android. Apple est à 22,7%. Symbian: 8,8% ; RIM à 7,3% et Microsoft loin derrière ;
+* le trafic Web est à 92,3% sur PC; 4,6% sur mobile, 2,7% sur tablette.
+* la course au débit continue : 1G, 2G, 3G, 4G (LTE)… l'europe était en avance sur le déploiement 1G. Aujourd'hui, l'asie nous devance sur la 4G !
+* en même temps, quelle est la valeur économique à investir sur le haut débit ? google.com, faible quantité de données, forte valeur. Youtube, c'est l'inverse ! On est fasciné par la performance, mais il faut aussi faire de la valeur sur le faible débit.
+
+**Matériel et réseaux**
+* arrivée de Free sur le marché de la téléphonie mobile. Les prix sont cassés. Gosse évolution d'un marché jusqu'alors dominé par une entente illégale de SFR/Orange/Bouygues…
+* intérêt grandissant pour le Multi-coeur : il faut reconnaitre que nous n'avons pas d'outils assez performants pour en tirer parti, même si il existe un intrérêt grandissant pour la programmation fonctionelle…
+* stockage : sortie à larges échelle des disques SSD avec une capacité de 256Go max, avec un prix de 1€/Go
+* moteur de recherche : Google a 94% du marché, Bing derrière à 2% et Yahoo Search juste derrière.
+
+**Evénements marquants**
+* [[https://www.lemonde.fr/asie-pacifique/article/2012/10/17/foxconn-reconnait-avoir-employe-des-mineurs-en-chine_1776484_3216.html|Foxconn fait travailler des enfants de 14 ans…]]
+* Gros Bug chez Amazon… Oui, le cloud n'est pas le silver bullet !
+* indépendance et la neutralité du web sont en débât… le 18/01/2012, wikipedia (pas la France) ferme une journée en signe de protestation contre SOPA et PIPA
+* Big data : c'est le buzz word qui monte
+* NoSQL : ne fait plus le buzz; la communication est à présent plus rationelle
+* Wikipedia commence à abandonner MySQL pour MariaDB (migration terminée en 2013) pour des raisons de dynamisme du projet. MariaDB est maintenu par le fondateurs de mySQL et des anciens de SUN, alors que mySQL semble ne plus beaucoup avancer depuis le rachat de Sun par Oracle…
+* tablettes (et dans un toute petite mesure, liseuses) ont le vent en poupe, et le PC perd en part de marché
+* Git et GitHub carburent chez les développeurs
+* rachat d'Instagram par Facebook
+* Blackberry : la dégringolade…
+
+**Misc**
+* capteurs : multiplication et défi de l'industrialisation (cf MEDICAL)
+* homme "augmenté" : wearing, nanotechnologies,…
+* cloud : ou plutôt, l'informatique distribuée côté utilisateur (ex : téléphone qui fait un pré traitement)
+* big data / open data : filtrer (pertinence), traiter une masse de données. Difficile de voir jusqu'où cela va nous mener
+* relations humaines : un enjeu réel alors que l'automatisation gagne
+* énergie et green : driver des TIC, même si pas encore descendu dans l'industrie, car cela est un centre de coûts
+* les frontières entre industries s'effondrent : data et téléphone, avec l'énergie demain… Les marchés historiques se modifient.
+* le défi d'hier, c'était l'interconnexion physique. Aujourd'hui, c'est l'interconnexion sémantique.
+* bas coûts : il y a un marché dans les pays émergents, or, aujourd'hui, on est dans le toujours plus vite et toujours mieux. Mitsubishi a des switchs 100Gbit/s… mais personne pour les acheter !
+* harmonisation des performance : avoir la même expérience de téléphonie dans le train qu'ailleurs
+* nouveaux usages : à inventer…
+
+===== Positionnement Apple =====
+* Apple sur la défensive : Apple lance de très nombreux procès anti-copie, notament en direction de Samsung qui vend de très nombreux devices Android dont le design est clairement pompé sur Apple… Mais la copie ne fait elle pas pour une part partie du processus d'innovation ? En même temps, Apple accuse aussi Samsung de copie car les téléphones Samsung ont des coins arrondis !
+* lancement de l'iPhone5, pas vaiment révolutionnaire
+* lancement de l'iPad mini (tout est dit…)
+
+===== Positionnement Microsoft =====
+Ayant accumulé un très grand retard, Microsoft multiplie les annonces de son nouvel écosystème Windows 8, qui bénéficie
+* d'une nouvelle interface prévue nativement pour le tactile
+* d'un App Store, INDISPENSABLE pour installer des applis tirant parti de Modernu UI (ex Metro).
+
+===== Positionnement Google =====
+**Tendence générale**
+* cette année à Google I/O, il n'a pas été question d'ouverture comme l'année passée… Google solidifie son écosystème, qui devient de plus en plus intégré autour de l'identification unique et de Google Play comme App Store.
+* les données de google sont à présent officiellement partagées entre les différents services
+* Oracle attaque Google pour violation de copyright pour Android
+
+**OS**
+* Android : c'est LE succès 2012 de Google qui innonde le marché, alors qu'Apple fait du sur-place. Beaucoup de nouvelles features, très axées cosmétiques et utilisabilité (le terrain d'Apple!). La reconaissance vocale, fonctionalité phare d'iPhone, fait son entrée sur Android (mais en off line)
+* Chrome : pas de révolution, mais un travail continu d'implémentation d'HTML5
+* ChromeOS : Google contine d'investir fortement, alors que cela ne décolle pas depuis 1an
+
+**Devices**
+* ChromeBooks : les premiers chrome books en grande surface et une version desktop… mais y-a t-il des ventes ?
+* téléphones et tablettes : Google met clairement en avant la gamme Nexus, produite par google en collaboration avec des équipmentiers
+* STB : lancement sans gros succès du NexusQ, pour envoyer sur la TV le contenu de Google Play. C'est un peu loin de la Google TV attendue…
+
+**Services à forte valeur ajoutée**
+* Google play : un app store, et aussi un espace de stockage cloud pour le multimédia : vidéo, magasines, mais aussi jeux… un marché très lucratif. C'est par exemple cet espace qui permet d'autoriser le streaming d'un film sur le device de quelqu'un d'autre (cf Nexus 7).
+* Google Drive : le stockage cloud pour tous les devices, et pour la synchro. 
+* Google Plus : beaucoup de développements sur l'interface sociale de Google…
+* Google Now : google passe de la recherche aux suggestions… suggestions basées sur l'analyse de notre calendrier, GPS, historique mail,… Pour Android, mais pas uniquement ?
+* Fin de Google Wave : le service est arrêté et le code transféré (poubélisé ?) à la fondation apache
+
+**IaaS : google compute engine**
+* basé sur les images Linux (Ubuntu, CentOS)
+* virtualisation avec KVM
+* accessible uniquement aux Early Beta Tester
+
+===== Positionnement Mozilla =====
+Mozilla travaille sur Firefox OS (projet sous nom de code Boot2Geko), un OS pour les smartphones. L'intérêt en France est assez faible, mais c'est loin d'être le cas à l'étranger (ex : Brésil,…)
+
+===== Technologies client web =====
+* HTML5 & CSS3 sont de plus en plus implémentés, et il est possible d'écrire des applis en tirant partie des API les plus standard
+* JavaScript est partout
+* Coffee script
+* Framework MVC : Angular JS vs backbone.js
+* underscore.js
+* Dart: Google pousse mais ça ne décolle pas…
+* twitter bootstrap très reconnu
+* flash disparait peu à peu…
+
+===== Technologies serveurs web =====
+* un intérêt très marqué pour les interfaces RESTfull, au détriment de SOAP et WS
+* Vert.x, Node.js, play comme serveurs légers
+* Jetty et Tomcat se positionnent dans la mouvance clusturing serveurs légers
+
+===== Domotique et digital home =====
+Pas de révolution côté TV connectée, malgré une forte attente…
+
+Une multiplication des objets connectés, mais pas d'écosystème
+→ mais rien ne sort, rien ne se structure.
+
+Robotique et domotique sont mises en avant grace à des projets simples et largement diffusés, mais restent pour les geeks
+* le Rasberry PI connait un immense succès (rupture de stock pendant plusieurs mois…)
+* l'arduino est un standard à présent bien connu (des versions pré assemblées existent depuis 2011)
+* la robotique intéresse les geeks… mais pas de réelle diffusion
+
+===== Génie logiciel =====
+Trois fortes tendances
+* distribution : car virtualisation, même sur la même machine
+* service oriented : pour découper les applis et les maintenir… même en JavaScript (comme avec RequireJS)
+* parallélisation : avec le multicoeur, les approches fonctionnelles ont le vent en poupe

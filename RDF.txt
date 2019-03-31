@@ -1,26 +1,24 @@
 Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.4
-Creation-Date: 2019-03-06T09:51:46+01:00
 
 ====== RDF ======
-**See also...**
+**See also…**
 * [[http://ogp.me/|The Open Graph protocol]]
 * https://jena.apache.org/
 * https://marmotta.apache.org/
 
 ===== Key resources =====
-* [RDF primer](https://www.w3.org/TR/rdf11-primer/) Probablement le meilleur document pour avoir un panorama complet de RDF.
-* [Tutorial on Semantic Web](http://www.w3.org/People/Ivan/CorePresentations/SWTutorial/) de [Ivan Herman](https://www.ivan-herman.net/)
-* Firefox [Structured data sniff plugin](https://addons.mozilla.org/en-US/firefox/addon/openlink-structured-data-sniff/)
+* [[https://www.w3.org/TR/rdf11-primer/|RDF primer]] Probablement le meilleur document pour avoir un panorama complet de RDF.
+* [[http://www.w3.org/People/Ivan/CorePresentations/SWTutorial/|Tutorial on Semantic Web]] de [[https://www.ivan-herman.net/|Ivan Herman]]
+* Firefox [[https://addons.mozilla.org/en-US/firefox/addon/openlink-structured-data-sniff/|Structured data sniff plugin]]
 
 ===== Introduction =====
 
 ==== Motivation ====
-Le web est classiquement organisé en documents, liés les uns aux autres par des liens hypertexte. Historiquement, la recherche (donc la compréhension par les machines) dans le web se fait à l'aide de mots clé... auquels aucune sémantique n'est donc associée, et qui ne connaissent pas les frontières des objets rencontrés dans chaque page. Se pose donc la question de fournir aux machines (pas directement aux humains !) un niveau plus élevé de compréhension des informations en les structurant sémantiquement. Pour cela, on va chercher à fournir une manière de lier les données les unes aux autres, de mettre ensemble les morceaux de connaissances relatifs à une même donnée et éparpillés sur le web. Par ce changement de perspective, le concept central n'est plus le document, mais la donnée. On passe ainsi des données sur le web au web des données.
+Le web est classiquement organisé en documents, liés les uns aux autres par des liens hypertexte. Historiquement, la recherche (donc la compréhension par les machines) dans le web se fait à l'aide de mots clé… auquels aucune sémantique n'est donc associée, et qui ne connaissent pas les frontières des objets rencontrés dans chaque page. Se pose donc la question de fournir aux machines (pas directement aux humains !) un niveau plus élevé de compréhension des informations en les structurant sémantiquement. Pour cela, on va chercher à fournir une manière de lier les données les unes aux autres, de mettre ensemble les morceaux de connaissances relatifs à une même donnée et éparpillés sur le web. Par ce changement de perspective, le concept central n'est plus le document, mais la donnée. On passe ainsi des données sur le web au web des données.
 
-* since 2013 : [W3C Data](https://www.w3.org/2013/data/) mais rien depuis décembre 2015...
-* 2001-2013 : [W3C Semantic Web](https://www.w3.org/2001/sw/)
-
+* since 2013 : [[https://www.w3.org/2013/data/|W3C Data]] mais rien depuis décembre 2015…
+* 2001-2013 : [[https://www.w3.org/2001/sw/|W3C Semantic Web]]
 
 "I will never touch that crap of RDF or the semantic web; this is a pipe dream of reality ignoring academics and I will not have it. I will only use JSON-LD."
 Phil Archer, W3C Data Activity Lead
@@ -30,10 +28,9 @@ Keynote of Semantics 2014
 ==== Les microformats adresse la préoccupation sémantique ====
 Ceci n'est pas une spécification du Web sémantique (du W3C). C'est une approche simple et pragmatique pour inclure des informations sémantiques dans une page HTML. Pour cela, les attributs `class`, `rel` et `rev` sont utilisés pour embarquer les informations spécifiques à des domaines bien identifiés. De nombreux domaines sont pris en charge par les principaux moteurs de recherche.
 
-* <http://microformats.org/about>
-* <http://microformats.org/wiki/microformats2>
-* <https://en.wikipedia.org/wiki/Microformat>
-
+* http://microformats.org/about
+* http://microformats.org/wiki/microformats2
+* https://en.wikipedia.org/wiki/Microformat
 
 Plusieurs vocabulaires spécifiques a un domaine sont standardisés :
 
@@ -41,7 +38,7 @@ Plusieurs vocabulaires spécifiques a un domaine sont standardisés :
 * hCalendar vasé sur iCalendar
 * hProduct
 * hReview
-* and many more...
+* and many more…
 
 Exemple avec microformat v1 (''vcard'') et v2 (''h-card''):
 
@@ -72,7 +69,7 @@ Pour que le web soit sémantique, il faut :
 
 ===== RDF concepts et syntaxe abstratite =====
 
-Le document de référence sur cette partie est le suivant : <https://www.w3.org/TR/rdf11-concepts/>. Attention, la lecture de ce document nécessite une précompréhension de RDF que l'on peut facilement obtenir par la lecture du [RDF primer](https://www.w3.org/TR/rdf11-primer/).
+Le document de référence sur cette partie est le suivant : https://www.w3.org/TR/rdf11-concepts/. Attention, la lecture de ce document nécessite une précompréhension de RDF que l'on peut facilement obtenir par la lecture du [[https://www.w3.org/TR/rdf11-primer/|RDF primer]].
 
 Cette section va présenter les concepts suivants :
 
@@ -94,8 +91,8 @@ Ainsi, dans "Dave likes cookies", Dave est le sujet, likes est le prédicat, et 
 
 Les termes RDF sont les suivants
 
-* [IRI](https://tools.ietf.org/html/rfc3987) : en pratique, souvent une URL
-* literal : un object qui peut avoir un [datatype](https://www.w3.org/TR/rdf11-concepts/#xsd-datatypes) et un language (fr, en,...) dans le cas ou le datatype est une chaîne de caractères. Notons que les datatypes valides ne font pas partie de la spec, même si une liste d'URI de data types "bien connus" est fournie (RDF-compatible XSD types).
+* [[https://tools.ietf.org/html/rfc3987|IRI]] : en pratique, souvent une URL
+* literal : un object qui peut avoir un [[https://www.w3.org/TR/rdf11-concepts/#xsd-datatypes|datatype]] et un language (fr, en,…) dans le cas ou le datatype est une chaîne de caractères. Notons que les datatypes valides ne font pas partie de la spec, même si une liste d'URI de data types "bien connus" est fournie (RDF-compatible XSD types).
 * blank node : un objet anonyme
 
 | termes RDF | sujet | predicat | object |
@@ -118,7 +115,7 @@ La ressource pointée/référencée par une IRI est qualifiée de `referent`, et
 ===== Sémantic extensions =====
 
 ==== RDF Schema ====
-RDF Schema est une [extension sémantique](https://www.w3.org/TR/rdf11-mt/#semantic-extensions-and-entailment-regimes) qui apporte un vocabulaire (donc un ensemble d'IRI) pour modéliser d'autres vocabulaires plus complexes en associant des règles sémantiques et logiques à ce vocabulaire de base. C'est donc un langage de description des vocabulaires RDF. Cette extension est tellement utilisée qu'elle fait presque partie de RDF.
+RDF Schema est une [[https://www.w3.org/TR/rdf11-mt/#semantic-extensions-and-entailment-regimes|extension sémantique]] qui apporte un vocabulaire (donc un ensemble d'IRI) pour modéliser d'autres vocabulaires plus complexes en associant des règles sémantiques et logiques à ce vocabulaire de base. C'est donc un langage de description des vocabulaires RDF. Cette extension est tellement utilisée qu'elle fait presque partie de RDF.
 
 RDF Schema est écrit en RDF, et défini notamment
 
@@ -131,39 +128,36 @@ Ce sont les deux concepts clé, qui sont cependant destabilisants au premier reg
 
 Avec les Schema RDF, nous dirons au contraire que la propriété `eg:author` a le domaine `eg:Book` et le range `eg:Person`. On vient donc greffer les attributs (propriétés) aux classes.
 
-Référence
-
-* [RDF schema](https://www.w3.org/TR/rdf-schema/)
-* [RDF classes](https://www.w3.org/TR/rdf-schema/#ch_sumclasses)
-* [RDF properties](https://www.w3.org/TR/rdf-schema/#ch_sumproperties)
-
+**Référence**
+* [[https://www.w3.org/TR/rdf-schema/|RDF schema]]
+* [[https://www.w3.org/TR/rdf-schema/#ch_sumclasses|RDF classes]]
+* [[https://www.w3.org/TR/rdf-schema/#ch_sumproperties|RDF properties]]
 
 ==== OWL ====
 Langage d'ontologies avec un vocabulaire plus comple et un pouvoir expressif plus important :
 
 * cardinalité des propriétés (min, max et exact)
 * propriétés (transitive, réflexive, symétrique, fonctionnelle, etc.)
-* vision ensembliste : intersection, union de classes,...
+* vision ensembliste : intersection, union de classes,…
 
 ==== RIF ====
 Generic framework to define rules on terms and data. 
 
-
 ===== Vocabulaires RDF "standards de fait" basés sur RDF schema =====
-see : [Linked Open Vocabularies](http://lov.okfn.org/dataset/lov/)
+see : [[http://lov.okfn.org/dataset/lov/|Linked Open Vocabularies]]
 
 * dterms : Dublin Core terms
 * dce : Dublin Core Metadata Element Set
 * foaf : Friend of a Friend vocabulary
 * vann : vocabulary for annotating vocabulary descriptions
-* skos : Simple Knowledge Organization System (thesauri, glossaries,...)
+* skos : Simple Knowledge Organization System (thesauri, glossaries,…)
 * cc : Creative Commons Rights Expression Language
-* schema : schema.org vocabulary, metadata for search engines ([all vocabularies](https://schema.org/docs/full.html)).
+* schema : schema.org vocabulary, metadata for search engines ([[https://schema.org/docs/full.html|all vocabularies]]).
 
 
 ===== SPARQL (Query Language for RDF) =====
-* SPARQL Query Language: <http://www.w3.org/TR/rdf-sparql-query/>
-* SPARQL by Example: <http://www.cambridgesemantics.com/semantic-university/sparql-by-example>
+* [[http://www.w3.org/TR/rdf-sparql-query/|SPARQL Query Language]]
+* [[http://www.cambridgesemantics.com/semantic-university/sparql-by-example|SPARQL by Example]]
 
 
 ===== Syntaxes concrètes pour sérialiser des statements RDF =====

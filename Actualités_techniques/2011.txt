@@ -1,0 +1,194 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== 2011 ======
+
+===== Ecosystème Java =====
+
+==== Annonces ====
+* JBoss sort un serveur profil web en février. Pas trop tôt!
+* Java 7 : pas trop tôt, et en même temps, beaucoup de bruit pour pas grand chose
+	 + positif : invoque dynamic et projet coin 
+	 + déception sur la modularisation et lambda repoussés à Java 8
+* avenir de Java : les langages dynamiques sur la JVM se battent, mais personne ne sort vraiment du lot
+
+==== Ecosystème actuel ====
+**Framework d'injection**
+* CDI (Java EE 6) JSR 299, spec lead Gavin King (IR : Seam)
+* Spring
+* Guice (Google)
+
+**Conteneur**
+* Spring
+* Managed Bean Java EE6
+* EJB3/EJB-lite (IR: GlassFish) Attention : EJB2 Prunné
+
+**Mapping objet**
+* ORM pour persistance : JPA2 (IR: Hibernate) JSR 220. Autres implem : Eclipse Link, Open JPA (Apache)
+	* Hades
+	* QueryDSL
+	* API criteria
+* JAXB pour serialisation XML : concurent plus haut niveau que StAX et DOM (Dom4j)
+* Jackson, qui propose aussi un niveau événement (//StAX) et arbre (//DOM)
+
+**Présentation**
+* GWT (Google)
+* Flex : pb, pas sur les iPhone et iPad… et on ne peut pas manquer cette cible
+* Silverlight : pb, pas sur tous les postes (un réveil avec Windows Phone?)
+* HTML5, Ajax, Javascript… pour bientôt dans les faits?
+* JQuery : très bien pour rafraichir du HTML legacy
+* JSF (IR: GlassFish Mojarra) / RichFaces (JBoss) : v1 nulle, v2 mieux
+* JavaFX : pas de communauté, pas d'annonces… mort, ou presque.
+* JSP : Prunné en Java EE 6, pas MVC…
+* Swing (mort, pas réussi à percer)
+
+**Serveurs d'Applications**
+* Tomcat (Apache) : servlet, JSP, serveurWeb
+* Jetty (Eclipse)
+* GlassFish (Sun/Oracle) → J2EE
+* Resin (Caucho) → Web Profile
+* Geronimo (Apache) → plus trop à la mode
+* SpringSource TC Server (comme Tomcat)
+* Virgo (Eclipse) Ancien DM server donné à la fondation Eclipse en 2010
+* JoNaS (OW2) → J2EE
+* JBoss (RedHat) → J2EE
+* WebSphere (IBM)
+* WebLogic (Oracle/BEA)
+* Microsoft .NET
+
+**Rich Internet Application (RIA) Framework**
+* Struts
+* Wicket (Apache)
+* Play
+* JBoss Seam (JSF, EJB3)
+* Ruby on Rails
+* Grails
+* Griffon
+* Gaelik (sur App engine)
+* Spring Roo : pas de communauté utilisateurs
+* DJango JPython
+* Lift : en scala
+* SymFony → framework PHP
+
+**Framework web de sécurité**
+* SpringSecurty, le standard
+* [[http://blog.xebia.fr/2011/04/18/apache-shiro/|SHIRO]], l'outsider
+
+**Testabilité**
+* framework
+	* JUnit
+	* TestNG
+* Assertions
+	* Hamcrest : sympa, mais moins fluent que fest
+	* Fest : très sympa, très fluent
+* mock
+	* easyMock
+	* mockito, plus élaboré qu'easy mock (utilise Hamcrest)
+	* power mock
+* bases de données
+	* tester le code Hibernate avec une base mémoire (type H2)
+	* dbUnit te permet un export/import XML des données et pour tester
+	* Mockrunner pour valider des requetes JDBC (sur du Hibernate c'est moins évident) ou d'autres appel aux API JEE
+* Pour le web
+	* Selenium, avec plugins tels que Cubic tests et scelenium IDE
+	* HttpUnit utilisé 'simplement' permet de faire le minimum : assurer la bonne 'navigabilité' de l'application mais il faut rester super light : vérifier la présence de quelques champs, soumettre des formulaires.
+	* SoapUI, pour http(s), soap/wsdl, rest, jdbc, jms
+→ exemples sur http://github.com/Silverpeas
+
+**Logging**
+* Le standard : log4j
+* L'évolution slf4j, plus haut niveau que log4j
+* LogBack : par ceux de slf4j
+
+**Monitorer**
+* perf4j génère des log classique, et conométrage, aggrégation, lancement d'alertes sur dépassements de seuil…
+
+**Technos asynchrones pour le Web (Hack HTTP, pour la plupart)**
+* Comet
+* Long pooling : une seule réponse
+* HTTP Streaming (Google) : plusieurs réponses
+* SPDY (Google)
+* WebSocket : HTML5, pour enfin faire de l’asynchrone correctement !
+
+**Libs Java**
+* Google Guava
+* Apache Commons
+
+**Template**
+* Velocity
+* JET
+
+===== Navigateurs / HTML5 / Javascrit / RIA =====
+* année de début d'implémentation réelle d'HTML5
+* guerre pour avoir le moteur JavaScrit le plus rapide (accélération matérielle)
+* WebGL, Canevas…
+* HTML5 et JavaScript : beaucoup de dynamisme dans la communauté. Le successeur de JavaScript se cherche… mais ne se trouve pas. 
+* HTML5 fait de l'ombre aux RIA
+	* arrêt de Silverlight
+	* arrêt de Flash pour les terminaux mobiles. Cela va pousser l'arrêt de flash tout court. Adobe va par contre continuer le Adobe AIR. Apple n'y est pas pour rien. Steve Jobs avait beaucoup décrié Flash, gourmand et buggé. Il n'était pas possible de l'exécuter sur iPhone et iPad.
+
+===== OS Smartphones, Tablettes, Desktop… et Cloud =====
+* architectures ARM pour faible consommation
+* les tablettes tactiles sont LE cadeau de noel en 2011 (bien plus qu'en 2010). Les usages se découvrent petit à petit, mais restent flous… sauf pour les jeux !
+* les use case associés à la mobilité continuent leur chemin. Il reste tout un pan markéting a développer, autour des offres géolocalisées. Google se fait ambassadeur de ces use case via GoMO, un site à destination du grand public. 
+* tablette et édition électronique : le monde des magasines en ligne se cherche que ce soit des acteurs historiques papier qui vennent en ligne, ou des magasines purement en ligne (souvent collaboratifs). L'expérience utilisateur se cherche encore, même si l'offre est déjà très importante, mais manque de structuration.
+* OS : Google, Apple, Microsoft… c'est la guerre !
+	* Nokia s'associe à Microsoft. Les smartphones Nokia tourneront maintenant sous Windos Phone 7. Cela enterre Symbian (OS de Nokia) et Meego.
+	* Android est le premier OS pour mobiles à travers le monde. C'est un énorme succès. Google achète Motorola pour 12,5 milliards de dollars, et a ainsi un pied dans le monde des équipementiers. Google entend bien investir aussi le desktop (lancement des chromebook en 2011) et aussi des SetTopBox…
+	* Apple, avec iCloud a une offre cross-device extrêmement bien packagée.
+	* Microsoft est à la traine… Windows 8 est attendu pour 2012, Windows Phone 7 ne marche pas.
+
+===== Cloud (côté entreprise) =====
+* les entreprises font leur cloud privé et construisent des datacenters
+* les éditeurs sortent des plates-formes avec comme principe : on push en GIT, et tout se fait automatiquement !
+	* VMWARE sort cloudfoundry
+	* CloudBees
+	* Openshift
+* pas de vraie innovation sur le NoSQL.
+
+===== Cloud (côté utilisateurs) =====
+* avec le multi écran, le cloud apparait un bon moyen pour partager des donnés entre terminaux
+* le coût de stockage demeure encore très important
+* la rapidité des réseau est aussi un frein
+* la dématérialisation bientôt totale ? le Blue Ray Disk sera peut-être le dernier support vidéo…
+
+===== Domotique et digital home =====
+* un marché émergent, avec des solutions pack des constructeurs
+* hipe-niche : les objets connectés
+* Google présente, android@home (projet Tungsten), Android open accessory, mais cela n'est qu'une annonce
+* beaucoup d'annonce mais rien de concret sur ce marché qui apparait comme un nouvel eldoado… inaccessible ?
+* quelques applis dans le contrôle de l'énergie et la sécurité. Dans une moindre menure par le confort.
+
+===== Vidéo et gaming =====
+* Création de Minecraft
+* Google sur les médias : Vidéo Rental et Music Beta sont lancés.
+* les Set Top Box attirent les convoitises… le marché est promis à un bel avenir, mais ne décolle pas
+* les secteurs de la vidéo et du gaming se rapprochent dans le salon : les acteurs de VOD proposent de plus en plus de jeux (type casual game)… et inversement. 
+* avec les tablettes, c'est le secteur du jeu qui s'adapte. Cela avait déjà été le cas une première fois avec l'iPhone, c'est à présent le cas à une autre échelle avec les tablettes. De plus, se pose la question d'avoir un seul jeu (ou concept) et plusieurs écrans de taille variable pour jouer à un même jeu à des moments différents.
+* contenu vidéo : c'est LA vache à lait du moment, avec en particulier la VOD. Garder une gestion avancée des DRM est VITAL pour tous les acteurs de la chaîne.
+* TV et STB : beaucoup d'annonce et peu de résultats sur ce marché prometteur…
+
+===== Réseaux sociaux =====
+* lancement de Google+ et arrêt de Google Buzz (lancé en 2010)
+* Facebook a favorisé voire permis les révolutions islamiques du printemps arabe.
+* rachat de Skype par Microsoft pour 8,5 milliards de dollars. Le logiciel de téléphonie sur IP devrait être embarqué sur Xbox, Kinect, Windows Phone etc.
+
+===== Misc =====
+* des procès… pour la première fois, les dépenses d'Apple et Google pour les procès liés aux brevets et les achats de brevets ont dépassé les investissements en recherche et développement de nouveaux produits (selon une étude de l'université de Stanford).
+* décès de Denis Richie (co-inventeur du langage C) et de Steve Jobs
+* DevOps et continuous delivery font du buzz (l'usine logicielle est devenue standard)
+* James Gosling est embauché par Google
+* les serveurs du PlayStation Network de Sony sont hackés et hors ligne… Cloud et sécurité, la question de la sécurisation des données personnelles en ligne et des enjeux financiers et de confiance se pose plus clairement…
+* la vie privée malmenée par Facebook, Google et Apple
+	* Facebook : un nombre incalculable de modification de politique de sécurité… pour inciter les utilisateurs a rendre davantage de données publiques
+	* Google : les Google Cars sniffent les réseaux Wifi en France
+	* Tous les smartphones : Carrier IQ transforme tous les smartphones en de véritables mouchards. Un logiciel capable de transmettre des données de géolocalisation… jusqu'au contenu des SMS. 
+* l'indépendance et la neutralité du web sont en débât…
+* des critiques commencent à s'élever vis-à-vis de appstores car :
+	* non crawlables
+	* liées à une PF propriétaire, donc difficulté de migration (lié à un éditeur)
+	* perte d'indépendance par rapport à l'objet d'accès (PC, tablette,…)
+	* pb de pricing, de vie privée (car liées à un éditeur)
+	* en silots : pas de liens entre applications	
+* France Télécom achète 49% de DailyMotion
+* mai 2011 : première conférence internationale du Quantified Self à Mountain View en Californie.

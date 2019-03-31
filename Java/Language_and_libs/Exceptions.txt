@@ -1,0 +1,40 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Exceptions ======
+([[http://blog.octo.com/la-gestion-des-exceptions-en-java/|Source]])
+
+'''
+	               +-------------+
+	               |  Throwable  |
+	               |  (checked)  |
+	               +-------------+
+	                 ^         ^
+	                 |         | 
+	     +-------------+     +-------------+
+	     |    Error    |     |  Exception  |
+	     | (unchecked) |     |  (checked)  |
+	     +-------------+     +-------------+
+	                                ^ 
+	                                |
+	                         +-------------+
+	                         |   Runtime   |
+	                         | (unchecked) |
+	                         +-------------+
+'''
+
+**Les erreurs graves**
+
+Causent généralement l’arrêt du programme et qui sont représentées par la classe java.lang.Error
+Ces erreurs empêchent le bon fonctionnement de la JVM (exemple : OutOfMemoryError). 99,9% du temps on ne doit pas les rattraper. On peut les attraper mais c’est un anti pattern car on ne peut globalement rien faire pour les arranger, les attraper risque donc d’empêcher un problème très important de remonter. Vous ne devriez pas avoir à utiliser cette classe à moins de développer un framework extrêmement technique.
+
+**Les exceptions "classiques" (checked)**
+
+Les erreurs qui doivent être traitées par l’appelant de la méthode qui lève l’exception. Elles héritent de la classe java.lang.Exception ce sont elles qu’on appelle exceptions Checked. Elles doivent être déclarées dans la signature de la méthode après le mot clé throws, ces exceptions sont donc explicites.
+Il s’agit d’erreur au niveau applicatif qui vont se propager dans le code en ignorant les instructions suivantes.
+
+
+**Les exceptions runtime (unchecked)**
+
+Les erreurs qui peuvent ne pas être traitées et qui sont des objets de la classe java.lang.RuntimeException. Ce sont elles qu’on appelle exceptions Unchecked. Ce type d’exceptions peut être levé même sans déclaration préalable dans le throws. Ces exceptions sont donc implicites.
+Ex : ArrayIndexOutOfBoundsExceptions

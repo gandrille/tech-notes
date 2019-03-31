@@ -1,0 +1,33 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== 2010 ======
+
+===== Matériel et réseaux =====
+* introduction de l'USB3 dans les produits grand public (5 Gbit/s ou 600Mo/s)
+
+* le cloud est objet d'investissement massifs en R&D et de positionnement stratégique pour les entreprises
+* la mobilité est objet d'investissement, et de nouveau use case à base de smartphone se cherchent et se développent
+* le secteur des tablettes se dynamise fortement avec la sortie de l'iPad.
+* adoption importante des DVCS et surtout de GIT par les geeks
+* api REST qui ont le vent en poupe
+* adoption des usines logicielles avec intégration continue
+* premiers serveurs Java EE 6
+* Java 7 reste attendu… (6 millions de développeurs Java)
+* le rachat Sun par oracle génère beaucoup d'inquiétudes dans la communauté java. Une page se tourne, car Oracle cherche davantage le profit que Sun, qui n'est plus…
+* GROS Buzz CLOUD et NoSQL. En dehors des annonces médiatiques, PHP reste bien implanté
+* Java tente de percer dans la mobilité… pas facile, face à l'iphone, et autres…
+* VMWare rachète SalesForce, pour se lancer dans une suite cloud → changement stratégique important !
+→ Offre cloud plus développée
+* JavaFXScript est abandonné.
+* abandon du support de Apache Harmony par IBM, qui passe à l'OpenJDK
+* Oracle attaque Google sur certains brevets de la JVM, concernant la plateforme Android
+* fin 2010 : lancement de la Kinect de Microsoft.
+* SalesForce achète Heroku
+
+* lancement de Google Buzz, le réseau social de Google… arrêté un an plus tard puis remplacé par Google+
+* on apprend que les google Car, qui circulent en France pour Street vew sniffent tous les réseaux wifi…
+
+* [[https://www.liberation.fr/futurs/2010/06/03/suicides-a-la-chaine-chez-le-geant-foxconn_656243|Vague de suicides chez Foxconn]] : la technologie, c'est aussi ça…
+
+Gosling quitte Oracle, Kohsuke quitte Sun

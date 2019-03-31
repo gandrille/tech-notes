@@ -1,0 +1,49 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Module 1 Notions Clé ======
+
+===== Historique de la protection des données personelles =====
+**Historique**
+1973 Création du projet SAFARI : Système automatisé pour les fichiers administratifs et le répertoire des individus
+1974 révélation du projet SAFARI par Le Monde
+1978 loi informatique et liberté, et création de la CNIL
+1995 directive européenne "protection des personnes et libre circulation des données"
+2004 refonte de la loi informatique et liberté
+
+**Le contexte**
+* plus de données
+* les données d'usage 
+* les données personelles à la base de l'activité commerciale d'entreprises
+
+**De nouvelles inquiétudes : difficile d'être anonyme**
+* 95% des possesseurs de smartphones peuvent être ré-identifiés par le croisement d'au moins quatre de leurs positions géographiques, telles que celles contenues dans les métadonnées des photos prises sur mobile. En se basant sur deux localisations, comme le trajet récurrent domicile-travail, 50% des gens seraient identifiables.
+https://www.nature.com/articles/srep01376/
+* 1997 Latanya Sweeney réidentifie des données médicales de 90% 
+* Latanya Sweeney, Uniqueness of Simple Demographics inthe U.S. Population, LIDAPWP4. Carnegie MellonUniversity, Laboratory for International Data Privacy,Pittsburgh, PA, 2000. → il suffit d’avoir un fichier contenant le nom de la personne, sa date de naissance, son sexe et la ville où elle habite pour la réidentifier dans 87 % des cas aux US.
+
+Linkage attacks first hit the headlines in 1997,  when Massachussets state group insurance commission (GIC) released hospital visit data to researchers, for the purpose of improving healthcare and controlling costs. William Weld, then governer of Massachussets reassured the public that patient privacy was adequately protected, by deleting direct identifiers.
+In response, Latanya Sweeney, then MIT graduate student in computer science  brought an electoral role database for 20$. By combining this data with the GIC records, she was able to find William Weid’s personal health records with ease. 
+https://www.privitar.com/listing/think-your-anonymised-data-is-secure-think-again
+
+===== Traitement de donnée à caractère personnel =====
+**Donnée à caractère personnel**
+"toute information se rapportant à une personne physique identifiée ou identifiable (ci-après dénommée «personne concernée»);  est  réputée  être  une  «personne physique identifiable» une  personne physique qui peut être identifiée, directement ou indirectement, notamment par référence à un identifiant, tel qu'un nom, un numéro d'identification, des données de localisation, un identifiant en ligne, ou à un ou plusieurs éléments spécifiques propres à son identité physique, physiologique, génétique, psychique, économique, culturelle ou sociale;" (Article 4)
+
+**Traitement de donnée**
+"toute opération ou tout ensemble d'opérations effectuées ou non à l'aide de procédés automatisés et appliquées à des données ou des ensembles de données à caractère personnel, telles que la collecte, l'enregistrement, l'organisation, la structuration, la conservation, l'adaptation ou la modification, l'extraction, la consultation, l'utili­sation, la  communication par  transmission, la  diffusion ou  toute  autre  forme  de  mise  à  disposition, le  rappro­chement ou l'interconnexion, la limitation, l'effacement ou la destruction;" (Article 4)
+
+===== A qui s'applique le RGPD ? =====
+**Tous les acteurs, publics et privés, validant l'UN des deux critères**
+* critère d'établissement : établis en Europe
+* critère de ciblage : qui traitent des données de personnes se trouvant en Europe
+
+**Rôles**
+* Responsable de traitement (RT) : détermine pourquoi et comment
+* Sous-traitant (ST) : exécute le traitement
+
+**Exception domestique**
+* le RGPD ne s'applique pas dans le cadre strictement personnel (annuaire dans un téléphone,…)
+
+https://www.cnil.fr
+

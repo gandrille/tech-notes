@@ -1,7 +1,11 @@
 Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.4
-Creation-Date: 2019-03-06T10:36:11+01:00
 
 ====== Spring Security ======
+https://blog.codecentric.de/en/2019/03/secure-spring-boot-app-saml-keycloak/
+https://rieckpil.de/spring-webclient-oauth2-integration-using-github-as-an-example/
+https://blog.jdriven.com/2019/11/spring-cloud-gateway-with-openid-connect-and-token-relay/
+https://rieckpil.de/spring-webclient-oauth2-integration-for-spring-web-servlet/
 
 
+IMPORTANT : [[https://spring.io/blog/2019/11/14/spring-security-oauth-2-0-roadmap-update|understanding Spring OAuth2 support flavors... and future]]

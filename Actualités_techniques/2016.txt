@@ -1,0 +1,36 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== 2016 ======
+alpha Go
+
+microprofile 1.0
+angular 2.0
+ovh attaqué par des caméras connectées
+
+1er accident mortel avec le pilote automatique d'une tesla
+
+* Netflix ajoute 130 pays couverts en 2016 aux 60 existants. Ils continuent de marketer leurs nouvelles séries TV comme produits d’appels. Et 31 nouvelles séries au programme pour 2016. Un rouleau compresseur.
+* La télévision est en train de faire sa mue (notamment sous l’impulsion de YouTube ou Netflix), la radio est pour le moment à peu près à l’abri (malgré un regain d’intérêt pour les podcasts), le cinéma se pose beaucoup de questions au sujet de la réalité virtuelle
+
+
+09/02/2016 L’état d’urgence est voté, avec 76% des députés absents. 
+
+06/06/2016 Tristan Harris, le « philosophe produit » de Google lance time well spent
+
+13/06/2016 Microsoft rachète Linkedin pour la bagatelle de 26,2 milliards d’euros.
+
+12/07/2016 Pokemon Go fait fureur en France.
+
+15/09/2016 Samsung rappelle des millions de ses smartphones Galaxy Note 7 : ils explosent vraiment trop facilement.
+
+21/10/2016 Une attaque de grande ampleur secoue internet. Des hackers paralysent la société Dyn DNS et mettent dans les choux des sites tels que Twitter, Amazon ou le New York Times. Un gouvernement est-il derrière ?
+09/12/2016 La DGSI passe un contrat avec Palantir, société experte de le traitement de données et financée (entre autres) par la NSA.
+23/12/2016 Viadeo est racheté par Le Figaro. 
+
+
+===== Sécurité et influence =====
+* malware [[https://en.wikipedia.org/wiki/Industroyer|Industroyer]] : Kiev se voit partiellement privée d’électricité ([[https://www.welivesecurity.com/wp-content/uploads/2017/06/Win32_Industroyer.pdf|analyse du malware]])
+* mails d'Hillary Clinton : [[https://en.wikipedia.org/wiki/DCLeaks|DC Leaks]] et Wikileaks 
+	* Assange publie sur Wikileaks des emails d'Hillary Clinton (issus de données piratées par les russes). Officiellement, Assange ne savait pas d'où venaient ces données
+

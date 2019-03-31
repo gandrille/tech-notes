@@ -1,0 +1,6 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== go ======
+[[http://onoffswitch.net/8-months/|Go REX I fully agree with]]
+

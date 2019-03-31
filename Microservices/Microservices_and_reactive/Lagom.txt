@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Lagom ======
+* https://www.lagomframework.com/
+* https://manuel.bernhardt.io/2017/06/05/tour-de-lagom-part-1-lagom-microservices/
+* https://www.lightbend.com/lagom-framework
+* https://www.youtube.com/watch?v=7kYoOe6UE1o
+* https://www.youtube.com/watch?v=OMb4Jj05VDA

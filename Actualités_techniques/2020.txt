@@ -1,0 +1,6 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== 2020 ======
+* [[https://www.lesechos.fr/tech-medias/hightech/une-page-se-tourne-pour-le-cloud-souverain-francais-1118112|Février : Cloudwatt ferme ses portes]]
+Microsoft’s Support for Windows 7 ends on January the 14th 2020.

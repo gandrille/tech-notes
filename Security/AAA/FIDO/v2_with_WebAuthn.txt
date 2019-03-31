@@ -1,0 +1,20 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== v2 with WebAuthn ======
+https://www.yubico.com/solutions/webauthn/
+
+
+
+* [[https://www.w3.org/TR/webauthn/|W3C WebAuthn specification]]: a new JavaScript API based on FIDO web API
+* Client to authenticator protocol (CTAP) : a new API that enables FIDO authentication from the platform
+
+https://blog.octo.com/bientot-la-fin-des-mots-de-passe-sur-le-web-webauthn/
+
+
+
+Authentication protocol, validated by the W3C on march 2019 https://www.w3.org/TR/webauthn/
+* In a few words : passwordless authentication
+* It is a public key-based authentication for web applications. 
+
+see : https://www.mathieupassenaud.fr/webauthn-in-keycloak/

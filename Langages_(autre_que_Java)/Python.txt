@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Python ======
+* [[https://www.python.org/doc/sunset-python-2/|Python 2 EoL : January 1, 2020]] → [[https://docs.python.org/3/howto/pyporting.html|Porting Python 2 Code to Python 3]]
+
+
+
+

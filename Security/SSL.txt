@@ -1,0 +1,7 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== SSL ======
+* [[https://www.ssllabs.com/ssltest/index.html|Tester la configuration SSL d'un site]]
+* [[https://ssl-config.mozilla.org/|Générer le fichier de configuration SSL]]
+

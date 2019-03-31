@@ -1,0 +1,36 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== EMF ======
+* Livre : Eclipse Modeling Framework
+* EMF latest release
+
+===== Panorama en 2016 =====
+**Manipulation de modèles**
+* EMF Compare (Ericson) et EMF DiffMerge (Thales) : 
+* EMF transaction : bien, mais peu maintenu
+* Cedeo : accès concurent sur une db
+
+**Graphique**
+* Papyrus : au dessus de GMF
+* Sirius 
+
+**Textuel**
+* XText
+
+**Forms**
+* on en réinvente en permanence…
+
+**M2Text**
+* Accéléo : fini / interprété
+* XTend : bien pour du templating
+
+**M2M**
+* QVTO / QVTR
+* ATL un peu mort
+
+**Viatra (InQuery)**
+* Query incrementale sur de gros modèles
+* pb : propre langage de définition de contraintes
+
+

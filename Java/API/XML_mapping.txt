@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== XML mapping ======
+https://www.baeldung.com/java-sax-parser
+
+* **DOM:** loads the full document into memory
+* **SAX:** the Simple API for XML → event based, so no need to load the entire document into memory
+* **StAX: **a bit more advanced than SAX, in order to pase long documents
+

@@ -1,11 +1,10 @@
 Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.4
-Creation-Date: 2019-03-06T09:58:48+01:00
 
 ====== Dans du HTML ou XML ======
 
 ===== RDF/XML =====
-Le format historique de sérialisation, uniquement dédié à XML. Pas forcément une bonne idée de partir dessus aujourd'hui...
+Le format historique de sérialisation, uniquement dédié à XML. Pas forcément une bonne idée de partir dessus aujourd'hui…
 
 
 ===== Microdata =====
@@ -15,7 +14,7 @@ This specification defines new HTML attributes to embed machine-readable data in
 * [[https://en.wikipedia.org/wiki/Microdata_(HTML)|Wikipedia]]
 * https://www.w3.org/TR/microdata/
 
-Pb : pas possibilité de mixer des vocabulaires,...
+Pb : pas possibilité de mixer des vocabulaires,…
 
 
 ===== RDFa (RDF awesome) =====

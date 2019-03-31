@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Maven ======
+**Maven Book : Apprendre Apache Maven**
+* [[https://ndeloof.github.io/apache-maven-book/|Lecture en ligne]]
+* [[https://github.com/ndeloof/apache-maven-book|GitHub]]
+* [[https://java.developpez.com/tutoriels/java/maven-book/|Developpez.com]]
+
+**Few links...**
+* [[https://smattme.com/blog/technology/comprehensive-step-by-step-guide-on-how-to-upload-open-source-java-library-to-maven-central|How to Upload Open-Source Java Library to Maven Central]] 
+* [[https://www.baeldung.com/maven-java-version|Setting the Java Version in Maven]]
+* [[https://rieckpil.de/create-your-own-maven-archetype-in-5-simple-steps/|Create your own Maven Archetype in 5 simple steps]]
+* [[https://rieckpil.de/top-3-maven-plugins-to-ensure-quality-and-security-for-your-project/|Top 3 Maven Plugins to ensure Quality and Security for your project]]
+

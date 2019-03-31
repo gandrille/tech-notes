@@ -1,0 +1,131 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== 2019 ======
+
+===== Evénements marquants =====
+* La ligue du LOL
+* 30 ans du web
+* Jenkins crée et rejoint la Continuous Delivery Foundation au sein de la Linux Foundation
+* A peine lancée, la messagerie souveraine Tchap déjà victime d’une faille béante
+* Cloud souverain : c'est reparti ! Bruno Lemaire relance Dassault Systèmes et OVH après le flop précédent...
+* A la suite de propos très déplacés dans le cadre de l'affaire Epstein, Richard Stallman quitte ses fonctions au MIT et à la Free Software Foundation (il avait affirmé dans une série d’emails que les victimes du financier défunt étaient sans doute « consentantes », et quand on connait le reste de ses propos...)
+* Vente du [[https://savedotorg.org/|TLD .org]]
+
+===== Lancement de Libra =====
+**Libra est à la fois**
+* une devise reposant sur une blockchain, donc une cryptomonnaie, permettant de faire des transferts d’argent entre particuliers ou de payer auprès de commerçants ;
+* Monnaie peu volatile (contrairement au bitcoin) : adossée à une réserve d’actifs financiers permettant de garantir sa stabilité, donc un stablecoin ;
+* un réseau permettant de réaliser des opérations avec cette monnaie, notamment des contrats intelligents développés à l’aide d’un langage de programmation dédié dénommé Move qui est édité par les équipes de Facebook ;
+* une association domiciliée en Suisse ([[https://libra.org|asso libra]]) chargée de gérer la réserve et de faire évoluer cette monnaie et l’infrastructure qui est derrière.
+
+Cette monnaie reposera sur une blockchain privée puisque seuls les noeuds (les partenaires) seront autorisés à valider les transactions, donc à rajouter des blocs à la chaine. 
+La création d’un portefeuille Libra ne pourra ainsi se faire qu’après une étape de vérification de l’identité du détenteur, ceci afin d’éviter le blanchiment d’argent et bien évidemment les dérives et arnaques.
+
+→ Libra n’ambitionne pas de concurrencer PayPal, car sa véritable cible, c’est l’Afrique.
+
+**Membres fondateurs**
+* Paiements : Mastercard, PayPal, PayU (filiale fintech de Naspers), Stripe, Visa
+* Technologie & Places de marché: Booking Holdings, eBay, Facebook/Calibra, Farfetch, Lyft, Mercado Pago, Spotify Technology S.A., Uber Technologies, Inc.
+* Télécommunications: Iliad, Vodafone Group
+* Blockchains: Anchorage, Bison Trails, Coinbase Inc., Xapo Holdings Limited
+* Capital Risque: Andreessen Horowitz, Breakthrough Initiatives, Ribbit Capital, Thrive Capital, Union Square Ventures
+* ONG & institutions académiques: Creative Destruction Lab, Kiva, Mercy Corps, Women's World Banking
+
+Il est beaucoup question de Facebook, dont c'est la troisème tentative après Facebook Credits et FB messager payment.
+[[https://calibra.com|Calibra]] est le porte-monnaie libra par FB
+
+En Octobre, PayPal se retire de Libra. Il est suivi par Visa, Mastercard, eBay, Stripe et Mercado Pago...
+
+===== Tech trends =====
+* Kubernetes (+Terraform et Istio). Swarm, c'est out.
+* Prometheus + grafana
+* GraalVM is hype (but not that much in use)
+* Scala en perte de vitesse
+* Kotlin continue doucement sa progression sans adoption massive pour autant
+* Python pour la datascience poursuit son ascenssion
+* Kafka de plus en plus utilisé pour traiter la donnée au fil de l'eau.
+
+===== Lois =====
+
+**RGPD**
+Première amende pour non conformité au RGPD, de 50 millions d'euros à l'encontre de Google
+
+**Réforme du droit d'auteur : article 13**
+Les plates-formes (Youtube, Facebook,…) sont tenues pour responsables de toutes les violations du droit d'auteur, et doivent empécher en amont la diffusion des contenus qui violent le droit d'auteur.
+Le filtrage automatisé, non nommé explicitement dans la loi semble la voie royale. Le problème, c'est que cette loi pourrait être liberticide en censurant les citations, les satires,… (il y a des précédents en ce sens sur YouTube)
+
+Face aux pressions, des dérogations ont été ajoutées pour les entreprises de
+* moins de 3 ans
+* moins de 10 millions € CA
+* moins de 5 millions d'utilisateurs
+ou à but non lucratif.
+
+**US : Affaire Huawei Google**
+En raison de la politique de Trump, Google est contraint de retirer sa licence Android à Huawei.
+
+**Reconnaissance faciale dans deux lycées de Marseille**
+oct 2019 : La CNIL vient de rendre un avis déclarant que le système de reconnaissance faciale dans deux lycées de Marseille « ne saurait être légalement mis en œuvre ».
+→ La question de la reconnaissance faciale est brulante en 2019... beaucoup de débâts et de remises en cause par les association libristes et technocritiques.
+
+===== Web =====
+* React et Vue ont le vent en poupe, face à Angular qui se maintien bien
+* Développement des progressive WA (PWA) : Google Play store les acceptent maintenant
+* Le bloqueur de publicités pour Chrome sera déployé à compter du 9 juillet 2019
+
+**Build tool**
+* Old: [[https://gruntjs.com|Grunt]], [[https://gulpjs.com|Gulp]]
+* New: SystemJS
+* Next: Webpack (module bundler)
+
+**Web dependencies**
+* Old: [[https://bower.io|Bower]]
+* New: npm
+* next: [[https://yarnpkg.com|Yarn]]
+
+**CSS pre processor**
+* Old : [[http://lesscss.org|Less]] 
+* New : [[https://sass-lang.com|Sass]]
+
+**CSS frameworks**
+* [[http://getskeleton.com|Skeleton]]
+* [[https://purecss.io/|Pure.css]]
+* [[https://getbootstrap.com|Bootstrap]]
+* [[https://foundation.zurb.com|Foundation]]
+
+**Testing**
+* Karma
+* Fantom
+
+**Scaffolding**
+* [[https://yeoman.io|Yeoman]] 
+
+**JS Framework**
+* [[https://angular.io|Angular]] (utiliser [[https://cli.angular.io|Angular CLI]])
+* [[https://reactjs.org/|React]]
+* [[https://vuejs.org/|Vue.js]]
+→ ça se stabilise autour de ces trois acteurs en 2019
+→ regarder aussi le rendering côté server.
+
+===== Google =====
+* [[https://www.blog.google/inside-google/alphabet/letter-from-larry-and-sergey/|Larry Page et Sergey Brin]] ont annoncé dans un billet de blog, mardi 3 décembre, lâcher les rênes de la maison mère de Google, la holding Alphabet. Pour des raisons de responsabilité juridique uniquement ? 
+* [[https://www.clubic.com/pro/entreprises/google/actualite-853911-google-demantele-conseil-ethique-intelligence-artificielle-cree-semaine-derniere.html|Google a déjà démantelé son conseil éthique sur l'IA créé… la semaine dernière]]
+* Fermeture de Google +
+* L’Union européenne inflige une amende de 1,49 milliard d’euros à Google pour clause abusive dans le cas de son produit AdSense (clauses étouffant la concurrence)
+* 50 millions d'euros d'amende pour Google en raison du RGPD ([[https://www.laquadrature.net/2019/01/21/premiere-sanction-contre-google-suite-a-nos-plaintes-collectives/|source]])
+* Android propose à ses utilisateurs de passer des SMS au [[https://fr.wikipedia.org/wiki/Rich_Communication_Services|Rich Communication Services (RCS)]]
+* En mai, Google Drive drive devient exclusivement la partie édition de documents. **Google One** est lancé et il est la partie stockage, avec factuation pour tous les services (drive, mail,...)
+* Google s’offre les montres connectées de Fitbit pour 2,1 milliards de dollars
+* enquête antitrust menée par cinquante procureurs généraux à travers les États-Unis, accusant Google de profiter de la position dominante sur son moteur de recherche. 
+
+===== Space X =====
+Le 2 mars 2019 : mise en orbite du premier Crew Dragon. SpaceX devient la première entreprise privée à envoyer un vaisseau capable d'emporter des astronautes dans l'espace.
+
+===== Apple =====
+Lancement d'Apple TV+, concurrent de Netflix.
+
+===== Microsoft =====
+Le mardi 10 décembre : fin du support de Windows 10 Mobile (mais qui utilisait un windows phone?)
+
+===== Amazon =====
+Des documents révèlent que le gouvernement conservateur du Royaume-Uni donne gratuitement des données du NHS à Amazon

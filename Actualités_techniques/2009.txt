@@ -1,0 +1,51 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== 2009 ======
+
+===== Rachat de SUN par Oracle =====
+* Achat pour 7.4 milliards de dollards
+* Sun avait 2.3 milliards de dollards en banque
+* Lu sur twitter : ''"select * from sun orderby rentabilité"''
+* Entre Sun et Oracle, il y a une différence notable en terme de mentalité. Alors que Sun était très tourné vers l'open source, Oracle ne l'est pas, même s'il a open sourcé Top link qui a été repris par Eclipse en Eclipse link. Cela dit, le PDG de Oracle s'est déclarré très intéressé par Java et Open solaris.
+→ La grande question, c'est qu'est-ce qui va devenir payant. Sun avait pas mal de choses gratuites dans le soft.
+
+**Au niveau IDE, Oracle dispose de**
+* JDeveloper, que peu de personnes utilisent, mais bien intégré avec des outils oracle (vient du rachat de Borland)
+* NetBeans, de Sun
+* Eclipse (dans les membres)
+ 
+**Fusion Kenai et java.net**
+* la techno derriere : kenai
+ 
+**Au niveau serveur d'applis, Oracle dispose de**
+* 0C4J, avant
+* WebLogic, par BEA. WebLo peut maintenant fonctionner au dessus d'un JVM, pour être déployé dans le cloud. Réponse directe à Spring-VMware!
+* Glassfish, maintenant (OSGi, Grizly, Metro)
+→ IBM a Websphère et Géronimo en open source. Est-ce qu'Oracle va faire Weblogic et Glassfish open source?
+
+**Les JVM : Oracle a maintenant les deux meilleurs VM au monde**
+* JRockit : développé d'abord par Appeal Virtual Machines et acquis par BEA Systems in 2002. Devient partie d'Oracle Fusion Middleware in 2008. Oracle cherche à la faire fusionner avec Hotspot.
+* JVM Sun
+* JVM IBM J9 : 
+* Apache Harmony : JVM pour Java SE
+* Open JDK
+
+**Quid de Java FX?**
+* Arrivé en retard sur Adobe et Microsoft qui sont très loin devant.
+* Le seul intérêt pour Oracle est d'avoir une stack client complète
+
+**Solaris / Open Solaris**
+* Oracle ne sponsorise plus open solaris (avril 2010), bien que beaucoup de clients aient la combo Oracle / Open Solaris
+* -> la mort d'Open solaris est donc programmée.
+
+**Avenir de mySQL**
+* Oracle va garder mySQL : il est surtout utilisé avec Windows, où Microsoft est présent…
+* JavaDB, base de données embarquée
+
+**Hudson**
+* Hudson, développé chez Sun, sort d’Oracle. Son auteur et principal développeur, Kohsuke Kawaguchi, fait ses adieux à Oracle, et annonce qu’il va continuer le développement d’Hudson dans le cadre de sa nouvelle société.
+
+**Stuxnet**
+Stuxnet, le ver informatique attribué à Israël ou aux États-Unis seme le chaos dans le programme nucléaire iranien en déréglant les centrifugeuses d'enrichissement de l'uranium. So pic d'activité sera en 2010, mais il apparait dès juin 2009.
+[[https://fr.wikipedia.org/wiki/Stuxnet|Wikipedia]]

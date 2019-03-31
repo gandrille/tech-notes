@@ -1,0 +1,6 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== JUnit ======
+[[https://medium.com/@jb.leduigou/junit-5-pourquoi-et-comment-migrer-f5005b6803b6|Migration JUnit4 → JUnit5]]
+

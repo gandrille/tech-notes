@@ -1,0 +1,132 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Lean ======
+
+===== Le Lean Kesako =====
+
+==== Introduction ====
+A la fin de la seconde guerre mondiale, Toyota a cherché à mettre en place une nouvelle organisation d'entreprise pour la production automobile. Cette mise en place n'a été que très progressive, jusqu'en 1972. Cette organisation a été théorisée par le MIT, qui lui a donné le nom de Lean.
+
+Nous allons traiter trois aspects
+* management visuel
+* auto organisation des équipes
+* traitement des problèmes
+
+L'esprit du Lean : tout repose sur les gens, sur l'équipe. Il y a un pacte social, sinon, c'est de la bureaucratie. L'idée est de fluidifier les interactions entre personnes.
+
+==== Management visuel : Affichage ! ====
+Au lieu de faire des réunions pour collecter et aggréger des indicateurs sur l'avancement du projet, le Lean insiste sur l'affichage en permanence, basé sur des cartes Kanban. Ces cartes recouvrent :
+* plannification
+* fonctionalités
+* graphique d'avancement
+* problèmes
+
+Avantage
+* réduit la nécessité des réunions
+* permet de trouver au plus tôt l'appartion de problème en raison de l'accumulation de cartes, ou de cartes qui n'avancent pas.
+
+==== Auto-organisation de l'équipe ====
+**C'est à l'équipe de décider ce qu'elle va faire!**
+* l'équipe se réuni chaque jour
+* matérialisation du flux de production de valeur sur un tableau
+* limiter l'en cours : pas trop de tâches en parallèle!
+* minimiser la taille des fonctionnalités
+
+==== Traitement des problèmes : PDCA ====
+**Le Lean constate que**
+* il est inévitable d'avoir des erreurs
+* plus un problème est détecté tôt, moins il est onéreux de le corriger.
+
+**Une méthode en quatre étapes est proposée pour corriger le erreurs : PDCA**
+* Plan : caractériser le problème, les impacts,… → phase la plus difficile et la plus importante, qui peut être facilité par l'emploi de questions "Pourquoi?" a cinq personnes différentes, afin de trouver la cause profonde et non la cause apparente.
+* Do : avec une date de début et de fin (c'est très important de l'inscire dabns le temps)
+* Check : vérification. Nécessite un indicateur pour vérifier.
+* Act : empêcher le retour en arrière si le pb a été résolu. Si le pb est encore là, recommencer PDCA!
+
+===== Le Lean ou le management par la résolution de problèmes (Michael Ballé) =====
+Le Lean est en fait le Toyota Production System : un exercice quotidien pour s'améliorer. Ce n'est pas le système de production de Toyota!
+Les bons produits et les bons services ne viennent pas des systèmes les mieux organisés. C'est la monté en compétence générale qui permet d'obtenir de meilleurs produits.
+
+**Un changement de paradigme**
+* Taylor : les "gens intelligents" organisent le travail des "idiots". 
+* Lean : tout le monde doit penser. On ne veut pas seulement les mains des gens, on veut leur tête
+
+**Les processus**
+* Taylor : on cherche des solutions globales qui vont régler le problème une fois pour toutes. Remplacer AS400 par SAP…
+* Avec le Lean, on cherche des solutions locales : les meilleurs processus vont venir des savoir faire et connaissances individuelles
+
+**Le Kanban**
+* On applique le taylorisme à la ligne hiérarchique (verticale)
+* Pas de supervision globale, mais Kanban. Des cartes. On se sert de l'informatique non pas pour ordonnancer, mais pour superviser.
+
+**Points clé de la méthode**
+* Analyser son code, le détail de ce que l'on fait
+* Reconnaitre ses gaspillages dans mon travail, pour moi ou pour les autres. C'est difficile. Conséquence dans la façon dont ils travaillent.
+* Analyser les causes profondes. Résoudre les problèmes jusqu'au bout. Faire les choses jusqu'au bout, plutôt que les faire bien.
+
+**Et en pratique**
+* Standardiser SES modèles de travail pour apprendre par la répétition.
+* Kaisen : résoudre le problème localement, dans le standard de travail.
+* Kaikaku : pour tirer les conclusions de cet apprentissage et mener des changements radicaux
+
+**Le changement**
+* Taylor : on impose un nouveau process global
+* Lean : le changement par apprentissage
+
+**Pratique du Lean**
+* Aller sur le terrain. Rien ne sert de parler dans une salle, il faut voir le terrain. Rien ne sert de parler dans une salle, il faut voir le terrain
+* visualiser les process (management visuel, pas microsoft project) (management visuel, pas microsoft project)
+* révéler les problèmes et agir au plus vite
+* résoudre les les un par un en recherchant les causes profondes
+* améliorer les pratiques de management 
+
+**Le Kaisen**
+* L'apprentissage en continu est une clé de réussite du lean
+* Apprendre maintenant, pas quand on est prêt! On n'est jamais prêt, il faut commencer maintenant.
+* Apprentissage chalenge. L'essentiel, c'est pas d'être parfait, c'est de progresser.
+
+**L'humain reste menant**
+* Taylor : l'humain fait ce que la machine ne peut pas faire. L'homme assiste la machine
+* Lean : L'outil aide l'humain en le soulageant de la pénibilité
+* Et en lui permettant d'identifier les zones à problème
+* L'outil n'a pas besoin d'être baby sitté
+
+Dans le lean, c'est le chef de projet qui défini son process de management
+C'est à chacun de tenir ses check list, c'est pas le système qui impose
+
+Développer l'expertise et éliminer les causes de couts
+Eviter les éreurs et couper les couts
+
+**SI Classique**
+* automatise la décision pour les idiots
+* élargit l'acquisition et le stockage de l'info
+* centralise la coordination : ERP…
+* réduit les couts de formation et de recrutement
+* mène le changement
+
+**SI Lean**
+* automatise un usage pénible
+* donne de la visibilité
+* permet de simuler les effets d'une décision
+* monitore les points critiques
+* permet le kaizen
+
+**Management lean**
+* prendre la responsabilité
+* aller sur place
+* bien comprendre le problème
+* développer le leadership local
+* Kaisen : résoudre pas à pas sans investir
+* Garder une direction claire
+* Transformer radicalement les process
+
+**En pratique, comment commencer?**
+* être coaché
+* aller sur le terrain
+* management visuel
+* encourager le kaisen : essayez de trouver une solution
+
+**Non classé**
+* Qualité en premier, sécurité toujours : arrêt de la chaine dès le premier problème détecté
+* améliorer l'environnement de travail par le travail standardisé et le kaisen

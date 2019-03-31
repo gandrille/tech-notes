@@ -1,0 +1,39 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Cassandra ======
+
+===== Cassandra general Documentation =====
+* [[https://cassandra.apache.org/|Apache Cassandra]]
+* [[https://cassandra.apache.org/doc/cql3/CQL.html|CQL v2]]
+* [[https://cassandra.apache.org/doc/cql/CQL.html|CQL v3]]
+
+===== Cassandra in deep =====
+Ces vidéos permettent de comprendre comment fonctionne Cassandra. Il est IMPERATIF de bien avoir ces élément en tête !
+
+* [[https://academy.datastax.com/resources/cassandra-data-lifecycle|Les concepts clé de Cassandra]]
+* [[https://www.youtube.com/watch?v=UP74jC1kM3w|Le stockage des données Cassandra]]
+
+===== Cassandra Docker =====
+[[https://hub.docker.com/r/library/cassandra/tags/|Releases Docker]]
+
+'''
+docker run -it -d -p 9042:9042 --name casnode1 cassandra:2.2.6
+docker exec -it casnode1 cqlsh
+CREATE KEYSPACE test WITH replication = {'class': 'SimpleStrategy', 'replication_factor' : 1} ;
+USE test ;
+CREATE TABLE ...
+'''
+
+
+===== Spring data Cassandra (Java) =====
+* [[http://docs.spring.io/spring-data/cassandra/docs/current/reference/html/|Spring Data Cassandra]] - [[http://docs.spring.io/spring-data/cassandra/docs/current/reference/html/#requirements|Currently we support Cassandra 2.X using the DataStax Java Driver (2.0.X)]] (au 23 mai 2016)
+
+===== DataStax =====
+* [[https://academy.datastax.com/tutorials|Tutorials]]
+* [[http://fr.slideshare.net/DataStax/presentations|SlideShare]]
+* KillrChat : [[http://www.killrchat.com/|website]] and [[http://www.doanduyhai.com/blog/?cat=55|articles]]
+
+===== Misc =====
+* [[https://www.youtube.com/watch?v=kbisNUfqVLM&index=2&list=PLGDwUiT1wr6-Fn3N2oqJpTdhGjFHnIIKY|Tutos spring]]
+* [[http://iot.eclipse.org/getting-started#sandboxes|Eclipse sandboxes]]

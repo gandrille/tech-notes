@@ -1,8 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2019-03-06T15:38:39+01:00
-
-====== Misc ======
-* Prometheus + Graphana : la combo de monitoring
-
-
