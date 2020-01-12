@@ -44,7 +44,6 @@
 <li><a href="../Devoxx.html" title="Devoxx" class="page">Devoxx</a></li>
 <li><a href="../Eclipse_Ecosystem.html" title="Eclipse Ecosystem" class="page">Eclipse Ecosystem</a></li>
 <li><a href="../File_Formats.html" title="File Formats" class="page">File Formats</a></li>
-<li><a href="../Génie_Logiciel_et_organisation.html" title="Génie Logiciel et organisation" class="page">Génie Logiciel et organisation</a></li>
 <li><a href="../GIT.html" title="GIT" class="page">GIT</a>
 <ul>
 <li><b>1. bases</b></li>
@@ -52,6 +51,7 @@
 <li><a href="./3._branches.html" title="3. branches" class="page">3. branches</a></li>
 <li><a href="./4._rebase.html" title="4. rebase" class="page">4. rebase</a></li>
 <li><a href="./5._annuler.html" title="5. annuler" class="page">5. annuler</a></li>
+<li><a href="./6.Misc.html" title="6.Misc" class="page">6.Misc</a></li>
 <li><a href="./GitHub.html" title="GitHub" class="page">GitHub</a></li>
 </ul>
 </li>
@@ -61,7 +61,9 @@
 <li><a href="../Legal_aspects.html" title="Legal aspects" class="page">Legal aspects</a></li>
 <li><a href="../Management_et_RH.html" title="Management et RH" class="page">Management et RH</a></li>
 <li><a href="../Microservices.html" title="Microservices" class="page">Microservices</a></li>
+<li><a href="../Misc.html" title="Misc" class="page">Misc</a></li>
 <li><a href="../Monitoring.html" title="Monitoring" class="page">Monitoring</a></li>
+<li><a href="../Organisation.html" title="Organisation" class="page">Organisation</a></li>
 <li><a href="../RDF.html" title="RDF" class="page">RDF</a></li>
 <li><a href="../Security.html" title="Security" class="page">Security</a></li>
 <li><a href="../Spring.html" title="Spring" class="page">Spring</a></li>
@@ -99,12 +101,17 @@
 </p>
 
 <p>
+<tt>git config --global --list</tt><br>
+<tt>git config --global --edit</tt>
+</p>
+
+<p>
 → au niveau système, il faut utiliser <tt>--system</tt><br>
 → au niveau repository, ne pas mettre de flag spécifique
 </p>
 
 <p>
-Pour l'éditeur de texte : <tt>git config --global core.editor emacs</tt>
+Pour l'éditeur de texte: <tt>git config --global core.editor emacs</tt>
 </p>
 
 <p>
@@ -211,7 +218,7 @@ Sans déplacer HEAD<br>
 <b>Tags légers (lightweight)</b><br>
 <ul>
 <li>Autre nom pour un commit</li>
-<li>Création : <tt>git tag hash</tt></li>
+<li>Création : <tt>git tag &lt;nom&gt; &lt;hash&gt;</tt></li>
 </ul>
 </p>
 
