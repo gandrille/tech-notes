@@ -1,0 +1,38 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Docker ======
+https://docs.docker.com/
+https://www.docker.com/blog/introducing-the-docker-index/
+https://success.docker.com/certification
+
+2020 [[https://codefresh.io/containers/docker-anti-patterns/|Docker anti-patterns]]
+
+**Tutorials**
+* 2020 [[https://dev.to/azure/how-you-can-learn-docker-from-the-beginning-covers-docker-compose-volumes-databases-in-the-cloud-and-much-more-8mg|How you can learn Docker from the beginning. Covers docker-compose, volumes, databases, in the Cloud and much more]]
+* 2015 [[https://rominirani.com/docker-tutorial-series-a7e6ff90a023|Docker Tutorial Series]]
+
+**Container vulnerabilities**
+* https://jerrygamblin.com/2020/02/23/on-demand-container-scanning-api/
+* [[https://vulnerablecontainers.org|vulnerablecontainers.org]]
+
+===== Versions =====
+* [[https://store.docker.com/search?offering=community&q=&type=edition|Docker CE]] : moteur et orchestrateur open source
+	* Docker CE Edge : une version par mois
+	* Docker CE Stable : 4 versions par an
+* [[https://www.docker.com/enterprise-edition|Docker EE]] support, backport de patch (LTS sur 1 an), gestion des utilisateurs, scan de sécurité des images
+* [[https://mobyproject.org/|Moby]] : les briques de base, en open source, et à destination des concepteurs.
+
+===== Docker, c'est aussi… =====
+* [[https://containerd.io/|containerd]] sous le moteur docker. Est aussi utilisé par l'orchestrateur Kubernetes. Swarm est l'orchestrateur de Docker. 
+* [[https://blog.docker.com/2017/04/introducing-linuxkit-container-os-toolkit/|Linux kit]] pour builder des images minimalistes et sécurisés de Linux qui font tourner un docker.
+* [[https://blog.docker.com/2017/01/infrakit-hood-high-availability/|InfraKit]] construire un cluster résilient
+
+Dans Docker for Azure, Docker for AWS…, les outils Linux Kit, InfraKit etc sont utilisés.
+
+===== UI =====
+* [[https://github.com/jesseduffield/lazydocker/blob/master/README.md|lazy docker]]
+* [[https://github.com/wagoodman/dive|Dive]]
+* [[https://github.com/portainer/portainer|Portainer]]
+* [[https://dockstation.io/|Dockstation]]
+

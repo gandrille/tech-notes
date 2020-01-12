@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== String ======
+https://readlearncode.com/java-6/how-to-format-a-string-clarified/
+
+**Guava**
+'''
+Iterable<String> result = Splitter.on(',').trimResults().omitEmptyStrings().split("foo,bar,,baz");
+List<String> resultList = List.newArrayList(result);
+'''
+
+

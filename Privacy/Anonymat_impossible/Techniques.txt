@@ -1,0 +1,5 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Techniques ======
+2016 [[https://blog.ippon.fr/2016/11/15/anonymisation-des-donnees/|Anonymisation des données]]

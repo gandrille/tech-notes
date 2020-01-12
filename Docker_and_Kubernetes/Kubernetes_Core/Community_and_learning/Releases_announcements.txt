@@ -1,0 +1,69 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Releases announcements ======
+
+===== 2020-08-26 Kubernetes 1.19 =====
+[[https://kubernetes.io/blog/2020/08/26/kubernetes-release-1.19-accentuate-the-paw-sitive/|Release notes: Accentuate the Paw-sitive]]
+
+**Major Themes**
+* Increase Kubernetes support window to one year
+* Storage capacity tracking
+* Generic ephemeral volumes
+* CSI Volume Health Monitoring
+* Ingress graduates to General Availability
+* Structured logging
+* New klog methods
+* Client TLS certificate rotation for kubelet
+
+===== 2020-03-25 Kubernetes 1.18 =====
+[[https://kubernetes.io/blog/2020/03/25/kubernetes-1-18-release-announcement/|Release notes: Fit & Finish]]
+
+**Major Themes**
+* Kubernetes Topology Manager Moves to Beta - Align Up!
+* Serverside Apply Introduces Beta 2
+* Extending Ingress with and replacing a deprecated annotation with IngressClass
+* SIG-CLI introduces kubectl alpha debug
+* Introducing Windows CSI support alpha for Kubernetes
+
+===== 2019-12-09 Kubernetes 1.17 =====
+[[https://kubernetes.io/blog/2019/12/09/kubernetes-1-17-release-announcement/|Release notes: Stability]]
+
+**Major Themes**
+* Cloud Provider Labels reach General Availability
+* Volume Snapshot Moves to Beta
+* CSI Migration Beta
+
+===== 2019-09-18 Kubernetes 1.16 =====
+[[https://kubernetes.io/blog/2019/09/18/kubernetes-1-16-release-announcement/|Release notes: Custom Resources, Overhauled Metrics, and Volume Extensions]]
+
+**Major Themes**
+* Custom resources
+* Overhauled metrics
+* Volume Extension 
+
+**And also...**
+* endpoint slices (alpha)
+* ephemeral containers (alpha)
+
+===== 2019-06-19  Kubernetes 1.15 =====
+[[https://kubernetes.io/blog/2019/06/19/kubernetes-1-15-release-announcement/|Release notes: Extensibility and Continuous Improvement]]
+
+* Extensibility around core Kubernetes APIs
+* Cluster Lifecycle Stability and Usability Improvements
+* Continued improvement of CSI
+
+===== 2019-03-25 Kubernetes 1.14 =====
+[[https://kubernetes.io/blog/2019/03/25/kubernetes-1-14-release-announcement/|Release notes: Production-level support for Windows Nodes, Kubectl Updates, Persistent Local Volumes GA]]
+
+* Production-level Support for Windows Nodes
+* Notable Kubectl Updates
+* Persistent Local Volumes are Now GA
+* PID Limiting is Moving to Beta
+
+===== 2018-12-03 Kubernetes 1.13 =====
+[[https://kubernetes.io/blog/2018/12/03/kubernetes-1-13-release-announcement/|Release notes: Simplified Cluster Management with Kubeadm, Container Storage Interface (CSI), and CoreDNS as Default DNS are Now Generally Available]]
+
+* Simplified Kubernetes Cluster Management with kubeadm in GA
+* Container Storage Interface (CSI) Goes GA
+* CoreDNS is Now the Default DNS Server for Kubernetes

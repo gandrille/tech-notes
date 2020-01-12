@@ -192,3 +192,4 @@ Wiki-Format: zim 0.4
 	* en silots : pas de liens entre applications	
 * France Télécom achète 49% de DailyMotion
 * mai 2011 : première conférence internationale du Quantified Self à Mountain View en Californie.
+* USB 3.0

@@ -1,0 +1,19 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Maven ======
+**Maven Book : Apprendre Apache Maven**
+* [[https://ndeloof.github.io/apache-maven-book/|Lecture en ligne]]
+* [[https://github.com/ndeloof/apache-maven-book|GitHub]]
+* [[https://java.developpez.com/tutoriels/java/maven-book/|Developpez.com]]
+
+**Few links...**
+* 2020 [[https://blog.engineering.publicissapient.fr/2020/10/01/pepite-activer-les-fonctionnalites-preview-de-java-dans-un-projet-maven/|Activer les fonctionnalités preview de Java dans un projet Maven]]
+* 2020 [[https://cguntur.me/2020/05/20/understanding-apache-maven-the-series/|Understanding Apache Maven – The Series]]
+* 2020 [[https://www.baeldung.com/maven-java-version|Setting the Java Version in Maven]] (before and after Java 9)
+* 2019 [[https://itnext.io/writing-a-full-featured-maven-pom-f5b874eef312|Writing a Full Featured Maven Pom]]
+* 2019 [[https://rieckpil.de/create-your-own-maven-archetype-in-5-simple-steps/|Create your own Maven Archetype in 5 simple steps]]
+
+**Maven central**
+* 2020 [[https://scaramoche.blogspot.com/2020/07/how-to-publish-jar-to-maven-central.html|how to publish jar to maven central]] 
+* 2018 [[https://smattme.com/blog/technology/comprehensive-step-by-step-guide-on-how-to-upload-open-source-java-library-to-maven-central|How to Upload Open-Source Java Library to Maven Central]]

@@ -1,0 +1,55 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Date - Time ======
+https://www.youtube.com/watch?v=oG7OlXwalcY
+
+===== Temps Universel =====
+Définition
+1/86400 d'un jour
+
+→ Avantage : synchronisé avec le soleil
+→ Inconvénient : la durée d'une seconde varie dans le temps, car la vitesse de rotation de la terre n'est pas stable.
+
+===== Temps atomique international =====
+https://fr.wikipedia.org/wiki/Temps_atomique_international
+
+Définition
+1s = 9 192 631 770 périodes de la radiation correspondant à la transition entre les deux niveaux hyperfins de l'état fondamental de l'atome de césium 133. 
+
+→ Avantage : toutes les secondes se valent !
+→ Inconvénient : ça n'a rien à voir avec la rotation de la terre !
+
+===== La solution : UTC (introduit en 1972) =====
+https://fr.wikipedia.org/wiki/Temps_universel_coordonn%C3%A9
+https://fr.wikipedia.org/wiki/Seconde_intercalaire
+
+Définition:
+UTC = TAI + n leap seconds
+(pour qu'il soit midi quand le soleil est au plus haut)
+
+→ Avantage : synchronisé avec le soleil
+→ Avantage : toutes les secondes se valent !
+→ Inconvénient : des jours de 86400s +- 1s
+
+===== En Java =====
+La JVM donne le temps en UTC-SLS
+
+utiliser : ''java.time.*''
+
+''Instant'' non ambigu, sur la ligne du temps. 
+* Ne dépend pas des fuseaux horaires.
+* Ne dépend pas des heures d'été heures d'hiver
+
+''ZonedDateTime'' représente nos instants avec un fuseau horaire
+
+NON : ''ZoneId.of("UTC+01:00")''
+OUI : ''ZoneId.of("Europe/Paris")'' Comme ça, java gère heure d'été / heure d'hiver
+
+A quelle heure ouvre mon magasin? 8h. Ok, mais avec heure d'été, heure d'hiver, on fait comment ?
+→  ''LocalTime'' + ''ZoneId''
+
+**Les tests : Injecter l'horloge!**
+Java
+* ''Clock.systemUTC()'' → en prod
+* ''Clock.fixed()'' → pour les tests

@@ -1,0 +1,7 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== GraalVM ======
+2020 [[https://blog.engineering.publicissapient.fr/2020/12/04/graalvm-native-image-par-lexemple/|GraalVM – Native-image par l’exemple]] 
+
+{{./graal-vm.png}}

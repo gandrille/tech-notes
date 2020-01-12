@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Language and libs ======
+* [[http://www.baeldung.com/java-tutorial|Baeldung Java Tutos]]
+* [[http://thecodersbreakfast.net/index.php?post/2010/03/03/Au-coeur-du-JDK-la-classe-Scanner|Scanner]] : pour parser des fichiers texte (et aussi cet [[https://stuartmarks.wordpress.com/2020/04/14/scanner-is-a-weird-but-useful-beast/|article]])
+* [[http://thecodersbreakfast.net/index.php?post/2011/05/18/Filesystem-notifications-with-Java-7|WatchService]] : pour réagir a une modification de fichier dans le filesystem
+* [[http://thecodersbreakfast.net/index.php?post/2011/01/04/Au-coeur-du-JDK-:-TimeUnit|TimeUnit]] : pour faire des conversions d'unités temporelles
+* [[https://www.baeldung.com/java-localization-messages-formatting|Internationalization]]
+* [[https://blog.frankel.ch/map-merge-compute/|Map merge and compute, hidden API diamonds]]
+* 2019 [[https://cr.openjdk.java.net/~briangoetz/amber/serialization.html|Towards Better Serialization (Brian Goetz)]]
+* 2020 [[https://www.marcobehler.com/guides/java-files|Java File IO: Modern APIs to Create, Read, Write & More]]
+* 2020 [[https://renato.athaydes.com/posts/using-java-se-as-framework.html|Vanilla Java: Using Java SE as a Framework]]

@@ -1,0 +1,25 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== JSON mapping (JSON-B, Jackson,...) ======
+
+===== The standard since Java EE8: JSON-B =====
+**Key links**
+* [[https://jcp.org/en/jsr/detail?id=367|JSR 367]] : Java API for JSON Binding (JSON-B)
+* [[http://json-b.net/|Official website]]
+* [[http://json-b.net/docs/user-guide.html|User's guide]]
+**Implementation**
+* [[https://eclipse-ee4j.github.io/yasson/|Yasson]] (RI)
+* [[https://johnzon.apache.org/index.html|Apache Johnzon]]
+
+**Documentation**
+* [[https://rieckpil.de/whatis-json-binding-json-b/|2019 #WHATIS?: JSON Binding (JSON-B)]]
+
+===== Most common libraries =====
+* [[https://github.com/FasterXML/jackson|Jackson]]
+	* [[https://advancedweb.hu/2019/10/08/working_with_structured_data_in_java/|Advanced use cases with Jackson : merge,...]]
+	* [[https://www.mkammerer.de/blog/jacksons-polymorphic-deserialization/|Jackson's Polymorphic Deserialization]]
+* [[https://github.com/google/gson|GSON]]
+
+
+

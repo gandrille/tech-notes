@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Technologies et infrastructure ======
+2020 [[https://www.pixeldetracking.com/fr/la-domination-publicitaire-de-google|La domination des marchés publicitaires de Google]]
+
+**CNIL**
+2020 [[https://linc.cnil.fr/les-encheres-en-temps-reel-rtb-un-systeme-complexe|Les enchères en temps réel (RTB), un système complexe]]
+
+2018 [[https://www.cnil.fr/fr/infographie-il-etait-une-fois-antoine-et-son-smartphone|[Infographie] - Il était une fois - Antoine et son smartphone]]
+
+* Le bouton Like de Facebook : il permet à FaceBook de savoir que vous avez visité ce site, même si vous n'avez pas cliqué sur ce bouton. Même si vous vous êtes correctement déconnecté de Facebook (Le cookie reste et nous identifie sur les sites tiers).
+* De même pour le bouton le +1 de Google, les scripts de Google Analytics, Google fonts, DNS,...
+* Et plein de trackers sous forme de SDK invisibles
+* Fingerprinting
+
+→ La tendance actuelle, c'est moins de pub, mais plus efficace avec les trackers.

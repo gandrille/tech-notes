@@ -2,5 +2,21 @@ Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.4
 
 ====== 2020 ======
+
+===== Corona virus =====
+* le monde passe progressivement en quarantaine, déplacements, conférences sont interdits.
+* les entreprises françaises passent en full remote à partir de mi-mars 2020
+* stop covid : au bout d'un mois, l'appli du gouvernement a été installée par... 2% des français... Face a flop, lancement en Octobre de Tous anti covid.
+
+===== Tech trends =====
+* Java / C / C++ bien entendu
+* Javascript (et un peu Typescript)
+* Python poursuit son ascension avec le machine learning. Python 2 now officially End of Life as of January 1, 2020
+* R monte un peu
+
+
+
 * [[https://www.lesechos.fr/tech-medias/hightech/une-page-se-tourne-pour-le-cloud-souverain-francais-1118112|Février : Cloudwatt ferme ses portes]]
 Microsoft’s Support for Windows 7 ends on January the 14th 2020.
+le 14 janvier, Google a annoncé la suppression d’ici à deux ans des cookies tiers
+[[https://www.lemondeinformatique.fr/actualites/lire-vmware-debourse-4-8-md$-pour-racheter-pivotal-et-carbon-black-76208.html|VMware débourse 4,8 Md$ pour racheter Pivotal et Carbon Black]]

@@ -1,0 +1,83 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Deployment ======
+[[https://kubernetes.io/docs/concepts/workloads/controllers/deployment/|Documentation]]
+
+Runs a set of identical pods. It offers scalability, self-healing and rolling updates.
+A Deployment automatically creates a **ReplicaSet**, which then creates a **Pod**. There is no need to manage ReplicaSets and Pods separately, the Deployment will manage them on our behalf.
+
+===== Deployment creation =====
+
+==== Configuration File ====
+'''
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: client-deployment
+spec:
+  replicas: 3
+  selectors:
+    matchLabels:
+      component: web
+  template:
+    metadata:
+      labels:
+        component: web
+    spec:
+      volumes:
+        - name: client-storage
+          persistentVolumeClaim:
+            claimName: my-volume-claim
+      containers:
+        - name: client
+          image: foo/bar
+          ports:
+            containerPort: 3000
+          volumeMounts:
+           - name: client-storage
+             mountPath: /foo/bar/baz
+          env:
+           - name: MY_INTERNAL_HOST
+             value: my-cluster-ip-name
+           - name: MY_PORT
+             value: '1234'
+           - name: PASSWORD
+             valueFrom:
+               secretKeyRef:
+                 name: my-secret
+                 key: my-key
+'''
+
+
+==== Kubectl ====
+''kubectl create deployment mynginx --image=nginx:1.15-alpine''
+''kubectl create deployment foo --image foo --dry-run=client -o yaml''
+
+===== Rollout =====
+To follow what's going on on rolling update
+''kubectl rollout status deploy my-deploy''
+
+==== history ====
+''kubectl rollout history deploy my-deploy''
+''kubectl rollout history deploy my-deploy --revision=1''
+
+==== undo ====
+''kubectl rollout undo deployment my-deploy --to-revision=1''
+
+===== kubectl commands =====
+''kubectl scale deploy mynginx --replicas=3''
+
+===== Force pods to re-pull an image without changing the image tag =====
+[[https://github.com/kubernetes/kubernetes/issues/33664|#33664]] 
+
+**Tag built images with a real version number, and specify this version number in the Deployment file**
+
+**Use an imperative command to update the image version the deployment should use**
+''docker build -t <docker-id>/<image-id>:<version> .''
+''docker push <docker-id>/<image-id>:<version>''
+
+''kubectl set image <object_type>/<object_name> <container_name> = <new_image_to_use>''
+
+''kubectl set image deployment/my-deployment my-container=foo/bar:baz-version''
+''kubectl set image deployment mynginx nginx=nginx:1.16-alpine''

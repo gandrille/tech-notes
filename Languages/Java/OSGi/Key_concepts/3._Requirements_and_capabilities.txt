@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== 3. Requirements and capabilities ======
+https://blog.osgi.org/2015/12/using-requirements-and-capabilities.html
+
+Cela permet d'exprimer une dépendance sur une fonctionalité, et non sur du code.
+

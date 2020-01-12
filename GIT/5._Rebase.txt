@@ -1,0 +1,38 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== 5. Rebase ======
+* https://blog.xebia.fr/2016/06/15/git-essentials-4-rebase/
+* https://git-scm.com/book/fr/v2/Les-branches-avec-Git-Rebaser-Rebasing
+* [[http://emmanuelbernard.com/blog/2014/04/14/split-a-commit-in-two-with-git/|Split a commit in two]]
+
+===== Le rebase simple =====
+Déplace la branche courante sur un commit donné
+''git rebase hash''
+''git rebase master''
+
+On peut aussi spécifier la branche source à la place de la brance courante
+''git rebase destination brancheSource''
+
+===== Changer l'historique en profondeur : le rebase interactif =====
+Il est nécessaire de spécifier la plage des commits à modifier, comme par exemple :
+''git rebase -i HEAD~6''
+
+'''
+# p, pick = use commit
+# r, reword = use commit, but edit the commit message
+# e, edit = use commit, but stop for amending
+# s, squash = use commit, but meld into previous commit
+# f, fixup = like "squash", but discard this commit's log message
+# x, exec = run command (the rest of the line) using shell
+# d, drop = remove commit
+#
+# These lines can be re-ordered; they are executed from top to bottom.
+#
+# If you remove a line here THAT COMMIT WILL BE LOST.
+#
+# However, if you remove everything, the rebase will be aborted.
+#
+# Note that empty commits are commented out
+'''
+

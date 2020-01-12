@@ -1,0 +1,87 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Liveness and Readiness Probes ======
+[[https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes/|Documentation]]
+{{./liveness-readiness.png}}
+
+===== Readiness Probes =====
+Is my **pod instance** ready to serve requests, or is it too busy?
+* ''true'': request are sent
+* ''false'': pod instance is removed from the loadbalancer
+
+'''
+readinessProbe:
+  exec:
+    command:
+    - cat
+    - /tmp/healthy
+  initialDelaySeconds: 5
+  periodSeconds: 5
+'''
+
+The container will not accept traffic until the probe returns a healthy state.
+
+Existing probes
+* ''exec''
+* ''httpGet''
+* ''tcpSocket''
+
+===== Liveness =====
+Is my **container** inside the pod ok?
+* ''true'': request are sent
+* ''false'': keep the pod, but restart the failing container (other containers are left unchanged).
+
+**Liveness command**
+
+'''
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    test: liveness
+  name: liveness-exec
+spec:
+  containers:
+  - name: liveness
+    image: k8s.gcr.io/busybox
+    args:
+    - /bin/sh
+    - -c
+    - touch /tmp/healthy; sleep 30; rm -rf /tmp/healthy; sleep 600
+    livenessProbe:
+      exec:
+        command:
+        - cat
+        - /tmp/healthy
+      initialDelaySeconds: 5
+      periodSeconds: 5
+'''
+
+**Liveness HTTP request**
+
+'''
+livenessProbe:
+  httpGet:
+    path: /healthz
+    port: 8080
+    httpHeaders:
+    - name: X-Custom-Header
+      value: Awesome
+  initialDelaySeconds: 3
+  periodSeconds: 3
+'''
+
+
+**TCP Liveness Probe**
+
+With TCP Liveness Probe, the kubelet attempts to open the TCP Socket to the container which is running the application. If it succeeds, the application is considered healthy, otherwise the kubelet would mark it as unhealthy and restart the affected container.
+
+'''
+livenessProbe:
+  tcpSocket:
+    port: 8080
+  initialDelaySeconds: 15
+  periodSeconds: 20
+'''
+

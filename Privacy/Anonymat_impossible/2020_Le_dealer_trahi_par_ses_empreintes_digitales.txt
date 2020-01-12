@@ -1,0 +1,24 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== 2020 Le dealer trahi par ses empreintes digitales ======
+[[https://korben.info/dealer-trahi-empreintes-digitales.html|Le dealer trahi par ses empreintes digitales]]
+[[https://darknetlive.com/post/dream-vendor-canna-bars-sentenced-to-prison/|Dream Vendor "Canna_Bars" Sentenced to Prison]]
+
+José Robert, 23 ans, est un habitué du darknet puisqu’il y vend de la drogue OKLM. Seulement voilà, pendant qu’il fait ça, il y a une enquête de police qui démarre en 2017 et il se fait attraper début 2018 avec des armes et 53 kg de marijuana qu’il s’apprêtait à vendre sur les sites Dream Market et Wall Street Market accessiblent via Tor uniquement.
+
+Répondant aux doux pseudos de The Fast Plug et Canna_Bars, José Robert s’est fait choper d’une façon peu courante. À cause d’une description un peu trop bavarde sur sa marchandise, les agents du FBI ont pu ainsi réduire le périmètre de recherche à la Californie.
+
+	Whats up we are Canna_Bars a vendor of top qaulity weed we offer qps to multiple pounds we are operating out of northern california and have direct relationships with many growers so expect good qaulity for cheap prices.
+
+Vous le savez, le darknet, c’est censé protéger l’anonymat… Alors comment José Robert s’est-il fait arrêter ? Je suis sûr que vous imaginez une faille technologique, genre, une adresse IP qui passe hors TOR ou un piège tendu en ligne par le FBI.
+
+Mais non.
+
+En creusant un peu sur son profil, les agents fédéraux sont tombés sur son album Imgur contenant des photos haute résolution de sa magnifique production végétale. Et là, miracle, plusieurs magnifiques empreintes digitales qu’ils ont simplement eu à comparer avec celles du fichier de la police.
+
+Et pas de bol, comme José Robert était déjà connu des services, ils ont pu aller le cueillir proprement avec toutes les preuves. Trop fastoche.
+
+Moralité : Tu ne mettras pas tes empreintes digitales en photo sur Internet surtout si tu fais dans l’illégalité au niveau de ton petit commerce ;-))) .
+
+Big Up à José Robert pour ses 5 ans et 10 mois de prison.

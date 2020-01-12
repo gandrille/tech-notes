@@ -1,0 +1,37 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== v2.x ======
+
+===== Spring Boot 2.1.0 - October 30th, 2018 =====
+**Articles**
+* [[https://github.com/spring-projects/spring-boot/releases/tag/v2.1.0.RELEASE|GitHub Tag]]
+* [[https://spring.io/blog/2018/10/30/spring-boot-2-1-0|Spring Blog post announcement]]
+* [[https://rieckpil.de/review-whats-new-in-spring-boot-2-1/|Rieckpil blog post]]
+
+**Key features**
+* Support for Java 11
+* Third-party library upgrades (Spring Framework 5.1, Tomcat 9, Undertow 2, Hibernate 5.3, JUnit 5.2)
+* Logging Groups
+* Bootstrap mode for JPA setup
+* JUnit 5 improvements
+
+===== Spring Boot 2.2.0 - October 16th, 2019 =====
+**Articles**
+* [[https://github.com/spring-projects/spring-boot/releases/tag/v2.2.0.RELEASE|GitHub Tag]]
+* [[https://spring.io/blog/2019/10/16/spring-boot-2-2-0|Spring Blog post announcement]]
+* [[https://rieckpil.de/review-whats-new-in-spring-boot-2-2/|Rieckpil blog post]]
+
+**Key features**
+* Lazy initialization of beans
+* JUnit 5 by default
+* Performance improvements
+* RSocket support
+* Actuator updates
+* Kubernetes detection
+* Support for Java 13
+* Dependency upgrades...
+
+===== Spring Boot 2.3.0 - Q1 2020 =====
+__To be released Q1 2020__
+

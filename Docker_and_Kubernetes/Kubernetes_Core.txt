@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Kubernetes Core ======
+Kubernetes comes from the Greek word κυβερνήτης, which means helmsman or ship pilot. With this analogy in mind, we can think of Kubernetes as the pilot on a ship of containers.
+
+[[https://github.com/kubernetes/kubernetes/blob/master/LICENSE|Apache License 2.0]]
+[[https://github.com/kubernetes/kubernetes/tree/master/CHANGELOG|Changelog]]
+
+[[https://kubernetes.io/blog/|Blog]]
+[[https://twitter.com/kubernetesio|@kubernetesio]]
+
+[[https://marketplace.visualstudio.com/items?itemName=ms-kubernetes-tools.vscode-kubernetes-tools|Visual Code plugin]]
+
+https://blog.pipetail.io/posts/2020-05-04-most-common-mistakes-k8s/
+https://github.com/kelseyhightower/kubernetes-the-hard-way

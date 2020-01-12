@@ -1,0 +1,28 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Pod Security Policies ======
+[[https://kubernetes.io/docs/concepts/policy/pod-security-policy/|Pod Security Policies documentation]]
+[[https://github.com/kubernetes/examples/blob/master/staging/podsecuritypolicy/rbac/README.md|PSP RBAC example (GitHub)]]
+
+The use of PSPs (Pod Security Policies) may be replaced by [[https://www.openpolicyagent.org/|Open Policy Agent]] (often pronounced as "oh-pa") in the future.
+
+In order to apply security settings to multiple Pods and Containers cluster-wide, we can define Pod Security Policies.  These policies are cluster-level rules that govern what a pod can do, what they can access, what user they run as, etc.
+
+For instance, if you do not want any of the containers in your cluster to run as the root user, you can define a PSP to that effect. You can also prevent containers from being privileged or use the host network namespace, or the host PID namespace.
+
+'''
+apiVersion: policy/v1beta1
+kind: PodSecurityPolicy
+metadata:
+  name: restricted
+spec:
+  seLinux:
+    rule: RunAsAny
+  supplementalGroups:
+    rule: RunAsAny
+  runAsUser:
+    rule: MustRunAsNonRoot
+  fsGroup:
+    rule: RunAsAny
+'''

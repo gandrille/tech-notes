@@ -1,0 +1,18 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Harbor ======
+[[https://goharbor.io/|Website]]
+[[https://github.com/goharbor/harbor|GitHub]]
+
+**Created by VMWare**
+* 2016 opensourced
+* 2018 [[https://www.cncf.io/blog/2018/07/31/cncf-to-host-harbor-in-the-sandbox/|donated to the CNCF]] (sandbox)
+* 2020 [[https://www.cncf.io/announcements/2020/06/23/cloud-native-computing-foundation-announces-harbor-graduation/|graduated from incubation to graduation]]
+
+**Features**
+* registry for cloudnative artifacts: containers, helm charts,...
+* policies and role-based access control
+* replication
+* vulnerabilities scanning
+* ...

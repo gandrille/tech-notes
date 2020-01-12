@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== 3. Admission Control ======
+This uses a set of **admission controllers**.
+
+For example, the ResourceQuota controller will ensure that the object created does not violate any of the existing quotas.
+
+''--enable-admission-plugins=NamespaceLifecycle,ResourceQuota,PodSecurityPolicy,DefaultStorageClass''
+

@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Yahoo ======
+"Cher utilisateur Yahoo,
+Sachez que, Yahoo fait désormais partie de Oath, société de médias numériques et mobiles regroupant plus de 50 marques à travers le monde (AOL, HuffPost, Engadget, TechCrunch, Moviefone, Makers, etc.) et membre de la famille d’entreprises Verizon qui cherche à façonner l’avenir des médias. L’objectif d’Oath est de créer une communauté d’utilisateurs passionnés et engagés en concevant des contenus et des produits sources d’inspiration et de divertissement.
+
+Dans le cadre de notre mission et à compter du 18 septembre 2017, nous prévoyons de partager des informations utilisateur avec Oath et la famille d’entreprises Verizon. Nous partagerons ces informations à des fins d’intégration des entreprises et pour que la nouvelle organisation Oath, y compris ces entreprises, puisse les utiliser afin de vous proposer des publicités plus personnalisées, des contenus engageants, des produits innovants, et également à d’autres fins d’analyse, conformément aux politiques relatives à la vie privée de ces entreprises. Yahoo peut également recevoir des données semblables de la part d’entités Oath et Verizon…"

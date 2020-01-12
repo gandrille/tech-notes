@@ -2,5 +2,5 @@ Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.4
 
 ====== Open API ======
-https://www.baeldung.com/spring-rest-openapi-documentation
-
+Use an interface for the API, and implement it.
+https://reflectoring.io/spring-boot-springdoc/

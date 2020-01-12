@@ -1,0 +1,6 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Profilage et personalisation ======
+2019 [[https://theconversation.com/nos-informations-personnelles-ne-parlent-pas-de-nous-mais-de-nos-relations-aux-autres-112335|« Nos » informations personnelles ne parlent pas de nous, mais de nos relations aux autres]]
+2018 [[https://www.numerama.com/politique/409608-facebook-supprime-plus-de-5-000-criteres-de-ciblage-publicitaire-fonde-sur-lethnie-et-la-religion.html|Facebook supprime 5 000 critères de ciblage publicitaire fondé sur l’ethnie et la religion]] ([[https://www.facebook.com/business/news/keeping-advertising-safe-and-civil|press release]])

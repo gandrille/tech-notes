@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Télétravail ======
+**Matériel**
+* [[https://www.logitech.fr/fr-fr/product/hd-pro-webcam-c920|Webcam Logitech C920]]
+* [[https://www.bluedesigns.com/products/yeti/|Micro Blue Yeti]]
+* Bureau assis debout : [[https://www.ikea.com/fr/fr/p/idasen-bureau-assis-debout-noir-gris-fonce-s19280939/|électrique]] / [[https://www.ikea.com/fr/fr/p/skarsta-bureau-assis-debout-blanc-s59324818/|manuel]] → IMPORTANT : prendre électrique si on veut pouvoir alterner... sinon, on ne le fait pas, ou pas souvent. De plus, veiller à ce que l'électrique ait des mémoires pour retrouver directement la bonne hauteur.

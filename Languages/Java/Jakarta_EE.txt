@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Jakarta EE ======
+**Examples**
+* 2020 [[https://blogs.oracle.com/javamagazine/transition-from-java-ee-to-jakarta-ee|From Java EE to Jakarta EE]]
+* 2020 [[https://rieckpil.de/jakarta-ee-crud-api-tutorial/|Jakarta EE 8 CRUD API Tutorial using Java 11]]
+* 2019 [[https://rieckpil.de/howto-bootstrap-your-first-jakarta-ee-8-application/|Bootstrap your first Jakarta EE 8 application]]
+* 2019 [[https://rieckpil.de/jakarta-ee-and-microprofile-applications-with-react-and-postgresql/|Jakarta EE and MicroProfile applications with React and PostgreSQL]]
+
+
+

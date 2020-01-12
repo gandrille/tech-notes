@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Conferences ======
+[[https://www.cncf.io/community/kubecon-cloudnativecon-events/|Conferences]]
+* [[https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/|KubeCon / CloudNativeCon North America]]
+* [[https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/|KubeCon / CloudNativeCon Europe]]
+* [[https://events19.linuxfoundation.org/events/servicemeshcon-2019/program/schedule/|ServiceMeshCon]]
+
+

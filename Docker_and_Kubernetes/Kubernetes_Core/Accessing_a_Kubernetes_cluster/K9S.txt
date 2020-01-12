@@ -1,0 +1,6 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== K9S ======
+CLI dashboard: [[https://k9scli.io/|k9s]]
+

@@ -1,0 +1,39 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== 0 Unordered notes ======
+[[https://github.com/cnabio/cnab-spec|Cloud Native Application Bundle Specifications]]
+Cloud Native Application Bundles (CNAB) are a package format specification that describes a technology for bundling, installing, and managing distributed applications, that are by design, cloud agnostic.
+
+
+ephemeral container
+you can insert it inside a running pod.
+
+
+https://github.com/cloudevents/spec
+https://www.cncf.io/announcement/2019/10/28/serverless-specification-cloudevents-reaches-version-1-0/
+CloudEvents, a specification (spec) for describing event data in a common way, eases event declaration and delivery across services, platforms, and beyond. In reaching v1.0 and moving to Incubation, the spec defines the common attributes of an event that facilitate interoperability, as well as how those attributes are transported from producer to consumer via some popular protocols. It also creates a stable foundation on top of which the community can build better tools for developing, running, and operating serverless and event-driven architectures.
+
+CloudEvents v1.0 has already been implemented in Knative’s Eventing framework, Red Hat’s EventFlow, Eclipse Vert.x and Debezium, SAP’s Kyma, and Serveless.com’s Event Gateway, among many others. Soon after the spec was created, Microsoft announced their support for CloudEvents natively for all events in Azure, via Azure Event Grid. 
+
+
+knative
+https://knative.dev/docs/
+
+
+https://www.kubeflow.org/docs/started/getting-started/
+
+
+Announcing the Open Application Model (OAM):
+http://bit.ly/2q1VhoC
+for simplifying management of cloud native aps
+
+https://cloudblogs.microsoft.com/opensource/2019/10/16/announcing-open-application-model/
+
+
+fleet as an open source cluster
+https://rancher.com/blog/2020/fleet-management-kubernetes/
+
+
+kube flow
+https://thenewstack.io/kubeflow-1-0-brings-a-production-ready-machine-learning-toolset-to-kubernetes/

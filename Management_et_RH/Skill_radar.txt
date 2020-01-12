@@ -1,0 +1,7 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Skill radar ======
+2020 [[https://blog.zenika.com/2020/10/13/zenika-skill-radar-2020/|Skill Radar]] - [[https://docs.google.com/spreadsheets/d/e/2PACX-1vTC9FABGV_49v9tCwLuEHad_2imhHF6bXsGXtMgk5bx__DqzHnxSTX_SFXFsm3q-hrq4n7rD4g0k1LS/pubhtml?gid=1416695146&single=true|example]] 
+
+

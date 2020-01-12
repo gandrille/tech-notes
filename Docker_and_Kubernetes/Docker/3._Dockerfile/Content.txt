@@ -1,0 +1,46 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Content ======
+[[https://docs.docker.com/engine/reference/builder/|Dockerfile reference]]
+
+* ''RUN'' executed at image build time
+* ''CMD'' default command executed at image startup
+* ''ENTRYPOINT'' enhanced CMD command
+
+===== Basic Dockerfile =====
+**Anatomy**
+* Specify a base image
+* Run some commands to install additional programs
+* Specify a command to run on container startup
+
+'''
+FROM <baseimage>
+WORKDIR <container-filesystem>
+COPY <local-filesystem> <container-filesystem>
+RUN <command>
+CMD <stratup-command>
+'''
+
+
+===== Multi-steps builds =====
+**Example**
+'''
+FROM node:alpine as builder
+WORKDIR '/app'
+COPY package.json .
+RUN npm install
+COPY . .
+RUN npm build
+
+FROM nginx
+EXPOSE 80
+COPY --from builder /app/build /usr/share/nginx/html
+'''
+
+
+**Notes**
+* It's a good practice to install dependencies before code, in order to speedup rebuild process
+* Of course, the first stage does not ends with a ''CMD''
+* The second stage uses the defalut ''CMD'' defined by its image
+* ''EXPOSE'' is ONLY used for documentation. Some tools can then know that this port is required to be oppened.

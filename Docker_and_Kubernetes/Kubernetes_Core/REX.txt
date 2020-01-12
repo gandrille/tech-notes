@@ -1,0 +1,7 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== REX ======
+2020 [[https://medium.com/better-programming/3-years-of-kubernetes-in-production-heres-what-we-learned-44e77e1749c8|3 Years of Kubernetes in Production–Here’s What We Learned]]
+
+

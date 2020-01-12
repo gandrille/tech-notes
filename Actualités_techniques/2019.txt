@@ -11,6 +11,8 @@ Wiki-Format: zim 0.4
 * Cloud souverain : c'est reparti ! Bruno Lemaire relance Dassault Systèmes et OVH après le flop précédent...
 * A la suite de propos très déplacés dans le cadre de l'affaire Epstein, Richard Stallman quitte ses fonctions au MIT et à la Free Software Foundation (il avait affirmé dans une série d’emails que les victimes du financier défunt étaient sans doute « consentantes », et quand on connait le reste de ses propos...)
 * Vente du [[https://savedotorg.org/|TLD .org]]
+* [[https://usbeketrica.com/article/nouvelle-orleans-a-son-tour-victime-cyberattaques|Villes victimes de cyber attaques]]
+* [[https://www.redhat.com/en/about/press-releases/ibm-closes-landmark-acquisition-red-hat-34-billion-defines-open-hybrid-cloud-future|IBM acquiert Red Hat pour $34 Billion]]
 
 ===== Lancement de Libra =====
 **Libra est à la fois**

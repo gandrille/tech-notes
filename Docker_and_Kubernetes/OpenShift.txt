@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== OpenShift ======
+2020 [[https://www.youtube.com/watch?v=_1eIYWgpYZU|Openshift versus Kubernetes | Four essential features in four minutes]]
+* Command Line Interface vs Web Console Interface
+* Cloud Platform Specific vs Cloud Platform Agnostic
+* Manual Configuration vs Automated Workflows
+	* Pre created templates
+	* Source to Image → push on GIT, the container is built and deployed for you
+	* CI / CD
+* Open source project vs Open source based product

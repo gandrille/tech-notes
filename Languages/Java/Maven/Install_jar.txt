@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Install jar ======
+
+[[https://maven.apache.org/guides/mini/guide-3rd-party-jars-local.html|Guide to installing 3rd party JARs]]
+
+''mvn install:install-file -Dfile=<path-to-file> -DgroupId=<group-id> -DartifactId=<artifact-id> -Dversion=<version> -Dpackaging=<packaging>''
+

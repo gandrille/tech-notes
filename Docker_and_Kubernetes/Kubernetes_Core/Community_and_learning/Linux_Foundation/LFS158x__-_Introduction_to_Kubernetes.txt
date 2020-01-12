@@ -1,0 +1,110 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== LFS158x  - Introduction to Kubernetes ======
+**Chapter 1. From Monolith to Microservices**
+
+* Explain what a monolith is.
+* Discuss the monolith's challenges in the cloud.
+* Explain the concept of microservices.
+* Discuss microservices advantages in the cloud.
+* Describe the transformation path from a monolith to microservices.
+
+**Chapter 2. Container Orchestration**
+
+* Define the concept of container orchestration.
+* Explain the reasons for doing container orchestration.
+* Discuss different container orchestration options.
+* Discuss different container orchestration deployment options.
+
+**Chapter 3. Kubernetes**
+
+* Define Kubernetes.
+* Explain the reasons for using Kubernetes.
+* Discuss the features of Kubernetes.
+* Discuss the evolution of Kubernetes from Borg.
+* Explain what the Cloud Native Computing Foundation does.
+
+**Chapter 4. Kubernetes Architecture**
+
+Discuss the Kubernetes architecture.
+Explain the different components for master and worker nodes.
+Discuss about cluster state management with etcd.
+Review the Kubernetes network setup requirements
+
+**Chapter 5. Installing Kubernetes**
+
+* Discuss the different Kubernetes configuration options.
+* Discuss infrastructure considerations before installing Kubernetes.
+* Discuss infrastructure choices for a Kubernetes deployment.
+* Review Kubernetes installation tools and resources.
+
+**Chapter 6. Minikube - A Local Single-Node Kubernetes Cluster**
+
+* Discuss Minikube.
+* Install Minikube on local Linux, macOS, and Windows workstation.
+* Verify the local installation.
+
+**Chapter 7. Accessing Minikube**
+
+* Review methods to access any Kubernetes cluster.
+* Configure kubectl for Linux, macOS, and Windows.
+* Access the Minikube cluster from the Dashboard.
+* Access Minikube via APIs.
+
+**Chapter 8. Kubernetes Building Blocks**
+
+* Review the Kubernetes object model.
+* Discuss Kubernetes building blocks, e.g. Pods, ReplicaSets, Deployments,
+* Namespaces.
+* Discuss Labels and Selectors.
+
+**Chapter 9. Authentication, Authorization, Admission Control**
+
+* Discuss the authentication, authorization, and access control stages of the
+* Kubernetes API access.
+* Understand the different kinds of Kubernetes users.
+* Explore the different modules for authentication and authorization.
+
+**Chapter 10. Services**
+
+* Discuss the benefits of logically grouping Pods with Services to access an application.
+* Explain the role of the kube-proxy daemon running on each worker node.
+* Explore the Service discovery options available in Kubernetes.
+* Discuss different Service types.
+
+**Chapter 11. Deploying a Stand-Alone Application**
+
+* Deploy an application from the dashboard.
+* Deploy an application from a YAML file using kubectl.
+* Expose a service using NodePort.
+* Access the application from the external world.
+
+**Chapter 12. Kubernetes Volume Management Introduction and Learning Objectives Introduction**
+
+* Explain the need for persistent data management.
+* Discuss Kubernetes Volume and its types.
+* Discuss PersistentVolumes and PersistentVolumeClaims.
+
+**Chapter 13. ConfigMaps and Secrets**
+
+* Discuss configuration management for applications in Kubernetes using ConfigMaps.
+* Share sensitive data (such as passwords) using Secrets.
+
+**Chapter 14. Ingress**
+
+* Explain what Ingress and Ingress Controllers are.
+* Learn when to use Ingress.
+* Access an application from the external world using Ingress.
+
+**Chapter 15. Advanced Topics**
+
+* Discuss advanced Kubernetes concepts: DaemonSets, StatefulSets, Helm, etc.
+
+**Chapter 16. Kubernetes Community**
+
+* Understand the importance of Kubernetes community.
+* Learn about the different channels to interact with the Kubernetes community.
+* List major CNCF events.
+
+

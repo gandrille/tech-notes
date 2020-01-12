@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== JDK17 LTS (Sept 2021) ======
+Le guide de Rémi Forax sera releasé pour Java 17 : https://github.com/forax/java-guide
+
+**Sources**
+* [[https://en.wikipedia.org/wiki/Java_version_history#Java_SE_17|Wikipedia]]
+* [[https://openjdk.java.net/projects/jdk/17/|OpenJDK 17]]
+
+**JEP list**
+* ...

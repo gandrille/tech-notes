@@ -1,0 +1,81 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Network Policies ======
+[[https://kubernetes.io/docs/concepts/services-networking/network-policies/|Network Policies]]
+[[https://github.com/ahmetb/kubernetes-network-policy-recipes|Network Policy recipes (GitHub)]]
+[[https://www.stackrox.com/post/2019/04/setting-up-kubernetes-network-policies-a-detailed-guide/|Guide to Kubernetes Ingress Network Policies (StackRox)]]
+[[https://www.stackrox.com/post/2020/01/kubernetes-egress-network-policies/|Guide to Kubernetes Egress Network Policies (StackRox)]]
+
+Network Policies are sets of rules which define how Pods are allowed to talk to other Pods and resources inside and outside the cluster.
+→ kind of firewalls
+
+===== ingress / egress =====
+* traffic to a pod from an external network endpoint outside the cluster is allowed if ingress from that endpoint is allowed to the pod.
+* traffic from a pod to an external network endpoint outside the cluster is allowed if egress is allowed from the pod to that endpoint.
+* traffic from one pod (A) to another (B) is allowed if and only if egress is allowed from A to B and ingress is allowed to B from A. Note that controls are unidirectional – for traffic from B to be allowed to initiate a connection to A, egress must be allowed from B to A and ingress to B from A.
+
+===== Important notes =====
+**A deny all rule is a best practice !**
+* by default, everything is allowed on the network
+* if a pod is selected by a policy (''podSelector'') everything on this pod is blocked, excepted what is allowed.
+* if a pod is not selected by a policy, the default remains... everything is allowed.
+* thoses rules are evaluated independently for ingress and egress
+
+**network policies are namespaced resources**
+You will need to create a deny all policy for each namespace!
+
+'''
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: default-deny-all
+spec:
+  podSelector: {}
+  policyTypes:
+  - Ingress
+'''
+
+
+**ingress configuration first**
+While it is usually relatively straightforward to figure out from which network endpoints we expect communications to a pod, it is, in practice, usually much harder to figure out to which network endpoints connections from a pod go.
+
+
+
+
+'''
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: ingress-egress-policy
+  namespace: default
+spec:
+  podSelector:
+    matchLabels:
+      role: db
+  policyTypes:
+  - Ingress
+  - Egress
+  ingress:
+  - from:
+    - ipBlock:
+        cidr: 172.17.0.0/16
+        except:
+        - 172.17.1.0/24
+  - namespaceSelector:
+      matchLabels:
+        project: myproject
+  - podSelector:
+      matchLabels:
+        role: frontend
+  ports:
+  - protocol: TCP
+    port: 6379
+egress:
+- to:
+  - ipBlock:
+      cidr: 10.0.0.0/24
+  ports:
+  - protocol: TCP
+    port: 5978
+'''

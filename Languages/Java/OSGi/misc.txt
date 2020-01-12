@@ -1,0 +1,7 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== misc ======
+
+''@ProviderType'' → API interfaces are all designed to be implemented by the provider of the service
+''@ConsumerType'' → API interfaces are all designed to be implemented by the consumer of the service

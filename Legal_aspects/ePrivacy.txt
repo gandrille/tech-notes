@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== ePrivacy ======
+En Europe, la directive ePrivacy de 2002 a créé une obligation d’informer sur les opérations de lecture et écriture dans les terminaux, transformée en une obligation d’obtenir le consentement pour ces opérations en 2009. Ces règles ont pour objectif de protéger l’intégrité des terminaux en encadrant l’usage de traceurs, et notamment les cookies, avec pour but d’adresser les problématiques soulevées par l’utilisation de tels traceurs en terme de protection de la vie privée. En 2018, le RGPD est venu préciser et renforcer cette notion de consentement. 
+https://linc.cnil.fr/mecanismes-et-recueil-du-consentement
+
+

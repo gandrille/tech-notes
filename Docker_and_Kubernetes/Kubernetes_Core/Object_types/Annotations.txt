@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Annotations ======
+With Annotations, we can attach arbitrary non-identifying metadata to any objects, in a key-value format
+
+'''
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: webserver
+  annotations:
+    description: Deployment based PoC dates 2nd May'2019
+....
+'''
+
+

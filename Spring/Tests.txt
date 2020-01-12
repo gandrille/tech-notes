@@ -3,16 +3,18 @@ Wiki-Format: zim 0.4
 
 ====== Tests ======
 **Documents**
-* [[https://rieckpil.de/spring-webtestclient-for-efficient-testing-of-your-rest-api/|Spring WebTestClient for efficient testing of your REST API]]
-* [[https://github.com/sannidhi/tdd-boot-demo/blob/master/CHEATSHEET.md|description des annotations !]]
 * [[https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-testing.html|Spring Boot features : Testing]]
-* [[https://developer.okta.com/blog/2019/03/28/test-java-spring-boot-junit5|Pour les débutants]]
-* [[https://www.baeldung.com/spring-test-pyramid-practical-example|Exemple hiérarchie des tests]]
+* 2020 [[https://rieckpil.de/guide-to-testing-with-spring-boot-starter-test/|Guide to Testing with Spring Boot Starter Test]]
+* 2020 [[https://rieckpil.de/testing-your-json-serialization-with-jsontest/|Testing your JSON serialization with @JsonTest]]
+* 2019 [[https://rieckpil.de/spring-webtestclient-for-efficient-testing-of-your-rest-api/|Spring WebTestClient for efficient testing of your REST API]]
+* 2019 [[https://developer.okta.com/blog/2019/03/28/test-java-spring-boot-junit5|Pour les débutants]]
+* 2019 [[https://www.baeldung.com/spring-test-pyramid-practical-example|Exemple hiérarchie des tests]]
+* 2017 [[https://github.com/sannidhi/tdd-boot-demo/blob/master/CHEATSHEET.md|description des annotations !]]
 
 **Vidéos**
-* [[https://www.youtube.com/watch?v=lTSJCr7xdbM|Josh Long (2017)]]
-* [[https://www.youtube.com/watch?v=a6TXg_WIcIQ|Sannidhi Jalukar (2017)]]
-* Ne pas utiliser → Phil Webb (2016)
+* 2017 [[https://www.youtube.com/watch?v=lTSJCr7xdbM|Josh Long]]
+* 2017 [[https://www.youtube.com/watch?v=a6TXg_WIcIQ|Sannidhi Jalukar]]
+* 2016 Phil Webb → Ne pas utiliser !
 
 ===== @DataJpaTest =====
 Pour les tests JPA (autoconfigure h2 si c'est dans le classpath)

@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== TimeSeries Databases ======
+
+https://db-engines.com/en/ranking/time+series+dbms
+August 2020
+1. InfluxDB
+2. Kdb+
+3. Prometheus
+4. Graphite
+5. RRDtool
+6. TimescaleDB → modulepour PostgreSQL

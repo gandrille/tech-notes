@@ -1,0 +1,30 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== LoadBalancer ======
+[[https://kubernetes.io/docs/concepts/services-networking/service/#loadbalancer|Documentation]]
+
+**Legacy** way of getting network traffic into a cluster
+**It integrates with load balancers from cloud providers.**
+It generates an "augmented" NodePort.
+
+* PRO: simple
+* CON: we need one loadbalancer per service to be exposed on the internet... and a load balancer costs a lot of money when provided by cloud providers... This is why Ingress appeared!
+{{./loadBalancer.png}}
+
+'''
+apiVersion: v1
+kind: Service
+metadata:
+  name: my-service
+spec:
+  selector:
+    app: MyApp
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 9376
+  clusterIP: 10.0.171.239
+  type: LoadBalancer
+'''
+

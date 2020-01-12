@@ -1,0 +1,44 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== 3. Log and co ======
+
+===== Log =====
+**Options communes**
+* ''-p'' patch
+* ''-10'' les 10 derniers commits
+* ''--graph''
+* ''--stat''
+* ''--oneline''
+* ''--since=2.weeks''
+* ''--all'' toutes les branches
+
+''git log --oneline --graph --all --stat''
+
+===== Show =====
+''git show <commit-id>'' : informations complètes au sujet du commit
+''git show --stat <commit-id>'' : affiche les stats par fichiers
+
+===== Diff =====
+* ''git diff'' : entre l'espace de travail et l'index
+* ''git diff HEAD'' : entre l'espace de travail et le dernier commit (HEAD)
+* ''git diff --cached'' ou ''git diff --staged HEAD'': entre l'index et HEAD
+* ''-w'' ignorer les modifications liées à des espaces
+
+===== Références =====
+HEAD always refers to the most recent commit on the current branch.
+
+''A^n'' nième parent de A
+* ''A^0'' pareil à ''A''
+* ''A^1'' pareil à ''A^''
+* ''A^2'' second parent de A
+
+''A~n'' suit uniquement les **premiers** parents !
+* ''A~0'' pareil à ''A''
+* ''A~1'' pareil à ''A^''
+* ''A~2'' pareil à ''A^^'' ou ''A^1^1''
+ 
+[[https://git-scm.com/docs/revisions#_other_rev_parent_shorthand_notations|Voir aussi…]]
+
+===== rev-parse =====
+''git rev-parse HEAD'' Affiche le sha / commit id de head

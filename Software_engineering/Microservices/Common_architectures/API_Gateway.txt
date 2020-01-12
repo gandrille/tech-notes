@@ -1,0 +1,6 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== API Gateway ======
+2020 [[https://blog.codecentric.de/en/2020/11/spring-boot-kong/|Spring Boot Apps with Kong API Gateway using OpenAPI & Declarative Configuration]]
+→ must read article

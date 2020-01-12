@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Build ======
+
+===== Build =====
+* basic command: ''docker build .''
+* tagging: ''docker build -t <docker-id>/<repo-name>:<version> .''
+* alternate dockerfile: ''docker build -f Dockerfile.dev .''
+→ Note: the dot is the dockerfile context.
+
+===== TIP: Image from a running container =====
+''docker commit -c 'CMD ["my-command"]' <container-id>''
+

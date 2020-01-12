@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Gestion du consentement ======
+Interactive Advertising Bureau (IAB)
+Transparency and Consent Framework (TCF)
+
+2020 [[https://linc.cnil.fr/mecanismes-et-recueil-du-consentement|Mécanismes et (r)écueil du consentement]]
+2020 [[https://www-sop.inria.fr/members/Nataliia.Bielova/cookiebanners/|Do Cookie Banners Respect my Choice?]]
+2020 [[https://linc.cnil.fr/fr/visualiser-le-web-publicitaire-avec-les-fichiers-adstxt-et-sellersjson|Visualiser le web publicitaire avec les fichiers Ads.txt et Sellers.json]]
+* [[https://linc.cnil.fr/webpub-adstxt-sellersjson/ads_study.html|Visualiser le web publicitaire avec les fichiers Ads.txt]] → exemple : https://www.leboncoin.fr/ads.txt
+* [[https://linc.cnil.fr/webpub-adstxt-sellersjson/sellers_study.html|Visualiser le web publicitaire avec les fichiers Sellers.json]]
+
+Voir aussi les analyses de https://www.pixeldetracking.com.

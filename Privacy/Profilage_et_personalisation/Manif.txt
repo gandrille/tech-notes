@@ -1,0 +1,7 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Manif ======
+2020 [[https://korii.slate.fr/et-caetera/black-live-matters-manifestations-geolocalisation-publicite-politique-ciblage-cambridge-analytica|Manifestations, géolocalisation et publicités ciblées: un nouveau Cambridge Analytica?]]
+→ Pour savoir qui était à la manif, on peut regarder la géolocalisation
+

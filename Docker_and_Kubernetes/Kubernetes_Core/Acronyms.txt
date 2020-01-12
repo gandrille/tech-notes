@@ -1,0 +1,22 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Acronyms ======
+
+* **ABAC** Attribute-Based Access Control
+* **BGP** [[https://en.wikipedia.org/wiki/Border_Gateway_Protocol|Border Gateway Protocol]] est un protocole permettant l'échange d'informations de routage sur Internet
+* **CNAB** Cloud Native Application Bundles
+* **CNCF** Cloud Native Computing Foundation
+* **CNI** [[https://github.com/containernetworking/cni|Container Network Interface]]
+* **CRD** Custom Resource Definition
+* **CRI **[[https://github.com/kubernetes/community/blob/master/contributors/devel/sig-node/container-runtime-interface.md|Container Runtime Interface]]
+* **CSI **[[https://github.com/container-storage-interface/spec/blob/master/spec.md|Container Storage Interface]]
+* **HPA** Horizontal Pod Autoscaler
+* **IPAM** IP Address Management
+* **OAM** [[https://oam.dev/|Open Application Model]]
+* **OCI** [[https://opencontainers.org/|Open Container Initiative]]
+* **PSP** Pod Security Policy → PSPs may be replaced by Open Policy Agent in the future.
+* **PVC** Persistent Volume Claim
+* **RBAC** Role-Based Access Control
+* **SIG** [[https://github.com/kubernetes/community/blob/master/sig-list.md|Special Interest Group]]
+* **VPA** Vertical Pod Autoscaler

@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== CKS Certification ======
+[[https://training.linuxfoundation.org/certification/certified-kubernetes-security-specialist/|Certified Kubernetes Security Specialist (CKS)]]
+
+Candidates for CKS must hold a current Certified Kubernetes Administrator (CKA) certification to demonstrate they possess sufficient Kubernetes expertise before sitting for the CKS.
+
+**Before attending the exam**
+* 2020 [[https://www.stackrox.com/post/2020/11/cks-cncf-announcement-and-exam-study-tips/|Must read tips]]
+* 2020 [[https://www.stackrox.com/post/2020/12/cks-certification-study-guide-cluster-setup-in-kubernetes/|CKS Certification Study Guide: Cluster Setup in Kubernetes]]
+* [[https://github.com/stackrox/Kubernetes_Security_Specialist_Study_Guide|GitHub Certified Kubernetes Security Specialist Study Guide]]
+

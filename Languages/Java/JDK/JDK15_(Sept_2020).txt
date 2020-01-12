@@ -1,0 +1,24 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== JDK15 (Sept 2020) ======
+**Sources**
+* [[https://en.wikipedia.org/wiki/Java_version_history#Java_SE_15|Wikipedia]]
+* [[https://openjdk.java.net/projects/jdk/15/|OpenJDK 15]]
+* [[https://mkyong.com/java/what-is-new-in-java-15/|Mkyong: What is new in Java 15]]
+
+**JEP list**
+* [[https://openjdk.java.net/jeps/339|339: Edwards-Curve Digital Signature Algorithm (EdDSA)]]
+* [[https://openjdk.java.net/jeps/360|360: Sealed Classes (Preview)]]
+* [[https://openjdk.java.net/jeps/371|371: Hidden Classes]] → non-discoverable using reflexion. i.e. Runtime generated classes used by framework. 
+* [[https://openjdk.java.net/jeps/372|372: Remove the Nashorn JavaScript Engine]]
+* [[https://openjdk.java.net/jeps/373|373: Reimplement the Legacy DatagramSocket API]]
+* [[https://openjdk.java.net/jeps/374|374: Disable and Deprecate Biased Locking]]
+* [[https://openjdk.java.net/jeps/375|375: Pattern Matching for instanceof (Second Preview)]]
+* [[https://openjdk.java.net/jeps/377|377: ZGC: A Scalable Low-Latency Garbage Collector]] → G1 for testing purposes, ZGC is now production ready
+* [[https://openjdk.java.net/jeps/378|378: Text Blocks]] → après deux preview → [[https://www.lilian-benoit.fr/2020/09/Text_Blocks.html|article]]
+* [[https://openjdk.java.net/jeps/379|379: Shenandoah: A Low-Pause-Time Garbage Collector]]
+* [[https://openjdk.java.net/jeps/381|381: Remove the Solaris and SPARC Ports]]
+* [[https://openjdk.java.net/jeps/383|383: Foreign-Memory Access API (Second Incubator)]]
+* [[https://openjdk.java.net/jeps/384|384: Records (Second Preview)]]
+* [[https://openjdk.java.net/jeps/385|385: Deprecate RMI Activation for Removal]]

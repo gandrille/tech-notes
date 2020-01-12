@@ -1,0 +1,32 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Helm ======
+The //de facto// package manager for Kubernetes
+
+__The latest version of Helm is v3! In blog posts, double check which version is used!__
+
+* https://helm.sh
+* https://hub.helm.sh
+* [[https://www.youtube.com/watch?v=-uZ25iO1Z1k|2019 Keynote: Getting to Know Helm 3]]
+
+**Objective**
+templates + values = kubernetes yaml
+
+**Vocabulary**
+* chart = package (templates, default values,...)
+* release
+
+===== Commands =====
+* ''helm status''
+* ''helm list''
+* ''helm upgrade''
+* ...
+
+===== Projects =====
+* [[https://github.com/helm/hub|Helm Hub content (PR accepted!)]]
+* [[https://github.com/helm/monocular|monocular]] → Helm hub source code
+* [[https://chartmuseum.com/|ChartMuseum]] → open-source, easy to deploy, Helm Chart Repository server
+* [[https://github.com/helm/chart-testing|Chart Testing]] → CLI tool for linting and testing Helm charts 
+* [[https://github.com/helm/chart-releaser|Chart Releaser]] → Helps Turn GitHub Repositories into Helm Chart Repositories
+

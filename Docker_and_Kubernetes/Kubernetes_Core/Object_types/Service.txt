@@ -1,0 +1,25 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Service ======
+Sets up networking in a K8s cluster.
+Label Selector → to select objects according to thier labels (not using their name or IP!)
+
+**Types of services (access scope)**
+* ''ClusterIP'' (default) exposes the Service on a cluster-internal IP. Choosing this value makes the Service only reachable from within the cluster. 
+* ''NodePort'' Exposes the Service on each Node's IP at a static port.
+* ''LoadBalancer'' Legacy way of getting network traffic into a cluster
+* ''Ingress'' Exposes a set of services to the outside world
+
+**Service Discovery**
+* Environment Variables: don't use it since they are initialized at pod creation time, and not updated afterwards.
+* DNS: use it! ''<name>.<namespace>'' or only ''<name>'' in the same namespace → it requires the DNS cluster-add-on.
+	* implemented in the ''kube-system'' namespace
+	* deployment name: ''core-dns'' (it uses [[https://coredns.io/|CoreDNS]])
+	* service name: ''kube-dns''
+	* it's a Kubernetes-native application, so it knows it's running on Kubernetes and watches the API server for service registration.
+
+**How services are contacted by containers**
+1. the service name is converted to IP address using the cluster DNS (using its ''/etc/resolv.conf'' table populated by Kubernetes)
+2. the app inside the container sends trafic to the virtual service IP
+3. On the node, the ''kube-proxy'' intercepts the request. This controller watches the API server for new services and endpoints. It formards the trafic to a pod IP.

@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== JDK16 (March 2021) ======
+**Sources**
+* [[https://en.wikipedia.org/wiki/Java_version_history#Java_SE_16|Wikipedia]]
+* [[https://openjdk.java.net/projects/jdk/16/|OpenJDK 16]]
+
+**JEP list**
+* ...

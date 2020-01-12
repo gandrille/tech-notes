@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== JPA (Hibernate) ======
+[[https://thoughts-on-java.org/key-jpa-hibernate-annotations/|Key annotations you need to know when working with JPA and Hibernate]]
+
+https://vladmihalcea.com/a-beginners-guide-to-jpa-hibernate-entity-state-transitions/
+https://vladmihalcea.com/hibernate-facts-knowing-flush-operations-order-matters/
+https://vladmihalcea.com/codota-jpa-criteria-api/
+
+http://blog.octo.com/en/audit-with-jpa-creation-and-update-date/
+
+2020 [[https://blog.ippon.fr/2020/09/30/hibernate-envers-introduction/|Hibernate Envers : historisation des données (changelog)]]

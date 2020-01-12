@@ -1,0 +1,50 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== releases ======
+* generics → Go 1.18 ?
+
+**Go 1.17 release (tba - august 2021)**
+* new ''go:build'' lines, which are far less error-prone than the current ''+build'' lines.
+* fuzzing in the go test command
+
+**Go 1.16 release (tba - feb 2021)**
+* new file system interfaces
+* build-time file embedding
+
+**Go 1.15 release (august 2020)**
+* [[https://golang.org/doc/go1.15|Release notes]]
+* Highlights from the [[https://blog.golang.org/go1.15|blogpost]]
+	* [[https://golang.org/doc/go1.15#linker|Substantial improvements to the Go linker]]
+	* [[https://golang.org/doc/go1.15#runtime|Improved allocation for small objects at high core counts]]
+	* [[https://golang.org/doc/go1.15#commonname|X.509 CommonName deprecation]]
+	* [[https://golang.org/doc/go1.15#go-command|GOPROXY supports skipping proxies that return errors]]
+	* [[https://golang.org/doc/go1.15#time/tzdata|New embedded tzdata package]]
+	* [[https://golang.org/doc/go1.15#library|A number of Core Library improvements]]
+
+**Go 1.14 release (feb 2020)**
+* [[https://golang.org/doc/go1.14|Release notes]]
+* Highlights from the [[https://blog.golang.org/go1.14|blogpost]]
+	* Module support in the ''go'' command is now ready for production use. We encourage all users to [[https://golang.org/doc/go1.14#introduction|migrate to `go` modules for dependency management]].
+	* [[https://golang.org/doc/go1.14#language|Embedding interfaces with overlapping method sets]]
+	* [[https://golang.org/doc/go1.14#runtime|Improved defer performance]]
+	* [[https://golang.org/doc/go1.14#runtime|Goroutines are asynchronously preemptible]]
+	* [[https://golang.org/doc/go1.14#runtime|The page allocator is more efficient]]
+	* [[https://golang.org/doc/go1.14#runtime|Internal timers are more efficient]]
+
+**Go 1.13 release (sept 2019)**
+* [[https://golang.org/doc/go1.13|Release notes]]
+* Highlights from the [[https://blog.golang.org/go1.13|blogpost]]
+	* The ''go'' command now downloads and authenticates modules [[https://golang.org/doc/go1.13#introduction|using the Go module mirror and Go checksum database by default]]
+	* [[https://golang.org/doc/go1.13#language|Improvements to number literals]]
+	* [[https://golang.org/doc/go1.13#error_wrapping|Error wrapping]]
+	* [[https://golang.org/doc/go1.13#tls_1_3|TLS 1.3 on by default]]
+	* [[https://golang.org/doc/go1.13#modules|Improved modules support]]
+
+**Go 1.12 (feb 2019)**
+* [[https://golang.org/doc/go1.12|Release notes]]
+* Highlights from the [[https://blog.golang.org/go1.12|blogpost]]
+	* [[https://golang.org/doc/go1.12#tls_1_3|opt-in support for TLS 1.3]]
+	* [[https://golang.org/doc/go1.12#moduleshttps://golang.org/doc/go1.12#modules|improved modules support]] (in preparation for [[https://blog.golang.org/modules2019|being the default in Go 1.13]])
+	* support for windows/arm, and [[https://golang.org/doc/go1.12#darwin|improved macOS & iOS forwards compatibility]].
+

@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== modules ======
+**2019 Blog posts**
+* Part 1 — [[https://blog.golang.org/using-go-modules|Using Go Modules]]
+* Part 2 — [[https://blog.golang.org/migrating-to-go-modules|Migrating to Go Modules]]
+* Part 3 — [[https://blog.golang.org/publishing-go-modules|Publishing Go Modules]]
+* Part 4 — [[https://blog.golang.org/v2-go-modules|Go Modules: v2 and Beyond]]
+* Part 5 — [[https://blog.golang.org/module-compatibility|Keeping Your Modules Compatible]]
+
+**From GOPATH to Go modules!**
+
+We will also finally wind down support for GOPATH-based development: any programs using dependencies other than the standard library will need a go.mod. (If you haven’t switched to modules yet, see the GOPATH wiki page for details about this final step in the journey from GOPATH to modules.)

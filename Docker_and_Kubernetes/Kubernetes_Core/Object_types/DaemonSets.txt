@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== DaemonSets ======
+[[https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/|Documentation]]
+
+A DaemonSet will ensure that a single pod is deployed on every node. These are often used for logging and metrics pods.
+

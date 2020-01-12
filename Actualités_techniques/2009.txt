@@ -46,6 +46,9 @@ Wiki-Format: zim 0.4
 **Hudson**
 * Hudson, développé chez Sun, sort d’Oracle. Son auteur et principal développeur, Kohsuke Kawaguchi, fait ses adieux à Oracle, et annonce qu’il va continuer le développement d’Hudson dans le cadre de sa nouvelle société.
 
+===== Misc =====
+Wifi 802.11n
+
 **Stuxnet**
 Stuxnet, le ver informatique attribué à Israël ou aux États-Unis seme le chaos dans le programme nucléaire iranien en déréglant les centrifugeuses d'enrichissement de l'uranium. So pic d'activité sera en 2010, mais il apparait dès juin 2009.
 [[https://fr.wikipedia.org/wiki/Stuxnet|Wikipedia]]

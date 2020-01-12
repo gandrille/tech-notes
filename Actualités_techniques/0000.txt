@@ -7,6 +7,9 @@ Wiki-Format: zim 0.4
 * James Gosling travaille avec son équipe chez SUN Microsystems sur le projet s'appelle Oak (chêne en anglais). 
 * Le crédo Write once, run everywhere est là…
 
+===== 1994 =====
+Première bannière publicitaire placée sur le site HotWired, marquant le début de la publicité sur le Web.
+
 ===== 1996 =====
 **Java**
 * JDK 1.0
@@ -14,7 +17,9 @@ Wiki-Format: zim 0.4
 * 220 000 downloads JDK 1.3 in 3 weeks
 
 **Matériel**
-* Apparaition grand public de l'USB
+* Apparaition de l'USB 1.0
+
+La société DoubleClick (rachetée en 2007 par Google) est créée pour exploiter ces cookies tiers pour la publicité.
 
 ===== 1997 =====
 * JDK 1.1
@@ -26,7 +31,6 @@ Wiki-Format: zim 0.4
 * Java One 2 : 8000 personnes
 * SUN Microsystems attaquera Microsoft pour violation de la licence du JDK fin 97
 * HTML4
-
 
 ===== 1998 =====
 * JDK 1.1 2 000 000 downloads
@@ -51,13 +55,12 @@ Wiki-Format: zim 0.4
 
 * Wi-fi 808.11b : normalisation avec un débit théorique de 11Mb/s. Début de diffusion chez les "early-adopters"
 
-* rachat de Geocities par Yahoo! pour 3.6 milliards de $… pour un service finalement fermé peux après aux Etats-Unis
+* rachat de Geocities par Yahoo! pour 3.6 milliards de $… pour un service finalement fermé peu après aux Etats-Unis
 
 ===== 2000 =====
 **Réseaux**
 * lancement effectif de l'ADSL en France
 * début de diffusion massive de l'USB
-* création de l'USB 2.0 (480 Mbit/s soit 60 Mo/s)
 
 **Java**
 * sortie de J2SE 1.3 Hotspot VM
@@ -70,6 +73,7 @@ Wiki-Format: zim 0.4
 * Sortie de J2EE 1.3
 * Fin du lawsuit entre Microsoft et SUN, avec à la clé un gros chèque je crois pour SUN, presque 700 millions d'USD.
 * Compaq racheté par HP pour 25 milliards $ (pour une société qui faisait déjà 40 milliards de CA / an)
+* création de l'USB 2.0 (480 Mbit/s soit 60 Mo/s)
 
 ===== 2002 =====
 * J2SE 1.4 est la première version de Java sortie et développée avec le processus du JCP
@@ -168,5 +172,3 @@ Wiki-Format: zim 0.4
 * SUN est toujours très critiqué, en particulier par la fondation appache qui ne vote pas au JCP en représalles… la guerre continue.
 * sortie de la norme wi-fi 802.11n : 540 Mbit/s théoriques
 * lancement de Google Wave… arrêté en 2012
-
-

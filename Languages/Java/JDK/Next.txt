@@ -1,0 +1,41 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Next ======
+
+===== Projet Amber → small, productivity-oriented features =====
+Led by Brian Goetz
+launched March 2017
+https://openjdk.java.net/projects/amber/
+
+| Jep                                                 | JDK 10   | JDK 11   | JDK 12 | JDK 13      | JDK 14      | JDK 15      | JDK 16 |
+|:----------------------------------------------------|:---------|:---------|:-------|:------------|:------------|:------------|:-------|
+| JEP 286 Local-Variable Type Inference (var)         | released |          |        |             |             |             |        |
+| JEP 323 Local-Variable Syntax for Lambda Parameters |          | released |        |             |             |             |        |
+| JEP 361 Switch Expressions                          |          |          |        |             | released    |             |        |
+| JEP 394 Pattern Matching for instanceof             |          |          |        |             | 1st preview | 2nd preview |        |
+| JEP 395 Records                                     |          |          |        |             | 1st preview | 2nd preview |        |
+| Sealed Types                                        |          |          |        |             |             | 1st preview |        |
+| Text Blocks                                         |          |          |        | 1st preview | 2nd preview | released    |        |
+
+
+[[https://blogs.oracle.com/javamagazine/diving-into-java-records-serialization-marshaling-and-bean-state-validation|Diving into Java records: Serialization, marshaling, and bean state validation]]
+
+===== Projet Loom → Lightweight threading model =====
+* https://openjdk.java.net/projects/loom/
+* https://wiki.openjdk.java.net/display/loom/Main
+* [[https://blog.softwaremill.com/will-project-loom-obliterate-java-futures-fb1a28508232|Must read article ! (quite long)]] 
+* [[https://www.baeldung.com/openjdk-project-loom|Article]]
+
+* fiber
+	* peut être mise en attente sans bloquer le thread
+	* faible empreinte mémoire
+	* pause / restart très rapide
+
+===== Projet Panama → Interconnecting JVM and native code =====
+* https://openjdk.java.net/projects/panama/
+* https://jdk.java.net/panama/
+
+===== Projet Valhalla → generic specialization and value types =====
+* https://openjdk.java.net/projects/valhalla/
+

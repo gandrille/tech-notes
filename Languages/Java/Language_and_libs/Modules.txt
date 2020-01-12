@@ -1,0 +1,6 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Modules ======
+2020 [[https://blog.frankel.ch/update-state-java-modularization/|Update on the state of Java modularization]]
+

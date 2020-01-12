@@ -1,0 +1,33 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== 1. Authentication ======
+[[https://kubernetes.io/docs/reference/access-authn-authz/authentication/#authentication-strategies|Authentication strategies]].
+[[https://kubernetes.io/docs/reference/access-authn-authz/service-accounts-admin/#user-accounts-versus-service-accounts|User accounts versus service accounts]] 
+
+===== Service account =====
+Identifies an in-cluster process.
+The Service Account users are tied to a given Namespace and mount the respective credentials to communicate with the API server as Secrets.
+
+''kubectl create serviceaccount --namespace my-ns foo''
+
+'''
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: foo
+  namespace: my-ns
+'''
+
+→ Both solutions create a secret (JWT token) to authenticate the service account.
+
+'''
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-pod
+spec:
+  serviceAccountName: foo
+  ...
+'''
+

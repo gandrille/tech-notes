@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Niguel Poulton ======
+* [[https://nigelpoulton.com/blog/|blog]]
+* [[https://www.youtube.com/watch?v=KR8QwzSuA5Q&list=PLI1_CQcV71RnSeiizLChZXNz27nemT0sy|Kubernetes this month]] → fin K8s 1.19
+* [[https://www.youtube.com/c/NigelPoulton/videos|Videos]]
+* The Kubernetes Book
+* Docker Deep Dive
+
+

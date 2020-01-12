@@ -1,0 +1,6 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Kubernetes Dashboard ======
+[[https://kubernetes.io/docs/tasks/access-application-cluster/web-ui-dashboard/|Documentation]]
+[[https://github.com/kubernetes/dashboard|GitHub]]

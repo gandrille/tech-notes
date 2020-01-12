@@ -3,5 +3,4 @@ Wiki-Format: zim 0.4
 
 ====== Technical aspects ======
 https://blog.octo.com/concevoir-une-api-rest-conforme-au-rgpd/
-
-
+2020 [[https://linc.cnil.fr/mecanismes-et-recueil-du-consentement|Mécanismes et (r)écueil du consentement]] → excellent article du LINC

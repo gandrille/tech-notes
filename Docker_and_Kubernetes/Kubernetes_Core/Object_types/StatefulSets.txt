@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== StatefulSets ======
+[[https://kubernetes.io/docs/concepts/workloads/controllers/statefulset/|Documentation]]
+
+**Provides guarantees about the ordering and uniqueness of these Pods.**
+
+The StatefulSet controller is used for stateful applications which require a unique identity, such as name, network identifications, strict ordering, etc. For example, MySQL cluster, etcd cluster.
+
+A StatefulSet can be used to deploy pods in a particular order, such that following pods are only deployed if previous pods report a ready status.

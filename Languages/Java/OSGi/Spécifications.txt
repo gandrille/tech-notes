@@ -1,0 +1,65 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Spécifications ======
+
+===== Specs =====
+* [[https://osgi.org/specification/osgi.core/7.0.0/|OSGi Core 7.0.0]]
+
+===== Compendium =====
+* [[https://osgi.org/specification/osgi.cmpn/7.0.0/index.html|OSGi Compendium Release 7]]
+	* [[https://osgi.org/specification/osgi.cmpn/7.0.0/service.component.html|Declarative Services (chapter 112)]]
+	* [[https://osgi.org/specification/osgi.cmpn/7.0.0/service.cm.html|Config Admin (chapter 104)]]
+	* [[https://osgi.org/specification/osgi.cmpn/7.0.0/service.metatype.html|Metatype Service (chapter 105)]]
+
+**Releases Comparison**
+| chapter                                                | v6  | v7  |
+|:-------------------------------------------------------|:----|:----|
+| 100 Remote Services                                    | 1.0 | 1.1 |
+| 101 Log Service Specification                          | 1.3 | 1.4 |
+| 102 Http Service Specification                         | 1.2 | 1.2 |
+| 103 Device Access Specification                        | 1.1 | 1.1 |
+| 104 Configuration Admin Service Specification          | 1.5 | 1.6 |
+| 105 Metatype Service Specification                     | 1.3 | 1.4 |
+| 106 PreferencesService Specification                   | 1.1 | 1.1 |
+| 107 User Admin Service Specification                   | 1.1 | 1.1 |
+| 108 Wire Admin Service Specification                   | 1.0 | 1.0 |
+| 109 IO Connector Service Specification                 | 1.0 | 1.0 |
+| 110 Initial Provisioning Specification                 | 1.2 | 1.2 |
+| 111 Device Service Specification for UPnP™ Tech-nology | 1.2 | 1.2 |
+| 112 Declarative Services Specification                 | 1.3 | 1.4 |
+| 113 Event Admin Service Specification                  | 1.3 | 1.4 |
+| 114 Deployment Admin Specification                     | 1.1 | 1.1 |
+| 115 Auto Configuration Specification                   | 1.0 | 1.0 |
+| 116 Application Admin Specification                    | 1.1 | 1.1 |
+| 117 Dmt Admin Service Specification                    | 2.0 | 2.0 |
+| 119 Monitor Admin Service Specification                | 1.0 | 1.0 |
+| 120 Foreign Application Access Specification           | 1.0 | 1.0 |
+| 121 Blueprint Container Specification                  | 1.0 | 1.0 |
+| 122 Remote Service Admin Service Specification         | 1.1 | 1.1 |
+| 123 JTA Transaction Services Specification             | 1.0 | 1.0 |
+| 125 Data Service Specification for JDBC™ Technol-ogy   | 1.0 | 1.0 |
+| 126 JNDI Services Specification                        | 1.0 | 1.0 |
+| 127 JPA Service Specification                          | 1.0 | 1.1 |
+| 128 Web Applications Specification                     | 1.0 | 1.0 |
+| 130 Coordinator Service Specification                  | 1.0 | 1.0 |
+| 132 Repository Service Specification                   | 1.1 | 1.1 |
+| 133 Service Loader Mediator Specification              | 1.0 | 1.0 |
+| 134 Subsystem Service Specification                    | 1.1 | 1.1 |
+| 135 Common Namespaces Specification                    | 1.1 | 1.2 |
+| 136 Resolver Service Specification                     | 1.0 |     |
+| 137 REST Management Service Specification              | 1.0 | 1.0 |
+| 138 Asynchronous Service Specification                 | 1.0 | 1.0 |
+| 140 Http Whiteboard Specification                      | 1.0 | 1.1 |
+| 147 Transaction Control Service Specification          |     | 1.0 |
+| 148 Cluster Information Specification                  |     | 1.0 |
+| 150 Configurator Specification                         |     | 1.0 |
+| 151 JAX-RS Whiteboard Specification                    |     | 1.0 |
+| 702 XML Parser Service Specification                   | 1.0 | 1.0 |
+| 703 Position Specification                             | 1.0 | 1.0 |
+| 704 Measurement and State Specification                | 1.0 | 1.0 |
+| 705 Promises Specification                             | 1.0 | 1.1 |
+| 706 Push Stream Specification                          |     | 1.0 |
+| 707 Converter Specification                            |     | 1.0 |
+| 999 Execution Environment Specification                | 1.3 |     |
+

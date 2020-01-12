@@ -1,0 +1,47 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== go ======
+**Entry points**
+* [[https://golang.org/|golang.org]]: "legacy" home for the open source Go project and the Go distribution
+* [[https://go.dev/|go.dev]]: new hub for Go developers.
+* [[https://blog.golang.org|blog.golang.org]]
+
+**Documentation**
+* [[https://pkg.go.dev/|pkg.go.dev]]: central source of information about Go packages and modules
+* godoc.org: old documentation hub. https://go.dev is the new home.
+
+**Conferences**
+* [[https://www.gophercon.com/|GopherCon]]
+
+**Years of Go**
+* 2020 [[https://blog.golang.org/11years|Eleven Years of Go]]
+* 2019 [[https://blog.golang.org/10years|Go Turns 10]]
+* 2018 [[https://blog.golang.org/9years|Nine years of Go]]
+* 2017 [[https://blog.golang.org/8years|Eight years of Go]]
+* 2016 [[https://blog.golang.org/7years|Seven years of Go]]
+* 2015 [[https://blog.golang.org/6years|Six years of Go]]
+* 2014 [[https://blog.golang.org/5years|Half a decade with Go]]
+* 2013 [[https://blog.golang.org/4years|Four years of Go]]
+* 2012 [[https://blog.golang.org/3years|Go turns three]]
+* 2011 [[https://blog.golang.org/2years|The Go Programming Language turns two]]
+* 2010 [[https://blog.golang.org/1year|Go: one year ago today]]
+
+**Go surveys**
+* [[https://blog.golang.org/survey2019-results|2019]]
+	* Respondents are using Go to solve similar problems, particularly building API/RPC services and CLIs, regardless of the size of organization they work at.
+	* Most teams try to update to the latest Go release quickly; when third-party providers are late to support the current Go release, this creates an adoption blocker for developers.
+	* Almost everyone in the Go ecosystem is now using modules, but some confusion around package management remains.
+	* High-priority areas for improvement include improving the developer experience for debugging, working with modules, and working with cloud services.
+	* VS Code and GoLand have continued to see increased use; they’re now preferred by 3 out of 4 respondents.
+* [[https://blog.golang.org/survey2018-results|2018]]
+	* The most **common uses for Go remain API/RPC services and CLI tools**. Automation tasks, while not as common as CLI tools and API services, are a fast-growing area for Go.
+	* **Web development remains the most common domain** that survey respondents work in, but **DevOps showed the highest year-over-year growth** and is now the second most common domain.
+	* **VS Code and GoLand are surging in popularity** and are now the most popular code editors among survey respondents.
+	* Survey respondents appear to be **shifting away from on-prem Go deployments** and moving towards containers and serverless cloud deployments.
+
+**Language server**
+* [[https://github.com/golang/tools/tree/master/gopls|gopls]]: Go Language Server
+* [[https://github.com/golang/vscode-go|VSCode Go extension]]
+
+**Written in Go: **Docker, Etcd, Istio, Kubernetes, Prometheus, and Terraform,...

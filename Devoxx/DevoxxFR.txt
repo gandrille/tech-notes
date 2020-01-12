@@ -22,7 +22,7 @@ Last video added : [[https://www.youtube.com/watch?v=P1zkbJbYzJ0|Dessiner en CSS
 * [[https://www.youtube.com/watch?v=v3dGPP_dBHM|47:35 Oubliez Java EE, voilà Jakarta EE ! (J.F. James & S. Blanc)]]
 * [[https://www.youtube.com/watch?v=JVfE2rbo0ZY|33:30 Introduction to Face Processing with Computer Vision (G. Bianconi)]]
 * [[https://www.youtube.com/watch?v=j_4sadjjWh8|44:23 Mon premier service en Rust (F. Teychene)]]
-* [[https://www.youtube.com/watch?v=-PrLE3FD6mw|2:35:34 Cycle de vie des applications dans Kubernetes (C. Sabourdin & J.C. Sirot)]]
+* [[https://www.youtube.com/watch?v=-PrLE3FD6mw|2:35:34 Cycle de vie des applications dans ]][[https://www.youtube.com/watch?v=-PrLE3FD6mw|Kubernetes]][[https://www.youtube.com/watch?v=-PrLE3FD6mw| (C. Sabourdin & J.C. Sirot)]]
 * [[https://www.youtube.com/watch?v=vS4sSQLXEH4|45:53 Cats, Qubits, and Clouds: The Quantum Future (H. Cummins)]]
 * [[https://www.youtube.com/watch?v=GzMbbWXfQZE|28:02 web-crypto, end-to-end encryption et privacy (M. Ancelin, F. Salah)]]
 * [[https://www.youtube.com/watch?v=v0NY2VNcoWU|29:54 Dev environments: use the nix, Luke! (C. Delafargue & H. Ait Lahcen)]]

@@ -10,6 +10,7 @@ Wiki-Format: zim 0.4
 
 
 **misc**
+* https://www.baeldung.com/spring-rest-docs-vs-openapi
 * https://www.baeldung.com/spring-dependency-injection
 * http://www.baeldung.com/spring-state-machine
 

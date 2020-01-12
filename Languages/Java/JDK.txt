@@ -1,0 +1,41 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== JDK ======
+[[https://javaalmanac.io/|API diff between Java releases]]
+[[https://adoptopenjdk.net|Download Java: AdoptOpenJDK]]
+[[https://www.marcobehler.com/guides/a-guide-to-java-versions-and-features|Understanding more about it...]]
+
+===== Is Java still free ? =====
+* A must read :
+	* [[https://medium.com/@javachampions/java-is-still-free-2-0-0-6b9aa8d6d244|Java is Still Free 2.0.3]]
+	* [[https://docs.google.com/document/d/1nFGazvrCvHMZJgFstlbzoHjpAVwv5DEdnaBr_5pKuHo/edit#|Working document on google doc]]
+* https://adoptopenjdk.net/index.html
+
+**The new "CAP" theorem (pick two, leave one)**
+* Stable : no switch every six months
+* Secured
+* Free
+
+===== Features =====
+* [[https://advancedweb.hu/a-categorized-list-of-all-java-and-jvm-features-since-jdk-8-to-15/|A categorized list of all Java and JVM features since JDK 8 to 15]]
+* https://openjdk.java.net/projects/jdk/
+* https://en.wikipedia.org/wiki/Java_version_history
+
+| Version    | GA               |
+|------------|------------------|
+| JDK 5 LTS  | Sept. 30th, 2004 |
+| JDK 6 LTS  | Dec. 11th, 2006  |
+| JDK 7 LTS  | July 07th, 2011  |
+| JDK 8 LTS  | March 18th, 2014 |
+| JDK 9      | Sept. 21th, 2017 |
+| JDK 10     | March 20th, 2018 |
+| JDK 11 LTS | Sept. 25th, 2018 |
+| JDK 12     | March 19th, 2019 |
+| JDK 13     | Sept 17th, 2019  |
+| JDK 14     |                  |
+
+**Key points**
+* feature releases in march and september
+* update releases in january, april, july and october
+* LTS release every 3 years

@@ -2,7 +2,5 @@ Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.4
 
 ====== SQL and NoSQL ======
-[[https://db-engines.com/en/ranking|DB engines ranking]]
-
-
-
+* 2020 [[https://medium.com/@rakyll/things-i-wished-more-developers-knew-about-databases-2d0178464f78|Things I Wished More Developers Knew About Databases]] → **a must read!**
+* [[https://db-engines.com/en/ranking|DB engines ranking]]

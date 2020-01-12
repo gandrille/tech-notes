@@ -1,0 +1,7 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Reconnaissance faciale ======
+[[https://korben.info/fin-de-lanonymat-la-reconnaissance-faciale-en-1-clic.html|Reconnaissance faciale avec... Yandex !]]
+
+

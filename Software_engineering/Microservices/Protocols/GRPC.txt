@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== GRPC ======
+https://grpc.io
+https://www.youtube.com/watch?v=8C-mRgffoFQ
+
+
+Donné par Google à la cncf
+rpc : appel de méthode dans le code
+transport : http2
+sérialisation : protocol buffer (par défaut)
+* définition de message
+* définition de service
+
+→ Adapté au mobile et à l'IOT
+→ Attention : grpc nécessite un proxy pour être utilisé dans un navigateur !

@@ -1,0 +1,37 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== JDK11 LTS (Sept 2018) ======
+**Sources**
+* [[https://en.wikipedia.org/wiki/Java_version_history#Java_SE_11|Wikipedia]]
+* [[https://openjdk.java.net/projects/jdk/11/|OpenJDK 11]]
+* [[https://blog.codefx.org/java/java-11-migration-guide/|All You Need To Know For Migrating To Java 11]]
+* [[https://blog.codefx.org/java/java-11-gems/|Java 11 gems]]
+* [[https://www.baeldung.com/java-negate-predicate-method-reference|Predicate.not()]]
+* [[https://winterbe.com/posts/2018/08/29/migrate-maven-projects-to-java-11-jigsaw/|Migrate Maven Projects to Java 11]]
+* [[https://blog.codefx.org/java/java-11-gems/|Eleven Hidden Gems In Java 11]]
+* [[https://www.azul.com/90-new-features-and-apis-in-jdk-11/|90 New Features (and APIs) in JDK 11]]
+* [[https://mkyong.com/java/what-is-new-in-java-11/|Mkyong: What is new in Java 11]]
+
+**JEP list**
+* [[https://openjdk.java.net/jeps/181|JEP 181: Nest-Based Access Control]]
+* [[https://openjdk.java.net/jeps/309|JEP 309: Dynamic Class-File Constants]]
+* [[https://openjdk.java.net/jeps/315|JEP 315: Improve Aarch64 Intrinsics]]
+* [[https://openjdk.java.net/jeps/318|JEP 318: The Epsilon Garbage Collector]]
+* [[https://openjdk.java.net/jeps/320|JEP 320: Remove the Java EE and CORBA Modules]]
+* [[https://openjdk.java.net/jeps/321|JEP 321: HTTP Client (Standard)]]: ''inside java.net.http'' package (see [[https://kousenit.org/2018/09/22/java-11-httpclient-gson-gradle-and-modularization/|example1]], [[https://blog.codefx.org/java/reactive-http-2-requests-responses/|example2]], [[https://www.dariawan.com/tutorials/java/java-11-standard-http-client-vs-apache-httpclient/|example3]]) 
+* [[https://openjdk.java.net/jeps/323|JEP 323: Local-Variable Syntax for Lambda Parameters]]
+* [[https://openjdk.java.net/jeps/324|JEP 324: Key Agreement With Curve25519 and Curve448]]
+* [[https://openjdk.java.net/jeps/327|JEP 327: Unicode 10]]
+* [[https://openjdk.java.net/jeps/328|JEP 328: Flight Recorder]]
+* [[https://openjdk.java.net/jeps/329|JEP 329: ChaCha20 and Poly1305 Cryptographic Algorithms]]
+* [[https://openjdk.java.net/jeps/330|JEP 330: Launch Single-File Source-Code Programs]]: "shebang" Java files. ''#!/bin/java''
+* [[https://openjdk.java.net/jeps/331|JEP 331: Low-Overhead Heap Profiling]]
+* [[https://openjdk.java.net/jeps/332|JEP 332: Transport Layer Security (TLS) 1.3]]
+* [[https://openjdk.java.net/jeps/333|JEP 333: ZGC a Scalable, Low Latency Garbage Collector]]
+* [[https://openjdk.java.net/jeps/335|JEP 335: Deprecate the Nashorn Scripting Engine]]
+* [[https://openjdk.java.net/jeps/336|JEP 336: Deprecate the Pack200 Tools and APIs]]
+
+Removed
+* Applets et la plateforme de déploiement Web Start
+* Remove JavaFX → openjfx.io

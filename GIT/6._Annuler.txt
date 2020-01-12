@@ -1,0 +1,29 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== 6. Annuler ======
+[[https://ohshitgit.com/|Oh Shit, Git!?!]]
+
+===== Annuler =====
+''git commit --amend''
+* Modifier le dernier commit au lieu d'en créer un nouveau.
+* Si aucune modification n'a été faite, change uniquement le message de commit (créé un nouveau commit avec le même contenu mais un message différent).
+
+
+===== GIT reset / checkout =====
+Lire cet [[https://git-scm.com/book/fr/v2/Utilitaires-Git-Reset-d%C3%A9mystifi%C3%A9|execellent article]]
+
+**Avec un hash de commit**
+''git reset --soft hash'' : déplace simplement HEAD
+''git reset --mixed hash'' (par défaut) : déplace HEAD et met la zone de staging dans l'état de HEAD
+''git reset --hard hash'' : déplace HEAD, met la zone de staging et le working directory dans l'état de HEAD. Perte de données possible !!!
+
+**Avec un path de fichier**
+Dans ce cas, on travaille sur un path, pas sur un commit complet. HEAD n'est donc JAMAIS déplacé !
+''git reset --soft hash filepath'' : ça n'a aucun sens !!! IMPOSSIBLE
+''git reset --mixed hash filepath'' (par défaut) : écrase le fichier de la zone de staging avec la version du HEAD. C'est le contraire de ''add;'' Retire un fichier de l'index (mais ne change pas le contenu).
+''git reset --hard hash filepath'' : en fait, ça n'existe pas… à la place, il faut faire un ''git checkout hash filepath''
+
+''git checkout foo.txt''
+Supprime les modifications de la copie de travail. L'état obtenu est celui de l'index ou du dernier commit.
+

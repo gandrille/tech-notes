@@ -1,0 +1,26 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Service Mesh ======
+**Manages**
+* retry
+* timeout
+* security, mutual TLS
+* observability
+* and more...
+
+**How it works**
+admission controller with policy → side-car injection! a container is inserted int every single pod.
+
+[[https://smi-spec.io|SMI Service ]][[https://smi-spec.io|Mesh]][[https://smi-spec.io| Interface]]
+
+* [[https://istio.io|Istio]] (Google) : Istio trademarks were donated to the Open Usage Commons. Injects an [[https://www.envoyproxy.io|Envoy proxy]] in every pod.
+* [[https://linkerd.io/|Linkerd ]](CNCF project) lightweigh, minimized, service mesh
+* [[https://www.consul.io|Consul]] (HashiCorp) : GA for managed-Consul on AKS -- fully configured for "production".
+* [[https://openservicemesh.io/|Open Service Mesh]] (Microsoft) : based on the popular and powerful Envoy proxy
+
+
+
+https://www.solo.io/products/webassembly-hub/
+Customize Envoy Proxy with WebAssembly
+Simply and securely extend Envoy Proxy, Gloo API gateway and Istio service mesh with a Wasm module in the language of your choice.

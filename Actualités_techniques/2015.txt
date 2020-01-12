@@ -36,7 +36,7 @@ Mise en avant en particulier par les équipementiers dans l’automobile (Nvidia
 ex : camera netatmo → caractérise personne, voiture et animaux.
 
 ===== Sécurité =====
-* piratages de la base de compte du site de rencontres extra-conjugales Ashley Madison
+* piratages de la base de compte du site de rencontres extra-conjugales [[https://www.liberation.fr/futurs/2016/08/24/ashley-madison-37-millions-d-infideles-0-rempart-pour-leurs-donnees_1474416|Ashley Madison]] (37 millions de comptes)
 * piratage d’une voiture (Jeep), avec prise de contrôle à distance
 * [[https://en.wikipedia.org/wiki/December_2015_Ukraine_power_grid_cyberattack|attaque contre des scada en Ukraine]] : 230 000 personnes se retrouvent dans le noir
 * attaques ciblées sur des chaines hôtelières, banques, compagnies d’assurance, les administrations, et même les sociétés spécialisées dans la sécurité (MacKeeper) et fabricants de jouets (VTech).

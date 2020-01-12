@@ -1,0 +1,78 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== 2. Authorization ======
+
+===== Role-Based Access Control (RBAC) =====
+[[https://kubernetes.io/docs/reference/access-authn-authz/rbac/|Using RBAC Authorization]]
+
+{{./rbac.png}}
+
+==== Kinds of roles ====
+* **Role** With Role, we can grant access to resources within a specific Namespace.
+* **ClusterRole** The ClusterRole can be used to grant the same permissions as Role does, but its scope is cluster-wide.
+
+'''
+kind: Role
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  namespace: lfs158
+  name: pod-reader
+rules:
+- apiGroups: [""] # "" indicates the core API group
+  resources: ["pods"]
+  verbs: ["get", "watch", "list"]
+'''
+
+
+As you can see, it creates a pod-reader role, which has access only to read the Pods of ''lfs158'' Namespace. Once the role is created, we can bind users with ''RoleBinding''.
+
+==== Role binding ====
+''kubectl create clusterrolebinding my-cluster-role --clusterrole=cluster-admin --serviceaccount=kube-system:foo''
+
+**RoleBinding**: It allows us to bind users to the same namespace as a Role. We could also refer a ClusterRole in RoleBinding, which would grant permissions to Namespace resources defined in the ClusterRole within the RoleBinding’s Namespace.
+**ClusterRoleBinding**: It allows us to grant access to resources at a cluster-level and to all Namespaces.
+
+'''
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: pod-read-access
+  namespace: lfs158
+subjects:
+- kind: ServiceAccount
+  name: student
+roleRef:
+  kind: Role
+  name: pod-reader
+  apiGroup: rbac.authorization.k8s.io
+'''
+
+
+To enable the RBAC authorizer, we would need to start the API server with the ''--authorization-mode=RBAC'' option. With the RBAC authorizer, we dynamically configure policies. For more details, please review the Kubernetes documentation.
+
+===== Attribute-Based Access Control (ABAC) Authorizer =====
+[[https://kubernetes.io/docs/reference/access-authn-authz/abac/|Using ABAC Authorization]]
+
+'''
+{
+  "apiVersion": "abac.authorization.kubernetes.io/v1beta1",
+  "kind": "Policy",
+  "spec": {
+    "user": "student",
+    "namespace": "lfs158",
+    "resource": "pods",
+    "readonly": true
+  }
+}
+'''
+
+To enable the ABAC authorizer, we would need to start the API server with the ''--authorization-mode=ABAC'' option. We would also need to specify the authorization policy with ''--authorization-policy-file=PolicyFile.json''.
+
+===== Node Authorizer =====
+Node authorization is a special-purpose authorization mode which specifically authorizes API requests made by kubelets. It authorizes the kubelet's read operations for services, endpoints, nodes, etc., and writes operations for nodes, pods, events, etc. For more details, please review the [[https://kubernetes.io/docs/reference/access-authn-authz/node/|Kubernetes documentation]].
+
+
+===== Webhook Authorizer =====
+[[https://kubernetes.io/docs/reference/access-authn-authz/webhook/|Kubernetes documentation.]]
+

@@ -1,0 +1,59 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== 2. Bases ======
+
+===== Commandes de base =====
+**git init**
+* ''git init'' Initialiser un repository dans le dossier courrant
+* ''git init my-repo'' Initialiser un repository dans le dossier ''my-repo''
+
+**git clone**
+* ''git clone https://github.com/gandrille/aws-glacier-cli.git''
+* ''git clone git@github.com:gandrille/aws-glacier-cli.git''
+* ''git clone utilisateur@serveur:/chemin.git''
+
+**git add**
+Ajouter un fichier ou un dossier (tous ses fichiers récursivement) à l'index. Cela peut être un nouveau fichier à suivre, ou une modification d'un fichier déjà suivi.
+* ''git add foo.txt''
+* ''git add *.c''
+* ''git add src/''
+* ''git add .''
+* ''git add -A'' → ajoute toutes les modifications du repository
+
+**git ls-files**
+Liste les fichiers suivis dans le repository.
+
+**git rm**
+* ''git rm foo.txt'' : supprime le fichier suivi (si ce n'est déjà fait) et ajoute la suppression à l'index
+* ''git rm --cached foo.txt'' : retire le fichier foo.txt de l'index. Par exemple quand on a fait un ''add'' par erreur.
+
+**git mv**
+Commande de convenance, qui fait la même chose que :
+'''
+mv source destination
+git rm source
+git add destination
+'''
+
+**git status**
+Pour connaître l'état de l'espace de travail 
+''git status -s'' ou ''git status --short'' permet d'avoir les infos sur une seule ligne
+
+**git commit**
+* ''-m'' : pour ajouter le message sur la ligne…
+* ''-a'' : pour fair un ''git add .'' automatiquement
+
+**git checkout **(Update le working directory)
+Déplace HEAD
+* ''git checkout branchname''
+* ''git checkout commitid''
+Sans déplacer HEAD
+* ''git checkout foo.txt'' Supprime les modifications de la copie de travail. L'état obtenu est celui de l'index ou du dernier commit.
+
+===== Dépots distants =====
+* ''git remote [-v]'' : liste les serveurs distants enregistrés. ''origin'' est automatiquement enregistré lors d'un ''git clone''
+* ''git remote show origin''
+* ''git remote add [nomcourt] [url]''
+* ''git remote rename [oldname] [newname]''
+* ''git remote rm [name]''

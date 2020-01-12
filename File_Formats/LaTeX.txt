@@ -1,6 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-
-====== LaTeX ======
-* [[http://www.grappa.univ-lille3.fr/FAQ-LaTeX/index.php#index|FAQ Grappa]]
-* [[http://www.ctan.org/|CTAN]]

@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== misc ======
+**sebastiandaschner blog**
+* 2020 [[https://blog.sebastian-daschner.com/entries/flyway-migrate-databases-managed-k8s|Database migrations in Kubernetes applications with Flyway (Video)]]
+* 2020 [[https://blog.sebastian-daschner.com/entries/flyway-migrate-databases-quarkus|Pragmatic database migrations with Quarkus and Flyway (Video)]]
+
+[[https://github.com/stackrox/kube-linter|kube-linter]]

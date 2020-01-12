@@ -1,0 +1,29 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== JDK12 (March 2019) ======
+**Sources**
+* [[https://en.wikipedia.org/wiki/Java_version_history#Java_SE_12|Wikipedia]]
+* [[https://openjdk.java.net/projects/jdk/12/|OpenJDK 12]]
+* [[http://blog.codefx.org/java/java-12-guide/|Definitive Guide To Java 12]]
+* [[https://blog.overops.com/the-complete-guide-to-java-12-new-features/|The Complete Guide to Java 12 New Features]]
+* [[https://www.azul.com/39-new-features-and-apis-in-jdk-12/|39 New Features (and APIs) in JDK 12]]
+* [[https://4comprehension.com/java-12-string-api-updates/|String API updates in Java 12]]
+* [[https://mkyong.com/java/what-is-new-in-java-12/|Mkyong: What is new in Java 12]]
+
+**JEP list**
+* [[https://openjdk.java.net/jeps/230|JEP 230: Microbenchmark Suite]]
+* [[https://openjdk.java.net/jeps/325|JEP 325: Switch Expressions (Preview)]]
+* [[https://openjdk.java.net/jeps/326|JEP 326: Raw String Literals (Preview)]]
+* [[https://openjdk.java.net/jeps/340|JEP 340: One AArch64 Port, Not Two]]
+* [[https://openjdk.java.net/jeps/341|JEP 341: Default CDS Archives]]
+
+[[https://www.infoq.com/articles/upgrading-java-8-to-12/|Trisha Gee migration path]]
+* Address compiler warnings
+* Check for use of Internal APIs
+* Upgrade your build tool
+* Upgrade your dependencies
+* Add dependencies for functionality that has moved
+* Run the application with the new JDK
+* Compile with the new JDK
+* Start using the new features

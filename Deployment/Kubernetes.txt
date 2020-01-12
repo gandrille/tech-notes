@@ -1,6 +1,0 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-
-====== Kubernetes ======
-* [[https://www.youtube.com/watch?v=tEvzJBFIzV4|Kubernetes for Java Developers (Edson Yanaga, Rafael Benevides)]]
-* [[https://blogs.oracle.com/javamagazine/getting-started-with-kubernetes|Getting Started with Kubernetes]]

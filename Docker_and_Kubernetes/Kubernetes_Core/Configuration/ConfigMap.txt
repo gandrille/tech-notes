@@ -1,0 +1,101 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== ConfigMap ======
+[[https://kubernetes.io/docs/tasks/configure-pod-container/configure-pod-configmap/#define-container-environment-variables-using-configmap-data|Documentation]]
+
+Use a ConfigMap for setting configuration data separately from application code.
+ConfigMap does not provide secrecy or encryption. If the data you want to store are confidential, use a Secret rather than a ConfigMap.
+
+**Terminology**
+* a ConfigMap can have one to many entries
+* an entry is a key/value pair
+
+**Once data is stored in a ConfigMap, it can be injected into containers at run-time via any of the fllowing methods**
+* env variable
+* arguent to the container's startup command
+* files in a volume
+NOTE: Kubernetes natives app can access ConfigMap data from the API... but this is rare.
+
+===== Config Map Definition =====
+
+==== Configuration File ====
+'''
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: customer1
+data:
+  customer-first: John
+  customer-last: Doo
+  customer-address: somewhere in the sky
+'''
+
+
+==== Kubectl ====
+''kubectl create configmap my-config --from-literal key1=value1 --from-literal key2=value2''
+or
+''kubectl create configmap my-config --from-literal=key1=value1 --from-literal=key2=value2''
+
+''kubectl create configmap my-config --from-file foo.txt''
+* the key name is the name of the file (including its extension)
+* the value is the content of the file
+NOTE: ''--from-file'' can use directories instead of providing one ''--from-file'' statement per file.
+
+==== Property file ====
+First, we need to create a file permission-reset.properties with the following configuration data:
+
+'''
+permission=read-only
+allowed="true"
+resetCount=3
+'''
+
+
+We can then create the ''ConfigMap'' with the following command:
+
+''kubectl create configmap permission-config --from-file=<path/to/>permission-reset.properties''
+
+Here, ''permission-config'' contains a **single key** (permission-reset.properties). **The value is the full content of the file**.
+
+===== ConfigMap usage Inside Pods =====
+
+==== Using environment variables ====
+IMPORTANT any update you make to the values in a config map will **NOT** be reflected in running containers!
+
+**Full config Map usage**
+'''
+...
+  containers:
+  - name: myapp-full-container
+    image: myapp
+    envFrom:
+    - configMapRef:
+      name: full-config-map
+...
+'''
+
+**Partial config Map usage**
+'''
+...
+  containers:
+  - name: myapp-specific-container
+    image: myapp
+    env:
+    - name: SPECIFIC_ENV_VAR1
+      valueFrom:
+        configMapKeyRef:
+          name: config-map-1
+          key: key-in-map-1
+    - name: SPECIFIC_ENV_VAR2
+      valueFrom:
+        configMapKeyRef:
+          name: config-map-2
+          key: key-in-map-2
+...
+'''
+
+
+==== List env variables ====
+
+''kubectl exec <my-pod-name> -- /bin/bash -c 'env'''

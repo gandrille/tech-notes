@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Privacy by design ======
+Protection des données dès la conception (privacy by design)
+Plus précisément, le concept de privacy by design se structure historiquement autour de 7 principes fondateurs, popularisés dès la fin des années 1990 par Ann Cavoukian, psychologue, juriste et commissaire à la protection des données personnelles de l’État d’Ontario.
+
+2017 [[https://medium.com/r%C3%A9flexions-sur-le-chiffrement-des-donn%C3%A9es/vie-priv%C3%A9e-design-dilemmes-impossibles-5f1b9915c615|Vie Privée, Design & Dilemmes Impossibles]]
+2015 [[https://archives.rsln.fr/fil/privacy-paradox-les-cles-pour-comprendre/|Privacy paradox : les clés pour comprendre]]

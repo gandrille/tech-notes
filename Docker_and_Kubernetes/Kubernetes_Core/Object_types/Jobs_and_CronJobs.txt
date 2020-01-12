@@ -1,0 +1,57 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Jobs and CronJobs ======
+
+===== Job =====
+[[https://kubernetes.io/docs/concepts/workloads/controllers/job/|Job documentation]]
+
+'''
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: pi
+spec:
+  template:
+    spec:
+      containers:
+      - name: pi
+        image: perl
+        command: ["perl", "-Mbignum=bpi", "-wle", "print bpi(2000)"]
+      restartPolicy: Never
+'''
+
+
+**.spec level**
+* ''completions'': total number of runs
+* ''parallelism'': number of simultaneous runs
+* ''activeDeadlineSeconds'': applies to the duration of the job, no matter how many Pods are created. Once a Job reaches activeDeadlineSeconds, all of its running Pods are terminated and the Job status will become type: Failed with reason: DeadlineExceeded.
+* ''backoffLimit'': specifies the number of retries before considering a Job as failed. 
+
+**.spec.template.spec level**
+* ''RestartPolicy'': restart containers? ''Never'' or ''OnFailure''
+
+===== CronJob =====
+[[https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs/|CronJob documentation]]
+
+'''
+apiVersion: batch/v1beta1
+kind: CronJob
+metadata:
+  name: hello
+spec:
+  schedule: "*/1 * * * *"
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+          - name: hello
+            image: busybox
+            args:
+            - /bin/sh
+            - -c
+            - date; echo Hello from the Kubernetes cluster
+          restartPolicy: OnFailure
+'''
+
