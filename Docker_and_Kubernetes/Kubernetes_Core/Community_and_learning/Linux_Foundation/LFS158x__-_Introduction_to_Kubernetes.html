@@ -1,0 +1,342 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>LFS158x  - Introduction to Kubernetes</title>
+    <meta name="generator" content="Zim 0.72.0">
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="../../../../_resources/style.css" type="text/css"/>
+    <style type="text/css">
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: local('Roboto Light'), local('Roboto-Light'), url(../../../../_resources/Roboto/Roboto-Light.ttf) format('truetype');
+        }
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: local('Roboto'), local('Roboto-Regular'), url(../../../../_resources/Roboto/Roboto-Regular.ttf) format('truetype');
+        }
+    </style>
+
+<script type="text/javascript"> var _paq = window._paq = window._paq || []; /* tracker methods like "setCustomDimension" should be called before "trackPageView" */ _paq.push(['trackPageView']); _paq.push(['enableLinkTracking']); (function() { var u="//gandrille.com/matomo/"; _paq.push(['setTrackerUrl', u+'matomo.php']); _paq.push(['setSiteId', '3']); var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s); })(); </script> <noscript><p><img src="//gandrille.com/matomo/matomo.php?idsite=3</head>amp;rec=1" style="border:0;" alt="" /></p></noscript>
+</head>
+<body>
+    <div class="wrapper">
+        <div id="navigation">
+            <svg class="toggle">
+                <line x1="10" y1="10" x2="40" y2="10" />
+                <line x1="10" y1="20" x2="40" y2="20" />
+                <line x1="10" y1="30" x2="40" y2="30" />
+            </svg> 
+            <ul>
+<li><a href="../../../../Actualités_techniques.html" title="Actualités techniques" class="page">Actualités techniques</a></li>
+<li><a href="../../../../Azure_Ecosystem.html" title="Azure Ecosystem" class="page">Azure Ecosystem</a></li>
+<li><a href="../../../../Big_Data_and_AI.html" title="Big Data and AI" class="page">Big Data and AI</a></li>
+<li><a href="../../../../Blockchain.html" title="Blockchain" class="page">Blockchain</a></li>
+<li><a href="../../../../Business_model_and_startup_mistakes.html" title="Business model and startup mistakes" class="page">Business model and startup mistakes</a></li>
+<li><a href="../../../../Devoxx.html" title="Devoxx" class="page">Devoxx</a></li>
+<li><a href="../../../../Docker_and_Kubernetes.html" title="Docker and Kubernetes" class="page">Docker and Kubernetes</a>
+<ul>
+<li><a href="../../../Docker.html" title="Docker" class="page">Docker</a></li>
+<li><a href="../../../Kubernetes_Admin.html" title="Kubernetes Admin" class="page">Kubernetes Admin</a></li>
+<li><a href="../../../Kubernetes_Core.html" title="Kubernetes Core" class="page">Kubernetes Core</a>
+<ul>
+<li><a href="../../0_Unordered_notes.html" title="0 Unordered notes" class="page">0 Unordered notes</a></li>
+<li><a href="../../Accessing_a_Kubernetes_cluster.html" title="Accessing a Kubernetes cluster" class="page">Accessing a Kubernetes cluster</a></li>
+<li><a href="../../Acronyms.html" title="Acronyms" class="page">Acronyms</a></li>
+<li><a href="../../Architecture.html" title="Architecture" class="page">Architecture</a></li>
+<li><a href="../../Community_and_learning.html" title="Community and learning" class="page">Community and learning</a>
+<ul>
+<li><a href="../Books.html" title="Books" class="page">Books</a></li>
+<li><a href="../Conferences.html" title="Conferences" class="page">Conferences</a></li>
+<li><a href="../Features.html" title="Features" class="page">Features</a></li>
+<li><a href="../Linux_Foundation.html" title="Linux Foundation" class="page">Linux Foundation</a>
+<ul>
+<li><a href="./CKAD_Certification.html" title="CKAD Certification" class="page">CKAD Certification</a></li>
+<li><a href="./CKS_Certification.html" title="CKS Certification" class="page">CKS Certification</a></li>
+<li><b>LFS158x  - Introduction to Kubernetes</b></li>
+</ul>
+</li>
+<li><a href="../Niguel_Poulton.html" title="Niguel Poulton" class="page">Niguel Poulton</a></li>
+<li><a href="../Releases_announcements.html" title="Releases announcements" class="page">Releases announcements</a></li>
+</ul>
+</li>
+<li><a href="../../Configuration.html" title="Configuration" class="page">Configuration</a></li>
+<li><a href="../../Installation.html" title="Installation" class="page">Installation</a></li>
+<li><a href="../../Minikube_commands.html" title="Minikube commands" class="page">Minikube commands</a></li>
+<li><a href="../../Object_types.html" title="Object types" class="page">Object types</a></li>
+<li><a href="../../REX.html" title="REX" class="page">REX</a></li>
+<li><a href="../../Security_and_monitoring.html" title="Security and monitoring" class="page">Security and monitoring</a></li>
+<li><a href="../../Volumes.html" title="Volumes" class="page">Volumes</a></li>
+</ul>
+</li>
+<li><a href="../../../Kubernetes_Ecosystem.html" title="Kubernetes Ecosystem" class="page">Kubernetes Ecosystem</a></li>
+</ul>
+</li>
+<li><a href="../../../../Eclipse_Ecosystem.html" title="Eclipse Ecosystem" class="page">Eclipse Ecosystem</a></li>
+<li><a href="../../../../GIT.html" title="GIT" class="page">GIT</a></li>
+<li><a href="../../../../GitHub.html" title="GitHub" class="page">GitHub</a></li>
+<li><a href="../../../../Google_ecosystem.html" title="Google ecosystem" class="page">Google ecosystem</a></li>
+<li><a href="../../../../Jenkins.html" title="Jenkins" class="page">Jenkins</a></li>
+<li><a href="../../../../Languages.html" title="Languages" class="page">Languages</a></li>
+<li><a href="../../../../Legal_aspects.html" title="Legal aspects" class="page">Legal aspects</a></li>
+<li><a href="../../../../Management_et_RH.html" title="Management et RH" class="page">Management et RH</a></li>
+<li><a href="../../../../Organisation.html" title="Organisation" class="page">Organisation</a></li>
+<li><a href="../../../../Privacy.html" title="Privacy" class="page">Privacy</a></li>
+<li><a href="../../../../RDF.html" title="RDF" class="page">RDF</a></li>
+<li><a href="../../../../Reactive_and_microservices.html" title="Reactive and microservices" class="page">Reactive and microservices</a></li>
+<li><a href="../../../../Security.html" title="Security" class="page">Security</a></li>
+<li><a href="../../../../Software_Engineering.html" title="Software Engineering" class="page">Software Engineering</a></li>
+<li><a href="../../../../Spring.html" title="Spring" class="page">Spring</a></li>
+<li><a href="../../../../SQL_and_NoSQL.html" title="SQL and NoSQL" class="page">SQL and NoSQL</a></li>
+<li><a href="../../../../UML.html" title="UML" class="page">UML</a></li>
+<li><a href="../../../../Web_Design.html" title="Web Design" class="page">Web Design</a></li>
+</ul>
+
+        </div>
+
+        <div id="content">
+
+
+                    <h1>LFS158x  - Introduction to Kubernetes <a name='Docker and Kubernetes:Kubernetes Core:Community and learning:Linux Foundation:LFS158x  - Introduction to Kubernetes'></a></h1>
+                    <div id="toc">			
+                        <div class="toctitle">Contents</div>				
+                        <ul id="tocdata"></ul>
+                    </div>		
+
+<p>
+<b>Chapter 1. From Monolith to Microservices</b>
+</p>
+
+<p>
+<ul>
+<li>Explain what a monolith is.</li>
+<li>Discuss the monolith's challenges in the cloud.</li>
+<li>Explain the concept of microservices.</li>
+<li>Discuss microservices advantages in the cloud.</li>
+<li>Describe the transformation path from a monolith to microservices.</li>
+</ul>
+</p>
+
+<p>
+<b>Chapter 2. Container Orchestration</b>
+</p>
+
+<p>
+<ul>
+<li>Define the concept of container orchestration.</li>
+<li>Explain the reasons for doing container orchestration.</li>
+<li>Discuss different container orchestration options.</li>
+<li>Discuss different container orchestration deployment options.</li>
+</ul>
+</p>
+
+<p>
+<b>Chapter 3. Kubernetes</b>
+</p>
+
+<p>
+<ul>
+<li>Define Kubernetes.</li>
+<li>Explain the reasons for using Kubernetes.</li>
+<li>Discuss the features of Kubernetes.</li>
+<li>Discuss the evolution of Kubernetes from Borg.</li>
+<li>Explain what the Cloud Native Computing Foundation does.</li>
+</ul>
+</p>
+
+<p>
+<b>Chapter 4. Kubernetes Architecture</b>
+</p>
+
+<p>
+Discuss the Kubernetes architecture.<br>
+Explain the different components for master and worker nodes.<br>
+Discuss about cluster state management with etcd.<br>
+Review the Kubernetes network setup requirements
+</p>
+
+<p>
+<b>Chapter 5. Installing Kubernetes</b>
+</p>
+
+<p>
+<ul>
+<li>Discuss the different Kubernetes configuration options.</li>
+<li>Discuss infrastructure considerations before installing Kubernetes.</li>
+<li>Discuss infrastructure choices for a Kubernetes deployment.</li>
+<li>Review Kubernetes installation tools and resources.</li>
+</ul>
+</p>
+
+<p>
+<b>Chapter 6. Minikube - A Local Single-Node Kubernetes Cluster</b>
+</p>
+
+<p>
+<ul>
+<li>Discuss Minikube.</li>
+<li>Install Minikube on local Linux, macOS, and Windows workstation.</li>
+<li>Verify the local installation.</li>
+</ul>
+</p>
+
+<p>
+<b>Chapter 7. Accessing Minikube</b>
+</p>
+
+<p>
+<ul>
+<li>Review methods to access any Kubernetes cluster.</li>
+<li>Configure kubectl for Linux, macOS, and Windows.</li>
+<li>Access the Minikube cluster from the Dashboard.</li>
+<li>Access Minikube via APIs.</li>
+</ul>
+</p>
+
+<p>
+<b>Chapter 8. Kubernetes Building Blocks</b>
+</p>
+
+<p>
+<ul>
+<li>Review the Kubernetes object model.</li>
+<li>Discuss Kubernetes building blocks, e.g. Pods, ReplicaSets, Deployments,</li>
+<li>Namespaces.</li>
+<li>Discuss Labels and Selectors.</li>
+</ul>
+</p>
+
+<p>
+<b>Chapter 9. Authentication, Authorization, Admission Control</b>
+</p>
+
+<p>
+<ul>
+<li>Discuss the authentication, authorization, and access control stages of the</li>
+<li>Kubernetes API access.</li>
+<li>Understand the different kinds of Kubernetes users.</li>
+<li>Explore the different modules for authentication and authorization.</li>
+</ul>
+</p>
+
+<p>
+<b>Chapter 10. Services</b>
+</p>
+
+<p>
+<ul>
+<li>Discuss the benefits of logically grouping Pods with Services to access an application.</li>
+<li>Explain the role of the kube-proxy daemon running on each worker node.</li>
+<li>Explore the Service discovery options available in Kubernetes.</li>
+<li>Discuss different Service types.</li>
+</ul>
+</p>
+
+<p>
+<b>Chapter 11. Deploying a Stand-Alone Application</b>
+</p>
+
+<p>
+<ul>
+<li>Deploy an application from the dashboard.</li>
+<li>Deploy an application from a YAML file using kubectl.</li>
+<li>Expose a service using NodePort.</li>
+<li>Access the application from the external world.</li>
+</ul>
+</p>
+
+<p>
+<b>Chapter 12. Kubernetes Volume Management Introduction and Learning Objectives Introduction</b>
+</p>
+
+<p>
+<ul>
+<li>Explain the need for persistent data management.</li>
+<li>Discuss Kubernetes Volume and its types.</li>
+<li>Discuss PersistentVolumes and PersistentVolumeClaims.</li>
+</ul>
+</p>
+
+<p>
+<b>Chapter 13. ConfigMaps and Secrets</b>
+</p>
+
+<p>
+<ul>
+<li>Discuss configuration management for applications in Kubernetes using ConfigMaps.</li>
+<li>Share sensitive data (such as passwords) using Secrets.</li>
+</ul>
+</p>
+
+<p>
+<b>Chapter 14. Ingress</b>
+</p>
+
+<p>
+<ul>
+<li>Explain what Ingress and Ingress Controllers are.</li>
+<li>Learn when to use Ingress.</li>
+<li>Access an application from the external world using Ingress.</li>
+</ul>
+</p>
+
+<p>
+<b>Chapter 15. Advanced Topics</b>
+</p>
+
+<p>
+<ul>
+<li>Discuss advanced Kubernetes concepts: DaemonSets, StatefulSets, Helm, etc.</li>
+</ul>
+</p>
+
+<p>
+<b>Chapter 16. Kubernetes Community</b>
+</p>
+
+<p>
+<ul>
+<li>Understand the importance of Kubernetes community.</li>
+<li>Learn about the different channels to interact with the Kubernetes community.</li>
+<li>List major CNCF events.</li>
+</ul>
+</p>
+
+
+
+		
+
+                
+        </div>
+
+        <div id="credits">
+            <p>Proudly Powered by <a href="http://zim-wiki.org">Zim 0.72.0</a>.</p>
+            <p>Template by <a href="https://github.com/gandrille/zim-simple-web-template">Etienne Gandrille</a>, based on <a href="https://github.com/jaap-karssenberg/zim-desktop-wiki/blob/master/data/templates/html/ZeroFiveEight.html">ZeroFiveEight</a> and using <a href="https://ndabas.github.io/toc/">JQuery Toc Plugin</a>.</p>
+        </div>
+
+    </div>
+	
+    <script src="../../../../_resources/jquery-1.12.4.min.js" type="text/javascript"></script>
+    <script src="../../../../_resources/jquery-toc-0.4.0.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        if ($("h2").length != 0)
+            $("#tocdata").toc({content: "div#content", headings: "h2,h3,h4"});
+        else
+            $("#toc").hide();
+        $("#navigation").children("ul").prepend("<li class='index-item'><a href='../../../../index.html'>Index</a></li>");
+        $(".toggle").click(function(){
+            $("#navigation").children("ul").toggle();
+        });
+    </script>
+</body>
+</html>
+

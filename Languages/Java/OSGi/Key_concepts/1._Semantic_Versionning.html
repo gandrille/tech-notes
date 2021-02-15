@@ -1,0 +1,179 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>1. Semantic Versionning</title>
+    <meta name="generator" content="Zim 0.72.0">
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="../../../../_resources/style.css" type="text/css"/>
+    <style type="text/css">
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 300;
+            font-display: swap;
+            src: local('Roboto Light'), local('Roboto-Light'), url(../../../../_resources/Roboto/Roboto-Light.ttf) format('truetype');
+        }
+        @font-face {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: local('Roboto'), local('Roboto-Regular'), url(../../../../_resources/Roboto/Roboto-Regular.ttf) format('truetype');
+        }
+    </style>
+
+<script type="text/javascript"> var _paq = window._paq = window._paq || []; /* tracker methods like "setCustomDimension" should be called before "trackPageView" */ _paq.push(['trackPageView']); _paq.push(['enableLinkTracking']); (function() { var u="//gandrille.com/matomo/"; _paq.push(['setTrackerUrl', u+'matomo.php']); _paq.push(['setSiteId', '3']); var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s); })(); </script> <noscript><p><img src="//gandrille.com/matomo/matomo.php?idsite=3</head>amp;rec=1" style="border:0;" alt="" /></p></noscript>
+</head>
+<body>
+    <div class="wrapper">
+        <div id="navigation">
+            <svg class="toggle">
+                <line x1="10" y1="10" x2="40" y2="10" />
+                <line x1="10" y1="20" x2="40" y2="20" />
+                <line x1="10" y1="30" x2="40" y2="30" />
+            </svg> 
+            <ul>
+<li><a href="../../../../Actualités_techniques.html" title="Actualités techniques" class="page">Actualités techniques</a></li>
+<li><a href="../../../../Azure_Ecosystem.html" title="Azure Ecosystem" class="page">Azure Ecosystem</a></li>
+<li><a href="../../../../Big_Data_and_AI.html" title="Big Data and AI" class="page">Big Data and AI</a></li>
+<li><a href="../../../../Blockchain.html" title="Blockchain" class="page">Blockchain</a></li>
+<li><a href="../../../../Business_model_and_startup_mistakes.html" title="Business model and startup mistakes" class="page">Business model and startup mistakes</a></li>
+<li><a href="../../../../Devoxx.html" title="Devoxx" class="page">Devoxx</a></li>
+<li><a href="../../../../Docker_and_Kubernetes.html" title="Docker and Kubernetes" class="page">Docker and Kubernetes</a></li>
+<li><a href="../../../../Eclipse_Ecosystem.html" title="Eclipse Ecosystem" class="page">Eclipse Ecosystem</a></li>
+<li><a href="../../../../GIT.html" title="GIT" class="page">GIT</a></li>
+<li><a href="../../../../GitHub.html" title="GitHub" class="page">GitHub</a></li>
+<li><a href="../../../../Google_ecosystem.html" title="Google ecosystem" class="page">Google ecosystem</a></li>
+<li><a href="../../../../Jenkins.html" title="Jenkins" class="page">Jenkins</a></li>
+<li><a href="../../../../Languages.html" title="Languages" class="page">Languages</a>
+<ul>
+<li><a href="../../../C.html" title="C" class="page">C</a></li>
+<li><a href="../../../C++.html" title="C++" class="page">C++</a></li>
+<li><a href="../../../go.html" title="go" class="page">go</a></li>
+<li><a href="../../../Java.html" title="Java" class="page">Java</a>
+<ul>
+<li><a href="../../API.html" title="API" class="page">API</a></li>
+<li><a href="../../Baeldung.html" title="Baeldung" class="page">Baeldung</a></li>
+<li><a href="../../Cours_et_ressources.html" title="Cours et ressources" class="page">Cours et ressources</a></li>
+<li><a href="../../Env.html" title="Env" class="page">Env</a></li>
+<li><a href="../../Jakarta_EE.html" title="Jakarta EE" class="page">Jakarta EE</a></li>
+<li><a href="../../jbang.html" title="jbang" class="page">jbang</a></li>
+<li><a href="../../JDK.html" title="JDK" class="page">JDK</a></li>
+<li><a href="../../JVM.html" title="JVM" class="page">JVM</a></li>
+<li><a href="../../Language_and_libs.html" title="Language and libs" class="page">Language and libs</a></li>
+<li><a href="../../Maven.html" title="Maven" class="page">Maven</a></li>
+<li><a href="../../OSGi.html" title="OSGi" class="page">OSGi</a>
+<ul>
+<li><a href="../BND.html" title="BND" class="page">BND</a></li>
+<li><a href="../Declarative_Services.html" title="Declarative Services" class="page">Declarative Services</a></li>
+<li><a href="../Event_Admin.html" title="Event Admin" class="page">Event Admin</a></li>
+<li><a href="../Key_concepts.html" title="Key concepts" class="page">Key concepts</a>
+<ul>
+<li><b>1. Semantic Versionning</b></li>
+<li><a href="./2._Bundle_Lifecycle.html" title="2. Bundle Lifecycle" class="page">2. Bundle Lifecycle</a></li>
+<li><a href="./3._Requirements_and_capabilities.html" title="3. Requirements and capabilities" class="page">3. Requirements and capabilities</a></li>
+</ul>
+</li>
+<li><a href="../misc.html" title="misc" class="page">misc</a></li>
+<li><a href="../Spécifications.html" title="Spécifications" class="page">Spécifications</a></li>
+<li><a href="../Testing.html" title="Testing" class="page">Testing</a></li>
+</ul></li>
+</ul>
+</li>
+<li><a href="../../../Node_JS.html" title="Node JS" class="page">Node JS</a></li>
+<li><a href="../../../Python.html" title="Python" class="page">Python</a></li>
+</ul>
+</li>
+<li><a href="../../../../Legal_aspects.html" title="Legal aspects" class="page">Legal aspects</a></li>
+<li><a href="../../../../Management_et_RH.html" title="Management et RH" class="page">Management et RH</a></li>
+<li><a href="../../../../Organisation.html" title="Organisation" class="page">Organisation</a></li>
+<li><a href="../../../../Privacy.html" title="Privacy" class="page">Privacy</a></li>
+<li><a href="../../../../RDF.html" title="RDF" class="page">RDF</a></li>
+<li><a href="../../../../Reactive_and_microservices.html" title="Reactive and microservices" class="page">Reactive and microservices</a></li>
+<li><a href="../../../../Security.html" title="Security" class="page">Security</a></li>
+<li><a href="../../../../Software_Engineering.html" title="Software Engineering" class="page">Software Engineering</a></li>
+<li><a href="../../../../Spring.html" title="Spring" class="page">Spring</a></li>
+<li><a href="../../../../SQL_and_NoSQL.html" title="SQL and NoSQL" class="page">SQL and NoSQL</a></li>
+<li><a href="../../../../UML.html" title="UML" class="page">UML</a></li>
+<li><a href="../../../../Web_Design.html" title="Web Design" class="page">Web Design</a></li>
+</ul>
+
+        </div>
+
+        <div id="content">
+
+
+                    <h1>1. Semantic Versionning <a name='Languages:Java:OSGi:Key concepts:1. Semantic Versionning'></a></h1>
+                    <div id="toc">			
+                        <div class="toctitle">Contents</div>				
+                        <ul id="tocdata"></ul>
+                    </div>		
+
+<p>
+Sources<br>
+<ul>
+<li><a href="https://www.osgi.org/wp-content/uploads/SemanticVersioning.pdf" title="Reference paper" class="https">Reference paper</a></li>
+<li><a href="https://enroute.osgi.org/FAQ/210-semantic_versioning.html" title="EnRoute website" class="https">EnRoute website</a></li>
+</ul>
+</p>
+
+<p>
+<tt>version ::= &lt;major&gt; [ ‘.’ &lt;minor&gt; [ ‘.’ &lt;micro&gt; [ ‘.’ &lt;qualifier&gt; ]]]</tt>
+</p>
+
+<p>
+<ul>
+<li><b>major</b> — Packages with versions that have different major parts are not compatible both for providers as well as consumers. For example, 1.2 and 2.3 are completely incompatible.</li>
+<li><b>minor</b> — API consumers are compatible with exporters that have the same major number and an equal or higher minor version. API providers are compatible with exporters that have the same major and minor version number. For example, 1.2 is backward compatible with 1.1 for consumers but for providers it is incompatible. Consumers should therefore import [1.2,2) and providers should import [1.2,1.3).</li>
+<li><b>micro</b> — A difference in the micro part does not signal any backward compatibility issues. The micro number is used to fix bugs that do not affect either consumers or providers of the API.</li>
+<li><b>qualifier</b> — The qualifier is usually used to indicate a build identity, for example a time stamp. Different qualifiers do not signal any backward compatibility issues.</li>
+</ul>
+</p>
+
+<p>
+Square brackets ( ‘[’ and ‘]’) indicate inclusive and parentheses (‘(’ and ‘)’) indicate exclusive. That is, [1.2,2.0) indicates the version range from version 1.2, including version 1.2, up to but not including version 2.0.
+</p>
+
+<pre>
+a) Import-Packge: com.myorg.package1
+b) Import-Packge: com.myorg.package1;version=1.0.0
+c) Import-Packge: com.myorg.package1;version=[1.0.0, 1.0.1)
+d) Import-Packge: com.myorg.package1;version=[1.0.0, 2.0.0)
+</pre>
+
+<p>
+Using (a) any version might match and it could walk you right into the classic pitfall of resolving against higher major versions. Doing so has the potential to break you at runtime because of interface changes. Using (b) any version from 1.0.0 upwards might resolve and you incur the same problems as (a). Most developers end up with such a configuration because it’s usually the default tooling generated configuration. Using (c) imposes a very restrictive match, the curved bracket implies higher versions are excluded. Using this approach requires updates and redeployment of the application for every bug-fix in your chain of dependencies. Using (d) is a happy medium. Bug fixes and API additions are tolerated without change. If there is an API breakage the OSGi bundle fails to resolve and protects you from a potential runtime failure.
+</p>
+
+
+		
+
+                
+        </div>
+
+        <div id="credits">
+            <p>Proudly Powered by <a href="http://zim-wiki.org">Zim 0.72.0</a>.</p>
+            <p>Template by <a href="https://github.com/gandrille/zim-simple-web-template">Etienne Gandrille</a>, based on <a href="https://github.com/jaap-karssenberg/zim-desktop-wiki/blob/master/data/templates/html/ZeroFiveEight.html">ZeroFiveEight</a> and using <a href="https://ndabas.github.io/toc/">JQuery Toc Plugin</a>.</p>
+        </div>
+
+    </div>
+	
+    <script src="../../../../_resources/jquery-1.12.4.min.js" type="text/javascript"></script>
+    <script src="../../../../_resources/jquery-toc-0.4.0.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        if ($("h2").length != 0)
+            $("#tocdata").toc({content: "div#content", headings: "h2,h3,h4"});
+        else
+            $("#toc").hide();
+        $("#navigation").children("ul").prepend("<li class='index-item'><a href='../../../../index.html'>Index</a></li>");
+        $(".toggle").click(function(){
+            $("#navigation").children("ul").toggle();
+        });
+    </script>
+</body>
+</html>
+
