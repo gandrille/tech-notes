@@ -1,0 +1,33 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Java microframeworks ======
+
+===== Motivation : évolution des architectures =====
+Avant, le standard était un gros serveur d'app…
+
+Maintenant, on a basculé dans l'exact opposé :
+* microservices : on multiplie le nombre d'instances
+	* il faut des instances petites
+	**→ Problème :** en Java un gros serveur d'app, ou un gros framework est trop gourmand en mémoire dès que l'on multiplie les instances.
+* serverless / function as a service : on démarre une instance pour répondre à un raitement
+	* il faut démarrer rapidement
+	→ **Problème :** Java est très orienté cold start
+
+NodeJS et go apportent une réponse à ce double problème… que faire en Java ?
+
+===== Réponses communauté Java =====
+Deux axes sont actuellement explorés
+* réduire la consommation mémoire : avoir des stacks plus légères : microprofile, micronaut,…
+* réduire la lourdeur de la JVM : c'est l'approche GraalVM, qui cherche entre autres à réduire le temps de démarrage de la JVM.
+
+===== GraalVM =====
+En open source depuis 2018.
+Le JDK : le même.
+
+Optimisations pour la performance
+* PAS de class loading dynamique (pour retirer le code mort)
+* possibilité de faire de la réflexion, uniquement sur une liste de classes définies à la compilaion.
+* bloc statiques initialisés à la compilation
+* compilation native
+

@@ -1,0 +1,23 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Basic readings ======
+[[https://reflexio.debec.eu/principles-for-better-design|2020 Principles for Better Design]]
+* Incremental improvement
+* Reuse what exists
+* Five whys
+* Keep it simple stupid
+* Perfect is the enemy of good enough
+* Postpone complexity
+
+2020 [[https://blog.octo.com/les-dix-commandements-dune-plateforme-no-code-mature/|Les dix commandements d’une plateforme no-code mature]] 
+* Du support tu fourniras
+* Les trois piliers d’une application tu couvriras
+* Les sessions utilisateurs tu géreras
+* La réutilisation tu permettras
+* Extensible, ta plateforme sera
+* API Ready tu seras
+* Versions et environnements tu géreras
+* Multi-développeur tu seras
+* Une offre tarifaire adaptée et progressive tu offriras
+* Un hébergement flexible tu permettras

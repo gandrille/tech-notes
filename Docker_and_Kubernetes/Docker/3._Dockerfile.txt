@@ -4,6 +4,7 @@ Wiki-Format: zim 0.4
 ====== 3. Dockerfile ======
 [[https://docs.docker.com/develop/develop-images/dockerfile_best-practices/|Best practices for writing Dockerfiles]]
 
+2020 [[https://snyk.io/blog/docker-for-java-developers/|Docker for Java developers: 5 things you need to know not to fail your security]]
 2020 [[https://blog.frankel.ch/hitchhiker-guide-containerizing-java-apps/|A Hitchhiker's Guide to Containerizing (Spring Boot) Java Apps]] very good blog post for Java and Python
 2020 [[https://www.docker.com/blog/speed-up-your-development-flow-with-these-dockerfile-best-practices/|Speed Up Your Development Flow With These Dockerfile Best Practices]]
 2019 [[https://snyk.io/blog/10-docker-image-security-best-practices/|10 Docker Security Best Practices]]

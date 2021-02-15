@@ -24,5 +24,5 @@ __WARNING: The docker group grants privileges equivalent to the root user.__
 
 * ''sudo groupadd docker''
 * ''sudo usermod -aG docker <<user>>''
-* Log out and log back in so that your group membership is re-evaluated.
+* **Important:** log out and log back in so that your group membership is re-evaluated.
 * ''docker run hello-world'' should work without sudo

@@ -1,0 +1,6 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== jbang ======
+https://emmanuelbernard.com/blog/2021/01/18/jbang/
+

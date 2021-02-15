@@ -27,9 +27,6 @@ Wiki-Format: zim 0.4
 * ''git merge otherbranch'' : merge otherbranch sur la branche courante, avec du fast forward si possible
 * ''git merge otherbranch --no-ff'' : merge en empéchant le fast forward (un commit de merge est TOUJOURS créé)
 
-
-
-
 → en cas de problème, résoudre les conflits, faire des ''add'', commiter.
 
 ===== Suivi à distance =====

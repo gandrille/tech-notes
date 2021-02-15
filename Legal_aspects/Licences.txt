@@ -2,6 +2,9 @@ Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.4
 
 ====== Licences ======
+* OSI (Open Source Initiative) recommends using one of these licenses (https://opensource.org/licenses).
+* [[https://www.eclipse.org/legal/licenses.php|Third Party Content Licenses by Eclipse]]
+
 [[https://writing.kemitchell.com/2019/03/09/Deprecation-Notice.html|Eviter MIT et BSD !]]
 [[https://blueoakcouncil.org/license/1.0.0|Regarder Blue Oak]]
 

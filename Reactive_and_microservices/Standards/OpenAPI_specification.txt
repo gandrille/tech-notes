@@ -1,0 +1,18 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== OpenAPI specification ======
+[[https://www.openapis.org/|OpenAPI Initiative]] est le projet de la Linux Fundation chargé de définir l'[[https://en.wikipedia.org/wiki/OpenAPI_Specification|OpenAPI specification]].
+
+L'Open API spécification est basée sur le travail initialement proposé par Swagger.
+
+De nombreux outils utilisent l'OpenAPI specification
+* Les outils Swagger (bien entendu…)
+* Postman
+* …
+
+OpenAPI specification est le grand vainqueur face à RAML et API blueprint. RAML s'est d'ailleurs rallié à l'OAS.
+
+**TIP : privilégier YAML à JSON…**
+
+

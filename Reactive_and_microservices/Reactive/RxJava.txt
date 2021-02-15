@@ -1,0 +1,57 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== RxJava ======
+
+twitter → cinago
+netflix → reactive streams
+
+redhat         → http://vertx.io
+pivotal vmware → http://projectreactor.io
+akka           → http://akka.io
+
+RxJava : opensourcé par netflix. 
+→ réfléchir en observable, flux
+gère des séquences
+flux infini.
+sous le capot, on peut mettre du Akka, ou autre
+
+interface Observable<T>
+* onNext(T data)
+* onCompleted()
+* onError(Throwable t)
+* subscribe()
+
+Observable.from(collection | liste | …)
+
+TRANSFORMATION
+* map(…)
+* flatMap()
+* buffer
+* reduce
+* scan
+
+FILTRAGE
+* take 
+* skip
+* filter
+* sample (dernière émission sur un intervale de temps)
+* distinct
+
+COMBINAISON
+* concat 
+* merge 
+* zip map de deux flux
+
+PARALLELISME → ds quel thread on appelle quoi ?
+* subscribeOn → ds quel thread on appelle quoi ?
+* obeserveOn → ds quel thread on appelle quoi ?
+* cache → pour réémettre des vénements
+* parallel
+
+Gestion des erreurs
+* onError
+* merge delay error.
+* onError resume next → flux alternatif
+* onErrorReturn
+* retry

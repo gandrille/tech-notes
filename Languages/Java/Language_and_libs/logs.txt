@@ -2,6 +2,7 @@ Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.4
 
 ====== logs ======
+2020 [[https://snyk.io/blog/java-logging-what-should-you-log-and-what-not/|Java logging: what should you log and what not?]]
 
 ===== Flogger =====
 [[https://google.github.io/flogger/|Google Flogger]]

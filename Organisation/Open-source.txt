@@ -1,0 +1,6 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Open-source ======
+2020 [[https://nibblestew.blogspot.com/2020/11/the-nine-phases-of-open-source-project.html|The Nine Phases of an Open Source Project Maintainer]]
+

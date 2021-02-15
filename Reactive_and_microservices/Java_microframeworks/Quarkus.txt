@@ -1,0 +1,27 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Quarkus ======
+NOte : Quarkus utilise Microprofile, Vert.x,...
+
+https://quarkus.io
+[[https://quarkus.io/blog/tag/release/|Releases]]
+
+* Lancé en 2019 par RedHat (IBM)
+* Workflow inspiré de play 1 (live reload)
+
+
+Arc : n'implémente pas 100% de CDI
+
+Hibernate
+Netty
+RESTEasy
+Eclipse Microprofile
+Eclipse Vert.x
+Apache Camel
+
+Très asynchrone (netty)
+microprofile reactive messaging → passer par message
+
+→ Optimisé pour les conteneurs / Kubernetes
+

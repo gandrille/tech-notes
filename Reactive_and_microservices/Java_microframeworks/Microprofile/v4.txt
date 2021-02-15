@@ -1,0 +1,163 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== v4 ======
+MicroProfile 4.0 is based on Jakarta EE 8, the first MicroProfile release to be based on Jakarta EE (replacing the role of Java EE). Although Jakarta EE 8 is API backwards compatible with Java EE 8, Jakarta EE replaces Java EE dependencies with Jakarta EE dependencies for all MicroProfile specifications.
+MicroProfile 4.0 ships with incompatible changes to five of the APIs, namely Config, Fault Tolerance, Health, Metrics and OpenAPI.
+
+[[https://www.infoq.com/news/2020/12/whats-new-in-microprofile-4/|What's New in MicroProfile 4.0]]
+
+|                                            | v4.0 18/12/2020 |
+|:-------------------------------------------|:----------------|
+| 01 Spec aligned with                       | Jakarta EE 8    |
+| 02 Based on                                | Java SE 8       |
+| 03 Jakarta CDI                             | v2.0            |
+| 04 Jakarta JAX-RS                          | v2.1            |
+| 05 Jakarta JSON-B                          | v1.0            |
+| 06 Jakarta JSON-P                          | v1.1            |
+| 07 Jakarta Annotations                     | v1.3            |
+| 08 Eclipse MicroProfile Config             | v2.0            |
+| 09 Eclipse MicroProfile Fault Tolerance    | v3.0            |
+| 10 Eclipse MicroProfile Health             | v3.0            |
+| 11 Eclipse MicroProfile JWT Authentication | v1.2            |
+| 12 Eclipse MicroProfile Metrics            | v3.0            |
+| 13 Eclipse MicroProfile Open API           | v2.0            |
+| 14 Eclipse MicroProfile Open tracing       | v2.0            |
+| 15 Eclipse MicroProfile Rest Client        | v2.0            |
+
+
+===== Eclipse MicroProfile Config =====
+[[https://github.com/eclipse/microprofile-config|GitHub repository]]
+Configuration de l'app en dehors de l'app.
+
+**Rationale**
+The majority of applications need to be configured based on a running environment. It must be possible to modify configuration data from outside an application so that the application itself does not need to be repackaged.
+The configuration data can come from different locations and in different formats (e.g. system properties, system environment variables, .properties, .xml, datasource). We call these config locations ConfigSources. If the same property is defined in multiple ConfigSources, we apply a policy to specify which one of the values will effectively be used.
+Under some circumstances, some data sources may change dynamically. The changed values should be fed into the client without the need for restarting the application. This requirement is particularly important for microservices running in a cloud environment. The MicroProfile Config approach allows to pick up configured values immediately after they got changed.
+
+**Releases**
+* MP v4.0 : [[https://github.com/eclipse/microprofile-config/releases/tag/2.0|Config v2.0]]
+
+**Key points**
+* values are read only by design
+* several sources, orderd by priority
+* Set of converters 
+
+'''
+@Inject
+@ConfigProperty(name = "foo.bar.url")
+private String url;
+'''
+
+
+===== Eclipse MicroProfile Fault Tolerance =====
+[[https://github.com/eclipse/microprofile-fault-tolerance/|GitHub repository]]
+
+**Rationale**
+Currently there are at least two libraries to provide fault tolerance. It is best to uniform the technologies and define a standard so that micro service applications can adopt and the implementation of fault tolerance can be provided by the containers if possible.
+
+**Releases**
+* MP v4.0 : [[https://github.com/eclipse/microprofile-fault-tolerance/releases/tag/3.0|Fault Tolerance v3.0]]
+
+With Istio - https://istio.io
+Attention aux interactions entre annotations ! Certanines modifient le comportement d'autres !!!
+
+* ''@Asynchronous'' → MUST return a Future
+* ''@retry(retryOn=IOException.class, delay=500, maxRetries=5)''
+* ''@fallback(fallbackMethod="myFallback")''
+* ''@circuitBreaker(failOn=IOException.class, delay=500)''
+* ''@bulkhead'' → éviter de flooder un service avec plein de requetes
+* ''@timeout(2000)'' // can trigger ''@Fallback'', ''@Retry''
+
+→ https://github.com/NottyCode/fault-tolerence-examples
+
+===== Eclipse MicroProfile Health =====
+[[https://github.com/eclipse/microprofile-health|GitHub repository]]
+
+**Rationale**
+Health checks are used to probe the state of a computing node from another machine (i.e. kubernetes service controller) with the primary target being cloud infrastructure environments where automated processes maintain the state of computing nodes.
+In this scenario, health checks are used to determine if a computing node needs to be discarded (terminated, shutdown) and eventually replaced by another (healthy) instance.
+It’s not intended (although could be used) as a monitoring solution for human operators.
+
+**Releases**
+* MP v4.0 : [[https://github.com/eclipse/microprofile-health/releases/tag/3.0|Health v3.0]]
+
+**Key point**
+* UP or DOWN
+* extra data can be optionally specified (are you close to die?)
+* check via HTTP
+
+'''
+@Health
+public class FooBar implements HealthCheck {}
+'''
+
+
+===== Eclipse MicroProfile JWT Authentication =====
+[[https://github.com/eclipse/microprofile-jwt-auth|GitHub repository]]
+
+**Rationale**
+Eclipse MicroProfile JWT Authentication provides role based access control (RBAC) microservice endpoints using OpenID Connect (OIDC) and JSON Web Tokens (JWT).
+
+**Releases**
+* MP v4.0 : [[https://github.com/eclipse/microprofile-jwt-auth/releases/tag/1.2|JWT Authentication v1.2]]
+
+''@Claim''
+
+===== Eclipse MicroProfile Metrics =====
+[[https://github.com/eclipse/microprofile-metrics|GitHub repository]]
+
+Inspired by Prometheus (and Dropwizard metrics)
+(Reply with Prometheus format by default, and JSON (with application/json))
+
+**Rationale**
+This specification aims at providing a unified way for Microprofile servers to export Monitoring data ("Telemetry") to management agents and also a unified Java API, that all (application) programmers can use to expose their telemetry data.
+
+**Releases**
+* MP v4.0 : [[https://github.com/eclipse/microprofile-metrics/releases/tag/3.0|Metrics v3.0]]
+
+''@Counted''
+  - monotonic=false : nb ACTUEL d'executions concurrentes de la méthode
+  - monotonic=false : nb TOTAL d'executions de la méthode
+''@Gauge(unit = MetricUnits.MEGABYTES)'' : sampled value
+''@Metered'': durée moyenne
+''@Timed'': duration statistics
+''@Metric'': 
+
+**3 scopes (registres)**
+* Base scope : standard, required CPU, threads, garbadge collector,…
+* application scope : number of billings,…
+* vendor specific : osgi,…
+
+===== Eclipse MicroProfile Open API =====
+[[https://github.com/eclipse/microprofile-open-api|GitHub repository]]
+
+**Rationale**
+This MicroProfile specification aims at providing a unified Java API for the OpenAPI v3 specification, that all application developers can use to expose their API documentation.
+→ [[https://github.com/OAI/OpenAPI-Specification/tree/master/versions|OpenAPI Specification]] de l'[[https://www.openapis.org|OpenAPI Initiative (OAI)]] ≈ dérivé de Swagger
+
+**Releases**
+* MP v4.0 : [[https://github.com/eclipse/microprofile-open-api/releases/tag/2.0|Open API v2.0]]
+
+===== Eclipse MicroProfile OpenTracing (distributed tracing) =====
+[[https://github.com/eclipse/microprofile-opentracing|GitHub repository]]
+
+**Rationale**
+The MicroProfile OpenTracing specification defines behaviors and an API for accessing an OpenTracing compliant Tracer object within your JAX-RS application. The behaviors specify how incoming and outgoing requests will have OpenTracing Spans automatically created. The API defines how to explicitly disable or enable tracing for given endpoints.
+
+**Releases**
+* MP v4.0 : [[https://github.com/eclipse/microprofile-opentracing/releases/tag/2.0|OpenTracing v2.0]]
+
+* Suivre les appels à travers les différents microservices.
+
+→ Zipkin implementation.
+
+===== Eclipse MicroProfile Rest Client =====
+[[https://github.com/eclipse/microprofile-rest-client|GitHub repository]]
+[[https://itnext.io/how-to-deal-with-4xx-5xx-responses-in-microprofile-rest-client-2e16559f542|How to deal with 4xx responses in MicroProfile Rest-Client]]
+
+**Rationale**
+The MicroProfile Rest Client provides a type-safe approach to invoke RESTful services over HTTP. As much as possible the MP Rest Client attempts to use JAX-RS 2.0 APIs for consistency and easier re-use.
+
+**Releases**
+* MP v4.0 : [[https://github.com/eclipse/microprofile-rest-client/releases/tag/2.0|Rest Client v2.0]]

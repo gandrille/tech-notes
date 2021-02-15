@@ -23,14 +23,6 @@ https://knative.dev/docs/
 
 https://www.kubeflow.org/docs/started/getting-started/
 
-
-Announcing the Open Application Model (OAM):
-http://bit.ly/2q1VhoC
-for simplifying management of cloud native aps
-
-https://cloudblogs.microsoft.com/opensource/2019/10/16/announcing-open-application-model/
-
-
 fleet as an open source cluster
 https://rancher.com/blog/2020/fleet-management-kubernetes/
 

@@ -7,4 +7,13 @@ Wiki-Format: zim 0.4
 * [[https://openjdk.java.net/projects/jdk/16/|OpenJDK 16]]
 
 **JEP list**
-* ...
+* amber
+	* pattern matching instanceof final
+	* record final
+	* 2nd preview sealed classes
+* incubator: foreign memory access api
+* incubator: vector api = exposer les noyaux de calculs simd
+
+
+[[http://marxsoftware.blogspot.com/2020/12/jdk16-stream-to-list.html|J]][[http://marxsoftware.blogspot.com/2020/12/jdk16-stream-to-list.html|DK 16: Stream to List In One Easy Call]]
+

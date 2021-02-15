@@ -39,3 +39,10 @@ https://openjdk.java.net/projects/amber/
 ===== Projet Valhalla → generic specialization and value types =====
 * https://openjdk.java.net/projects/valhalla/
 
+===== Project Leyden (tba?) =====
+I hereby invite discussion of a new Project, Leyden, whose primary goal
+will be to address the long-term pain points of Java’s slow startup time,
+slow time to peak performance, and large footprint.
+
+https://mail.openjdk.java.net/pipermail/discuss/2020-April/005429.html
+

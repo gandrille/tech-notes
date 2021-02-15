@@ -1,0 +1,24 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Outside umbrella ======
+
+===== Reactive Messaging =====
+* [[https://microprofile.io/project/eclipse/microprofile-reactive-messaging|Project page]]
+* [[https://github.com/eclipse/microprofile-reactive-messaging|GitHub]]
+
+===== MP Reactive Streams Operators =====
+* [[https://microprofile.io/project/eclipse/microprofile-reactive-streams|Project page]]
+* [[https://github.com/eclipse/microprofile-reactive-streams-operators|GitHub]]
+
+===== Context Propagation =====
+* [[https://microprofile.io/project/eclipse/microprofile-context-propagation|Project page]]
+* [[https://github.com/eclipse/microprofile-context-propagation|GitHub]]
+
+===== GraphQL =====
+* Project page
+* [[https://github.com/eclipse/microprofile-graphql|GitHub]]
+
+
+[[https://microprofile.io/2020/02/25/microprofile-graphql-1-0-released/|2020 MicroProfile GraphQL 1.0 released]]
+
