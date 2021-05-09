@@ -104,6 +104,7 @@ Pour comprendre un certain nombre de problèmes : <a href="https://www.mathieupa
 <p>
 <b>Sources</b><br>
 <ul>
+<li><a href="https://auth0.com/docs/authorization/which-oauth-2-0-flow-should-i-use" title="https://auth0.com/docs/authorization/which-oauth-2-0-flow-should-i-use" class="https">https://auth0.com/docs/authorization/which-oauth-2-0-flow-should-i-use</a></li>
 <li><a href="https://milapneupane.com.np/2019/09/02/a-complete-guide-to-oauth2-protocol/" title="Une première introduction par Milap Neupane" class="https">Une première introduction par Milap Neupane</a></li>
 <li><a href="http://www.bubblecode.net/fr/2016/01/22/comprendre-oauth2/" title="Article plus complet de Johann Reinke" class="http">Article plus complet de Johann Reinke</a></li>
 <li><a href="https://medium.com/@darutk/diagrams-and-movies-of-all-the-oauth-2-0-flows-194f3c3ade85" title="Diagrams And Movies Of All The OAuth 2.0 Flows" class="https">Diagrams And Movies Of All The OAuth 2.0 Flows</a></li>
@@ -129,7 +130,7 @@ Pour comprendre un certain nombre de problèmes : <a href="https://www.mathieupa
 <p>
 <b>QUATRE flows d'authentification, pour QUATRE usages distincts</b><br>
 <ul>
-<li><b>Authorization Code Grant:</b> c'est pour le use case de l'appli PHP classique, avec un utilisateur qui pourra s'authentifier devant un écran. Tout est calculé sur le serveur client, et le résultat est renvoyé à l'utilisateur. Le token d'accès reste sur le serveur client qui maintient un session avec un refresh token. C'est le top côté sécurité.</li>
+<li><b>Authorization Code Grant:</b> c'est pour le use case de l'appli PHP classique, avec un utilisateur qui pourra s'authentifier devant un écran. Tout est calculé sur le serveur client, et le résultat est renvoyé à l'utilisateur. Le token d'accès reste sur le serveur client qui maintient une session avec un refresh token. C'est le top côté sécurité.</li>
 <li><b>Implicit Grant:</b> historiquement, pour l'appli SPA type Angular. Comme c'est le javascript client qui va effectuer les appels, un système différent est mis en place. Le token est renvoyé dans l'URL de callback. → <a href="https://medium.com/oauth-2/why-you-should-stop-using-the-oauth-implicit-grant-2436ced1c926" title="ATTENTION : possibilité d'intercepter le token" class="https">ATTENTION : possibilité d'intercepter le token</a>. C'est pourquoi il faut utiliser <tt>authorization_code flow</tt>, qui ajoute une étape. Grâce à CORS, cette solution est aujourd'hui possible (elle ne l'était pas lors de l'écriture de la norme)</li>
 <li><b>Client Credentials Grant:</b> pour la communication serveur à serveur. Client id + client secret pour récupérer un token qui autorise l'accès… → Ici, on n'est PAS dans le contexte relatif aux données d'un utilisateur "en chair et en os".</li>
 <li><b>Resource Owner Credentials Grant:</b> quand le client est fait par la même personne que celle qui fait l'authorization server. A ce moment, on peut se permettre de donner login et password pour l'authentification au niveau du client (ex: on donne login/pwd facebook dans l'appli de facebook).</li>
@@ -139,7 +140,7 @@ Pour comprendre un certain nombre de problèmes : <a href="https://www.mathieupa
 <p>
 <b>Exemple : le flow authorization code</b><br>
 <ul>
-<li>l'utilisateur est redirrigé ver une url chez (par ex) GitHub avec dans l'url client id, url de redirrection</li>
+<li>l'utilisateur est redirrigé vers une url chez (par ex) GitHub avec dans l'url client id, url de redirrection</li>
 <li>l'utilisateur s'authentifie chez GitHub</li>
 <li>redirection vers le callback avec un code</li>
 <li>l'appli échange le code contre un access token</li>
@@ -170,11 +171,13 @@ Pour comprendre un certain nombre de problèmes : <a href="https://www.mathieupa
                             <hr class='footrule'>
                             <b>Attachments</b>
                             <ul>
+                    <li><a href="./OAuth2/actors.png">actors.png (25.3kb)</a></li>
                     <li><a href="./OAuth2/authorization-code-flow.png">authorization-code-flow.png (402kb)</a></li>
                     <li><a href="./OAuth2/client-credentials-flow.png">client-credentials-flow.png (241kb)</a></li>
                     <li><a href="./OAuth2/implicit-flow.png">implicit-flow.png (363kb)</a></li>
                     <li><a href="./OAuth2/refresh-token-flow.png">refresh-token-flow.png (257kb)</a></li>
                     <li><a href="./OAuth2/resource-owner-password-credential-flow.png">resource-owner-password-credential-flow.png (331kb)</a></li>
+                    <li><a href="./OAuth2/which flow.png">which flow.png (44.3kb)</a></li>
                             </ul>
                         </div>
 		
