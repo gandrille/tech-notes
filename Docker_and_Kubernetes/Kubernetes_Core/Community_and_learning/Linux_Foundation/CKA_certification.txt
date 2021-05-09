@@ -1,0 +1,5 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== CKA certification ======
+https://blog.ippon.fr/2021/03/05/certification-kubernetes-cka/

@@ -5,6 +5,7 @@ Wiki-Format: zim 0.4
 Surcouche de OAuth2 pour faire de la gestion d'identité → pour autoriser une application cliente à récupérer de manière sécurisée l’identité de l’utilisateur, en se connectant au Fournisseur d’Identité (Identity Provider).
 → Pour la fédération d'identités
 
+
 **Specs**
 * [[https://openid.net/developers/specs/|Spec List]]
 * [[https://openid.net/specs/openid-connect-core-1_0.html|OpenID Connect Core 1.0]]

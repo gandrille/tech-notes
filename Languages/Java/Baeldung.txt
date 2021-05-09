@@ -3,13 +3,154 @@ Wiki-Format: zim 0.4
 
 ====== Baeldung ======
 
+**May 2021**
+<ul class='car-monthlisting'>
+* [[https://www.baeldung.com/java-keystore-convert-to-pem-format|Converting a Java Keystore Into PEM Format]]
+
+**April 2021**
+<ul class='car-monthlisting'>
+* [[https://www.baeldung.com/ops/docker-databases|How to Deal With Databases in Docker?]]
+* [[https://www.baeldung.com/job/java-lead|Looking for a Java Team Lead with Spring Experience (Remote) (Part Time)]]
+* [[https://www.baeldung.com/java-concatenate-arrays|Concatenate Two Arrays in Java]]
+* [[https://www.baeldung.com/spring-webflux-retry|Guide to Retry in Spring WebFlux]]
+* [[https://www.baeldung.com/java-weekly-383|Java Weekly, Issue 383]]
+* [[https://www.baeldung.com/java-compile-time-constants|What are Compile-time Constants in Java?]]
+* [[https://www.baeldung.com/spring-boot-react-crud|CRUD Application With React and Spring Boot]]
+* [[https://www.baeldung.com/debezium-intro|Introduction to Debezium]]
+* [[https://www.baeldung.com/jvm-static-storage|JVM Storage for Static Members]]
+* [[https://www.baeldung.com/java-primitive-array-to-object-array|Convert an Array of Primitives to an Array of Objects]]
+* [[https://www.baeldung.com/junit-cucumber-tags|Using Cucumber Tags with JUnit 5]]
+* [[https://www.baeldung.com/aspectj-advise-methods|Advise Methods on Annotated Classes With AspectJ]]
+* [[https://www.baeldung.com/spring-webflux-timeout|Set a Timeout in Spring 5 Webflux WebClient]]
+* [[https://www.baeldung.com/java-weekly-382|Java Weekly, Issue 382]]
+* [[https://www.baeldung.com/java-interrupted-exception|How to Handle InterruptedException in Java]]
+* [[https://www.baeldung.com/java-axon-multi-entity-aggregates|Multi-Entity Aggregates in Axon]]
+* [[https://www.baeldung.com/spring-mvc-long-polling|Long Polling in Spring MVC]]
+* [[https://www.baeldung.com/java-string-split-by-newline|Split Java String by Newline]]
+* [[https://www.baeldung.com/java-kubernetes-watch|Using Watch with the Kubernetes API]]
+* [[https://www.baeldung.com/ops/kafka-docker-setup|Guide to Setting Up Apache Kafka Using Docker]]
+* [[https://www.baeldung.com/java-package-info|The package-info.java File]]
+* [[https://www.baeldung.com/spring-thymeleaf-error-messages|Displaying Error Messages with Thymeleaf in Spring]]
+* [[https://www.baeldung.com/spring-bean-names|Spring Bean Names]]
+* [[https://www.baeldung.com/java-enumeration-to-stream|Convert a Java Enumeration Into a Stream]]
+* [[https://www.baeldung.com/job/java-dev|Looking for a Java Developer with Spring Experience (Remote) (Part Time) (not open)]]
+* [[https://www.baeldung.com/ops/docker/expose-vs-publish|Difference Between “expose” and “publish” in Docker]]
+* [[https://www.baeldung.com/java-weekly-381|Java Weekly, Issue 381]]
+* [[https://www.baeldung.com/ops/istio-service-mesh|Service Mesh Architecture with Istio]]
+* [[https://www.baeldung.com/java-nio-datagramchannel|Java NIO DatagramChannel]]
+* [[https://www.baeldung.com/hibernate-lazycollection|Usage of the Hibernate @LazyCollection Annotation]]
+* [[https://www.baeldung.com/java-sentinel-intro|Introduction to Alibaba Sentinel]]
+* [[https://www.baeldung.com/java-weekly-380|Java Weekly, Issue 380]]
+* [[https://www.baeldung.com/java-rsa|RSA in Java]]
+* [[https://www.baeldung.com/spring-tls-setup|TLS Setup in Spring]]
+* [[https://www.baeldung.com/spring-webflux-backpressure|Backpressure Mechanism in Spring WebFlux]]
+* [[https://www.baeldung.com/spring-boot-jsp|Spring Boot With JavaServer Pages (JSP)]]
+* [[https://www.baeldung.com/intellij-idea-shortcuts|Common Shortcuts in IntelliJ IDEA]]
+* [[https://www.baeldung.com/spring-boot-actuator-enable-endpoints|How to Enable All Endpoints in Spring Boot Actuator]]
+* [[https://www.baeldung.com/java-weekly-379|Java Weekly, Issue 379]]
+
+**March 2021**
+<ul class='car-monthlisting'>
+* [[https://www.baeldung.com/java-openapi-generator-server|Open API Server Implementation Using OpenAPI Generator]]
+* [[https://www.baeldung.com/spring-not-eligible-for-auto-proxying|Solving Spring's “not eligible for auto-proxying” Warning]]
+* [[https://www.baeldung.com/java-class-file-naming|Java Class File Naming Conventions]]
+* [[https://www.baeldung.com/jooq-count-query|Count Query In jOOQ]]
+* [[https://www.baeldung.com/jdbc-check-table-exists|How to Check if a Database Table Exists with JDBC]]
+* [[https://www.baeldung.com/java-weekly-378|Java Weekly, Issue 378]]
+* [[https://www.baeldung.com/mockito-mock-static-methods|Mocking Static Methods With Mockito]]
+* [[https://www.baeldung.com/java-return-stream-collection|Returning Stream vs. Collection]]
+* [[https://www.baeldung.com/spring-reactive-guide|Spring Reactive Guide]]
+* [[https://www.baeldung.com/java-kubernetes-paging-async|Paging and Async Calls with the Kubernetes API]]
+* [[https://www.baeldung.com/spring-data-read-only-repository|Creating a Read-Only Repository with Spring Data]]
+* [[https://www.baeldung.com/java-weekly-377|Java Weekly, Issue 377]]
+* [[https://www.baeldung.com/spring-boot-get-all-endpoints|Get All Endpoints in Spring Boot]]
+* [[https://www.baeldung.com/java-jwt-token-decode|Decode a JWT Token in Java]]
+* [[https://www.baeldung.com/maven-clear-cache|Clearing the Maven Cache]]
+* [[https://www.baeldung.com/java-final-performance|The Java final Keyword &#8211; Impact on Performance]]
+* [[https://www.baeldung.com/jvm-max-threads|How Many Threads Can a Java VM Support?]]
+* [[https://www.baeldung.com/spring-security-oauth-auth-server|Spring Security OAuth Authorization Server]]
+* [[https://www.baeldung.com/java-weekly-376|Java Weekly, Issue 376]]
+* [[https://www.baeldung.com/maven-wsdl-stubs|Generate WSDL Stubs with Maven]]
+* [[https://www.baeldung.com/kafka-purge-topic|Guide to Purging an Apache Kafka Topic]]
+* [[https://www.baeldung.com/spring-security-saml|A Guide to SAML with Spring Security]]
+* [[https://www.baeldung.com/java-okhttp-interceptors|Adding Interceptors in OkHTTP]]
+* [[https://www.baeldung.com/java-weekly-375|Java Weekly, Issue 375]]
+* [[https://www.baeldung.com/java-call-private-method|Invoking a Private Method in Java]]
+* [[https://www.baeldung.com/spring-entityscan-vs-componentscan|Spring @EntityScan vs. @ComponentScan]]
+
+**February 2021**
+<ul class='car-monthlisting'>
+* [[https://www.baeldung.com/kubernetes-java-client|A Quick Intro to the Kubernetes Java Client]]
+* [[https://www.baeldung.com/apache-poi-insert-excel-row|Insert a Row in Excel Using Apache POI]]
+* [[https://www.baeldung.com/java-convert-properties-to-hashmap|Converting Java Properties to HashMap]]
+* [[https://www.baeldung.com/zerocode-intro|Introduction to ZeroCode]]
+* [[https://www.baeldung.com/java-security-egd|The java.security.egd JVM Option]]
+* [[https://www.baeldung.com/java-weekly-374|Java Weekly, Issue 374]]
+* [[https://www.baeldung.com/rest-api-jax-rs-vs-spring|REST API: JAX-RS vs Spring]]
+* [[https://www.baeldung.com/java-deque-vs-stack|Java Deque vs. Stack]]
+* [[https://www.baeldung.com/java-hashmap-optimize-performance|Optimizing HashMap's Performance]]
+* [[https://www.baeldung.com/jmeter-write-to-file|Write Extracted Data to a File Using JMeter]]
+* [[https://www.baeldung.com/java-visual-studio-code|How to Use Visual Studio Code with Java?]]
+* [[https://www.baeldung.com/java-string-constant-pool-heap-stack|Where Does Java's String Constant Pool Live, the Heap or the Stack?]]
+* [[https://www.baeldung.com/maven-plugin-override-parent|Override Maven Plugin Configuration from Parent]]
+* [[https://www.baeldung.com/ops/docker-jvm-heap-size|How To Configure Java Heap Size Inside a Docker Container]]
+* [[https://www.baeldung.com/kafka-message-retention|Configuring Message Retention Period in Apache Kafka]]
+* [[https://www.baeldung.com/java-warning-unchecked-cast|Java Warning &#8220;Unchecked Cast&#8221;]]
+* [[https://www.baeldung.com/spring-no-converter-found|&#8220;HttpMessageNotWritableException: No converter found for return value of type&#8221;]]
+* [[https://www.baeldung.com/java-weekly-373|Java Weekly, Issue 373]]
+* [[https://www.baeldung.com/iot-data-pipeline-mqtt-nifi|IoT Data Pipeline with MQTT, NiFi, and InfluxDB]]
+* [[https://www.baeldung.com/spring-component-annotation|Spring @Component Annotation]]
+* [[https://www.baeldung.com/spring-boot-heap-size|Configure the Heap Size When Starting a Spring Boot Application]]
+* [[https://www.baeldung.com/java-feign-file-upload|File Upload With Open Feign]]
+* [[https://www.baeldung.com/spring-prevent-xss|Prevent Cross-Site Scripting (XSS) in a Spring Application]]
+* [[https://www.baeldung.com/java-weekly-372|Java Weekly, Issue 372]]
+* [[https://www.baeldung.com/java-hashmap-load-factor|Java HashMap Load Factor]]
+* [[https://www.baeldung.com/gatling-distributed-perf-testing|Distributed Performance Testing with Gatling]]
+* [[https://www.baeldung.com/java-compareto|Guide to Implementing the compareTo Method]]
+* [[https://www.baeldung.com/ops/git-configure-credentials|Configuring git Credentials]]
+* [[https://www.baeldung.com/java-weekly-371|Java Weekly, Issue 371]]
+* [[https://www.baeldung.com/spring-form-multiple-submit-buttons|Multiple Submit Buttons on a Form]]
+* [[https://www.baeldung.com/spring-not-enough-variables-available|Spring RestTemplate Exception: &#8220;Not enough variables available to expand&#8221;]]
+
 **January 2021**
-* [[https://www.baeldung.com/java-12-new-features|Java 12 New Features]]
+<ul class='car-monthlisting'>
+* [[https://www.baeldung.com/spring-webclient-json-list|Get List of JSON Objects with WebClient]]
+* [[https://www.baeldung.com/java-synchronization-bad-practices|Bad Practices With Synchronization]]
+* [[https://www.baeldung.com/spring-aop-get-advised-method-info|Get Advised Method Info in Spring AOP]]
+* [[https://www.baeldung.com/java-unchecked-conversion|Java Warning &#8220;unchecked conversion&#8221;]]
+* [[https://www.baeldung.com/java-map-entry|Using the Map.Entry Java Class]]
+* [[https://www.baeldung.com/java-weekly-370|Java Weekly, Issue 370]]
+* [[https://www.baeldung.com/jvm-constant-pool|An Introduction to the Constant Pool in the JVM]]
+* [[https://www.baeldung.com/spring-service-annotation-placement|Where Should the Spring @Service Annotation Be Kept?]]
+* [[https://www.baeldung.com/ops/docker-volumes|Guide to Docker Volumes]]
+* [[https://www.baeldung.com/java-compiled-interpreted|Is Java a Compiled or Interpreted Language?]]
+* [[https://www.baeldung.com/spring-rest-timeout|Setting a Request Timeout for a Spring REST API]]
+* [[https://www.baeldung.com/java-core-structural-patterns|Structural Patterns in Core Java]]
+* [[https://www.baeldung.com/java-keycloak-custom-user-providers|Using Custom User Providers with Keycloak]]
+* [[https://www.baeldung.com/mockito-mocksettings|Overview of Mockito MockSettings]]
+* [[https://www.baeldung.com/jvm-intrinsics|Introduction to JVM Intrinsics]]
+* [[https://www.baeldung.com/java-weekly-369|Java Weekly, Issue 369]]
+* [[https://www.baeldung.com/spring-boot-clean-architecture|Clean Architecture with Spring Boot]]
+* [[https://www.baeldung.com/java-analyze-thread-dumps|How to Analyze Java Thread Dumps]]
+* [[https://www.baeldung.com/hibernate-proxy-to-real-entity-object|How to Convert a Hibernate Proxy to a Real Entity Object]]
+* [[https://www.baeldung.com/jvm-experimental-garbage-collectors|Experimental Garbage Collectors in the JVM]]
+* [[https://www.baeldung.com/java-evaluate-math-expression-string|Evaluating a Math Expression in Java]]
+* [[https://www.baeldung.com/java-weekly-368|Java Weekly, Issue 368]]
+* [[https://www.baeldung.com/java-find-if-square-root-is-integer|Determine if an Integer's Square Root Is an Integer in Java]]
+* [[https://www.baeldung.com/java-map-key-byte-array|Using a Byte Array as Map Key in Java]]
+* [[https://www.baeldung.com/java-binary-semaphore-vs-reentrant-lock|Binary Semaphore vs Reentrant Lock]]
+* [[https://www.baeldung.com/jackson-linkedhashmap-cannot-be-cast|Jackson: java.util.LinkedHashMap cannot be cast to X]]
+* [[https://www.baeldung.com/java-file-vs-file-path-separator|Java File Separator vs File Path Separator]]
+* [[https://www.baeldung.com/java-weekly-367|Java Weekly, Issue 367]]
+* [[https://www.baeldung.com/jsf-servlet-jsp|Difference Between JSF, Servlet, and JSP]]
+* [[https://www.baeldung.com/learn-jpa-hibernate|Learn JPA & Hibernate]]
+* [[https://www.baeldung.com/java-12-new-features|New Features in Java 12]]
 * [[https://www.baeldung.com/apache-kafka-data-modeling|Data Modeling with Apache Kafka]]
 * [[https://www.baeldung.com/java-11-new-features|New Features in Java 11]]
 * [[https://www.baeldung.com/spring-boot-repackage-vs-mvn-package|Difference Between spring-boot:repackage and Maven package]]
 
 **December 2020**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/java-weekly-366|Java Weekly, Issue 366]]
 * [[https://www.baeldung.com/java-character-isletter-isalphabetic|Character#isAlphabetic vs. Character#isLetter]]
 * [[https://www.baeldung.com/spring-cloud-feign-integration-tests|Integration Tests With Spring Cloud Netflix and Feign]]
@@ -17,7 +158,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-synchronizedmap-vs-concurrenthashmap|Collections.synchronizedMap vs. ConcurrentHashMap]]
 * [[https://www.baeldung.com/spring-boot-customize-jackson-objectmapper|Spring Boot: Customize the Jackson ObjectMapper]]
 * [[https://www.baeldung.com/java-behavioral-patterns-jdk|Behavioral Patterns in Core Java]]
-* [[https://www.baeldung.com/java-14-new-features|Java 14 – New Features]]
+* [[https://www.baeldung.com/java-14-new-features|New Features in Java 14]]
 * [[https://www.baeldung.com/java-redis-mongodb|Redis vs MongoDB]]
 * [[https://www.baeldung.com/java-camel-jackson-json-array|Unmarshalling a JSON Array Using camel-jackson]]
 * [[https://www.baeldung.com/spring-resttemplate-json-list|Get list of JSON objects with Spring RestTemplate]]
@@ -36,13 +177,13 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-filename-without-extension|Get a Filename Without the Extension in Java]]
 * [[https://www.baeldung.com/java-hibernate-multiplebagfetchexception|A Guide to MultipleBagFetchException in Hibernate]]
 * [[https://www.baeldung.com/spring-boot-spring-batch|Spring Boot With Spring Batch]]
-* [[https://www.baeldung.com/java-kotlin-lightweight-concurrency|Light-Weight Concurrency in Java and Kotlin]]
 * [[https://www.baeldung.com/java-weekly-362|Java Weekly, Issue 362]]
 * [[https://www.baeldung.com/spring-boot-postgresql-docker|Running Spring Boot with PostgreSQL in Docker Compose]]
 * [[https://www.baeldung.com/java-servlets-containers-intro|Introduction to Servlets and Servlet Containers]]
 * [[https://www.baeldung.com/java-aes-encryption-decryption|Java AES Encryption and Decryption]]
 
 **November 2020**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/java-nosuchfielderror|NoSuchFieldError in Java]]
 * [[https://www.baeldung.com/thymeleaf-variables|Thymeleaf Variables]]
 * [[https://www.baeldung.com/security-context-basics|Security Context Basics: User, Subject and Principal]]
@@ -69,7 +210,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-sealed-classes-interfaces|Sealed Classes and Interfaces in Java 15]]
 * [[https://www.baeldung.com/jpa-transient-ignore-field|Ignoring Fields With the JPA @Transient Annotation]]
 * [[https://www.baeldung.com/java-localize-exception-messages|Localizing Exception Messages in Java]]
-* [[https://www.baeldung.com/java-indexoutofboundsexception|Java IndexOutOfBoundsException “Source Does Not Fit in Dest”]]
+* [[https://www.baeldung.com/java-indexoutofboundsexception|Java IndexOutOfBoundsException &#8220;Source Does Not Fit in Dest&#8221;]]
 * [[https://www.baeldung.com/java-functional-programming|Functional Programming in Java]]
 * [[https://www.baeldung.com/java-detect-jvm-64-or-32-bit|Check if a Java Program Is Running in 64-Bit or 32-Bit JVM]]
 * [[https://www.baeldung.com/java-extending-enums|Extending Enums in Java]]
@@ -77,16 +218,17 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-weekly-358|Java Weekly, Issue 358]]
 * [[https://www.baeldung.com/java-transient-keyword|The transient Keyword in Java]]
 * [[https://www.baeldung.com/jmeter-distributed-testing|Distributed Performance Testing with JMeter]]
-* [[https://www.baeldung.com/java-and-0xff|Understanding the &amp; 0xff Value in Java]]
+* [[https://www.baeldung.com/java-and-0xff|Understanding the & 0xff Value in Java]]
 * [[https://www.baeldung.com/java-abstractmethoderror|AbstractMethodError in Java]]
 * [[https://www.baeldung.com/java-db-storing-files|Storing Files Indexed by a Database]]
 * [[https://www.baeldung.com/apache-commons-collections-vs-guava|Apache Commons Collections vs Google Guava]]
 * [[https://www.baeldung.com/gradle-dependency-management|Dependency Management in Gradle]]
 
 **October 2020**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/java-weekly-357|Java Weekly, Issue 357]]
 * [[https://www.baeldung.com/spring-boot-swagger-jwt|Set JWT with Spring Boot and Swagger UI]]
-* [[https://www.baeldung.com/retrofit-dynamic-url|Retrofit 2 – Dynamic URL]]
+* [[https://www.baeldung.com/retrofit-dynamic-url|Retrofit 2 &#8211; Dynamic URL]]
 * [[https://www.baeldung.com/jar-file-get-class-names|Get Names of Classes Inside a JAR File]]
 * [[https://www.baeldung.com/postman-keycloak-endpoints|Accessing Keycloak Endpoints Using Postman]]
 * [[https://www.baeldung.com/java-netflix-mantis|Introduction to Netflix Mantis]]
@@ -109,12 +251,13 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-jobrunr-spring|Background Jobs in Spring with JobRunr]]
 * [[https://www.baeldung.com/calculations-in-db-vs-app|Performing Calculations in the Database vs. the Application]]
 * [[https://www.baeldung.com/netflix-feign-vs-openfeign|Differences Between Netflix Feign and OpenFeign]]
-* [[https://www.baeldung.com/java-reflection-is-class-abstract|Checking if a Java Class is ‘abstract' Using Reflection]]
+* [[https://www.baeldung.com/java-reflection-is-class-abstract|Checking if a Java Class is &#8216;abstract' Using Reflection]]
 * [[https://www.baeldung.com/java-jna-dynamic-libraries|Using JNA to Access Native Dynamic Libraries]]
 * [[https://www.baeldung.com/java-libphonenumber|Using libphonenumber to Validate Phone Numbers]]
 * [[https://www.baeldung.com/java-weekly-353|Java Weekly, Issue 353]]
 
 **September 2020**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/jooq-intro|Getting Started with jOOQ]]
 * [[https://www.baeldung.com/java-apache-httpclient-cookies|How To Get Cookies From the Apache HttpClient Response]]
 * [[https://www.baeldung.com/java-http-response-body-as-string|Reading an HTTP Response Body as a String in Java]]
@@ -164,6 +307,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/ops/efficient-docker-images|Tips for Creating Efficient Docker Images]]
 
 **August 2020**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/spring-dynamicpropertysource|Guide to @DynamicPropertySource in Spring]]
 * [[https://www.baeldung.com/ops/listing-kafka-consumers|Listing Kafka Consumers]]
 * [[https://www.baeldung.com/spring-conditionalonproperty|The Spring @ConditionalOnProperty Annotation]]
@@ -211,7 +355,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-set-private-field-value|Set Field Value With Reflection]]
 * [[https://www.baeldung.com/java-request-getsession|Difference Between request.getSession() and request.getSession(true)]]
 * [[https://www.baeldung.com/maven-guide|Apache Maven Guide]]
-* [[https://www.baeldung.com/spring-pathvariable|Spring @Pathvariable Annotation]]
+* [[https://www.baeldung.com/spring-pathvariable|Spring @PathVariable Annotation]]
 * [[https://www.baeldung.com/json-linked-data|Hypermedia Serialization With JSON-LD]]
 * [[https://www.baeldung.com/java-object-primitive-type|Determine if an Object is of Primitive Type]]
 * [[https://www.baeldung.com/java-copy-directory|Copy a Directory in Java]]
@@ -230,6 +374,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-static-variables-initialization|When are Static Variables Initialized in Java?]]
 
 **July 2020**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/java-comparing-arrays|Comparing Arrays in Java]]
 * [[https://www.baeldung.com/java-taking-screenshots|Taking Screenshots Using Java]]
 * [[https://www.baeldung.com/jsoup-line-breaks|Preserving Line Breaks When Using Jsoup]]
@@ -254,7 +399,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/maven-download-sources-javadoc|Download Sources and Javadocs with Maven]]
 * [[https://www.baeldung.com/java-testing-system-out-println|Unit Testing of System.out.println() with JUnit]]
 * [[https://www.baeldung.com/java-false-sharing-contended|A Guide to False Sharing and @Contended]]
-* [[https://www.baeldung.com/java-generics-vs-extends-object|Java Generics – &lt;?&gt; vs &lt;? extends Object&gt;]]
+* [[https://www.baeldung.com/java-generics-vs-extends-object|Java Generics &#8211; &lt;?&gt; vs &lt;? extends Object&gt;]]
 * [[https://www.baeldung.com/spring-application-context|The Spring ApplicationContext]]
 * [[https://www.baeldung.com/java-gc-logging-to-file|Garbage Collection Logging to a File in Java]]
 * [[https://www.baeldung.com/java-statement-preparedstatement|Difference Between Statement and PreparedStatement]]
@@ -269,7 +414,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-object-memory-address|Memory Address of Objects in Java]]
 * [[https://www.baeldung.com/maven-logging|Maven Logging Options]]
 * [[https://www.baeldung.com/maven-java-main-method|Run a Java Main Method in Maven]]
-* [[https://www.baeldung.com/java-reflection-read-private-field-value|Reading the Value of ‘private' Fields from a Different Class in Java]]
+* [[https://www.baeldung.com/java-reflection-read-private-field-value|Reading the Value of &#8216;private' Fields from a Different Class in Java]]
 * [[https://www.baeldung.com/java-primitive-array-to-list|Convert an Array of Primitives to a List]]
 * [[https://www.baeldung.com/spring-security-vs-apache-shiro|Spring Security vs Apache Shiro]]
 * [[https://www.baeldung.com/java-jdbc-loading-drivers|Loading JDBC Drivers]]
@@ -296,6 +441,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/sso-spring-security-oauth2-legacy|Simple Single Sign-On with Spring Security OAuth2 (legacy stack)]]
 
 **June 2020**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/java-jvm-array-length|Where Is the Array Length Stored in JVM?]]
 * [[https://www.baeldung.com/spring-yaml-inject-map|Inject a Map from a YAML File with Spring]]
 * [[https://www.baeldung.com/java-memory-layout|Memory Layout of Objects in Java]]
@@ -342,13 +488,13 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-constructor-return-type|The Constructor Return Type in Java]]
 * [[https://www.baeldung.com/java-netty-http-server|HTTP Server with Netty]]
 * [[https://www.baeldung.com/java-tostring-array|What is [Ljava.lang.Object;?]]
-* [[https://www.baeldung.com/java-cannot-find-symbol-error|The “Cannot find symbol” Compilation Error]]
+* [[https://www.baeldung.com/java-cannot-find-symbol-error|The &#8220;Cannot find symbol&#8221; Compilation Error]]
 * [[https://www.baeldung.com/spring-inject-arrays-lists|Inject Arrays and Lists From Spring Properties Files]]
 * [[https://www.baeldung.com/spring-cloud-netflix-ribbon-retry|Retrying Failed Requests with Spring Cloud Netflix Ribbon]]
 * [[https://www.baeldung.com/spring-import-annotation|Spring @Import Annotation]]
 * [[https://www.baeldung.com/kafka-mockproducer|Using Kafka MockProducer]]
 * [[https://www.baeldung.com/jvm-init-clinit-methods|&lt;init&gt; and &lt;clinit&gt; Methods in the JVM]]
-* [[https://www.baeldung.com/hibernate-initialize-proxy-exception|Hibernate could not initialize proxy – no Session]]
+* [[https://www.baeldung.com/hibernate-initialize-proxy-exception|Hibernate could not initialize proxy &#8211; no Session]]
 * [[https://www.baeldung.com/java-resttemplate-proxy|Proxies With RestTemplate]]
 * [[https://www.baeldung.com/openapi-json-query-parameters|OpenAPI JSON Objects as Query Parameters]]
 * [[https://www.baeldung.com/java-weekly-336|Java Weekly, Issue 336]]
@@ -359,12 +505,13 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/maven-multi-release-jars|Multi-Release JAR Files with Maven]]
 
 **May 2020**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/spring-beanpostprocessor|Spring BeanPostProcessor]]
 * [[https://www.baeldung.com/java-bufferedreader-to-jsonobject|Converting a BufferedReader to a JSONObject]]
 * [[https://www.baeldung.com/java-cast-int-to-enum|Casting int to Enum in Java]]
 * [[https://www.baeldung.com/java-weekly-335|Java Weekly, Issue 335]]
 * [[https://www.baeldung.com/feign-timeout|Setting Custom Feign Client Timeouts]]
-* [[https://www.baeldung.com/jenkins-inject-git-secrets|How to Inject Git Secrets in Jenkins]]
+* [[https://www.baeldung.com/ops/jenkins-inject-git-secrets|How to Inject Git Secrets in Jenkins]]
 * [[https://www.baeldung.com/spring-bucket4j|Rate Limiting a Spring API Using Bucket4j]]
 * [[https://www.baeldung.com/spring-security-auth0|Spring Security With Auth0]]
 * [[https://www.baeldung.com/kafka-mockconsumer|Using Kafka MockConsumer]]
@@ -416,6 +563,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/memcached-vs-redis|Memcached vs Redis]]
 
 **April 2020**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/java-modelmapper-lists|Mapping Lists with ModelMapper]]
 * [[https://www.baeldung.com/java-weekly-331|Java Weekly, Issue 331]]
 * [[https://www.baeldung.com/spring-soap-web-service|Invoking a SOAP Web Service in Spring]]
@@ -441,8 +589,8 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/spring-boot-log-groups|Log Groups in Spring Boot 2.1]]
 * [[https://www.baeldung.com/spring-oracle-connection-pooling|Oracle Connection Pooling With Spring]]
 * [[https://www.baeldung.com/java-atomikos|A Guide to Atomikos]]
-* [[https://www.baeldung.com/spring-security-oauth2-refresh-token-angular-js-legacy|OAuth2 for a Spring REST API – Handle the Refresh Token in AngularJS (legacy OAuth stack)]]
-* [[https://www.baeldung.com/hibernate-no-persistence-provider|Hibernate Error “No Persistence Provider for EntityManager”]]
+* [[https://www.baeldung.com/spring-security-oauth2-refresh-token-angular-js-legacy|OAuth2 for a Spring REST API &#8211; Handle the Refresh Token in AngularJS (legacy OAuth stack)]]
+* [[https://www.baeldung.com/hibernate-no-persistence-provider|Hibernate Error &#8220;No Persistence Provider for EntityManager&#8221;]]
 * [[https://www.baeldung.com/spring-boot-package-structure|Recommended Package Structure of a Spring Boot Project]]
 * [[https://www.baeldung.com/java-stream-close|Should We Close a Java Stream?]]
 * [[https://www.baeldung.com/java-map-computeifabsent|The Map.computeIfAbsent() Method]]
@@ -478,13 +626,14 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/spring-beanfactory-vs-applicationcontext|Difference Between BeanFactory and ApplicationContext]]
 
 **March 2020**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/java-get-day-of-week|How to determine day of week by passing specific date in Java?]]
 * [[https://www.baeldung.com/java-weekly-327|Java Weekly, Issue 327]]
 * [[https://www.baeldung.com/spring-security-oauth-jwt-legacy|Using JWT with Spring Security OAuth (legacy stack)]]
 * [[https://www.baeldung.com/java-compare-long-values|Comparing Long Values in Java]]
 * [[https://www.baeldung.com/java-testing-multithreaded|Testing Multi-Threaded Code in Java]]
 * [[https://www.baeldung.com/spring-security-clear-site-data-header|The Clear-Site-Data Header in Spring Security]]
-* [[https://www.baeldung.com/java-constant-string-too-long-error|Fixing “constant string too long” Build Error]]
+* [[https://www.baeldung.com/java-constant-string-too-long-error|Fixing &#8220;constant string too long&#8221; Build Error]]
 * [[https://www.baeldung.com/spring-junit-prevent-runner-beans-testing-execution|Prevent ApplicationRunner or CommandLineRunner Beans From Executing During Junit Testing]]
 * [[https://www.baeldung.com/java-arraylist-linkedlist|Java ArrayList vs LinkedList]]
 * [[https://www.baeldung.com/jpa-entity-manager-get-reference|Quick Guide to EntityManager#getReference()]]
@@ -504,7 +653,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/rest-api-spring-oauth2-angular-legacy|Spring REST API + OAuth2 + Angular (using the Spring Security OAuth legacy stack)]]
 * [[https://www.baeldung.com/keycloak-embedded-in-spring-boot-app|Keycloak Embedded in a Spring Boot Application]]
 * [[https://www.baeldung.com/java-trim-alternatives|L-Trim and R-Trim Alternatives in Java]]
-* [[https://www.baeldung.com/intellij-resolve-spring-boot-configuration-properties|IntelliJ – Cannot Resolve Spring Boot Configuration Properties Error]]
+* [[https://www.baeldung.com/intellij-resolve-spring-boot-configuration-properties|IntelliJ &#8211; Cannot Resolve Spring Boot Configuration Properties Error]]
 * [[https://www.baeldung.com/gson-compare-json-objects|Compare Two JSON Objects with Gson]]
 * [[https://www.baeldung.com/java-weekly-325|Java Weekly, Issue 325]]
 * [[https://www.baeldung.com/java-ocr-tesseract|Optical Character Recognition with Tesseract]]
@@ -526,11 +675,12 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-suppressed-exceptions|Java Suppressed Exceptions]]
 * [[https://www.baeldung.com/java-takes|Introduction to Takes]]
 * [[https://www.baeldung.com/java-weekly-323|Java Weekly, Issue 323]]
-* [[https://www.baeldung.com/spring-bean-vs-ejb|Spring Bean vs. EJB – A Feature Comparison]]
+* [[https://www.baeldung.com/spring-bean-vs-ejb|Spring Bean vs. EJB &#8211; A Feature Comparison]]
 * [[https://www.baeldung.com/java-modules-ddd-bounded-contexts|DDD Bounded Contexts and Java Modules]]
 * [[https://www.baeldung.com/java-connect-mysql|Connect Java to a MySQL Database]]
 
 **February 2020**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/java-threadpooltaskexecutor-core-vs-max-poolsize|ThreadPoolTaskExecutor corePoolSize vs. maxPoolSize]]
 * [[https://www.baeldung.com/gradle-build-to-maven-pom|Converting Gradle Build File to Maven POM]]
 * [[https://www.baeldung.com/spring-data-jpa-stored-procedures|Calling Stored Procedures from Spring Data JPA Repositories]]
@@ -550,14 +700,14 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-cache2k|Introduction to cache2k]]
 * [[https://www.baeldung.com/java-jcabi-aspects|Introduction to the jcabi-aspects AOP Annotations Library]]
 * [[https://www.baeldung.com/zuul-filter-modifying-response-body|Modifying the Response Body in a Zuul Filter]]
-* [[https://www.baeldung.com/docker-images-vs-containers|Difference Between Docker Images and Containers]]
+* [[https://www.baeldung.com/ops/docker-images-vs-containers|Difference Between Docker Images and Containers]]
 * [[https://www.baeldung.com/jvm-crash-shell|Getting Started with CRaSH]]
 * [[https://www.baeldung.com/java-weekly-321|Java Weekly, Issue 321]]
 * [[https://www.baeldung.com/java-arrays-deepequals|Arrays.deepEquals]]
 * [[https://www.baeldung.com/java-socketexception|How to Handle Java SocketException]]
 * [[https://www.baeldung.com/spring-mvc-cache-headers|Cache Headers in Spring MVC]]
 * [[https://www.baeldung.com/spring-framework-design-patterns|Design Patterns in the Spring Framework]]
-* [[https://www.baeldung.com/jenkins-slack-integration|Jenkins Slack Integration]]
+* [[https://www.baeldung.com/ops/jenkins-slack-integration|Jenkins Slack Integration]]
 * [[https://www.baeldung.com/spring-boot-bean-definition-override-exception|The BeanDefinitionOverrideException in Spring Boot]]
 * [[https://www.baeldung.com/java-mongodb-aggregations|MongoDB Aggregations Using Java]]
 * [[https://www.baeldung.com/java-headless-mode|The Java Headless Mode]]
@@ -571,17 +721,17 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-text-blocks|Java Text Blocks]]
 * [[https://www.baeldung.com/gradle-6-features|What's New in Gradle 6.0]]
 * [[https://www.baeldung.com/java-open-liberty|Introduction to Open Liberty]]
-* [[https://www.baeldung.com/openshift-health-checks|Implement Health Checks in OpenShift]]
+* [[https://www.baeldung.com/ops/openshift-health-checks|Implement Health Checks in OpenShift]]
 * [[https://www.baeldung.com/java-weekly-319|Java Weekly, Issue 319]]
 * [[https://www.baeldung.com/spring-cloud-gateway-routing-predicate-factories|Spring Cloud Gateway Routing Predicate Factories]]
 
 **January 2020**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/java-slack-plugin|How to Create a Slack Plugin in Java]]
 * [[https://www.baeldung.com/java-matcher-find-vs-matches|Difference Between Java Matcher find() and matches()]]
 * [[https://www.baeldung.com/java-weekly-318|Java Weekly, Issue 318]]
 * [[https://www.baeldung.com/java-effectively-final|Final vs Effectively Final in Java]]
 * [[https://www.baeldung.com/jpa-entity-lifecycle-events|JPA Entity Lifecycle Events]]
-* [[https://www.baeldung.com/job/java-engineer-with-spring-security-experience-remote-part-time/|Looking for a Java Developer with Spring Security Experience (Remote) (Part Time) (not open)]]
 * [[https://www.baeldung.com/java-dropwizard|Introduction to Dropwizard]]
 * [[https://www.baeldung.com/java-unknownhostexception|java.net.UnknownHostException: Invalid Hostname for Server]]
 * [[https://www.baeldung.com/java-apache-poi-merge-cells|Merge Cells in Excel Using Apache POI]]
@@ -593,16 +743,15 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-creating-localdate-with-values|Creating a LocalDate with Values in Java]]
 * [[https://www.baeldung.com/java-work-stealing|Guide to Work Stealing in Java]]
 * [[https://www.baeldung.com/java-balanced-brackets-algorithm|Balanced Brackets Algorithm in Java]]
-* [[https://www.baeldung.com/kotlin/sequences|Sequences in Kotlin]]
 * [[https://www.baeldung.com/redis-list-available-keys|List All Available Redis Keys]]
 * [[https://www.baeldung.com/java-jsoniter|Introduction to Jsoniter]]
 * [[https://www.baeldung.com/java-weekly-317|Java Weekly, Issue 317]]
 * [[https://www.baeldung.com/java-lang-reflect-invocationtargetexception|What Causes java.lang.reflect.InvocationTargetException?]]
-* [[https://www.baeldung.com/java-13-new-features|New Java 13 Features]]
+* [[https://www.baeldung.com/java-13-new-features|New Features in Java 13]]
 * [[https://www.baeldung.com/java-weekly-316|Java Weekly, Issue 316]]
 * [[https://www.baeldung.com/java-big-queue|Introduction to Big Queue]]
 * [[https://www.baeldung.com/java-preview-features|Java Preview Features]]
-* [[https://www.baeldung.com/devops-overview|DevOps Overview]]
+* [[https://www.baeldung.com/ops/devops-overview|DevOps Overview]]
 * [[https://www.baeldung.com/java-generating-random-numbers|Generating Random Numbers in Java]]
 * [[https://www.baeldung.com/java-asynchronous-programming|Asynchronous Programming in Java]]
 * [[https://www.baeldung.com/java-sorting-arrays-with-repeated-entries|Partitioning and Sorting Arrays with Many Repeated Entries with Java Examples]]
@@ -615,7 +764,6 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-greedy-algorithms|Introduction to Greedy Algorithms with Java]]
 * [[https://www.baeldung.com/java-cucumber-hooks|Cucumber Hooks]]
 * [[https://www.baeldung.com/apache-poi-read-cell-value-formula|Read Excel Cell Value Rather Than Formula With Apache POI]]
-* [[https://www.baeldung.com/kotlin-ternary-operator|Kotlin Ternary Conditional Operator]]
 * [[https://www.baeldung.com/java-do-while-loop|Java Do-While Loop]]
 * [[https://www.baeldung.com/java-while-loop|Java While Loop]]
 * [[https://www.baeldung.com/java-for-loop|Java For Loop]]
@@ -628,17 +776,17 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-finally-keyword|Guide to the Java finally Keyword]]
 * [[https://www.baeldung.com/java-weekly-314|Java Weekly, Issue 314]]
 * [[https://www.baeldung.com/java-arrays-sort-vs-parallelsort|Arrays.sort vs Arrays.parallelSort]]
-* [[https://www.baeldung.com/java-kotlin-var-difference|The Difference between var in Kotlin and Java 10]]
 * [[https://www.baeldung.com/java-branch-prediction|Branch Prediction in Java]]
 
 **December 2019**
-* [[https://www.baeldung.com/spring-boot-color-banner|Spring Boot – Using a Color Startup Banner]]
+<ul class='car-monthlisting'>
+* [[https://www.baeldung.com/spring-boot-color-banner|Spring Boot &#8211; Using a Color Startup Banner]]
 * [[https://www.baeldung.com/spring-security-openid-connect-legacy|Spring Security and OpenID Connect (Legacy)]]
 * [[https://www.baeldung.com/logback-send-email|Sending Emails with Logback]]
 * [[https://www.baeldung.com/java-spanning-trees-kruskal|Kruskal’s Algorithm for Spanning Trees with a Java Implementation]]
 * [[https://www.baeldung.com/java-range-search|Range Search Algorithm in Java]]
 * [[https://www.baeldung.com/java-weekly-313|Java Weekly, Issue 313]]
-* [[https://www.baeldung.com/java-bitwise-vs-logical-and|Bitwise &amp; vs Logical &amp;&amp; Operators]]
+* [[https://www.baeldung.com/java-bitwise-vs-logical-and|Bitwise & vs Logical && Operators]]
 * [[https://www.baeldung.com/java-using-not-in-if-conditions|Using the Not Operator in If Conditions in Java]]
 * [[https://www.baeldung.com/java-jvm-time-zone|How to Set the JVM Time Zone]]
 * [[https://www.baeldung.com/java-stream-integers-median-using-heap|Median of Stream of Integers using Heap in Java]]
@@ -650,10 +798,10 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/spring-deny-access|Deny Access on Missing @PreAuthorize to Spring Controller Methods]]
 * [[https://www.baeldung.com/webrtc|Guide to WebRTC]]
 * [[https://www.baeldung.com/okhttp-post|A Quick Guide to Post Requests with OkHttp]]
-* [[https://www.baeldung.com/java-aws-s3-reactive|AWS S3 with Java – Reactive Support]]
+* [[https://www.baeldung.com/java-aws-s3-reactive|AWS S3 with Java &#8211; Reactive Support]]
 * [[https://www.baeldung.com/spring-security-authenticationmanagerresolver|Guide to the AuthenticationManagerResolver in Spring Security]]
 * [[https://www.baeldung.com/java-wrapping-vs-rethrowing-exceptions|Wrapping vs Rethrowing Exceptions in Java]]
-* [[https://www.baeldung.com/podman-intro|An Introduction to Podman]]
+* [[https://www.baeldung.com/ops/podman-intro|An Introduction to Podman]]
 * [[https://www.baeldung.com/java-merge-sorted-arrays|How to Merge Two Sorted Arrays in Java]]
 * [[https://www.baeldung.com/java-print-binary-tree-diagram|How to Print a Binary Tree Diagram]]
 * [[https://www.baeldung.com/java-weekly-312|Java Weekly, Issue 312]]
@@ -675,7 +823,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-prim-algorithm|Prim's Algorithm with a Java Implementation]]
 * [[https://www.baeldung.com/java-weekly-310|Java Weekly, Issue 310]]
 * [[https://www.baeldung.com/java-fibonacci|Fibonacci Series in Java]]
-* [[https://www.baeldung.com/netflix-genie-intro|Introduction to Netflix Genie]]
+* [[https://www.baeldung.com/ops/netflix-genie-intro|Introduction to Netflix Genie]]
 * [[https://www.baeldung.com/quarkus-extension-java|How to Implement a Quarkus Extension]]
 * [[https://www.baeldung.com/spring-url-encoded-form-data|Handling URL Encoded Form Data in Spring REST]]
 * [[https://www.baeldung.com/java-circular-linked-list|Circular Linked List Java Implementation]]
@@ -685,6 +833,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/apache-tapestry|Intro to Apache Tapestry]]
 
 **November 2019**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/java-check-two-dates-on-same-day|Checking if Two Java Dates are On the Same Day]]
 * [[https://www.baeldung.com/hibernate-notnull-vs-nullable|Hibernate @NotNull vs @Column(nullable = false)]]
 * [[https://www.baeldung.com/java-overflow-underflow|Overflow and Underflow in Java]]
@@ -695,8 +844,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-basic-calculator|Basic Calculator in Java]]
 * [[https://www.baeldung.com/java-rejectedexecutionhandler|Guide to RejectedExecutionHandler]]
 * [[https://www.baeldung.com/java-illegal-start-of-expression|Java Compiler Error: illegal start of expression]]
-* [[https://www.baeldung.com/jenkins-run-gatling-tests|Run Gatling Tests From Jenkins]]
-* [[https://www.baeldung.com/kotlin-supervised-learning|Introduction to Supervised Learning in Kotlin]]
+* [[https://www.baeldung.com/ops/jenkins-run-gatling-tests|Run Gatling Tests From Jenkins]]
 * [[https://www.baeldung.com/cucumber-data-tables|Cucumber Data Tables]]
 * [[https://www.baeldung.com/akka-play-websockets|WebSockets with the Play Framework and Akka]]
 * [[https://www.baeldung.com/java-common-concurrency-pitfalls|Common Concurrency Pitfalls in Java]]
@@ -737,6 +885,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-lang-verifyerror|Causes and Avoidance of java.lang.VerifyError]]
 
 **October 2019**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/jpa-queries-custom-result-with-aggregation-functions|Customizing the Result of JPA Queries with Aggregation Functions]]
 * [[https://www.baeldung.com/autovalue-defensive-copies|Defensive Copies for Collections Using AutoValue]]
 * [[https://www.baeldung.com/java-scanner-hasnext-vs-hasnextline|Java Scanner hasNext() vs. hasNextLine()]]
@@ -756,10 +905,10 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/spring-transactional-propagation-isolation|Transaction Propagation and Isolation in Spring @Transactional]]
 * [[https://www.baeldung.com/java-pattern-prototype|Prototype Pattern in Java]]
 * [[https://www.baeldung.com/spring-zuul-fallback-route|Fallback for Zuul Route]]
-* [[https://www.baeldung.com/java-protected-access-modifier|Java ‘protected' Access Modifier]]
+* [[https://www.baeldung.com/java-protected-access-modifier|Java &#8216;protected' Access Modifier]]
 * [[https://www.baeldung.com/java-add-element-to-array-vs-list|Adding an Element to a Java Array vs an ArrayList]]
 * [[https://www.baeldung.com/spring-testexecutionlistener|The Spring TestExecutionListener]]
-* [[https://www.baeldung.com/spring-componentscan-filter-type|Spring @ComponentScan – Filter Types]]
+* [[https://www.baeldung.com/spring-componentscan-filter-type|Spring @ComponentScan &#8211; Filter Types]]
 * [[https://www.baeldung.com/spring-integration-transaction|Transaction Support in Spring Integration]]
 * [[https://www.baeldung.com/java-weekly-303|Java Weekly, Issue 303]]
 * [[https://www.baeldung.com/spring-thymeleaf-path-variables|Spring Path Variables with Thymeleaf]]
@@ -780,19 +929,19 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-io-file|The Java File Class]]
 * [[https://www.baeldung.com/java-security-manager|Intro to the Java SecurityManager]]
 * [[https://www.baeldung.com/java-hashmap|A Guide to Java HashMap]]
-* [[https://www.baeldung.com/kotlin-finding-element-in-list|Finding an Element in a List Using Kotlin]]
 * [[https://www.baeldung.com/spring-dirtiescontext|A Quick Guide to @DirtiesContext]]
 * [[https://www.baeldung.com/spring-enum-request-param|Using Enums as Request Parameters in Spring]]
 * [[https://www.baeldung.com/spring-aws-kinesis|Integrating Spring with AWS Kinesis]]
 * [[https://www.baeldung.com/spring-exclude-filter|Excluding URLs for a Filter in a Spring Web Application]]
 * [[https://www.baeldung.com/java-filewriter|Java FileWriter]]
 * [[https://www.baeldung.com/java-weekly-301|Java Weekly, Issue 301]]
-* [[https://www.baeldung.com/spring-security-oauth-attack-redirect|Spring Security – Attacking OAuth]]
+* [[https://www.baeldung.com/spring-security-oauth-attack-redirect|Spring Security &#8211; Attacking OAuth]]
 * [[https://www.baeldung.com/java-methods|Methods in Java]]
 * [[https://www.baeldung.com/java-system-out-println-vs-loggers|System.out.println vs Loggers]]
 * [[https://www.baeldung.com/flogger-logging|Flogger Fluent Logging]]
 
 **September 2019**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/spring-mocking-webclient|Mocking a WebClient in Spring]]
 * [[https://www.baeldung.com/mapstruct-ignore-unmapped-properties|Ignoring Unmapped Properties with MapStruct]]
 * [[https://www.baeldung.com/java-threading-models|Threading Models in Java]]
@@ -822,7 +971,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/get-started-with-java-series|Get Started with Java]]
 * [[https://www.baeldung.com/java-weekly-298|Java Weekly, Issue 298]]
 * [[https://www.baeldung.com/java-radix-sort|Radix Sort in Java]]
-* [[https://www.baeldung.com/java-ocp-advanced-class-design|OCP Certification – Advanced Java Class Design]]
+* [[https://www.baeldung.com/java-ocp-advanced-class-design|OCP Certification &#8211; Advanced Java Class Design]]
 * [[https://www.baeldung.com/spring-contextannotation-contextcomponentscan|Difference between &lt;context:annotation-config&gt; vs &lt;context:component-scan&gt;]]
 * [[https://www.baeldung.com/apache-shiro-access-control|Permissions-Based Access Control with Apache Shiro]]
 * [[https://www.baeldung.com/mapstruct-custom-mapper|Custom Mapper with MapStruct]]
@@ -849,18 +998,19 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/spring-boot-configuration-metadata|A Guide to Spring Boot Configuration Metadata]]
 * [[https://www.baeldung.com/java-blockchain|Implementing a Simple Blockchain in Java]]
 * [[https://www.baeldung.com/java-weekly-297|Java Weekly, Issue 297]]
-* [[https://www.baeldung.com/java-private-keyword|Java ‘private' Access Modifier]]
-* [[https://www.baeldung.com/java-public-keyword|Java ‘public' Access Modifier]]
+* [[https://www.baeldung.com/java-private-keyword|Java &#8216;private' Access Modifier]]
+* [[https://www.baeldung.com/java-public-keyword|Java &#8216;public' Access Modifier]]
 * [[https://www.baeldung.com/java-counting-sort|Counting Sort in Java]]
 * [[https://www.baeldung.com/java-stax|Parsing an XML File Using StAX]]
 
 **August 2019**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/bazel-build-tool|Building Java Applications with Bazel]]
 * [[https://www.baeldung.com/spring-cloud-series|Spring Cloud Tutorial]]
 * [[https://www.baeldung.com/java-weekly-296|Java Weekly, Issue 296]]
 * [[https://www.baeldung.com/java-xor-operator|The XOR Operator in Java]]
 * [[https://www.baeldung.com/java-mutex|Using a Mutex Object in Java]]
-* [[https://www.baeldung.com/mesos-kubernetes-comparison|Mesos vs. Kubernetes]]
+* [[https://www.baeldung.com/ops/mesos-kubernetes-comparison|Mesos vs. Kubernetes]]
 * [[https://www.baeldung.com/freemarker-operations|FreeMarker Common Operations]]
 * [[https://www.baeldung.com/spark-mlib-machine-learning|Machine Learning with Spark MLlib]]
 * [[https://www.baeldung.com/java-checked-unchecked-exceptions|Checked and Unchecked Exceptions in Java]]
@@ -898,7 +1048,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-file-number-of-lines|Find the Number of Lines in a File Using Java]]
 * [[https://www.baeldung.com/java-methods-references-eval|Evaluation of Methods References in Java]]
 * [[https://www.baeldung.com/thymeleaf-lists-utility|Thymeleaf lists Utility Object]]
-* [[https://www.baeldung.com/java-hello-world|Java ‘Hello World' Example]]
+* [[https://www.baeldung.com/java-hello-world|Java &#8216;Hello World' Example]]
 * [[https://www.baeldung.com/javax-bigdecimal-validation|Javax BigDecimal Validation]]
 * [[https://www.baeldung.com/java-weekly-293|Java Weekly, Issue 293]]
 * [[https://www.baeldung.com/java-builder-pattern-freebuilder|Automatic Generation of the Builder Pattern with FreeBuilder]]
@@ -922,6 +1072,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-streamtokenizer|Guide to StreamTokenizer]]
 
 **July 2019**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/junit-failure-vs-error|The Difference Between Failure and Error in JUnit]]
 * [[https://www.baeldung.com/jpa-entity-table-names|Mapping Entity Class Names to SQL Table Names with JPA]]
 * [[https://www.baeldung.com/java-weekly-292|Java Weekly, Issue 292]]
@@ -930,7 +1081,6 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-sql2o|A Guide to the sql2o JDBC Wrapper]]
 * [[https://www.baeldung.com/spring-thymeleaf-template-directory|Changing the Thymeleaf Template Directory in Spring Boot]]
 * [[https://www.baeldung.com/java-shell-sort|Shell Sort in Java]]
-* [[https://www.baeldung.com/java-ee-kotlin-app|Jakarta EE Application with Kotlin]]
 * [[https://www.baeldung.com/r2dbc|R2DBC – Reactive Relational Database Connectivity]]
 * [[https://www.baeldung.com/intellij-idea-java-builders|Creating the Java Builder for a Class in IntelliJ]]
 * [[https://www.baeldung.com/spring-thymeleaf-request-parameters|Spring Request Parameters with Thymeleaf]]
@@ -948,22 +1098,18 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/spring-tutorial|Spring Tutorial]]
 * [[https://www.baeldung.com/java-current-directory|Get the Current Working Directory in Java]]
 * [[https://www.baeldung.com/easymock-mocking-void-method|Mocking a Void Method with EasyMock]]
-* [[https://www.baeldung.com/mongodb-morphia|Introduction to Morphia – Java ODM for MongoDB]]
-* [[https://www.baeldung.com/kotlin-quasar-advanced|Advanced Quasar Usage for Kotlin]]
+* [[https://www.baeldung.com/mongodb-morphia|Introduction to Morphia &#8211; Java ODM for MongoDB]]
 * [[https://www.baeldung.com/junit-testwatcher|JUnit 5 TestWatcher API]]
 * [[https://www.baeldung.com/java-proxy-pattern|The Proxy Pattern in Java]]
 * [[https://www.baeldung.com/spring-data-r2dbc|A Quick Look at R2DBC with Spring Data]]
 * [[https://www.baeldung.com/java-weekly-290|Java Weekly, Issue 290]]
 * [[https://www.baeldung.com/java-lossy-conversion|Lossy Conversion in Java]]
-* [[https://www.baeldung.com/mockmvc-kotlin-dsl|MockMvc Kotlin DSL]]
-* [[https://www.baeldung.com/spring-boot-kotlin-coroutines|Non-Blocking Spring Boot with Kotlin Coroutines]]
 * [[https://www.baeldung.com/spring-boot-mongodb-upload-file|Upload and Retrieve Files Using MongoDB and Spring Boot]]
 * [[https://www.baeldung.com/junit-custom-display-name-generator|JUnit Custom Display Name Generator API]]
 * [[https://www.baeldung.com/java-xstream-remote-code-execution|Remote Code Execution with XStream]]
 * [[https://www.baeldung.com/spring-cloud-stream-kafka-avro-confluent|Guide to Spring Cloud Stream with Kafka, Apache Avro and Confluent Schema Registry]]
 * [[https://www.baeldung.com/java-easy-random|Quick Guide to EasyRandom in Java]]
 * [[https://www.baeldung.com/jackson-compare-two-json-objects|Compare Two JSON Objects with Jackson]]
-* [[https://www.baeldung.com/kotlin-convert-to-java|Converting a Kotlin File to Java]]
 * [[https://www.baeldung.com/eclipse-copyright-header|Adding Copyright License Header for Java Source Files in Eclipse]]
 * [[https://www.baeldung.com/java-weekly-289|Java Weekly, Issue 289]]
 * [[https://www.baeldung.com/spring-data-disable-auto-config|Disable Spring Data Auto Configuration]]
@@ -991,6 +1137,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/spring-getbean|Understanding getBean() in Spring]]
 
 **June 2019**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/java-collection-stream-foreach|The Difference Between Collection.stream().forEach() and Collection.forEach()]]
 * [[https://www.baeldung.com/spring-enable-config-properties|Guide to @EnableConfigurationProperties]]
 * [[https://www.baeldung.com/spring-data-mongodb-tailable-cursors|Spring Data MongoDB Tailable Cursors]]
@@ -1016,7 +1163,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/junit-5-temporary-directory|JUnit 5 Temporary Directory Support]]
 * [[https://www.baeldung.com/java-converting-json-to-csv|Converting JSON to CSV in Java]]
 * [[https://www.baeldung.com/java-iterable-to-collection|Converting Iterable to Collection in Java]]
-* [[https://www.baeldung.com/elasticsearch-jest|Jest – Elasticsearch Java Client]]
+* [[https://www.baeldung.com/elasticsearch-jest|Jest &#8211; Elasticsearch Java Client]]
 * [[https://www.baeldung.com/java-file-creation-date|Determine File Creation Date in Java]]
 * [[https://www.baeldung.com/java-graph-has-a-cycle|Checking if a Java Graph has a Cycle]]
 * [[https://www.baeldung.com/java-weekly-285|Java Weekly, Issue 285]]
@@ -1031,10 +1178,9 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/okhttp-json-response|Decode an OkHttp JSON Response]]
 * [[https://www.baeldung.com/java-weekly-284|Java Weekly, Issue 284]]
 * [[https://www.baeldung.com/crawler4j|A Guide to Crawler4j]]
-* [[https://www.baeldung.com/kotlin-quasar|Introduction to Quasar in Kotlin]]
 * [[https://www.baeldung.com/springjunit4classrunner-parameterized|Using SpringJUnit4ClassRunner with Parameterized]]
 * [[https://www.baeldung.com/java-collectors-tomap|Java 8 Collectors toMap]]
-* [[https://www.baeldung.com/docker-compose|Introduction to Docker Compose]]
+* [[https://www.baeldung.com/ops/docker-compose|Introduction to Docker Compose]]
 * [[https://www.baeldung.com/spring-boot-context-runner|Guide to ApplicationContextRunner in Spring Boot]]
 * [[https://www.baeldung.com/java-error-catch|Will an Error Be Caught by Catch Block in Java?]]
 * [[https://www.baeldung.com/mongodb-geospatial-support|Geospatial Support in MongoDB]]
@@ -1042,13 +1188,14 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-jpa-transaction-locks|Enabling Transaction Locks in Spring Data JPA]]
 
 **May 2019**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/java-weekly-283|Java Weekly, Issue 283]]
 * [[https://www.baeldung.com/ddd-double-dispatch|Double Dispatch in DDD]]
 * [[https://www.baeldung.com/jersey-request-parameters|Explore Jersey Request Parameters]]
 * [[https://www.baeldung.com/jpa-composite-primary-keys|Composite Primary Keys in JPA]]
 * [[https://www.baeldung.com/java-number-format-exception|Understanding the NumberFormatException in Java]]
 * [[https://www.baeldung.com/java-weekly-282|Java Weekly, Issue 282]]
-* [[https://www.baeldung.com/codota|Codota – My First Experience Working with an AI Assistant in Java]]
+* [[https://www.baeldung.com/codota|Codota &#8211; My First Experience Working with an AI Assistant in Java]]
 * [[https://www.baeldung.com/olingo|Intro to OData with Olingo]]
 * [[https://www.baeldung.com/spring-boot-rsocket|RSocket Using Spring Boot]]
 * [[https://www.baeldung.com/java-modules-decoupling-design-strategies|Design Strategies for Decoupling Java Modules]]
@@ -1063,7 +1210,6 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-string-remove-stopwords|Removing Stopwords from a String in Java]]
 * [[https://www.baeldung.com/java12-string-api|String API Updates in Java 12]]
 * [[https://www.baeldung.com/java-keystore-truststore-difference|Difference Between a Java Keystore and a Truststore]]
-* [[https://www.baeldung.com/rxkotlin|Introduction to RxKotlin]]
 * [[https://www.baeldung.com/java-string-initialization|String Initialization in Java]]
 * [[https://www.baeldung.com/java-weekly-281|Java Weekly, Issue 281]]
 * [[https://www.baeldung.com/java-stream-to-array|Converting Between Stream and Array in Java]]
@@ -1074,8 +1220,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/jpa-basic-annotation|JPA @Basic Annotation]]
 * [[https://www.baeldung.com/java-weekly-280|Java Weekly, Issue 280]]
 * [[https://www.baeldung.com/jpa-default-column-values|Default Column Values in JPA]]
-* [[https://www.baeldung.com/kotlin-jvm-annotations|Guide to JVM Platform Annotations in Kotlin]]
-* [[https://www.baeldung.com/java-localization-messages-formatting|Java Localization – Formatting Messages]]
+* [[https://www.baeldung.com/java-localization-messages-formatting|Java Localization &#8211; Formatting Messages]]
 * [[https://www.baeldung.com/spring-security-oauth-cognito|Authenticating with Amazon Cognito Using Spring Security]]
 * [[https://www.baeldung.com/junit-src-test-resources-directory-path|Get the Path of the /src/test/resources Directory in JUnit]]
 * [[https://www.baeldung.com/mockito-unnecessary-stubbing-exception|Mockito Strict Stubbing and The UnnecessaryStubbingException]]
@@ -1096,17 +1241,16 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/maven-profiles|Guide to Maven Profiles]]
 * [[https://www.baeldung.com/java-array-add-element-at-the-end|Extending an Array's Length]]
 * [[https://www.baeldung.com/spring-data-jpa-named-entity-graphs|Spring Data JPA and Named Entity Graphs]]
-* [[https://www.baeldung.com/jackson-kotlin|Jackson Support for Kotlin]]
 * [[https://www.baeldung.com/java-weekly-279|Java Weekly, Issue 279]]
 
 **April 2019**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/webflux-webclient-parameters|Spring WebClient Requests with Parameters]]
 * [[https://www.baeldung.com/java-string-contains-substring|Check If a String Contains a Substring]]
 * [[https://www.baeldung.com/jpa-size-length-column-differences|Difference Between @Size, @Length, and @Column(length=value)]]
 * [[https://www.baeldung.com/java-9-migration-issue|Java 9 Migration Issues and Resolutions]]
 * [[https://www.baeldung.com/mongodb-bson|MongoDB BSON Guide]]
 * [[https://www.baeldung.com/groovy-maps|Maps in Groovy]]
-* [[https://www.baeldung.com/kotlin-console-io|Console I/O in Kotlin]]
 * [[https://www.baeldung.com/groovy-pattern-matching|Pattern Matching in Strings in Groovy]]
 * [[https://www.baeldung.com/jackson-yaml|How to Process YAML with Jackson]]
 * [[https://www.baeldung.com/spring-exceptions-json|Rendering Exceptions in JSON with Spring]]
@@ -1132,7 +1276,6 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/jpa-embedded-embeddable|JPA @Embedded And @Embeddable]]
 * [[https://www.baeldung.com/java-weekly-277|Java Weekly, Issue 277]]
 * [[https://www.baeldung.com/flowable|Introduction to Flowable]]
-* [[https://www.baeldung.com/kotlin-inputstream-to-string|InputStream to String in Kotlin]]
 * [[https://www.baeldung.com/jpa-join-types|JPA Join Types]]
 * [[https://www.baeldung.com/spock-extensions|Guide to Spock Extensions]]
 * [[https://www.baeldung.com/spring-security-kerberos-integration|Spring Security Kerberos Integration With MiniKdc]]
@@ -1164,14 +1307,13 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-mediator-pattern|The Mediator Pattern in Java]]
 
 **March 2019**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/jhipster-new-apis-and-views|Creating New APIs and Views in JHipster]]
 * [[https://www.baeldung.com/spring-data-jpa-save-saveandflush|Difference Between save() and saveAndFlush() in Spring Data JPA]]
 * [[https://www.baeldung.com/java-jar-war-packaging|Differences Between JAR and WAR Packaging]]
-* [[https://www.baeldung.com/kotlin-mockk|MockK: A Mocking Library for Kotlin]]
-* [[https://www.baeldung.com/kotlin-immutable-collections|Kotlin Immutable Collections]]
 * [[https://www.baeldung.com/java-map-primitives|Map of Primitives in Java]]
 * [[https://www.baeldung.com/java-weekly-274|Java Weekly, Issue 274]]
-* [[https://www.baeldung.com/spring-data-jpa-deleteby|Spring Data JPA – Derived Delete Methods]]
+* [[https://www.baeldung.com/spring-data-jpa-deleteby|Spring Data JPA &#8211; Derived Delete Methods]]
 * [[https://www.baeldung.com/java-inputstream-server-socket|Read an InputStream using the Java Server Socket]]
 * [[https://www.baeldung.com/groovy-collections-find-elements|Finding Elements in Collections in Groovy]]
 * [[https://www.baeldung.com/groovy-closures|Closures in Groovy]]
@@ -1179,9 +1321,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-localdate-to-xmlgregoriancalendar|Converting Between LocalDate and XMLGregorianCalendar]]
 * [[https://www.baeldung.com/jpa-transaction-required-exception|TransactionRequiredException Error]]
 * [[https://www.baeldung.com/spring-boot-reactor-netty|Spring Boot Reactor Netty Configuration]]
-* [[https://www.baeldung.com/kotlin-annotations|Kotlin Annotations]]
 * [[https://www.baeldung.com/spring-boot-json|Spring Boot Consuming and Producing JSON]]
-* [[https://www.baeldung.com/kotlin-scope-functions|Kotlin Scope Functions]]
 * [[https://www.baeldung.com/java-weekly-273|Java Weekly, Issue 273]]
 * [[https://www.baeldung.com/java-project-amber|Introduction to Project Amber]]
 * [[https://www.baeldung.com/java-lang-unsupportedclassversion|How to Fix java.lang.UnsupportedClassVersionError]]
@@ -1189,7 +1329,6 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/spring-boot-hibernate|Spring Boot with Hibernate]]
 * [[https://www.baeldung.com/tensorflow-java|Introduction to Tensorflow for Java]]
 * [[https://www.baeldung.com/java-web-app-without-web-xml|A Java Web Application Without a web.xml]]
-* [[https://www.baeldung.com/kotlin-custom-range-iterator|Creating a Kotlin Range Iterator on a Custom Object]]
 * [[https://www.baeldung.com/rxjava-hooks|RxJava Hooks]]
 * [[https://www.baeldung.com/jvm-method-inlining|Method Inlining in the JVM]]
 * [[https://www.baeldung.com/spring-autowired-abstract-class|Using @Autowired in Abstract Classes]]
@@ -1199,18 +1338,16 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-currying|Currying in Java]]
 * [[https://www.baeldung.com/spring-properties-file-outside-jar|Spring Properties File Outside jar]]
 * [[https://www.baeldung.com/json-multiple-fields-single-java-field|Mapping Multiple JSON Fields to a Single Java Field]]
-* [[https://www.baeldung.com/kotlin-split-list-into-parts|Split a List into Parts in Kotlin]]
 * [[https://www.baeldung.com/flux-sequences-reactor|Programmatically Creating Sequences with Project Reactor]]
 * [[https://www.baeldung.com/java-lang-processbuilder-api|Guide to java.lang.ProcessBuilder API]]
-* [[https://www.baeldung.com/spring-boot-failed-to-configure-data-source|Resolving “Failed to Configure a DataSource” Error]]
+* [[https://www.baeldung.com/spring-boot-failed-to-configure-data-source|Resolving &#8220;Failed to Configure a DataSource&#8221; Error]]
 * [[https://www.baeldung.com/spring-boot-angular-web|Building a Web Application with Spring Boot and Angular]]
 * [[https://www.baeldung.com/gson-list|Serializing and Deserializing a List with Gson]]
 * [[https://www.baeldung.com/eclipse-error-web-xml-missing|Eclipse Error: web.xml is missing and failOnMissingWebXml is set to true]]
-* [[https://www.baeldung.com/kubernetes-helm|Using Helm and Kubernetes]]
+* [[https://www.baeldung.com/ops/kubernetes-helm|Using Helm and Kubernetes]]
 * [[https://www.baeldung.com/spock-stub-mock-spy|Difference Between Stub, Mock, and Spy in the Spock Framework]]
 * [[https://www.baeldung.com/lombok-builder-singular|Using the @Singular Annotation with Lombok Builders]]
 * [[https://www.baeldung.com/jdbc-resultset|Guide to the JDBC ResultSet Interface]]
-* [[https://www.baeldung.com/kotlin-delegation-pattern|Delegation Pattern in Kotlin]]
 * [[https://www.baeldung.com/spring-cloud-openfeign|Introduction to Spring Cloud OpenFeign]]
 * [[https://www.baeldung.com/intellij-copyright-license-header|Adding a Copyright License Header for Java Source Files in IntelliJ IDEA]]
 * [[https://www.baeldung.com/java-filter-collection-by-list|Filtering a Java Collection by a List]]
@@ -1226,7 +1363,6 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-time-based-releases|Java's Time-Based Releases]]
 * [[https://www.baeldung.com/java-weekly-271|Java Weekly, Issue 271]]
 * [[https://www.baeldung.com/spring-data-jpa-batch-inserts|Spring Data JPA Batch Inserts]]
-* [[https://www.baeldung.com/kotlin-string-comparison|String Comparison in Kotlin]]
 * [[https://www.baeldung.com/maven-eclipse-jdk-configuration|JDK Configuration for Maven Build in Eclipse]]
 * [[https://www.baeldung.com/native-memory-tracking-in-jvm|Native Memory Tracking in JVM]]
 * [[https://www.baeldung.com/spring-webflux-static-content|Static Content in Spring WebFlux]]
@@ -1234,6 +1370,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/junit-5-conditional-test-execution|JUnit 5 Conditional Test Execution with Annotations]]
 
 **February 2019**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/reflections-library|A Guide to the Reflections Library]]
 * [[https://www.baeldung.com/java-weekly-270|Java Weekly, Issue 270]]
 * [[https://www.baeldung.com/eclipse-change-java-version|How to Change Java Version in an Eclipse Project]]
@@ -1242,7 +1379,6 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/spring-data-jpa-modifying-annotation|Spring Data JPA @Modifying Annotation]]
 * [[https://www.baeldung.com/jhipster-new-roles|Creating New Roles and Authorities in JHipster]]
 * [[https://www.baeldung.com/java-adapter-pattern|The Adapter Pattern in Java]]
-* [[https://www.baeldung.com/kotlin-ranges|How to use Kotlin Range Expressions]]
 * [[https://www.baeldung.com/sql-injection|SQL Injection and How to Prevent It?]]
 * [[https://www.baeldung.com/postman-testing-collections|Testing Web APIs with Postman Collections]]
 * [[https://www.baeldung.com/jsonobject-iteration|Iterating Over an Instance of org.json.JSONObject]]
@@ -1255,11 +1391,9 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/groovy-map-iterating|A Quick Guide to Iterating a Map in Groovy]]
 * [[https://www.baeldung.com/spring-boot-formatting-json-dates|Formatting JSON Dates in Spring Boot]]
 * [[https://www.baeldung.com/leiningen-clojure|Introduction to Leiningen for Clojure]]
-* [[https://www.baeldung.com/kotlin-const-var-and-val-keywords|Kotlin const, var, and val Keywords]]
 * [[https://www.baeldung.com/ahead-of-time-compilation|Ahead of Time Compilation (AoT)]]
 * [[https://www.baeldung.com/groovy-strings|Types of Strings in Groovy]]
 * [[https://www.baeldung.com/spring-boot-testcontainers-integration-test|DB Integration Tests with Spring Boot and Testcontainers]]
-* [[https://www.baeldung.com/kotlin-static-methods|Static Methods Behavior in Kotlin]]
 * [[https://www.baeldung.com/java-multi-release-jar|Multi-Release Jar Files]]
 * [[https://www.baeldung.com/java-custom-annotation|Creating a Custom Annotation in Java]]
 * [[https://www.baeldung.com/spring-security-enumeration-attacks|Preventing Username Enumeration Attacks with Spring Security]]
@@ -1274,7 +1408,6 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/spring-testing-scheduled-annotation|How to Test the @Scheduled Annotation]]
 * [[https://www.baeldung.com/problem-spring-web|A Guide to the Problem Spring Web Library]]
 * [[https://www.baeldung.com/spring-security-zuul-oauth-jwt|Handle Security in Zuul, with OAuth2 and JWT]]
-* [[https://www.baeldung.com/kotlin-dsl|Building DSLs in Kotlin]]
 * [[https://www.baeldung.com/java-char-stack|Defining a Char Stack in Java]]
 * [[https://www.baeldung.com/spring-security-role-filter-json|Filtering Jackson JSON Output Based on Spring Security Role]]
 * [[https://www.baeldung.com/groovy-file-read|Reading a File in Groovy]]
@@ -1283,8 +1416,8 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-marker-interfaces|Marker Interfaces in Java]]
 * [[https://www.baeldung.com/spring-boot-bean-validation|Validation in Spring Boot]]
 * [[https://www.baeldung.com/oracle-jdk-vs-openjdk|Differences Between Oracle JDK and OpenJDK]]
-* [[https://www.baeldung.com/guice-spring-dependency-injection|Guice vs Spring – Dependency Injection]]
-* [[https://www.baeldung.com/announcing-learn-spring|Announcing “Learn Spring”]]
+* [[https://www.baeldung.com/guice-spring-dependency-injection|Guice vs Spring &#8211; Dependency Injection]]
+* [[https://www.baeldung.com/announcing-learn-spring|Announcing &#8220;Learn Spring&#8221;]]
 * [[https://www.baeldung.com/java-weekly-267|Java Weekly, Issue 267]]
 * [[https://www.baeldung.com/spring-mvc-model-objects-js|Accessing Spring MVC Model Objects in JavaScript]]
 * [[https://www.baeldung.com/java-method-references|Method References in Java]]
@@ -1294,6 +1427,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-list-primitive-int|List of Primitive Integer Values in Java]]
 
 **January 2019**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/java-bitwise-operators|Java Bitwise Operators]]
 * [[https://www.baeldung.com/java-list-directory-files|List Files in a Directory in Java]]
 * [[https://www.baeldung.com/java-weekly-266|Java Weekly, Issue 266]]
@@ -1304,7 +1438,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/string-contains-multiple-words|Check If a String Contains Multiple Keywords in Java]]
 * [[https://www.baeldung.com/openjdk-project-loom|OpenJDK Project Loom]]
 * [[https://www.baeldung.com/clojure|Introduction to Clojure]]
-* [[https://www.baeldung.com/blade|Blade – A Complete Guidebook]]
+* [[https://www.baeldung.com/blade|Blade &#8211; A Complete Guidebook]]
 * [[https://www.baeldung.com/spring-boot-configure-data-source-programmatic|Configuring a DataSource Programmatically in Spring Boot]]
 * [[https://www.baeldung.com/xmpp-smack-chat-client|Guide to XMPP Smack Client]]
 * [[https://www.baeldung.com/java-convert-float-to-byte-array|Convert a Float to a Byte Array in Java]]
@@ -1312,7 +1446,6 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-leap-year|Finding Leap Years in Java]]
 * [[https://www.baeldung.com/parameterized-tests-junit-5|Guide to JUnit 5 Parameterized Tests]]
 * [[https://www.baeldung.com/java-weekly-265|Java Weekly, Issue 265]]
-* [[https://www.baeldung.com/kotlin-nested-foreach|Nested forEach in Kotlin]]
 * [[https://www.baeldung.com/java-variable-scope|Variable Scope in Java]]
 * [[https://www.baeldung.com/java-stream-filter-count|Counting Matches on a Stream Filter]]
 * [[https://www.baeldung.com/java-enum-simple-state-machine|Implementing Simple State Machines with Java Enums]]
@@ -1347,7 +1480,6 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/spring-boot-interview-questions|Spring Boot Interview Questions]]
 * [[https://www.baeldung.com/java-interfaces|Java Interfaces]]
 * [[https://www.baeldung.com/java-array-permutations|Permutations of an Array in Java]]
-* [[https://www.baeldung.com/kotlin-kovert|REST API With Kotlin and Kovert]]
 * [[https://www.baeldung.com/java-flight-recorder-monitoring|Monitoring Java Applications with Flight Recorder]]
 * [[https://www.baeldung.com/java-weekly-263|Java Weekly, Issue 263]]
 * [[https://www.baeldung.com/java-string-pangram|Check if a String is a Pangram in Java]]
@@ -1370,6 +1502,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-nest-based-access-control|Java 11 Nest Based Access Control]]
 
 **December 2018**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/jpa-insert|INSERT Statement in JPA]]
 * [[https://www.baeldung.com/spring-boot-hsqldb|Integrating Spring Boot with HSQLDB]]
 * [[https://www.baeldung.com/hibernate-criteria-queries-metamodel|Criteria Queries Using JPA Metamodel]]
@@ -1391,7 +1524,6 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/jhipster-uaa-secured-micro-service|Building a Basic UAA-Secured JHipster Microservice]]
 * [[https://www.baeldung.com/reactive-streams-step-verifier-test-publisher|Testing Reactive Streams Using StepVerifier and TestPublisher]]
 * [[https://www.baeldung.com/spring-boot-kubernetes-self-healing-apps|Self-Healing Applications with Kubernetes and Spring Boot]]
-* [[https://www.baeldung.com/kotlin-java-static-final|Creating Java static final Equivalents in Kotlin]]
 * [[https://www.baeldung.com/bufferedreader-vs-console-vs-scanner-in-java|BufferedReader vs Console vs Scanner in Java]]
 * [[https://www.baeldung.com/java-ee-7-batch-processing|Java EE 7 Batch Processing]]
 * [[https://www.baeldung.com/java-weekly-260|Java Weekly, Issue 260]]
@@ -1403,8 +1535,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/intellij-debugging-tricks|IntelliJ Debugging Tricks]]
 * [[https://www.baeldung.com/java-packages|Guide to Java Packages]]
 * [[https://www.baeldung.com/java-11-string-api|Java 11 String API Additions]]
-* [[https://www.baeldung.com/kotlin-inline-classes|Inline Classes in Kotlin]]
-* [[https://www.baeldung.com/spinnaker|Intro to Spinnaker]]
+* [[https://www.baeldung.com/ops/spinnaker|Intro to Spinnaker]]
 * [[https://www.baeldung.com/java-calculate-factorial|Calculate Factorial in Java]]
 * [[https://www.baeldung.com/java-palindrome-substrings|Find Substrings That Are Palindromes in Java]]
 * [[https://www.baeldung.com/spring-data-jpa-pagination-sorting|Pagination and Sorting using Spring Data JPA]]
@@ -1429,7 +1560,6 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/spring-debugging-reactive-streams|Debugging Reactive Streams in Java]]
 * [[https://www.baeldung.com/hibernate-named-query|Hibernate Named Query]]
 * [[https://www.baeldung.com/jpa-one-to-one|One-to-One Relationship in JPA]]
-* [[https://www.baeldung.com/kotlin-inline-functions|Inline Functions in Kotlin]]
 * [[https://www.baeldung.com/java-longest-substring-without-repeated-characters|Find the Longest Substring without Repeating Characters]]
 * [[https://www.baeldung.com/java-compound-operators|Java Compound Operators]]
 * [[https://www.baeldung.com/java-immutable-maps|Immutable Map Implementations in Java]]
@@ -1441,17 +1571,16 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/spring-security-custom-oauth-requests|Customizing Authorization and Token Requests with Spring Security 5.1 Client]]
 * [[https://www.baeldung.com/java-char-encoding|Guide to Character Encoding]]
 * [[https://www.baeldung.com/hibernate-select-all|Get All Data from a Table with Hibernate]]
-* [[https://www.baeldung.com/kotlin-operator-overloading|Operator Overloading in Kotlin]]
-* [[https://www.baeldung.com/kotlin-contracts|Kotlin Contracts]]
 * [[https://www.baeldung.com/spring-boot-mongodb-auto-generated-field|Auto-Generated Field for MongoDB using Spring Boot]]
 
 **November 2018**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/java-iterate-list|Ways to Iterate Over a List in Java]]
 * [[https://www.baeldung.com/java-weekly-257|Java Weekly, Issue 257]]
 * [[https://www.baeldung.com/spring-data-cassandra-reactive|Spring Data with Reactive Cassandra]]
 * [[https://www.baeldung.com/java-array-to-string|Array to String Conversions]]
 * [[https://www.baeldung.com/java-join-primitive-array|Join Array of Primitives with Separator in Java]]
-* [[https://www.baeldung.com/travis-ci-build-pipeline|Create a Build Pipeline with Travis CI]]
+* [[https://www.baeldung.com/ops/travis-ci-build-pipeline|Create a Build Pipeline with Travis CI]]
 * [[https://www.baeldung.com/spring-reactive-sequence-logging|Logging a Reactive Sequence]]
 * [[https://www.baeldung.com/java-class-name|Retrieving a Class Name in Java]]
 * [[https://www.baeldung.com/java-graphs|Graphs in Java]]
@@ -1468,24 +1597,22 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/jpa-hibernate-difference|The Difference Between JPA, Hibernate and EclipseLink]]
 * [[https://www.baeldung.com/java-decorator-pattern|The Decorator Pattern in Java]]
 * [[https://www.baeldung.com/java-constructors|A Guide to Constructors in Java]]
-* [[https://www.baeldung.com/kotlin-arrow|Introduction to Arrow in Kotlin]]
 * [[https://www.baeldung.com/intellij-basics|Basic IntelliJ Configuration]]
 * [[https://www.baeldung.com/java-remove-replace-string-part|Remove or Replace part of a String in Java]]
 * [[https://www.baeldung.com/java-lang-math|A Guide to the Java Math Class]]
 * [[https://www.baeldung.com/jpa-joincolumn-vs-mappedby|Difference Between @JoinColumn and mappedBy]]
-* [[https://www.baeldung.com/jpa-error-java-lang-string-cannot-be-cast|Fixing the JPA error “java.lang.String cannot be cast to Ljava.lang.String;”]]
+* [[https://www.baeldung.com/jpa-error-java-lang-string-cannot-be-cast|Fixing the JPA error &#8220;java.lang.String cannot be cast to Ljava.lang.String;&#8221;]]
 * [[https://www.baeldung.com/java-abstract-class|Abstract Classes in Java]]
 * [[https://www.baeldung.com/java-string-to-timestamp|Convert between String and Timestamp]]
 * [[https://www.baeldung.com/spring-integration-subflows|Using Subflows in Spring Integration]]
-* [[https://www.baeldung.com/java-class-interface-enum-expected|Java Compiler Error: “class, interface, or enum expected”]]
+* [[https://www.baeldung.com/java-class-interface-enum-expected|Java Compiler Error: &#8220;class, interface, or enum expected&#8221;]]
 * [[https://www.baeldung.com/spring-reflection-test-utils|Guide to ReflectionTestUtils for Unit Testing]]
-* [[https://www.baeldung.com/jpa-criteria-api-in-expressions|Criteria API – An Example of IN Expressions]]
+* [[https://www.baeldung.com/jpa-criteria-api-in-expressions|Criteria API &#8211; An Example of IN Expressions]]
 * [[https://www.baeldung.com/java-string-newline|Adding a Newline Character to a String in Java]]
 * [[https://www.baeldung.com/java-pad-string|Pad a String with Zeros or Spaces in Java]]
 * [[https://www.baeldung.com/spring-data-rest-customize-http-endpoints|Customizing HTTP Endpoints in Spring Data REST]]
 * [[https://www.baeldung.com/spring-request-param|Spring @RequestParam Annotation]]
 * [[https://www.baeldung.com/kafka-connectors-guide|Introduction to Kafka Connectors]]
-* [[https://www.baeldung.com/kotlin-random-alphanumeric-string|Generate a Random Alphanumeric String in Kotlin]]
 * [[https://www.baeldung.com/spring-boot-deploy-openshift|Deploy a Spring Boot Application to OpenShift]]
 * [[https://www.baeldung.com/java-string-to-byte-array|Convert String to Byte Array and Reverse in Java]]
 * [[https://www.baeldung.com/jpa-many-to-many|Many-To-Many Relationship in JPA]]
@@ -1498,7 +1625,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/jpa-limit-query-results|Limiting Query Results with JPA and Spring Data JPA]]
 * [[https://www.baeldung.com/java-weekly-254|Java Weekly, Issue 254]]
 * [[https://www.baeldung.com/java-replace-if-statements|How to Replace Many if Statements in Java]]
-* [[https://www.baeldung.com/kotlin-dates|Working with Dates in Kotlin]]
+* [[https://www.baeldung.com/graal-java-jit-compiler|Deep Dive Into the New Java JIT Compiler &#8211; Graal]]
 * [[https://www.baeldung.com/ubuntu-install-jdk|Installing Java on Ubuntu]]
 * [[https://www.baeldung.com/java-generate-secure-password|Generate a Secure Random Password in Java]]
 * [[https://www.baeldung.com/java-convert-latitude-longitude|Convert Latitude and Longitude to a 2D Point in Java]]
@@ -1516,21 +1643,17 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-enum-map|A Guide to EnumMap]]
 
 **October 2018**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/spring-boot-crud-thymeleaf|Spring Boot CRUD Application with Thymeleaf]]
 * [[https://www.baeldung.com/java-indexOf-find-string-occurrences|Using indexOf to Find All Occurrences of a Word in a String]]
 * [[https://www.baeldung.com/java-merging-properties|Merging java.util.Properties Objects]]
 * [[https://www.baeldung.com/lombok-builder-custom-setter|Lombok Builder with Custom Setter]]
 * [[https://www.baeldung.com/java-arrays-guide|Arrays in Java: A Reference Guide]]
-* [[https://www.baeldung.com/kotlin-sort|Guide to Sorting in Kotlin]]
 * [[https://www.baeldung.com/microservices-oracle-helidon|Microservices with Oracle Helidon]]
 * [[https://www.baeldung.com/java-weekly-253|Java Weekly, Issue 253]]
-* [[https://www.baeldung.com/kotlin-dependency-injection-with-injekt|Dependency Injection for Kotlin with Injekt]]
-* [[https://www.baeldung.com/kotlin-data-objects|Mapping of Data Objects in Kotlin]]
 * [[https://www.baeldung.com/java-jsonarray-get-value-by-key|Get a Value by Key in a JSONArray]]
-* [[https://www.baeldung.com/kotlin-initialize-array|Initializing Arrays in Kotlin]]
 * [[https://www.baeldung.com/scala-intro|Introduction to Scala]]
 * [[https://www.baeldung.com/java-csv-file-array|Reading a CSV File into an Array]]
-* [[https://www.baeldung.com/kotlin-threads-coroutines|Threads vs Coroutines in Kotlin]]
 * [[https://www.baeldung.com/java-weekly-252|Java Weekly, Issue 252]]
 * [[https://www.baeldung.com/apache-storm|Intro to Apache Storm]]
 * [[https://www.baeldung.com/spring-date-parameters|Working with Date Parameters in Spring]]
@@ -1546,7 +1669,6 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/hibernate-custom-types|Custom Types in Hibernate and the @Type Annotation]]
 * [[https://www.baeldung.com/spring-session-reactive|A Guide to Spring Session Reactive Support: WebSession]]
 * [[https://www.baeldung.com/gson-json-to-map|Convert JSON to a Map Using Gson]]
-* [[https://www.baeldung.com/kotlin-interfaces|Guide to Kotlin Interfaces]]
 * [[https://www.baeldung.com/jib-dockerizing|Dockerizing Java Apps using Jib]]
 * [[https://www.baeldung.com/java-weekly-251|Java Weekly, Issue 251]]
 * [[https://www.baeldung.com/java-heap-sort|Heap Sort in Java]]
@@ -1558,7 +1680,6 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/modulo-java|The Modulo Operator in Java]]
 * [[https://www.baeldung.com/junit-5-gradle|Using JUnit 5 with Gradle]]
 * [[https://www.baeldung.com/maven-java-home-jdk-jre|JAVA_HOME should point to a JDK not a JRE]]
-* [[https://www.baeldung.com/kotlin-binary-tree|Implementing a Binary Tree in Kotlin]]
 * [[https://www.baeldung.com/spring-data-redis-reactive|An Introduction to Spring Data Redis Reactive]]
 * [[https://www.baeldung.com/jersey-test|Exploring the Jersey Test Framework]]
 * [[https://www.baeldung.com/maven-multi-module|Multi-Module Project with Maven]]
@@ -1580,14 +1701,13 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/gradle-build-settings-properties|Gradle: build.gradle vs. settings.gradle vs. gradle.properties]]
 * [[https://www.baeldung.com/graylog-with-spring-boot|Logging to Graylog with Spring Boot]]
 * [[https://www.baeldung.com/maven-polyglot|Maven Polyglot]]
-* [[https://www.baeldung.com/eclipse-wildfly-configuration|WildFly with Eclipse – Installation and Setup]]
+* [[https://www.baeldung.com/eclipse-wildfly-configuration|WildFly with Eclipse &#8211; Installation and Setup]]
 * [[https://www.baeldung.com/java-map-key-exists|How to Check If a Key Exists in a Map]]
 * [[https://www.baeldung.com/java-math-sin-degrees|Using Math.sin with Degrees]]
 * [[https://www.baeldung.com/spring-data-mongodb-transactions|Spring Data MongoDB Transactions]]
 * [[https://www.baeldung.com/java-nth-root|Calculating the nth Root in Java]]
 * [[https://www.baeldung.com/java-merge-maps|Merging Two Maps with Java 8]]
 * [[https://www.baeldung.com/spring-cloud-data-flow-etl|ETL with Spring Cloud Data Flow]]
-* [[https://www.baeldung.com/kotlin-return-break-continue|Kotlin return, break, continue Keywords]]
 * [[https://www.baeldung.com/java-weekly-249|Java Weekly, Issue 249]]
 * [[https://www.baeldung.com/hibernate-proxy-load-method|Proxy in Hibernate load() Method]]
 * [[https://www.baeldung.com/rxjava-completable|Combining RxJava Completables]]
@@ -1597,6 +1717,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-ternary-operator|Ternary Operator In Java]]
 
 **September 2018**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/java-calculate-percentage|Calculate Percentage in Java]]
 * [[https://www.baeldung.com/spring-boot-google-app-engine|Deploy a Spring Boot Application to Google App Engine]]
 * [[https://www.baeldung.com/java-use-remove-item-stream|Operating on and Removing an Item from Stream]]
@@ -1616,17 +1737,15 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-find-map-max|Finding the Highest Value in a Java Map]]
 * [[https://www.baeldung.com/netflix-archaius-database-configurations|Netflix Archaius with Various Database Configurations]]
 * [[https://www.baeldung.com/persistence-with-spring-series|Spring Persistence Tutorial]]
-* [[https://www.baeldung.com/mockito-deprecated-mockitojunitrunner|Warning: “The type MockitoJUnitRunner is deprecated”]]
+* [[https://www.baeldung.com/mockito-deprecated-mockitojunitrunner|Warning: &#8220;The type MockitoJUnitRunner is deprecated&#8221;]]
 * [[https://www.baeldung.com/java-hashmap-sort|Sort a HashMap in Java]]
 * [[https://www.baeldung.com/java-password-hashing|Hashing a Password in Java]]
 * [[https://www.baeldung.com/spring-boot-access-h2-database-multiple-apps|Access the Same In-Memory H2 Database in Multiple Spring Boot Applications]]
-* [[https://www.baeldung.com/kotlin-concatenate-strings|Concatenate Strings in Kotlin]]
 * [[https://www.baeldung.com/java-zone-offset|ZoneOffset in Java]]
 * [[https://www.baeldung.com/java-assert-string-not-empty|String Not Empty Test Assertions in Java]]
 * [[https://www.baeldung.com/java-separate-double-into-integer-decimal-parts|How to Separate Double into Integer and Decimal Parts]]
 * [[https://www.baeldung.com/java-weekly-247|Java Weekly, Issue 247]]
 * [[https://www.baeldung.com/spring-security-registered-filters|Find the Registered Spring Security Filters]]
-* [[https://www.baeldung.com/kotlin-json-convert-data-class|Converting Kotlin Data Class from JSON using GSON]]
 * [[https://www.baeldung.com/java-heap-dump-capture|Different Ways to Capture Java Heap Dumps]]
 * [[https://www.baeldung.com/hibernate-naming-strategy|Hibernate 5 Naming Strategy Configuration]]
 * [[https://www.baeldung.com/spring-test-property-source|A Quick Guide to @TestPropertySource]]
@@ -1640,19 +1759,17 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/spring-cloud-function|Serverless Functions with Spring Cloud Function]]
 * [[https://www.baeldung.com/kafka-flink-data-pipeline|Building a Data Pipeline with Flink and Kafka]]
 * [[https://www.baeldung.com/spring-cloud-vault|An Intro to Spring Cloud Vault]]
-* [[https://www.baeldung.com/spring-data-crud-repository-save|Spring Data – CrudRepository save() Method]]
+* [[https://www.baeldung.com/spring-data-crud-repository-save|Spring Data &#8211; CrudRepository save() Method]]
 * [[https://www.baeldung.com/java-double-to-string|Convert Double to String, Removing Decimal Places]]
 * [[https://www.baeldung.com/java-commons-lang-3|An Introduction to Apache Commons Lang 3]]
 * [[https://www.baeldung.com/java-thread-yield|Brief Introduction to Java Thread.yield()]]
 * [[https://www.baeldung.com/java-weekly-246|Java Weekly, Issue 246]]
-* [[https://www.baeldung.com/kotlin-fuel|Fuel HTTP Library with Kotlin]]
 * [[https://www.baeldung.com/java-map-key-from-value|Get the Key for a Value from a Java Map]]
 * [[https://www.baeldung.com/opta-planner|A Guide to OptaPlanner]]
 * [[https://www.baeldung.com/ratpack-http-client|Ratpack HTTP Client]]
-* [[https://www.baeldung.com/spring-security-whitelist-ip-range|Spring Security – Whitelist IP Range]]
-* [[https://www.baeldung.com/kotlin-kovenant|Introduction to Kovenant Library for Kotlin]]
+* [[https://www.baeldung.com/spring-security-whitelist-ip-range|Spring Security &#8211; Whitelist IP Range]]
 * [[https://www.baeldung.com/lombok-getter-boolean|Using Lombok's @Getter for Boolean Fields]]
-* [[https://www.baeldung.com/spring-security-oauth2-enable-resource-server-vs-enable-oauth2-sso|OAuth2 – @EnableResourceServer vs @EnableOAuth2Sso]]
+* [[https://www.baeldung.com/spring-security-oauth2-enable-resource-server-vs-enable-oauth2-sso|OAuth2 &#8211; @EnableResourceServer vs @EnableOAuth2Sso]]
 * [[https://www.baeldung.com/lombok-builder-inheritance|Lombok @Builder with Inheritance]]
 * [[https://www.baeldung.com/spring-vault|Spring Vault]]
 * [[https://www.baeldung.com/java-check-if-two-rectangles-overlap|Check If Two Rectangles Overlap In Java]]
@@ -1682,15 +1799,15 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/jpa-join-column|@JoinColumn Annotation Explained]]
 
 **August 2018**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/java-primitives-vs-objects|Java Primitives versus Objects]]
 * [[https://www.baeldung.com/apache-crunch|A Guide to Apache Crunch]]
 * [[https://www.baeldung.com/java-weekly-244|Java Weekly, Issue 244]]
 * [[https://www.baeldung.com/jax-rs-reactive-client|Reactive JAX-RS Client API]]
 * [[https://www.baeldung.com/thymeleaf-custom-html-attributes|Working With Custom HTML Attributes in Thymeleaf]]
-* [[https://www.baeldung.com/jboss-start-stop|JBoss Server – How to Start and Stop?]]
+* [[https://www.baeldung.com/jboss-start-stop|JBoss Server &#8211; How to Start and Stop?]]
 * [[https://www.baeldung.com/spring-data-criteria-queries|Use Criteria Queries in a Spring Data Application]]
 * [[https://www.baeldung.com/spring-delegating-filter-proxy|Overview and Need for DelegatingFilterProxy in Spring]]
-* [[https://www.baeldung.com/kotlin-exposed-persistence|Guide to the Kotlin Exposed Framework]]
 * [[https://www.baeldung.com/java-optional-throw-exception|Throw Exception in Optional in Java 8]]
 * [[https://www.baeldung.com/spring-context-events|Spring Application Context Events]]
 * [[https://www.baeldung.com/mule-esb-flows|Different Types of Flows in Mule]]
@@ -1728,15 +1845,13 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-static-dynamic-binding|Static and Dynamic Binding in Java]]
 * [[https://www.baeldung.com/java-final-finally-finalize|Differences Between Final, Finally and Finalize in Java]]
 * [[https://www.baeldung.com/java-hashset-arraylist-contains-performance|Performance of contains() in a HashSet vs ArrayList]]
-* [[https://www.baeldung.com/kotlin-inner-classes|Kotlin Nested and Inner Classes]]
+* [[https://www.baeldung.com/maven-junit-parallel-tests|Running JUnit Tests in Parallel with Maven]]
 * [[https://www.baeldung.com/maven-project-multiple-src-directories|Maven Project with Multiple Source Directories]]
 * [[https://www.baeldung.com/java-file-to-arraylist|Read a File into an ArrayList]]
 * [[https://www.baeldung.com/wildfly-change-default-port|Change the Default Port in WildFly]]
 * [[https://www.baeldung.com/wildfly-increase-heap|Increase Heap Memory for WildFly]]
 * [[https://www.baeldung.com/java-initialize-hashmap|Initialize a HashMap in Java]]
 * [[https://www.baeldung.com/junit-test-abstract-class|Testing an Abstract Class With JUnit]]
-* [[https://www.baeldung.com/kotlin-builder-pattern|Creational Design Patterns in Kotlin: Builder]]
-* [[https://www.baeldung.com/kotlin-constructors|Kotlin Constructors]]
 * [[https://www.baeldung.com/java-state-design-pattern|State Design Pattern in Java]]
 * [[https://www.baeldung.com/java-collections-emptylist-new-list|Collections.emptyList() vs. New List Instance]]
 * [[https://www.baeldung.com/hazelcast-jet|Introduction to Hazelcast Jet]]
@@ -1765,12 +1880,12 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-faker|A Guide to JavaFaker]]
 
 **July 2018**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/java-snake-yaml|Parsing YAML with SnakeYAML]]
 * [[https://www.baeldung.com/spring-mvc-rss-feed|Display RSS Feed with Spring MVC]]
 * [[https://www.baeldung.com/java-collection-filtering|How to Filter a Collection in Java]]
 * [[https://www.baeldung.com/java-add-items-array-list|Add Multiple Items to an Java ArrayList]]
 * [[https://www.baeldung.com/intellij-auto-import-class|Auto-import Classes in IntelliJ]]
-* [[https://www.baeldung.com/kotlin-random-number|Get a Random Number in Kotlin]]
 * [[https://www.baeldung.com/spring-session-jdbc|Spring Session with JDBC]]
 * [[https://www.baeldung.com/java-remove-first-element-from-list|Remove the First Element from a List]]
 * [[https://www.baeldung.com/spring-boot-vue-js|Vue.js Frontend with a Spring Boot Backend]]
@@ -1789,12 +1904,10 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/spring-batch-start-stop-job|How to Trigger and Stop a Scheduled Spring Batch Job]]
 * [[https://www.baeldung.com/java-initialize-hashset|Initializing HashSet at the Time of Construction]]
 * [[https://www.baeldung.com/java-apache-avro|Guide to Apache Avro]]
-* [[https://www.baeldung.com/spring-webflux-kotlin|Spring Webflux with Kotlin]]
 * [[https://www.baeldung.com/spring-webflux-cors|Spring Webflux and CORS]]
 * [[https://www.baeldung.com/maven-ignore-test-results|Build a Jar with Maven and Ignore the Test Results]]
 * [[https://www.baeldung.com/curl-rest|Test a REST API with curl]]
 * [[https://www.baeldung.com/jmapper|Guide to JMapper]]
-* [[https://www.baeldung.com/kotlin-logging|Idiomatic Logging in Kotlin]]
 * [[https://www.baeldung.com/spring-rest-template-multipart-upload|Uploading MultipartFile with Spring RestTemplate]]
 * [[https://www.baeldung.com/java-weekly-238|Java Weekly, Issue 238]]
 * [[https://www.baeldung.com/spring-rest-hal|Spring REST and HAL Browser]]
@@ -1814,7 +1927,6 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/rxjava-multiple-subscribers-observable|RxJava One Observable, Multiple Subscribers]]
 * [[https://www.baeldung.com/java-stack-heap|Stack Memory and Heap Space in Java]]
 * [[https://www.baeldung.com/java-gregorian-calendar|Guide to java.util.GregorianCalendar]]
-* [[https://www.baeldung.com/kotlin-maven-java-project|Create a Java and Kotlin Project with Maven]]
 * [[https://www.baeldung.com/context-servlet-initialization-param|Context and Servlet Initialization Parameters]]
 * [[https://www.baeldung.com/java-base64-image-string|Image to Base64 String Conversion]]
 * [[https://www.baeldung.com/java-global-exception-handler|Java Global Exception Handler]]
@@ -1823,9 +1935,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/spring-response-header|How to Set a Header on a Response with Spring 5]]
 * [[https://www.baeldung.com/resilience4j|Guide to Resilience4j]]
 * [[https://www.baeldung.com/java-cipher-input-output-stream|Encrypting and Decrypting Files in Java]]
-* [[https://www.baeldung.com/kotlin-reflection|Reflection with Kotlin]]
 * [[https://www.baeldung.com/spring-boot-embedded-mongodb|Spring Boot Integration Testing with Embedded MongoDB]]
-* [[https://www.baeldung.com/kotlin-ktor|Kotlin with Ktor]]
 * [[https://www.baeldung.com/java-metrics|Monitoring Disk Usage and Other Metrics in Java]]
 * [[https://www.baeldung.com/aws-serverless|Introduction to AWS Serverless Application Model]]
 * [[https://www.baeldung.com/java-size-of-object|How to Get the Size of an Object in Java]]
@@ -1847,6 +1957,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/spring-boot-console-app|Spring Boot Console Application]]
 
 **June 2018**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/java-convert-roman-arabic|Converting Between Roman and Arabic Numerals in Java]]
 * [[https://www.baeldung.com/java-year-month-day|Extracting Year, Month and Day from Date in Java]]
 * [[https://www.baeldung.com/java-day-start-end|How to Get the Start and the End of a Day using Java]]
@@ -1855,7 +1966,6 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-dao-pattern|The DAO Pattern in Java]]
 * [[https://www.baeldung.com/java-jar-executable-manifest-main-class|Importance of Main Manifest Attribute in a Self-Executing JAR]]
 * [[https://www.baeldung.com/maven-archetype|Guide to Maven Archetype]]
-* [[https://www.baeldung.com/kotlin-string-template|Kotlin String Templates]]
 * [[https://www.baeldung.com/mockito-callbacks|Testing Callbacks with Mockito]]
 * [[https://www.baeldung.com/java-date-without-time|Get Date Without Time in Java]]
 * [[https://www.baeldung.com/java-antlr|Java with ANTLR]]
@@ -1876,10 +1986,10 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/deltaspike-data-module|A Guide to DeltaSpike Data Module]]
 * [[https://www.baeldung.com/thymeleaf-select-option|Working with Select and Option in Thymeleaf]]
 * [[https://www.baeldung.com/java-weekly-234|Java Weekly, Issue 234]]
-* [[https://www.baeldung.com/web-mvc-configurer-adapter-deprecated|Warning: “The type WebMvcConfigurerAdapter is deprecated”]]
+* [[https://www.baeldung.com/web-mvc-configurer-adapter-deprecated|Warning: &#8220;The type WebMvcConfigurerAdapter is deprecated&#8221;]]
 * [[https://www.baeldung.com/spring-classpath-file-access|Access a File from the Classpath in a Spring Application]]
 * [[https://www.baeldung.com/java-ftp-client|Implementing a FTP-Client in Java]]
-* [[https://www.baeldung.com/spring-security-oauth-authorization-code-flow|Front-End App with Spring Security OAuth – Authorization Code Flow]]
+* [[https://www.baeldung.com/spring-security-oauth-authorization-code-flow|Front-End App with Spring Security OAuth &#8211; Authorization Code Flow]]
 * [[https://www.baeldung.com/jsonpath-count|Count with JsonPath]]
 * [[https://www.baeldung.com/spring-shutdown-callbacks|Spring Shutdown Callbacks]]
 * [[https://www.baeldung.com/java-string-to-date|Convert String to Date in Java]]
@@ -1894,7 +2004,6 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-util-arrays|Guide to the java.util.Arrays Class]]
 * [[https://www.baeldung.com/apache-commons-frequency|Histograms with Apache Commons Frequency]]
 * [[https://www.baeldung.com/java-ee-8-security|Jakarta EE 8 Security API]]
-* [[https://www.baeldung.com/kotlin-enum|Working with Enums in Kotlin]]
 * [[https://www.baeldung.com/thymeleaf-list|Binding a List in Thymeleaf]]
 * [[https://www.baeldung.com/spring-boot|Learn Spring Boot]]
 * [[https://www.baeldung.com/java-jagged-arrays|Multi-Dimensional Arrays In Java]]
@@ -1907,7 +2016,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/spring-core-annotations|Spring Core Annotations]]
 * [[https://www.baeldung.com/mockito-argument-matchers|Mockito ArgumentMatchers]]
 * [[https://www.baeldung.com/jvm-vs-jre-vs-jdk|Difference Between JVM, JRE, and JDK]]
-* [[https://www.baeldung.com/spring-injecting-collections|Spring – Injecting Collections]]
+* [[https://www.baeldung.com/spring-injecting-collections|Spring &#8211; Injecting Collections]]
 * [[https://www.baeldung.com/java-performance-mapping-frameworks|Performance of Java Mapping Frameworks]]
 * [[https://www.baeldung.com/java-parameter-reflection|Method Parameter Reflection in Java]]
 * [[https://www.baeldung.com/java-thread-join|The Thread.join() Method in Java]]
@@ -1916,7 +2025,6 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/servlet-json-response|Returning a JSON Response from a Servlet]]
 * [[https://www.baeldung.com/java-super|Guide to the super Java Keyword]]
 * [[https://www.baeldung.com/java-this|Guide to the this Java Keyword]]
-* [[https://www.baeldung.com/kotlin-json-klaxson|Processing JSON with Kotlin and Klaxson]]
 * [[https://www.baeldung.com/spring-data-key-value|A Guide to Spring Data Key Value]]
 * [[https://www.baeldung.com/spring-scheduling-annotations|Spring Scheduling Annotations]]
 * [[https://www.baeldung.com/spring-mvc-annotations|Spring Web Annotations]]
@@ -1927,8 +2035,8 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/gson-exclude-fields-serialization|Exclude Fields from Serialization in Gson]]
 
 **May 2018**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/spring-data-annotations|Spring Data Annotations]]
-* [[https://www.baeldung.com/kotlin-javascript|Kotlin and Javascript]]
 * [[https://www.baeldung.com/java-hash-table|An Introduction to Java.util.Hashtable Class]]
 * [[https://www.baeldung.com/spring-boot-azure|Deploy a Spring Boot App to Azure]]
 * [[https://www.baeldung.com/dagger-2|Introduction to Dagger 2]]
@@ -1946,7 +2054,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/jni|Guide to JNI (Java Native Interface)]]
 * [[https://www.baeldung.com/kotlin-overview|On Kotlin]]
 * [[https://www.baeldung.com/java-main-method|Java main() Method Explained]]
-* [[https://www.baeldung.com/java-10-overview|Java 10 New Features]]
+* [[https://www.baeldung.com/java-10-overview|New Features in Java 10]]
 * [[https://www.baeldung.com/java-weekly-230|Java Weekly, Issue 230]]
 * [[https://www.baeldung.com/java-not-a-number|NaN in Java]]
 * [[https://www.baeldung.com/msf4j|Introduction to Java Microservices with MSF4J]]
@@ -1959,12 +2067,11 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/spring-boot-war-tomcat-deploy|Deploy a Spring Boot WAR into a Tomcat Server]]
 * [[https://www.baeldung.com/java-variable-method-hiding|Variable and Method Hiding in Java]]
 * [[https://www.baeldung.com/java-weekly-229|Java Weekly, Issue 229]]
-* [[https://www.baeldung.com/java-optional-or-else-vs-or-else-get|Java Optional – orElse() vs orElseGet()]]
+* [[https://www.baeldung.com/java-optional-or-else-vs-or-else-get|Java Optional &#8211; orElse() vs orElseGet()]]
 * [[https://www.baeldung.com/java-vavr|Interoperability Between Java and Vavr]]
 * [[https://www.baeldung.com/java-10-performance-improvements|Java 10 Performance Improvements]]
 * [[https://www.baeldung.com/java-10-local-variable-type-inference|Java 10 LocalVariable Type-Inference]]
 * [[https://www.baeldung.com/spring-boot-favicon|Guide to the Favicon in Spring Boot]]
-* [[https://www.baeldung.com/kotlin-spek|Writing Specifications with Kotlin and Spek]]
 * [[https://www.baeldung.com/java-xerces-dom-parsing|Working with XML Files in Java Using DOM Parsing]]
 * [[https://www.baeldung.com/spring-boot-exit-codes|Spring Boot Exit Codes]]
 * [[https://www.baeldung.com/javalin-rest-microservices|Creating REST Microservices with Javalin]]
@@ -1973,7 +2080,6 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/spring-mvc-custom-property-editor|Spring Custom Property Editor]]
 * [[https://www.baeldung.com/java-composite-pattern|Composite Design pattern in Java]]
 * [[https://www.baeldung.com/spring-deferred-result|Guide to DeferredResult in Spring]]
-* [[https://www.baeldung.com/kotlin-lambda-expressions|Lambda Expressions in Kotlin]]
 * [[https://www.baeldung.com/tomcat-bind-exception|The Tomcat java.net.BindException: Address Already in Use Error in Java]]
 * [[https://www.baeldung.com/java-weekly-228|Java Weekly, Issue 228]]
 * [[https://www.baeldung.com/web3j|Lightweight Ethereum Clients Using Web3j]]
@@ -1982,8 +2088,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-pass-by-value-or-pass-by-reference|Pass-By-Value as a Parameter Passing Mechanism in Java]]
 * [[https://www.baeldung.com/logback|A Guide To Logback]]
 * [[https://www.baeldung.com/maven-ant-task|Run an Ant Task with Maven]]
-* [[https://www.baeldung.com/spring-cache-custom-keygenerator|Spring Cache – Creating a Custom KeyGenerator]]
-* [[https://www.baeldung.com/kotlin-write-file|Writing to a File in Kotlin]]
+* [[https://www.baeldung.com/spring-cache-custom-keygenerator|Spring Cache &#8211; Creating a Custom KeyGenerator]]
 * [[https://www.baeldung.com/java-string|All About String in Java]]
 * [[https://www.baeldung.com/java-io|Java IO Tutorials]]
 * [[https://www.baeldung.com/java-concurrency|Java Concurrency]]
@@ -2005,6 +2110,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/spring-boot-change-port|How to Change the Default Port in Spring Boot]]
 
 **April 2018**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/java-map-duplicate-keys|How to Store Duplicate Keys in a Map in Java?]]
 * [[https://www.baeldung.com/java-9-jaxbexception|Handling NoClassDefFoundError for JAXBException in Java 9]]
 * [[https://www.baeldung.com/java-service-locator-pattern|Service Locator Pattern and Java Implementation]]
@@ -2013,7 +2119,6 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/thymeleaf-iteration|Iteration in Thymeleaf]]
 * [[https://www.baeldung.com/jsf-primefaces|Introduction to Primefaces]]
 * [[https://www.baeldung.com/find-list-element-java|How to Find an Element in a List with Java]]
-* [[https://www.baeldung.com/kotlin-mongodb-spring-webflux|Reactive Flow with MongoDB, Kotlin, and Spring WebFlux]]
 * [[https://www.baeldung.com/java-in-2018|The State of Java in 2018]]
 * [[https://www.baeldung.com/spring-boot-servlet-initializer|A Quick Intro to the SpringBootServletInitializer]]
 * [[https://www.baeldung.com/java-concurrency-jc-tools|Java Concurrency Utility with JCTools]]
@@ -2031,7 +2136,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/apache-ignite-spring-data|Apache Ignite with Spring Data]]
 * [[https://www.baeldung.com/java-singleton-double-checked-locking|Double-Checked Locking with Singleton]]
 * [[https://www.baeldung.com/easymock-argument-matchers|EasyMock Argument Matchers]]
-* [[https://www.baeldung.com/kubernetes|Introduction to Kubernetes]]
+* [[https://www.baeldung.com/ops/kubernetes|Introduction to Kubernetes]]
 * [[https://www.baeldung.com/java-measure-elapsed-time|Measure Elapsed Time in Java]]
 * [[https://www.baeldung.com/java-weekly-225|Java Weekly, Issue 225]]
 * [[https://www.baeldung.com/core-maven-plugins|Guide to the Core Maven Plugins]]
@@ -2044,7 +2149,6 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/maven-surefire-plugin|Quick Guide to the Maven Surefire Plugin]]
 * [[https://www.baeldung.com/maven-compiler-plugin|Maven Compiler Plugin]]
 * [[https://www.baeldung.com/maven-resources-plugin|Maven Resources Plugin]]
-* [[https://www.baeldung.com/kotlin-filter-collection|Filtering Kotlin Collections]]
 * [[https://www.baeldung.com/apache-ignite|A Guide to Apache Ignite]]
 * [[https://www.baeldung.com/java-9-modularity|A Guide to Java 9 Modularity]]
 * [[https://www.baeldung.com/jets3t-amazon-s3|Using the JetS3t Java Client With Amazon S3]]
@@ -2067,7 +2171,6 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-weekly-224|Java Weekly, Issue 224]]
 * [[https://www.baeldung.com/jstl|A Guide to the JSTL Library]]
 * [[https://www.baeldung.com/spring-boot-cli|Introduction to Spring Boot CLI]]
-* [[https://www.baeldung.com/kotlin-read-file|Reading from a File in Kotlin]]
 * [[https://www.baeldung.com/spring-boot-gradle-plugin|Spring Boot Gradle Plugin]]
 * [[https://www.baeldung.com/java-inheritance-composition|Inheritance and Composition (Is-a vs Has-a relationship) in Java]]
 * [[https://www.baeldung.com/sql-logging-spring-boot|Show Hibernate/JPA SQL Statements from Spring Boot]]
@@ -2075,7 +2178,6 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/spring-security-thymeleaf|Spring Security with Thymeleaf]]
 * [[https://www.baeldung.com/java-classloaders|Class Loaders in Java]]
 * [[https://www.baeldung.com/hamcrest-custom-matchers|Hamcrest Custom Matchers]]
-* [[https://www.baeldung.com/kotlin-objects|Objects in Kotlin]]
 * [[https://www.baeldung.com/rxjava-filtering|Filtering Observables in RxJava]]
 * [[https://www.baeldung.com/easymock|Introduction to EasyMock]]
 * [[https://www.baeldung.com/spring-security-5-password-storage|New Password Storage In Spring Security 5]]
@@ -2091,19 +2193,19 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/spring-controller-vs-restcontroller|The Spring @Controller and @RestController Annotations]]
 
 **March 2018**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/rxjava-combine-observables|Combining Observables in RxJava]]
 * [[https://www.baeldung.com/java-daylight-savings|Handling Daylight Savings Time in Java]]
 * [[https://www.baeldung.com/java-weekly-222|Java Weekly, Issue 222]]
 * [[https://www.baeldung.com/rest-assured-json-schema|JSON Schema Validation with REST-assured]]
 * [[https://www.baeldung.com/rest-assured-header-cookie-parameter|Headers, Cookies and Parameters with REST-assured]]
 * [[https://www.baeldung.com/java-io-conversions|Java IO – Conversions]]
-* [[https://www.baeldung.com/java-final|The “final” Keyword in Java]]
+* [[https://www.baeldung.com/java-final|The &#8220;final&#8221; Keyword in Java]]
 * [[https://www.baeldung.com/checkstyle-java|Introduction to CheckStyle]]
 * [[https://www.baeldung.com/hamcrest-object-matchers|Hamcrest Object Matchers]]
 * [[https://www.baeldung.com/mongodb-tagging|A Simple Tagging Implementation with MongoDB]]
 * [[https://www.baeldung.com/rx-relay|Introduction to RxRelay for RxJava]]
 * [[https://www.baeldung.com/grails-mvc-application|Build an MVC Web Application with Grails]]
-* [[https://www.baeldung.com/kotlin-jpa|Working with Kotlin and JPA]]
 * [[https://www.baeldung.com/spring-lazy-annotation|A Quick Guide to the Spring @Lazy Annotation]]
 * [[https://www.baeldung.com/hamcrest-bean-matchers|Hamcrest Bean Matchers]]
 * [[https://www.baeldung.com/flips-spring|A Guide to Flips for Spring]]
@@ -2129,7 +2231,6 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/unirest|A Guide to Unirest]]
 * [[https://www.baeldung.com/maven-dependency-scopes|Maven Dependency Scopes]]
 * [[https://www.baeldung.com/junit-assertions|Assertions in JUnit 4 and JUnit 5]]
-* [[https://www.baeldung.com/kotlin-jvm-synthetic|The @JvmSynthetic Annotation in Kotlin]]
 * [[https://www.baeldung.com/jdbi|A Guide to Jdbi]]
 * [[https://www.baeldung.com/apache-tika|Content Analysis with Apache Tika]]
 * [[https://www.baeldung.com/groovy-json|Working with JSON in Groovy]]
@@ -2141,7 +2242,6 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/jpa-tagging-advanced|An Advanced Tagging Implementation with JPA]]
 * [[https://www.baeldung.com/ec2-java|Managing EC2 Instances in Java]]
 * [[https://www.baeldung.com/java-weekly-219|Java Weekly, Issue 219]]
-* [[https://www.baeldung.com/kotlin-kodein-dependency-injection|Kotlin Dependency Injection with Kodein]]
 * [[https://www.baeldung.com/java-org-json|Introduction to JSON-Java (org.json)]]
 * [[https://www.baeldung.com/gradle-custom-task|A Custom Task in Gradle]]
 * [[https://www.baeldung.com/rxjava-string|RxJava StringObservable]]
@@ -2155,10 +2255,11 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/mvc-servlet-jsp|An MVC Example with Servlets and JSP]]
 * [[https://www.baeldung.com/jdbc-groovy|JDBC with Groovy]]
 * [[https://www.baeldung.com/java-method-handles|Method Handles in Java]]
-* [[https://www.baeldung.com/checker-framework|The Checker Framework – Pluggable Type Systems for Java]]
+* [[https://www.baeldung.com/checker-framework|The Checker Framework &#8211; Pluggable Type Systems for Java]]
 * [[https://www.baeldung.com/java-weekly-218|Java Weekly, Issue 218]]
 
 **February 2018**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/reactor-combine-streams|Combining Publishers in Project Reactor]]
 * [[https://www.baeldung.com/java-detect-os|How to Detect the OS Using Java]]
 * [[https://www.baeldung.com/spring-cloud-task|An Intro to Spring Cloud Task]]
@@ -2171,14 +2272,13 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/infinispan|A Guide to Infinispan in Java]]
 * [[https://www.baeldung.com/java-compare-strings|Comparing Strings in Java]]
 * [[https://www.baeldung.com/jpa-tagging|A Simple Tagging Implementation with JPA]]
-* [[https://www.baeldung.com/rxjava-2-flowable|RxJava 2 – Flowable]]
+* [[https://www.baeldung.com/rxjava-2-flowable|RxJava 2 &#8211; Flowable]]
 * [[https://www.baeldung.com/spring-feature-flags|Feature Flags with Spring]]
 * [[https://www.baeldung.com/spring-boot-security-autoconfiguration|Spring Boot Security Auto-Configuration]]
 * [[https://www.baeldung.com/java-weekly-217|Java Weekly, Issue 217]]
 * [[https://www.baeldung.com/java-shuffle-collection|Shuffling Collections In Java]]
-* [[https://www.baeldung.com/spring-batch-tasklet-chunk|Spring Batch – Tasklets vs Chunks]]
+* [[https://www.baeldung.com/spring-batch-tasklet-chunk|Spring Batch &#8211; Tasklets vs Chunks]]
 * [[https://www.baeldung.com/spring-cloud-security|An Intro to Spring Cloud Security]]
-* [[https://www.baeldung.com/kotlin-infix-functions|Infix Functions in Kotlin]]
 * [[https://www.baeldung.com/spring-response-status-exception|Spring ResponseStatusException]]
 * [[https://www.baeldung.com/jrecreate|Exploring jrecreate]]
 * [[https://www.baeldung.com/async-http-client-websockets|WebSockets with AsyncHttpClient]]
@@ -2195,7 +2295,6 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-palindrome|Check if a String is a Palindrome in Java]]
 * [[https://www.baeldung.com/activeweb|Introduction to ActiveWeb]]
 * [[https://www.baeldung.com/jgroups|Reliable Messaging with JGroups]]
-* [[https://www.baeldung.com/kotlin-regular-expressions|Regular Expressions in Kotlin]]
 * [[https://www.baeldung.com/spring-jinq|Introduction to Jinq with Spring]]
 * [[https://www.baeldung.com/jpa-attribute-converters|JPA Attribute Converters]]
 * [[https://www.baeldung.com/assertj-conditions|Using Conditions with AssertJ Assertions]]
@@ -2205,7 +2304,6 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/async-http-client|Asynchronous HTTP with async-http-client in Java]]
 * [[https://www.baeldung.com/java-9-http-client|Exploring the New HTTP Client in Java]]
 * [[https://www.baeldung.com/java-weekly-215|Java Weekly, Issue 215]]
-* [[https://www.baeldung.com/java-wait-notify|wait and notify() Methods in Java]]
 * [[https://www.baeldung.com/assertj-custom-assertion|Custom Assertions with AssertJ]]
 * [[https://www.baeldung.com/javac|Compiling Java *.class Files with javac]]
 * [[https://www.baeldung.com/elasticsearch-tagging|A Simple Tagging Implementation with Elasticsearch]]
@@ -2217,11 +2315,11 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/tomcat-change-port|Changing Tomcat HTTP Port to 80]]
 
 **January 2018**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/spring-5-reactive-websockets|Reactive WebSockets with Spring 5]]
 * [[https://www.baeldung.com/java-log-json-output|Get Log Output in JSON]]
-* [[https://www.baeldung.com/kotlin-khttp|HTTP Requests with Kotlin and khttp]]
 * [[https://www.baeldung.com/javadoc|Introduction to Javadoc]]
-* [[https://www.baeldung.com/java-redis-lettuce|Introduction to Lettuce – the Java Redis Client]]
+* [[https://www.baeldung.com/java-redis-lettuce|Introduction to Lettuce &#8211; the Java Redis Client]]
 * [[https://www.baeldung.com/elasticsearch-geo-spatial|Geospatial Support in ElasticSearch]]
 * [[https://www.baeldung.com/java-spliterator|Introduction to Spliterator in Java]]
 * [[https://www.baeldung.com/manually-set-user-authentication-spring-security|How to Manually Authenticate User with Spring Security]]
@@ -2230,8 +2328,8 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/spring-security-extra-login-fields|Extra Login Fields with Spring Security]]
 * [[https://www.baeldung.com/kong|An Introduction to Kong]]
 * [[https://www.baeldung.com/zuul-load-balancing|An Example of Load Balancing with Zuul and Eureka]]
-* [[https://www.baeldung.com/spring-5-push|Spring 5 and Servlet 4 – The PushBuilder]]
-* [[https://www.baeldung.com/spring-security-auto-login-user-after-registration|Spring Security – Auto Login User After Registration]]
+* [[https://www.baeldung.com/spring-5-push|Spring 5 and Servlet 4 &#8211; The PushBuilder]]
+* [[https://www.baeldung.com/spring-security-auto-login-user-after-registration|Spring Security &#8211; Auto Login User After Registration]]
 * [[https://www.baeldung.com/jetty-java-programmatic|Creating and Configuring Jetty 9 Server in Java]]
 * [[https://www.baeldung.com/trie-java|The Trie Data Structure in Java]]
 * [[https://www.baeldung.com/spring-boot-actuators|Spring Boot Actuator]]
@@ -2239,18 +2337,17 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/spring-mvc-tutorial|Spring MVC Tutorial]]
 * [[https://www.baeldung.com/netty-exception-handling|Exceptions in Netty]]
 * [[https://www.baeldung.com/spring-security-oauth-jwt|Using JWT with Spring Security OAuth]]
-* [[https://www.baeldung.com/javalite-rest|A Guide to JavaLite – Building a RESTful CRUD application]]
+* [[https://www.baeldung.com/javalite-rest|A Guide to JavaLite &#8211; Building a RESTful CRUD application]]
 * [[https://www.baeldung.com/spring-security-method-security|Introduction to Spring Method Security]]
 * [[https://www.baeldung.com/java-weekly-212|Java Weekly, Issue 212]]
 * [[https://www.baeldung.com/jenkins-custom-plugin|Writing a Jenkins Plugin]]
-* [[https://www.baeldung.com/kotlin-try-with-resources|Try-with-resources in Kotlin]]
 * [[https://www.baeldung.com/spring-ejb|Integration Guide for Spring and EJB]]
-* [[https://www.baeldung.com/spring-security-5-oauth2-login|Spring Security 5 – OAuth2 Login]]
+* [[https://www.baeldung.com/spring-security-5-oauth2-login|Spring Security 5 &#8211; OAuth2 Login]]
 * [[https://www.baeldung.com/maven-wrapper|A Quick Guide to Maven Wrapper]]
-* [[https://www.baeldung.com/spring-cloud-aws-messaging|Spring Cloud AWS – Messaging Support]]
-* [[https://www.baeldung.com/spring-cloud-aws-rds|Spring Cloud AWS – RDS]]
-* [[https://www.baeldung.com/spring-cloud-aws-ec2|Spring Cloud AWS – EC2]]
-* [[https://www.baeldung.com/spring-cloud-aws-s3|Spring Cloud AWS – S3]]
+* [[https://www.baeldung.com/spring-cloud-aws-messaging|Spring Cloud AWS &#8211; Messaging Support]]
+* [[https://www.baeldung.com/spring-cloud-aws-rds|Spring Cloud AWS &#8211; RDS]]
+* [[https://www.baeldung.com/spring-cloud-aws-ec2|Spring Cloud AWS &#8211; EC2]]
+* [[https://www.baeldung.com/spring-cloud-aws-s3|Spring Cloud AWS &#8211; S3]]
 * [[https://www.baeldung.com/java-weekly-211|Java Weekly, Issue 211]]
 * [[https://www.baeldung.com/java-primitives|Introduction to Java Primitives]]
 * [[https://www.baeldung.com/java-weak-reference|Weak References in Java]]
@@ -2264,7 +2361,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/cockroachdb-java|Guide to CockroachDB in Java]]
 * [[https://www.baeldung.com/java-treemap-vs-hashmap|Java TreeMap vs HashMap]]
 * [[https://www.baeldung.com/java-string-joiner|Java 8 StringJoiner]]
-* [[https://www.baeldung.com/jenkins-job-schedule|Scheduling a Job in Jenkins]]
+* [[https://www.baeldung.com/ops/jenkins-job-schedule|Scheduling a Job in Jenkins]]
 * [[https://www.baeldung.com/hibernate-5-multitenancy|A Guide to Multitenancy in Hibernate 5]]
 * [[https://www.baeldung.com/java-thread-local-random|Guide to ThreadLocalRandom in Java]]
 * [[https://www.baeldung.com/hibernate-5-spring|Bootstrapping Hibernate 5 with Spring]]
@@ -2274,11 +2371,12 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-soft-references|Soft References in Java]]
 
 **December 2017**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/java-default-annotations|Overview of Java Built-in Annotations]]
 * [[https://www.baeldung.com/java-orientdb|Introduction to the OrientDB Java APIs]]
 * [[https://www.baeldung.com/flyway-callbacks|A Guide to Flyway Callbacks]]
 * [[https://www.baeldung.com/hibernate-interceptor|Hibernate Interceptors]]
-* [[https://www.baeldung.com/jenkins-pipelines|Intro to Jenkins 2 and the Power of Pipelines]]
+* [[https://www.baeldung.com/ops/jenkins-pipelines|Intro to Jenkins 2 and the Power of Pipelines]]
 * [[https://www.baeldung.com/gradle-fat-jar|Creating a Fat Jar in Gradle]]
 * [[https://www.baeldung.com/java-binary-tree|Implementing a Binary Tree in Java]]
 * [[https://www.baeldung.com/java-influxdb|Using InfluxDB with Java]]
@@ -2288,9 +2386,9 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-static-default-methods|Static and Default Methods in Interfaces in Java]]
 * [[https://www.baeldung.com/jspec|Guide to JSpec]]
 * [[https://www.baeldung.com/java-fail-safe-vs-fail-fast-iterator|Fail-Safe Iterator vs Fail-Fast Iterator]]
-* [[https://www.baeldung.com/java-executor-wait-for-threads|ExecutorService – Waiting for Threads to Finish]]
+* [[https://www.baeldung.com/java-executor-wait-for-threads|ExecutorService &#8211; Waiting for Threads to Finish]]
 * [[https://www.baeldung.com/java-initialization|A Guide to Creating Objects in Java]]
-* [[https://www.baeldung.com/jenkins-and-jmeter|Configure Jenkins to Run and Show JMeter Tests]]
+* [[https://www.baeldung.com/ops/jenkins-and-jmeter|Configure Jenkins to Run and Show JMeter Tests]]
 * [[https://www.baeldung.com/java-cipher-class|Guide to the Cipher Class]]
 * [[https://www.baeldung.com/jmeter|Intro to Performance Testing using JMeter]]
 * [[https://www.baeldung.com/java-variable-handles|Java 9 Variable Handles Demystified]]
@@ -2315,11 +2413,10 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/spring-apache-file-upload|Spring and Apache FileUpload]]
 * [[https://www.baeldung.com/hibernate-spatial|Introduction to Hibernate Spatial]]
 * [[https://www.baeldung.com/new-spring-boot-2|What's New in Spring Boot 2?]]
-* [[https://www.baeldung.com/os-data-into-elastic-stack|Send Operating System Data into Elastic Stack (ELK Stack)]]
+* [[https://www.baeldung.com/ops/os-data-into-elastic-stack|Send Operating System Data into Elastic Stack (ELK Stack)]]
 * [[https://www.baeldung.com/hibernate-search|Introduction to Hibernate Search]]
 * [[https://www.baeldung.com/java-hashset|A Guide to HashSet in Java]]
 * [[https://www.baeldung.com/spring-cloud-heroku|Spring Cloud Connectors and Heroku]]
-* [[https://www.baeldung.com/kotlin-extension-methods|Extension Methods in Kotlin]]
 * [[https://www.baeldung.com/mule-esb|Getting Started With Mule ESB]]
 * [[https://www.baeldung.com/java-weekly-206|Java Weekly, Issue 206]]
 * [[https://www.baeldung.com/spring-security-acl|Introduction to Spring Security ACL]]
@@ -2334,6 +2431,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/spring-5-junit-config|The SpringJUnitConfig and SpringJUnitWebConfig Annotations in Spring 5]]
 
 **November 2017**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/java-weekly-205|Java Weekly, Issue 205]]
 * [[https://www.baeldung.com/java-string-formatter|Guide to java.util.Formatter]]
 * [[https://www.baeldung.com/java-json-binding-api|Introduction to the JSON Binding API (JSR 367) in Java]]
@@ -2353,7 +2451,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-copy-file|How to Copy a File with Java]]
 * [[https://www.baeldung.com/java-weekly-204|Java Weekly, Issue 204]]
 * [[https://www.baeldung.com/java-time-zones|Display All Time Zones With GMT And UTC in Java]]
-* [[https://www.baeldung.com/spring-5-enabledIf|Spring 5 Testing with @EnabledIf Annotation]]
+* [[https://www.baeldung.com/spring-5-enabledif|Spring 5 Testing with @EnabledIf Annotation]]
 * [[https://www.baeldung.com/creational-design-patterns|Introduction to Creational Design Patterns]]
 * [[https://www.baeldung.com/spring-cloud-cli|Introduction to Spring Cloud CLI]]
 * [[https://www.baeldung.com/spring-abstract-routing-data-source|A Guide to Spring AbstractRoutingDatasource]]
@@ -2407,8 +2505,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/junit-5-runwith|JUnit5 @RunWith]]
 * [[https://www.baeldung.com/spring-aop|Introduction to Spring AOP]]
 * [[https://www.baeldung.com/spring-boot-admin|A Guide to Spring Boot Admin]]
-* [[https://www.baeldung.com/hibernate-date-time|Hibernate – Mapping Date and Time]]
-* [[https://www.baeldung.com/junit-5-kotlin|JUnit 5 for Kotlin Developers]]
+* [[https://www.baeldung.com/hibernate-date-time|Hibernate &#8211; Mapping Date and Time]]
 * [[https://www.baeldung.com/activiti-spring-security|Activiti with Spring Security]]
 * [[https://www.baeldung.com/tomcat-utf-8|Making Tomcat UTF-8-Ready]]
 * [[https://www.baeldung.com/no-hibernate-session-bound-to-thread-exception|HibernateException: No Hibernate Session Bound to Thread in Hibernate 3]]
@@ -2417,16 +2514,17 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/string/code-point-at|Java String.codePointAt()]]
 
 **October 2017**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/java-daemon-thread|Daemon Threads in Java]]
 * [[https://www.baeldung.com/java-8-challenges|Challenges in Java 8]]
 * [[https://www.baeldung.com/hibernate-dynamic-mapping|Dynamic Mapping with Hibernate]]
 * [[https://www.baeldung.com/jdo-queries|Intro to JDO Queries 2/2]]
-* [[https://www.baeldung.com/mockito-junit-5-extension|Mockito and JUnit 5 – Using ExtendWith]]
+* [[https://www.baeldung.com/mockito-junit-5-extension|Mockito and JUnit 5 &#8211; Using ExtendWith]]
 * [[https://www.baeldung.com/mockito-void-methods|Mocking Void Methods with Mockito]]
 * [[https://www.baeldung.com/apache-spark|Introduction to Apache Spark]]
 * [[https://www.baeldung.com/java-bouncy-castle|Introduction to BouncyCastle with Java]]
 * [[https://www.baeldung.com/java-initialize-array|Initializing Arrays in Java]]
-* [[https://www.baeldung.com/spring-data-jpa-method-in-all-repositories|Spring Data JPA – Adding a Method in All Repositories]]
+* [[https://www.baeldung.com/spring-data-jpa-method-in-all-repositories|Spring Data JPA &#8211; Adding a Method in All Repositories]]
 * [[https://www.baeldung.com/micrometer|Quick Guide to Micrometer]]
 * [[https://www.baeldung.com/java-static|A Guide to the Static Keyword in Java]]
 * [[https://www.baeldung.com/java-weekly-200|Java Weekly, Issue 200]]
@@ -2446,7 +2544,6 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/streamex|Introduction to StreamEx]]
 * [[https://www.baeldung.com/java-profilers|A Guide to Java Profilers]]
 * [[https://www.baeldung.com/java-weekly-198|Java Weekly, Issue 198]]
-* [[https://www.baeldung.com/java-to-kotlin|Migrating from Java to Kotlin]]
 * [[https://www.baeldung.com/activiti-process-engine|ProcessEngine Configuration in Activiti]]
 * [[https://www.baeldung.com/spring-cloud-gateway|Exploring the New Spring Cloud Gateway]]
 * [[https://www.baeldung.com/jira-rest-api|JIRA REST API Integration]]
@@ -2464,13 +2561,13 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/jgrapht|Introduction to JGraphT]]
 
 **September 2017**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/maven-animal-sniffer|Introduction to Animal Sniffer Maven Plugin]]
 * [[https://www.baeldung.com/apache-commons-bag|Apache Commons Collections Bag]]
 * [[https://www.baeldung.com/java-weekly-196|Java Weekly, Issue 196]]
 * [[https://www.baeldung.com/apache-cayenne-orm|Introduction to Apache Cayenne ORM]]
 * [[https://www.baeldung.com/rxjava-schedulers|Schedulers in RxJava]]
 * [[https://www.baeldung.com/n1ql-couchbase|Querying Couchbase with N1QL]]
-* [[https://www.baeldung.com/kotlin-jvm-field-annotation|Guide to Kotlin @JvmField]]
 * [[https://www.baeldung.com/rxjava-tutorial|RxJava Tutorial]]
 * [[https://www.baeldung.com/rxjava-jdbc|Introduction to rxjava-jdbc]]
 * [[https://www.baeldung.com/spring-security-granted-authority-vs-role|Granted Authority Versus Role in Spring Security]]
@@ -2484,7 +2581,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/geo-tools|Introduction to GeoTools]]
 * [[https://www.baeldung.com/java-diamond-operator|Guide to the Diamond Operator in Java]]
 * [[https://www.baeldung.com/vavr-tutorial|Vavr Tutorial]]
-* [[https://www.baeldung.com/java-stream-operated-upon-or-closed-exception|“Stream has already been operated upon or closed” Exception in Java]]
+* [[https://www.baeldung.com/java-stream-operated-upon-or-closed-exception|&#8220;Stream has already been operated upon or closed&#8221; Exception in Java]]
 * [[https://www.baeldung.com/java-binary-search|Binary Search Algorithm in Java]]
 * [[https://www.baeldung.com/spring-boot-mustache|Guide to Mustache with Spring Boot]]
 * [[https://www.baeldung.com/egit|Introduction to EGit]]
@@ -2501,18 +2598,16 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/jcache|Introduction to JCache]]
 * [[https://www.baeldung.com/java-linked-list-cyclicity|Test a Linked List for Cyclicity]]
 * [[https://www.baeldung.com/java-number-of-digits-in-int|Number of Digits in an Integer in Java]]
-* [[https://www.baeldung.com/kotlin-allopen-spring|Kotlin-allopen and Spring]]
-* [[https://www.baeldung.com/trampoline|Trampoline – Managing Spring Boot Applications Locally]]
+* [[https://www.baeldung.com/trampoline|Trampoline &#8211; Managing Spring Boot Applications Locally]]
 * [[https://www.baeldung.com/vertx-rx-java|Example of Vertx and RxJava Integration]]
 * [[https://www.baeldung.com/mbassador|Introduction to MBassador]]
-* [[https://www.baeldung.com/spring-security-oauth-2-verify-claims|New in Spring Security OAuth2 – Verify Claims]]
+* [[https://www.baeldung.com/spring-security-oauth-2-verify-claims|New in Spring Security OAuth2 &#8211; Verify Claims]]
 * [[https://www.baeldung.com/java-string-builder-string-buffer|StringBuilder vs StringBuffer in Java]]
 * [[https://www.baeldung.com/retrofit-rxjava|Integrating Retrofit with RxJava]]
 * [[https://www.baeldung.com/java-stream-indices|How to Iterate Over a Stream With Indices]]
 * [[https://www.baeldung.com/java-weekly-193|Java Weekly, Issue 193]]
 * [[https://www.baeldung.com/jdeferred|Guide to JDeferred]]
 * [[https://www.baeldung.com/vavr-collections|Guide to Collections API in Vavr]]
-* [[https://www.baeldung.com/spring-mvc-kotlin|Spring MVC Setup with Kotlin]]
 * [[https://www.baeldung.com/java-gc-overhead-limit-exceeded|OutOfMemoryError: GC Overhead Limit Exceeded]]
 * [[https://www.baeldung.com/java-sneaky-throws|“Sneaky Throws” in Java]]
 * [[https://www.baeldung.com/java-delete-directory|Delete a Directory Recursively in Java]]
@@ -2524,6 +2619,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/wildfly-ejb-jndi|Introduction to EJB JNDI Lookup on WildFly Application Server]]
 
 **August 2017**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/java-runnable-callable|Runnable vs. Callable in Java]]
 * [[https://www.baeldung.com/java-date-difference|Difference Between Two Dates in Java]]
 * [[https://www.baeldung.com/graphql|Introduction to GraphQL]]
@@ -2548,7 +2644,6 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/jboss-undertow|Introduction to JBoss Undertow]]
 * [[https://www.baeldung.com/spring-data-ldap|Guide to Spring Data LDAP]]
 * [[https://www.baeldung.com/java-volatile|Guide to the Volatile Keyword in Java]]
-* [[https://www.baeldung.com/java-8-stream-vs-kotlin|Java 8 Stream API Analogies in Kotlin]]
 * [[https://www.baeldung.com/java-weekly-190|Java Weekly, Issue 190]]
 * [[https://www.baeldung.com/java-broadcast-multicast|Broadcasting and Multicasting in Java]]
 * [[https://www.baeldung.com/spring-boot-dependency-management-custom-parent|Spring Boot Dependency Management with a Custom Parent]]
@@ -2556,7 +2651,6 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/spring-batch-partitioner|Spring Batch using Partitioner]]
 * [[https://www.baeldung.com/java-9-objects-new|Java 9 java.util.Objects Additions]]
 * [[https://www.baeldung.com/eclipse-collections|Introduction to Eclipse Collections]]
-* [[https://www.baeldung.com/kotlin-tail-recursion|Kotlin and Tail Recursion]]
 * [[https://www.baeldung.com/no-exception|Introduction to NoException]]
 * [[https://www.baeldung.com/spring-enable-annotations|Quick Guide to the Spring @Enable Annotations]]
 * [[https://www.baeldung.com/junit-5-parameters|Inject Parameters into JUnit Jupiter Unit Tests]]
@@ -2566,11 +2660,9 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/rome-rss|Quick Guide to RSS with Rome]]
 * [[https://www.baeldung.com/bootique|Introduction to Bootique]]
 * [[https://www.baeldung.com/java-ee-spring-security|Securing Jakarta EE with Spring Security]]
-* [[https://www.baeldung.com/kotlin-sealed-classes|Sealed Classes in Kotlin]]
 * [[https://www.baeldung.com/java-stream-immutable-collection|Collect a Java Stream to an Immutable Collection]]
 * [[https://www.baeldung.com/java-weekly-188|Java Weekly, Issue 188]]
 * [[https://www.baeldung.com/java-hashcode|Guide to hashCode() in Java]]
-* [[https://www.baeldung.com/kotlin-delegated-properties|Delegated Properties in Kotlin]]
 * [[https://www.baeldung.com/apache-commons-chain|Apache Commons Chain]]
 * [[https://www.baeldung.com/rxjava-custom-operators|Implementing Custom Operators in RxJava]]
 * [[https://www.baeldung.com/hoverfly|Introduction to Hoverfly in Java]]
@@ -2580,16 +2672,15 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-pcollections|Introduction to PCollections]]
 
 **July 2017**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/mockserver|Introduction to MockServer]]
 * [[https://www.baeldung.com/spring-stream-utils|Introduction to Spring's StreamUtils]]
 * [[https://www.baeldung.com/kryo|Introduction To Kryo]]
-* [[https://www.baeldung.com/kotlin-visibility-modifiers|Visibility Modifiers in Kotlin]]
 * [[https://www.baeldung.com/spring-boot-migration|Migrating from Spring to Spring Boot]]
-* [[https://www.baeldung.com/spring-http-logging|Spring – Log Incoming Requests]]
+* [[https://www.baeldung.com/spring-http-logging|Spring &#8211; Log Incoming Requests]]
 * [[https://www.baeldung.com/commons-circular-fifo-queue|Guide to Apache Commons CircularFifoQueue]]
 * [[https://www.baeldung.com/jooby|Introduction to Jooby]]
 * [[https://www.baeldung.com/asciidoctor-book|Generating a Book with Asciidoctor]]
-* [[https://www.baeldung.com/kotlin-destructuring-declarations|Destructuring Declarations in Kotlin]]
 * [[https://www.baeldung.com/ratpack-spring-boot|Ratpack Integration with Spring Boot]]
 * [[https://www.baeldung.com/spring-cloud-bus|Spring Cloud Bus]]
 * [[https://www.baeldung.com/java-weekly-187|Java Weekly, Issue 187]]
@@ -2607,17 +2698,14 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-atomic-variables|An Introduction to Atomic Variables in Java]]
 * [[https://www.baeldung.com/cassandra-data-modeling|Data Modeling in Cassandra]]
 * [[https://www.baeldung.com/java-weekly-186|Java Weekly, Issue 186]]
-* [[https://www.baeldung.com/kotlin-mockito|Kotlin with Mockito]]
 * [[https://www.baeldung.com/java-hyperloglog|Guide to the HyperLogLog Algorithm in Java]]
 * [[https://www.baeldung.com/junit-5-migration|Migrating from JUnit 4 to JUnit 5]]
 * [[https://www.baeldung.com/awaitlity-testing|Introduction to Awaitility]]
 * [[https://www.baeldung.com/java-chronicle-queue|Introduction to Chronicle Queue]]
 * [[https://www.baeldung.com/spring-vavr|Vavr Support in Spring Data]]
 * [[https://www.baeldung.com/java-weekly-185|Java Weekly, Issue 185]]
-* [[https://www.baeldung.com/kotlin-lazy-initialization|Lazy Initialization in Kotlin]]
 * [[https://www.baeldung.com/drools-spring-integration|Drools Spring Integration]]
 * [[https://www.baeldung.com/junit-5-extensions|A Guide to JUnit 5 Extensions]]
-* [[https://www.baeldung.com/kotlin-collections-api|Overview of Kotlin Collections API]]
 * [[https://www.baeldung.com/vavr-either|Introduction to Vavr's Either]]
 * [[https://www.baeldung.com/java-minimax-algorithm|Introduction to Minimax Algorithm with a Java Implementation]]
 * [[https://www.baeldung.com/apache-commons-collection-utils|A Guide to Apache Commons Collections CollectionUtils]]
@@ -2630,8 +2718,6 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/commons-collections-bidi-map|Apache Commons Collections BidiMap]]
 * [[https://www.baeldung.com/guava-rate-limiter|Quick Guide to the Guava RateLimiter]]
 * [[https://www.baeldung.com/java-serial-version-uid|What is the serialVersionUID?]]
-* [[https://www.baeldung.com/kotlin-list-to-map|Converting a List to Map in Kotlin]]
-* [[https://www.baeldung.com/kotlin-data-classes|Data Classes in Kotlin]]
 * [[https://www.baeldung.com/pact-junit-consumer-driven-contracts|Consumer Driven Contracts with Pact]]
 * [[https://www.baeldung.com/java-weekly-184|Java Weekly, Issue 184]]
 * [[https://www.baeldung.com/java-type-erasure|Type Erasure in Java Explained]]
@@ -2644,7 +2730,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-apache-commons-text|Introduction to Apache Commons Text]]
 
 **June 2017**
-* [[https://www.baeldung.com/kotlin-coroutines|Introduction to Kotlin Coroutines]]
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/java-weekly-183|Java Weekly, Issue 183]]
 * [[https://www.baeldung.com/apache-commons-ordered-map|Apache Commons Collections OrderedMap]]
 * [[https://www.baeldung.com/spring-cloud-gateway-pattern|Spring Cloud Series – The Gateway Pattern]]
@@ -2677,7 +2763,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/spring-show-all-beans|How to Get All Spring-Managed Beans?]]
 * [[https://www.baeldung.com/java-getters-returning-null|How to Find all Getters Returning Null]]
 * [[https://www.baeldung.com/spring-interview-questions|Top Spring Framework Interview Questions]]
-* [[https://www.baeldung.com/spring-boot-start|Spring Boot Tutorial – Bootstrap a Simple Application]]
+* [[https://www.baeldung.com/spring-boot-start|Spring Boot Tutorial &#8211; Bootstrap a Simple Application]]
 * [[https://www.baeldung.com/java-hill-climbing-algorithm|Example of Hill Climbing Algorithm in Java]]
 * [[https://www.baeldung.com/ejb-session-beans|Java EE Session Beans]]
 * [[https://www.baeldung.com/java-between-dates|How to Get All Dates Between Two Dates?]]
@@ -2689,7 +2775,6 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/inject-properties-value-non-spring-class|How to Inject a Property Value Into a Class Not Managed by Spring?]]
 * [[https://www.baeldung.com/java-merge-streams|Merging Streams in Java]]
 * [[https://www.baeldung.com/akka-streams|Guide to Akka Streams]]
-* [[https://www.baeldung.com/spring-boot-kotlin|Spring Boot and Kotlin]]
 * [[https://www.baeldung.com/java-round-decimal-number|How to Round a Number to N Decimal Places in Java]]
 * [[https://www.baeldung.com/java-9-reactive-streams|Java 9 Reactive Streams]]
 * [[https://www.baeldung.com/structurizr|Intro to Structurizr]]
@@ -2700,6 +2785,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-dining-philoshophers|The Dining Philosophers Problem in Java]]
 
 **May 2017**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/java-regexp-escape-char|Guide to Escaping Characters in Java RegExps]]
 * [[https://www.baeldung.com/content-editor-job|Looking for a Java/Spring Technical Editor for Baeldung (not open)]]
 * [[https://www.baeldung.com/java-stream-last-element|How to Get the Last Element of a Stream in Java?]]
@@ -2707,7 +2793,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-uuid|Guide to UUID in Java]]
 * [[https://www.baeldung.com/arquillian|Introduction to Testing with Arquillian]]
 * [[https://www.baeldung.com/junit-params|Introduction to JUnitParams]]
-* [[https://www.baeldung.com/spring-cloud-angular|Spring Cloud – Adding Angular 4]]
+* [[https://www.baeldung.com/spring-cloud-angular|Spring Cloud &#8211; Adding Angular 4]]
 * [[https://www.baeldung.com/java-web-weekly-178|Java Web Weekly, Issue 178]]
 * [[https://www.baeldung.com/java-classnotfoundexception-and-noclassdeffounderror|ClassNotFoundException vs NoClassDefFoundError]]
 * [[https://www.baeldung.com/google-truth|Testing with Google Truth]]
@@ -2724,7 +2810,6 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-web-weekly-177|Java Web Weekly, Issue 177]]
 * [[https://www.baeldung.com/drools|Introduction to Drools]]
 * [[https://www.baeldung.com/java-synchronized|Guide to the Synchronized Keyword in Java]]
-* [[https://www.baeldung.com/kotlin-equality-operators|Difference Between “==” and “===” operators in Kotlin]]
 * [[https://www.baeldung.com/java-remove-last-character-of-string|How to Remove the Last Character of a String?]]
 * [[https://www.baeldung.com/guava-math|Guide to Mathematical Utilities in Guava]]
 * [[https://www.baeldung.com/java-serialization|Introduction to Java Serialization]]
@@ -2753,6 +2838,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-dynamic-proxies|Dynamic Proxies in Java]]
 
 **April 2017**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/java-mapped-byte-buffer|Using Java <em>MappedByteBuffer</em>]]
 * [[https://www.baeldung.com/java-annotations-interview-questions|Java Annotations Interview Questions (+ Answers)]]
 * [[https://www.baeldung.com/java-longadder-and-longaccumulator|<em>LongAdder</em> and <em>LongAccumulator</em> in Java]]
@@ -2761,7 +2847,6 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-concurrent-skip-list-map|Guide to the ConcurrentSkipListMap]]
 * [[https://www.baeldung.com/jvm-parameters|Guide to the Most Important JVM Parameters]]
 * [[https://www.baeldung.com/java-hashset-vs-treeset|HashSet and TreeSet Comparison]]
-* [[https://www.baeldung.com/kotlin-java-interoperability|Kotlin Java Interoperability]]
 * [[https://www.baeldung.com/serenity-bdd|Introduction to Serenity BDD]]
 * [[https://www.baeldung.com/jax-ws|Introduction to JAX-WS]]
 * [[https://www.baeldung.com/spring-dispatcherservlet|An Intro to the Spring DispatcherServlet]]
@@ -2780,7 +2865,6 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/javaee-web-annotations|A Guide to Java EE Web-Related Annotations]]
 * [[https://www.baeldung.com/java-web-weekly-173|Java Web Weekly, Issue 173]]
 * [[https://www.baeldung.com/groovy-language|Introduction to Groovy Language]]
-* [[https://www.baeldung.com/kotlin-generics|Generics in Kotlin]]
 * [[https://www.baeldung.com/spring-boot-custom-starter|Creating a Custom Starter with Spring Boot]]
 * [[https://www.baeldung.com/mybatis|Quick Guide to MyBatis]]
 * [[https://www.baeldung.com/jvm-garbage-collectors|JVM Garbage Collectors]]
@@ -2796,7 +2880,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-web-weekly-172|Java Web Weekly, Issue 172]]
 * [[https://www.baeldung.com/jenetics|Introduction to Jenetics Library]]
 * [[https://www.baeldung.com/jetty-embedded|Embedded Jetty Server in Java]]
-* [[https://www.baeldung.com/rest-api-query-search-or-operation|REST Query Language – Implementing OR Operation]]
+* [[https://www.baeldung.com/rest-api-query-search-or-operation|REST Query Language &#8211; Implementing OR Operation]]
 * [[https://www.baeldung.com/jbehave-rest-testing|Testing a REST API with JBehave]]
 * [[https://www.baeldung.com/java-stringtokenizer|Quick Guide to the Java StringTokenizer]]
 * [[https://www.baeldung.com/spring-testing-separate-data-source|Configuring Separate Spring DataSource for Tests]]
@@ -2824,9 +2908,9 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/spring-boot-testresttemplate|Exploring the Spring Boot TestRestTemplate]]
 
 **March 2017**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/spring-data-gemfire|A Guide to GemFire with Spring Data]]
 * [[https://www.baeldung.com/java-web-weekly-170|Java Web Weekly, Issue 170]]
-* [[https://www.baeldung.com/kotlin-null-safety|Comprehensive Guide to Null Safety in Kotlin]]
 * [[https://www.baeldung.com/java-8-comparator-comparing|Guide to Java 8 Comparator.comparing()]]
 * [[https://www.baeldung.com/spring-5-functional-web|Introduction to the Functional Web Framework in Spring 5]]
 * [[https://www.baeldung.com/java-web-start|A Guide to the Java Web Start]]
@@ -2865,7 +2949,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/spring-security-multiple-entry-points|Multiple Entry Points in Spring Security]]
 * [[https://www.baeldung.com/guice|Guide to Google Guice]]
 * [[https://www.baeldung.com/redis-redisson|A Guide to Redis with Redisson]]
-* [[https://www.baeldung.com/assertj-3-6-interview|[NEWS] AssertJ 3.6.X – Interview with Joel Costigliola]]
+* [[https://www.baeldung.com/assertj-3-6-interview|[NEWS] AssertJ 3.6.X &#8211; Interview with Joel Costigliola]]
 * [[https://www.baeldung.com/java-9-completablefuture|Java 9 CompletableFuture API Improvements]]
 * [[https://www.baeldung.com/spring-ldap|Spring LDAP Overview]]
 * [[https://www.baeldung.com/hibernate-immutable|@Immutable in Hibernate]]
@@ -2879,12 +2963,11 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-web-weekly-167|Java Web Weekly, Issue 167]]
 * [[https://www.baeldung.com/string-processing-commons-lang|String Processing with Apache Commons Lang 3]]
 * [[https://www.baeldung.com/array-processing-commons-lang|Array Processing with Apache Commons Lang 3]]
-* [[https://www.baeldung.com/tracing-services-with-zipkin|Spring Cloud – Tracing Services with Zipkin]]
+* [[https://www.baeldung.com/tracing-services-with-zipkin|Spring Cloud &#8211; Tracing Services with Zipkin]]
 * [[https://www.baeldung.com/spring-security-openid-connect|Spring Security and OpenID Connect]]
 * [[https://www.baeldung.com/java-primitive-conversions|Java Primitive Conversions]]
 * [[https://www.baeldung.com/hbase|HBase with Java]]
 * [[https://www.baeldung.com/jasypt|Intro to Jasypt]]
-* [[https://www.baeldung.com/kotlin-when|Guide to the “when{}” Block in Kotlin]]
 * [[https://www.baeldung.com/angularjs-crud-with-spring-data-rest|AngularJS CRUD Application with Spring Data REST]]
 * [[https://www.baeldung.com/mockito-2-java-8|Mockito's Java 8 Features]]
 * [[https://www.baeldung.com/guava-reflection|Guide to Guava's Reflection Utilities]]
@@ -2892,11 +2975,12 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/register-servlet|How to Register a Servlet in Java]]
 * [[https://www.baeldung.com/apache-solrj|Guide To Solr in Java With Apache SolrJ]]
 * [[https://www.baeldung.com/java-9-process-api|Java 9 Process API Improvements]]
-* [[https://www.baeldung.com/spring-security-redirect-login|Spring Security – Redirect to the Previous URL After Login]]
-* [[https://www.baeldung.com/java-9-repl|Java 9 – Exploring the REPL]]
+* [[https://www.baeldung.com/spring-security-redirect-login|Spring Security &#8211; Redirect to the Previous URL After Login]]
+* [[https://www.baeldung.com/java-9-repl|Java 9 &#8211; Exploring the REPL]]
 
 **February 2017**
-* [[https://www.baeldung.com/log4j2-appenders-layouts-filters|Intro to Log4j2 – Appenders, Layouts and Filters]]
+<ul class='car-monthlisting'>
+* [[https://www.baeldung.com/log4j2-appenders-layouts-filters|Intro to Log4j2 &#8211; Appenders, Layouts and Filters]]
 * [[https://www.baeldung.com/nudge4j|Introducing nudge4j]]
 * [[https://www.baeldung.com/spring-data-rest-relationships|Working with Relationships in Spring Data REST]]
 * [[https://www.baeldung.com/cglib|Introduction to cglib]]
@@ -2909,7 +2993,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-collection-min-max|Finding Max/Min of a List or Collection]]
 * [[https://www.baeldung.com/java-web-weekly-165|Java Web Weekly, Issue 165]]
 * [[https://www.baeldung.com/struts-2-intro|A Quick Struts 2 Intro]]
-* [[https://www.baeldung.com/jenkins-pipeline-with-marathon-mesos|Simple Jenkins Pipeline with Marathon and Mesos]]
+* [[https://www.baeldung.com/ops/jenkins-pipeline-with-marathon-mesos|Simple Jenkins Pipeline with Marathon and Mesos]]
 * [[https://www.baeldung.com/spring-webutils-servletrequestutils|Guide to Spring WebUtils and ServletRequestUtils]]
 * [[https://www.baeldung.com/spring-mvc-excel-files|Upload and Display Excel Files with Spring MVC]]
 * [[https://www.baeldung.com/apache-bval|Intro to Apache BVal]]
@@ -2938,7 +3022,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/jersey-jax-rs-client|JAX-RS Client with Jersey]]
 * [[https://www.baeldung.com/java-groupingby-collector|Guide to Java 8 groupingBy Collector]]
 * [[https://www.baeldung.com/java-microsoft-excel|Working with Microsoft Excel in Java]]
-* [[https://www.baeldung.com/spring-security-cache-control-headers|Spring Security – Cache Control Headers]]
+* [[https://www.baeldung.com/spring-security-cache-control-headers|Spring Security &#8211; Cache Control Headers]]
 * [[https://www.baeldung.com/spring-new-requestmapping-shortcuts|Spring @RequestMapping New Shortcut Annotations]]
 * [[https://www.baeldung.com/java-priority-blocking-queue|Guide to PriorityBlockingQueue in Java]]
 * [[https://www.baeldung.com/rxjava-backpressure|Dealing with Backpressure with RxJava]]
@@ -2955,6 +3039,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-future|Guide to java.util.concurrent.Future]]
 
 **January 2017**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/guava-table|Guide to Guava Table]]
 * [[https://www.baeldung.com/spring-mobile|A Guide to Spring Mobile]]
 * [[https://www.baeldung.com/couchbase-query-mapreduce-view|Querying Couchbase with MapReduce Views]]
@@ -2967,7 +3052,6 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/spring-data-mongodb-projections-aggregations|Spring Data MongoDB: Projections and Aggregations]]
 * [[https://www.baeldung.com/java-chained-exceptions|Chained Exceptions in Java]]
 * [[https://www.baeldung.com/java9-stream-collectors|New Stream Collectors in Java 9]]
-* [[https://www.baeldung.com/kotlin-intro|Introduction to the Kotlin Language]]
 * [[https://www.baeldung.com/java-8-interview-questions|Java 8 Interview Questions(+ Answers)]]
 * [[https://www.baeldung.com/java-countdown-latch|Guide to CountDownLatch in Java]]
 * [[https://www.baeldung.com/java-web-weekly-161|Java Web Weekly, Issue 161]]
@@ -3015,6 +3099,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-management-extensions|Basic Introduction to JMX]]
 
 **December 2016**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/spring-security-async-principal-propagation|Spring Security Context Propagation with @Async]]
 * [[https://www.baeldung.com/spring-rest-custom-media-type|A Custom Media Type for a Spring REST API]]
 * [[https://www.baeldung.com/vavr|Introduction to Vavr]]
@@ -3028,13 +3113,13 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/jaxb|Guide to JAXB]]
 * [[https://www.baeldung.com/java-microsoft-word-with-apache-poi|Microsoft Word Processing in Java with Apache POI]]
 * [[https://www.baeldung.com/java-watchservice-vs-apache-commons-io-monitor-library|Differences Between the Java WatchService API and the Apache Commons IO Monitor Library]]
-* [[https://www.baeldung.com/spring-cloud-securing-services|Spring Cloud – Securing Services]]
+* [[https://www.baeldung.com/spring-cloud-securing-services|Spring Cloud &#8211; Securing Services]]
 * [[https://www.baeldung.com/camel-integration-patterns|Integration Patterns With Apache Camel]]
 * [[https://www.baeldung.com/java-web-weekly-156|Java Web Weekly, Issue 156]]
 * [[https://www.baeldung.com/spring-security-oauth-dynamic-client-registration|OAuth2.0 and Dynamic Client Registration (using the Spring Security OAuth legacy stack)]]
 * [[https://www.baeldung.com/install-maven-on-windows-linux-mac|How to install Maven on Windows, Linux, Mac]]
 * [[https://www.baeldung.com/java-simulated-annealing-for-traveling-salesman|The Traveling Salesman Problem in Java]]
-* [[https://www.baeldung.com/java-combine-multiple-collections|Java – Combine Multiple Collections]]
+* [[https://www.baeldung.com/java-combine-multiple-collections|Java &#8211; Combine Multiple Collections]]
 * [[https://www.baeldung.com/grep-in-java|Pattern Search with Grep in Java]]
 * [[https://www.baeldung.com/java-logging-ndc-log4j|Java Logging with Nested Diagnostic Context (NDC)]]
 * [[https://www.baeldung.com/design-a-user-friendly-java-library|Designing a User Friendly Java Library]]
@@ -3068,13 +3153,14 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-nio-2-async-channels|Guide to Java NIO2 Asynchronous Channel APIs]]
 
 **November 2016**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/java-sorting|Sorting in Java]]
 * [[https://www.baeldung.com/spring-uricomponentsbuilder|Guide to UriComponentsBuilder in Spring]]
 * [[https://www.baeldung.com/code-quality-metrics|Intro to Code Quality Rules with FindBugs and PMD]]
 * [[https://www.baeldung.com/java-web-weekly-152|Java Web Weekly, Issue 152]]
 * [[https://www.baeldung.com/geolocation-by-ip-with-maxmind|Geolocation by IP in Java]]
 * [[https://www.baeldung.com/constructor-injection-in-spring|Constructor Dependency Injection in Spring]]
-* [[https://www.baeldung.com/spring-security-oauth-revoke-tokens|Spring Security OAuth2 – Simple Token Revocation (using the Spring Security OAuth legacy stack)]]
+* [[https://www.baeldung.com/spring-security-oauth-revoke-tokens|Spring Security OAuth2 &#8211; Simple Token Revocation (using the Spring Security OAuth legacy stack)]]
 * [[https://www.baeldung.com/java-concurrency-interview-questions|Java Concurrency Interview Questions (+ Answers)]]
 * [[https://www.baeldung.com/java-type-system-interview-questions|Java Type System Interview Questions]]
 * [[https://www.baeldung.com/sha-256-hashing-java|SHA-256 and SHA3-256 Hashing in Java]]
@@ -3107,6 +3193,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-web-weekly-149|Java Web Weekly, Issue 149]]
 
 **October 2016**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/spring-security-custom-filter|A Custom Filter in the Spring Security Filter Chain]]
 * [[https://www.baeldung.com/spring-data-dynamodb|DynamoDB in a Spring Boot Application Using Spring Data]]
 * [[https://www.baeldung.com/print-screen-in-java|How to Print Screen in Java]]
@@ -3130,7 +3217,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-web-weekly-146|Java Web Weekly, Issue 146]]
 * [[https://www.baeldung.com/slf4j-with-log4j2-logback|Introduction to SLF4J]]
 * [[https://www.baeldung.com/rest-api-with-play|REST API with Play Framework in Java]]
-* [[https://www.baeldung.com/new-java-9|Java 9 New Features]]
+* [[https://www.baeldung.com/new-java-9|New Features in Java 9]]
 * [[https://www.baeldung.com/current-date-time-and-timestamp-in-java-8|Get the Current Date, Time and Timestamp in Java 8]]
 * [[https://www.baeldung.com/intro-to-the-wicket-framework|Introduction to the Wicket Framework]]
 * [[https://www.baeldung.com/routing-in-play|Routing In Play Applications in Java]]
@@ -3140,7 +3227,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/reading-file-in-java|How to Read a File in Java]]
 * [[https://www.baeldung.com/java-filenotfound-exception|FileNotFoundException in Java]]
 * [[https://www.baeldung.com/java-web-weekly-145|Java Web Weekly, Issue 145]]
-* [[https://www.baeldung.com/java-random-list-element|Java – Get Random Item/Element From a List]]
+* [[https://www.baeldung.com/java-random-list-element|Java &#8211; Get Random Item/Element From a List]]
 * [[https://www.baeldung.com/java-config-spring-security|Introduction to Java Config for Spring Security]]
 * [[https://www.baeldung.com/spring-thymeleaf-3|Spring MVC + Thymeleaf 3.0: New Features]]
 * [[https://www.baeldung.com/java-eclipse-equals-and-hashcode|Generate equals() and hashCode() with Eclipse]]
@@ -3148,6 +3235,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-front-controller-pattern|A Guide to the Front Controller Pattern in Java]]
 
 **September 2016**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/java-annotation-processing-builder|Java Annotation Processing and Creating a Builder]]
 * [[https://www.baeldung.com/database-migrations-with-flyway|Database Migrations with Flyway]]
 * [[https://www.baeldung.com/java-web-weekly-144|Java Web Weekly, Issue 144]]
@@ -3158,7 +3246,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/spring-persistence-jpa-jndi-datasource|Spring, Hibernate and a JNDI Datasource]]
 * [[https://www.baeldung.com/csrf-thymeleaf-with-spring-security|CSRF Protection with Spring MVC and Thymeleaf]]
 * [[https://www.baeldung.com/spring-mvc-custom-handler-interceptor|Using a Custom Spring MVC's Handler Interceptor to Manage Sessions]]
-* [[https://www.baeldung.com/spring-cloud-bootstrapping|Spring Cloud – Bootstrapping]]
+* [[https://www.baeldung.com/spring-cloud-bootstrapping|Spring Cloud &#8211; Bootstrapping]]
 * [[https://www.baeldung.com/java-filter-stream-of-optional|Filtering a Stream of Optionals in Java]]
 * [[https://www.baeldung.com/spring-cloud-data-flow-batch-processing|Batch Processing with Spring Cloud Data Flow]]
 * [[https://www.baeldung.com/intro-to-feign|Intro to Feign]]
@@ -3169,16 +3257,17 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-web-weekly-143|Java Web Weekly, Issue 143]]
 * [[https://www.baeldung.com/java-web-weekly-142|Java Web Weekly, Issue 142]]
 * [[https://www.baeldung.com/java-web-weekly-141|Java Web Weekly, Issue 141]]
-* [[https://www.baeldung.com/spring-cloud-netflix-hystrix|A Guide to Spring Cloud Netflix – Hystrix]]
+* [[https://www.baeldung.com/spring-cloud-netflix-hystrix|A Guide to Spring Cloud Netflix &#8211; Hystrix]]
 * [[https://www.baeldung.com/java-web-weekly-140|Java Web Weekly, Issue 140]]
 * [[https://www.baeldung.com/tomcat-deploy-war|How to Deploy a WAR File to Tomcat]]
 * [[https://www.baeldung.com/spring-cloud-data-flow-stream-processing|Getting Started with Stream Processing with Spring Cloud Data Flow]]
 
 **August 2016**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/java-convert-string-to-int-or-integer|Convert String to int or Integer in Java]]
 * [[https://www.baeldung.com/java-convert-char-to-string|Convert char to String in Java]]
 * [[https://www.baeldung.com/hystrix-integration-with-spring-aop|Hystrix Integration with Existing Spring Application]]
-* [[https://www.baeldung.com/spring-cloud-netflix-eureka|Introduction to Spring Cloud Netflix – Eureka]]
+* [[https://www.baeldung.com/spring-cloud-netflix-eureka|Introduction to Spring Cloud Netflix &#8211; Eureka]]
 * [[https://www.baeldung.com/cachable-static-assets-with-spring-mvc|Cachable Static Assets with Spring MVC]]
 * [[https://www.baeldung.com/a-guide-to-java-sockets|A Guide to Java Sockets]]
 * [[https://www.baeldung.com/spring-security-two-factor-authentication-with-soft-token|Two Factor Auth with Spring Security]]
@@ -3207,6 +3296,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/nontransientdataaccessexception|Guide to Spring NonTransientDataAccessException]]
 * [[https://www.baeldung.com/java-web-weekly-137|Java Web Weekly, Issue 137]]
 * [[https://www.baeldung.com/thread-pool-java-and-guava|Introduction to Thread Pools in Java]]
+* [[https://www.baeldung.com/introduction-to-jsonforms|Introduction to JSONForms]]
 * [[https://www.baeldung.com/async-batch-operations-in-couchbase|Asynchronous Batch Operations in Couchbase]]
 * [[https://www.baeldung.com/orika-mapping|Mapping with Orika]]
 * [[https://www.baeldung.com/cucumber-spring-integration|Cucumber Spring Integration]]
@@ -3219,6 +3309,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/spring-jackson-jsonp|Spring JSON-P with Jackson]]
 
 **July 2016**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/immutables|Introduction to Immutables]]
 * [[https://www.baeldung.com/spring-security-create-new-custom-security-expression|A Custom Security Expression with Spring Security]]
 * [[https://www.baeldung.com/introduction-to-autovalue|Introduction to AutoValue]]
@@ -3245,7 +3336,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/whats-new-in-spring-4-3|What's New in Spring 4.3?]]
 * [[https://www.baeldung.com/spring-boot-starters|Intro to Spring Boot Starters]]
 * [[https://www.baeldung.com/couchbase-sdk-spring|Using Couchbase in a Spring Application]]
-* [[https://www.baeldung.com/jedis-java-redis-client-library|Intro to Jedis – the Java Redis Client Library]]
+* [[https://www.baeldung.com/jedis-java-redis-client-library|Intro to Jedis &#8211; the Java Redis Client Library]]
 * [[https://www.baeldung.com/eclipse-sts-spring|A Guide to Spring in Eclipse STS]]
 * [[https://www.baeldung.com/assertJ-java-8-features|AssertJ’s Java 8 Features]]
 * [[https://www.baeldung.com/spring-rest-api-with-binary-data-formats|Binary Data Formats in a Spring REST API]]
@@ -3267,6 +3358,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-8-date-time-intro|Introduction to the Java 8 Date/Time API]]
 
 **June 2016**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/java-web-weekly-131|Java Web Weekly, Issue 131]]
 * [[https://www.baeldung.com/spring-security-track-logged-in-users|Keep Track of Logged In Users with Spring Security]]
 * [[https://www.baeldung.com/java-xml-libraries|XML Libraries Support in Java]]
@@ -3297,6 +3389,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-web-weekly-127|Java Web Weekly, Issue 127]]
 
 **May 2016**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/java-8-new-features|New Features in Java 8]]
 * [[https://www.baeldung.com/java-8-streams-introduction|Introduction to Java 8 Streams]]
 * [[https://www.baeldung.com/registration-token-cleanup|Purging Expired Tokens Generated By The Registration]]
@@ -3304,7 +3397,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/spring-rest-docs|Introduction to Spring REST Docs]]
 * [[https://www.baeldung.com/jackson-xml-serialization-and-deserialization|XML Serialization and Deserialization with Jackson]]
 * [[https://www.baeldung.com/java-web-weekly-125|Java Web Weekly, Issue 125]]
-* [[https://www.baeldung.com/spring-security-run-as-auth|Spring Security – Run-As Authentication]]
+* [[https://www.baeldung.com/spring-security-run-as-auth|Spring Security &#8211; Run-As Authentication]]
 * [[https://www.baeldung.com/spring-mvc-image-media-data|Returning Image/Media Data with Spring MVC]]
 * [[https://www.baeldung.com/websockets-spring|Intro to WebSockets with Spring]]
 * [[https://www.baeldung.com/java-web-weekly-124|Java Web Weekly, Issue 124]]
@@ -3313,6 +3406,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/mockito-mock-methods|Mockito's Mock Methods]]
 
 **April 2016**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/conferences-in-may-2016|Conferences in May]]
 * [[https://www.baeldung.com/java-web-weekly-122|Java Web Weekly, Issue 122]]
 * [[https://www.baeldung.com/intro-to-powermock|Introduction to PowerMock]]
@@ -3323,7 +3417,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-web-weekly-120|Java Web Weekly, Issue 120]]
 * [[https://www.baeldung.com/xstream-json-processing|XStream User Guide: JSON]]
 * [[https://www.baeldung.com/entity-validation-locking-and-query-consistency-in-spring-data-couchbase|Entity Validation, Optimistic Locking, and Query Consistency in Spring Data Couchbase]]
-* [[https://www.baeldung.com/java-convert-byte-array-to-writer|Java – Byte Array to Writer]]
+* [[https://www.baeldung.com/java-convert-byte-array-to-writer|Java &#8211; Byte Array to Writer]]
 * [[https://www.baeldung.com/java-web-weekly-119|Java Web Weekly, Issue 119]]
 * [[https://www.baeldung.com/spring-file-upload|File Upload with Spring MVC]]
 * [[https://www.baeldung.com/java-compress-and-uncompress|Zipping and Unzipping in Java]]
@@ -3332,6 +3426,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/java-web-weekly-118|Java Web Weekly, Issue 118]]
 
 **March 2016**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/xstream-serialize-object-to-xml|XStream User Guide: Converting Objects to XML]]
 * [[https://www.baeldung.com/java-web-weekly-117|Java Web Weekly, Issue 117]]
 * [[https://www.baeldung.com/jackson-advanced-annotations|More Jackson Annotations]]
@@ -3348,12 +3443,12 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/jackson-inheritance|Inheritance with Jackson]]
 * [[https://www.baeldung.com/java-web-weekly-115|Java Web Weekly, Issue 115]]
 * [[https://www.baeldung.com/spring-mvc-form-tags|Exploring SpringMVC's Form Tag Library]]
-* [[https://www.baeldung.com/java-spring-2016-survey|The “Java and Spring in 2016” Survey]]
-* [[https://www.baeldung.com/spring-security-oauth2-refresh-token-angular|OAuth2 for a Spring REST API – Handle the Refresh Token in Angular]]
+* [[https://www.baeldung.com/java-spring-2016-survey|The &#8220;Java and Spring in 2016&#8221; Survey]]
+* [[https://www.baeldung.com/spring-security-oauth2-refresh-token-angular|OAuth2 for a Spring REST API &#8211; Handle the Refresh Token in Angular]]
 * [[https://www.baeldung.com/java-web-weekly-114|Java Web Weekly, Issue 114]]
 * [[https://www.baeldung.com/guide-to-jayway-jsonpath|Introduction to JsonPath]]
-
-**February 2016**
+ <li><span class="car-yearmonth">February 2016 <span title="Post Count">(16)</span></span>
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/java-web-weekly-113|Java Web Weekly, Issue 113]]
 * [[https://www.baeldung.com/java-executor-service-tutorial|A Guide to the Java ExecutorService]]
 * [[https://www.baeldung.com/spring-apache-camel-tutorial|Using Apache Camel with Spring]]
@@ -3372,6 +3467,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/spring-mvc-controller-custom-http-status-code|Returning Custom Status Codes from Spring Controllers]]
 
 **January 2016**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/spring-rest-with-zuul-proxy|Spring REST with a Zuul Proxy]]
 * [[https://www.baeldung.com/2016-week-review-5|Java Web Weekly, Issue 109]]
 * [[https://www.baeldung.com/java-8-double-colon-operator|The Double Colon Operator in Java 8]]
@@ -3392,9 +3488,10 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/2016-week-review-1|Java Web Weekly 1]]
 
 **December 2015**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/introduction-to-spring-batch|Introduction to Spring Batch]]
 * [[https://www.baeldung.com/spring-security-ldap|Intro to Spring Security LDAP]]
-* [[https://www.baeldung.com/java-try-with-resources|Java – Try with Resources]]
+* [[https://www.baeldung.com/java-try-with-resources|Java &#8211; Try with Resources]]
 * [[https://www.baeldung.com/2015-week-review-52|Java Web Weekly 52]]
 * [[https://www.baeldung.com/whats-new-in-guava-18|Guava 18: What's New?]]
 * [[https://www.baeldung.com/spring-data-cassandratemplate-cqltemplate|Using the CassandraTemplate from Spring Data]]
@@ -3407,10 +3504,11 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/spring-data-cassandra-tutorial|Introduction to Spring Data Cassandra]]
 * [[https://www.baeldung.com/swagger-2-documentation-for-spring-rest-api|Setting Up Swagger 2 with a Spring REST API]]
 * [[https://www.baeldung.com/java-xml|A Guide to XML in Java]]
-* [[https://www.baeldung.com/raml-restful-api-modeling-language-tutorial|Introduction to RAML – The RESTful API Modeling Language]]
+* [[https://www.baeldung.com/raml-restful-api-modeling-language-tutorial|Introduction to RAML &#8211; The RESTful API Modeling Language]]
 * [[https://www.baeldung.com/2015-week-review-49|Java Web Weekly 49]]
 
 **November 2015**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/2015-week-review-48|Java Web Weekly 48]]
 * [[https://www.baeldung.com/spring-data-mongodb-guide|Spring Data MongoDB Tutorial]]
 * [[https://www.baeldung.com/2015-week-review-47|Java Web Weekly 47]]
@@ -3421,6 +3519,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/2015-week-review-45|Java Web Weekly 45]]
 
 **October 2015**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/reddit-web-app-improvements-6|Sixth Round of Improvements to the Reddit Application]]
 * [[https://www.baeldung.com/2015-week-review-44|Java Web Weekly 44]]
 * [[https://www.baeldung.com/javax-validation|Java Bean Validation Basics]]
@@ -3436,21 +3535,23 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/2015-week-review-40|Java Web Weekly 40]]
 
 **September 2015**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/reddit-web-app-improvements-5|Fifth Round of Improvements to the Reddit Application]]
 * [[https://www.baeldung.com/2015-week-review-39|Java Web Weekly 39]]
 * [[https://www.baeldung.com/rest-template|The Guide to RestTemplate]]
-* [[https://www.baeldung.com/2015-week-review-38|Java Web Weekly 38 (formerly the “Baeldung Weekly Review”)]]
+* [[https://www.baeldung.com/2015-week-review-38|Java Web Weekly 38 (formerly the &#8220;Baeldung Weekly Review&#8221;)]]
 * [[https://www.baeldung.com/2015-week-review-37|Baeldung Weekly Review 37]]
 * [[https://www.baeldung.com/cqrs-for-a-spring-rest-api|Apply CQRS to a Spring REST API]]
 * [[https://www.baeldung.com/reddit-web-app-improvements-4|Fourth Round of Improvements to the Reddit Application]]
 * [[https://www.baeldung.com/2015-week-review-36|Baeldung Weekly Review 36]]
 
 **August 2015**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/2015-week-review-35|Baeldung Weekly Review 35]]
 * [[https://www.baeldung.com/reddit-app-maintain-full-history-of-post-operations|Preserve the History of Reddit Post Submissions]]
 * [[https://www.baeldung.com/java-base64-encode-and-decode|Java Base64 Encoding and Decoding]]
 * [[https://www.baeldung.com/cascading-with-dbref-and-lifecycle-events-in-spring-data-mongodb|Custom Cascading in Spring Data MongoDB]]
-* [[https://www.baeldung.com/spring-data-mongodb-index-annotations-converter|Spring Data MongoDB – Indexes, Annotations and Converters]]
+* [[https://www.baeldung.com/spring-data-mongodb-index-annotations-converter|Spring Data MongoDB &#8211; Indexes, Annotations and Converters]]
 * [[https://www.baeldung.com/2015-week-review-34|Baeldung Weekly Review 34]]
 * [[https://www.baeldung.com/entity-to-and-from-dto-for-a-java-spring-application|Entity To DTO Conversion for a Spring REST API]]
 * [[https://www.baeldung.com/2015-week-review-33|Baeldung Weekly Review 33]]
@@ -3461,6 +3562,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/spring-data-mongodb-tutorial|Introduction to Spring Data MongoDB]]
 
 **July 2015**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/2015-week-review-31|Baeldung Weekly Review 31]]
 * [[https://www.baeldung.com/reddit-web-app-improvements-3|Third Round of Improvements to the Reddit Application]]
 * [[https://www.baeldung.com/2015-week-review-30|Baeldung Weekly Review 30]]
@@ -3473,6 +3575,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/2015-week-review-27|Baeldung Weekly Review 27]]
 
 **June 2015**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/reddit-app-show-date-in-the-users-timezone|Displaying Dates in the Timezone of the User]]
 * [[https://www.baeldung.com/2015-week-review-26|Baeldung Weekly Review 26]]
 * [[https://www.baeldung.com/reddit-app-user-profile|A User Profile in the Reddit App]]
@@ -3484,11 +3587,12 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/spring-boot-application-configuration|Configure a Spring Boot Web Application]]
 
 **May 2015**
-* [[https://www.baeldung.com/jackson-field-serializable-deserializable-or-not|Jackson – Decide What Fields Get Serialized/Deserialized]]
-* [[https://www.baeldung.com/jackson-map-null-values-or-null-key|Jackson – Working with Maps and nulls]]
+<ul class='car-monthlisting'>
+* [[https://www.baeldung.com/jackson-field-serializable-deserializable-or-not|Jackson &#8211; Decide What Fields Get Serialized/Deserialized]]
+* [[https://www.baeldung.com/jackson-map-null-values-or-null-key|Jackson &#8211; Working with Maps and nulls]]
 * [[https://www.baeldung.com/reddit-retry-to-submit-inactive-post|Retry to Submit to Reddit a Post Without Enough Traction]]
 * [[https://www.baeldung.com/schedule-to-reddit-from-website-feed|Make It Easy to Schedule to Reddit]]
-* [[https://www.baeldung.com/java-8-spring-4-and-spring-boot-adoption|Survey Results – Java 8, Spring 4 and Spring Boot Adoption]]
+* [[https://www.baeldung.com/java-8-spring-4-and-spring-boot-adoption|Survey Results &#8211; Java 8, Spring 4 and Spring Boot Adoption]]
 * [[https://www.baeldung.com/2015-week-review-22|Baeldung Weekly Review 22]]
 * [[https://www.baeldung.com/2015-week-review-21|Baeldung Weekly Review 21]]
 * [[https://www.baeldung.com/spring-cache-tutorial|A Guide To Caching in Spring]]
@@ -3501,6 +3605,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/2015-week-review-18|Baeldung Weekly Review 18]]
 
 **April 2015**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/2015-week-review-17|Baeldung Weekly Review 17]]
 * [[https://www.baeldung.com/2015-week-review-16|Baeldung Weekly Review 16]]
 * [[https://www.baeldung.com/jackson|Jackson JSON Tutorial]]
@@ -3509,10 +3614,11 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/rest-api-search-language-rsql-fiql|REST Query Language with RSQL]]
 * [[https://www.baeldung.com/2015-week-review-15|Baeldung Weekly Review 15]]
 * [[https://www.baeldung.com/updating-your-password/|Updating your Password]]
-* [[https://www.baeldung.com/registration-password-strength-and-rules|Registration – Password Strength and Rules]]
+* [[https://www.baeldung.com/registration-password-strength-and-rules|Registration &#8211; Password Strength and Rules]]
 * [[https://www.baeldung.com/2015-week-review-14|Baeldung Weekly Review 14]]
 
 **March 2015**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/spring-rest-api-metrics|Metrics for your Spring REST API]]
 * [[https://www.baeldung.com/2015-week-review-13|Baeldung Weekly Review 13]]
 * [[https://www.baeldung.com/registration-restful-api|The Registration API becomes RESTful]]
@@ -3523,11 +3629,12 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/spring-security-oauth-post-to-reddit|Post a Link to the Reddit API]]
 
 **February 2015**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/spring-security-oauth2-authentication-with-reddit|Authenticating with Reddit OAuth2 and Spring Security]]
 * [[https://www.baeldung.com/2015-week-review-9|Baeldung Weekly Review 9]]
 * [[https://www.baeldung.com/spring-security-registration|Spring Security Registration Tutorial]]
 * [[https://www.baeldung.com/spring-security-registration-verification-email|Spring Security Registration – Resend Verification Email]]
-* [[https://www.baeldung.com/rest-api-query-search-language-more-operations|REST Query Language – Advanced Search Operations]]
+* [[https://www.baeldung.com/rest-api-query-search-language-more-operations|REST Query Language &#8211; Advanced Search Operations]]
 * [[https://www.baeldung.com/2015-week-review-8|Baeldung Weekly Review 8]]
 * [[https://www.baeldung.com/spring-security-authentication-and-registration|Spring Security Authentication Tutorial]]
 * [[https://www.baeldung.com/spring-security-registration-i-forgot-my-password|Spring Security – Reset Your Password]]
@@ -3536,6 +3643,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/2015-week-review-6|Baeldung Weekly Review 6]]
 
 **January 2015**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/spring-data-jpa-multiple-databases|Spring JPA – Multiple Databases]]
 * [[https://www.baeldung.com/rest-api-search-language-spring-data-querydsl|REST Query Language with Spring Data JPA and Querydsl]]
 * [[https://www.baeldung.com/2015-week-review-5|Baeldung Weekly Review 5]]
@@ -3544,33 +3652,35 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/spring-jdbc-jdbctemplate|Spring JDBC]]
 * [[https://www.baeldung.com/2015-week-review-4|Baeldung Weekly Review 4]]
 * [[https://www.baeldung.com/2015-week-review-3|Baeldung Weekly Review 3]]
-* [[https://www.baeldung.com/role-and-privilege-for-spring-security-registration|Spring Security – Roles and Privileges]]
+* [[https://www.baeldung.com/role-and-privilege-for-spring-security-registration|Spring Security &#8211; Roles and Privileges]]
 * [[https://www.baeldung.com/2015-week-review-2|Baeldung Weekly Review 2]]
-* [[https://www.baeldung.com/spring-security-registration-password-encoding-bcrypt|Registration with Spring Security – Password Encoding]]
+* [[https://www.baeldung.com/spring-security-registration-password-encoding-bcrypt|Registration with Spring Security &#8211; Password Encoding]]
 * [[https://www.baeldung.com/2014-week-reviews|My Weekly Reviews of 2014]]
 * [[https://www.baeldung.com/2015-week-review-1|Baeldung Weekly Review 1]]
-* [[https://www.baeldung.com/jackson-bidirectional-relationships-and-infinite-recursion|Jackson – Bidirectional Relationships]]
+* [[https://www.baeldung.com/jackson-bidirectional-relationships-and-infinite-recursion|Jackson &#8211; Bidirectional Relationships]]
 
 **December 2014**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/jackson-serialize-dates|Jackson Date]]
 * [[https://www.baeldung.com/httpclient-post-http-request|Posting with HttpClient]]
 * [[https://www.baeldung.com/2014-week-review-51|Baeldung Weekly Review 51]]
 * [[https://www.baeldung.com/top-10-2014|Top 10 Articles on Baeldung from 2014]]
-* [[https://www.baeldung.com/jackson-exception|Jackson Exceptions – Problems and Solutions]]
+* [[https://www.baeldung.com/jackson-exception|Jackson Exceptions &#8211; Problems and Solutions]]
 * [[https://www.baeldung.com/transaction-configuration-with-jpa-and-spring|Transactions with Spring and JPA]]
 * [[https://www.baeldung.com/2014-week-review-50|Baeldung Weekly Review 50]]
 * [[https://www.baeldung.com/jackson-json-view-annotation|Jackson JSON Views]]
 * [[https://www.baeldung.com/2014-week-review-49|Baeldung Weekly Review 49]]
 * [[https://www.baeldung.com/spring-async|How To Do @Async in Spring]]
 * [[https://www.baeldung.com/2014-week-review-48|Baeldung Weekly Review 48]]
-* [[https://www.baeldung.com/registration-verify-user-by-email|Registration – Activate a New Account by Email]]
+* [[https://www.baeldung.com/registration-verify-user-by-email|Registration &#8211; Activate a New Account by Email]]
 * [[https://www.baeldung.com/httpasyncclient-tutorial|HttpAsyncClient Tutorial]]
 
 **November 2014**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/java-blogs|Best Java Sites]]
 * [[https://www.baeldung.com/2014-week-review-47|Baeldung Weekly Review 47]]
 * [[https://www.baeldung.com/2014-week-review-46|Baeldung Weekly Review 46]]
-* [[https://www.baeldung.com/java-folder-size|Java – Directory Size]]
+* [[https://www.baeldung.com/java-folder-size|Java &#8211; Directory Size]]
 * [[https://www.baeldung.com/guava-string-charmatcher|Guava CharMatcher]]
 * [[https://www.baeldung.com/mockito-annotations|Getting Started with Mockito @Mock, @Spy, @Captor and @InjectMocks]]
 * [[https://www.baeldung.com/2014-week-review-45|Baeldung Weekly Review 45]]
@@ -3579,27 +3689,29 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/spring-profiles|Spring Profiles]]
 * [[https://www.baeldung.com/2014-week-review-44|Baeldung Weekly Review 44]]
 * [[https://www.baeldung.com/mockito-spy|Mockito – Using Spies]]
-* [[https://www.baeldung.com/guava-maps|Guava – Maps]]
+* [[https://www.baeldung.com/guava-maps|Guava &#8211; Maps]]
 * [[https://www.baeldung.com/building-a-restful-web-service-with-spring-and-java-based-configuration|Build a REST API with Spring and Java Config]]
-* [[https://www.baeldung.com/guava-sets|Guava – Sets]]
-* [[https://www.baeldung.com/guava-lists|Guava – Lists]]
+* [[https://www.baeldung.com/guava-sets|Guava &#8211; Sets]]
+* [[https://www.baeldung.com/guava-lists|Guava &#8211; Lists]]
 * [[https://www.baeldung.com/java-timer-and-timertask|Java Timer]]
 
 **October 2014**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/2014-week-review-43|Baeldung Weekly Review 43]]
-* [[https://www.baeldung.com/guava-write-to-file-read-from-file|Guava – Write to File, Read from File]]
+* [[https://www.baeldung.com/guava-write-to-file-read-from-file|Guava &#8211; Write to File, Read from File]]
 * [[https://www.baeldung.com/2014-week-review-42|Baeldung Weekly Review 42]]
-* [[https://www.baeldung.com/guava-joiner-and-splitter-tutorial|Guava – Join and Split Collections]]
+* [[https://www.baeldung.com/guava-joiner-and-splitter-tutorial|Guava &#8211; Join and Split Collections]]
 * [[https://www.baeldung.com/spring-scheduled-tasks|The @Scheduled Annotation in Spring]]
 * [[https://www.baeldung.com/2014-week-review-41|Baeldung Weekly Review 41]]
 * [[https://www.baeldung.com/guava-filter-and-transform-a-collection|Filtering and Transforming Collections in Guava]]
 * [[https://www.baeldung.com/2014-week-review-40|The Baeldung Weekly Review 40]]
 * [[https://www.baeldung.com/guava-cache|Guava Cache]]
-* [[https://www.baeldung.com/java-random-string|Java – Generate Random String]]
+* [[https://www.baeldung.com/java-random-string|Java &#8211; Generate Random String]]
 * [[https://www.baeldung.com/2014-week-review-39|The Baeldung Weekly Review 39]]
-* [[https://www.baeldung.com/java-write-to-file|Java – Write to File]]
+* [[https://www.baeldung.com/java-write-to-file|Java &#8211; Write to File]]
 
 **September 2014**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/registration-with-spring-mvc-and-spring-security|The Registration Process With Spring Security]]
 * [[https://www.baeldung.com/2014-week-review-38|The Baeldung Weekly Review 38]]
 * [[https://www.baeldung.com/java-tutorial|Java “Back to Basics” Tutorial]]
@@ -3609,38 +3721,41 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/2014-week-review-35|The Baeldung Weekly Review 35]]
 
 **August 2014**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/2014-week-review-34|The Baeldung Weekly Review 34]]
-* [[https://www.baeldung.com/spring-security-login-error-handling-localization|Login For a Spring Web App – Error Handling and Localization]]
+* [[https://www.baeldung.com/spring-security-login-error-handling-localization|Login For a Spring Web App &#8211; Error Handling and Localization]]
 * [[https://www.baeldung.com/gson-deserialization-guide|Gson Deserialization Cookbook]]
 * [[https://www.baeldung.com/2014-week-review-33|The Baeldung Weekly Review 33]]
 * [[https://www.baeldung.com/2014-week-review-32|The Baeldung Weekly Review 32]]
 * [[https://www.baeldung.com/spring-mvc-form-tutorial|Getting Started with Forms in Spring MVC]]
 * [[https://www.baeldung.com/2014-week-review-31|The Baeldung Weekly Review 31]]
-* [[https://www.baeldung.com/java-write-reader-to-file|Java – Write a Reader to File]]
+* [[https://www.baeldung.com/java-write-reader-to-file|Java &#8211; Write a Reader to File]]
 * [[https://www.baeldung.com/2014-week-review-30|The Baeldung Weekly Review 30]]
 
 **July 2014**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/2014-week-review-29|The Baeldung Weekly Review 29]]
-* [[https://www.baeldung.com/java-generate-random-long-float-integer-double|Java – Random Long, Float, Integer and Double]]
+* [[https://www.baeldung.com/java-generate-random-long-float-integer-double|Java &#8211; Random Long, Float, Integer and Double]]
 * [[https://www.baeldung.com/2014-week-review-28|The Baeldung Weekly Review 28]]
-* [[https://www.baeldung.com/java-convert-reader-to-inputstream|Java – Reader to InputStream]]
-* [[https://www.baeldung.com/java-convert-inputstream-to-reader|Java – InputStream to Reader]]
-* [[https://www.baeldung.com/java-convert-reader-to-byte-array|Java – Reader to Byte Array]]
-* [[https://www.baeldung.com/java-convert-reader-to-string|Java – Reader to String]]
+* [[https://www.baeldung.com/java-convert-reader-to-inputstream|Java &#8211; Reader to InputStream]]
+* [[https://www.baeldung.com/java-convert-inputstream-to-reader|Java &#8211; InputStream to Reader]]
+* [[https://www.baeldung.com/java-convert-reader-to-byte-array|Java &#8211; Reader to Byte Array]]
+* [[https://www.baeldung.com/java-convert-reader-to-string|Java &#8211; Reader to String]]
 * [[https://www.baeldung.com/2014-week-review-27|The Baeldung Weekly Review 27]]
-* [[https://www.baeldung.com/java-convert-file-to-reader|Java – File to Reader]]
-* [[https://www.baeldung.com/java-convert-byte-array-to-reader|Java – Byte Array to Reader]]
-* [[https://www.baeldung.com/java-convert-string-to-reader|Java – String to Reader]]
+* [[https://www.baeldung.com/java-convert-file-to-reader|Java &#8211; File to Reader]]
+* [[https://www.baeldung.com/java-convert-byte-array-to-reader|Java &#8211; Byte Array to Reader]]
+* [[https://www.baeldung.com/java-convert-string-to-reader|Java &#8211; String to Reader]]
 * [[https://www.baeldung.com/httpclient-connection-management|HttpClient Connection Management]]
 * [[https://www.baeldung.com/2014-week-review-26|The Baeldung Weekly Review 26]]
 
 **June 2014**
-* [[https://www.baeldung.com/how-to-delete-a-file-in-java|Java – Delete a File]]
-* [[https://www.baeldung.com/java-how-to-create-a-file|Java – Create a File]]
+<ul class='car-monthlisting'>
+* [[https://www.baeldung.com/how-to-delete-a-file-in-java|Java &#8211; Delete a File]]
+* [[https://www.baeldung.com/java-how-to-create-a-file|Java &#8211; Create a File]]
 * [[https://www.baeldung.com/2014-week-review-25|The Baeldung Weekly Review 25]]
-* [[https://www.baeldung.com/java-how-to-rename-or-move-a-file|Java – Rename or Move a File]]
-* [[https://www.baeldung.com/convert-input-stream-to-a-file|Java – Write an InputStream to a File]]
-* [[https://www.baeldung.com/convert-file-to-input-stream|Java – Convert File to InputStream]]
+* [[https://www.baeldung.com/java-how-to-rename-or-move-a-file|Java &#8211; Rename or Move a File]]
+* [[https://www.baeldung.com/convert-input-stream-to-a-file|Java &#8211; Write an InputStream to a File]]
+* [[https://www.baeldung.com/convert-file-to-input-stream|Java &#8211; Convert File to InputStream]]
 * [[https://www.baeldung.com/convert-byte-array-to-input-stream|Java Byte Array to InputStream]]
 * [[https://www.baeldung.com/convert-input-stream-to-array-of-bytes|Java InputStream to Byte Array and ByteBuffer]]
 * [[https://www.baeldung.com/convert-string-to-input-stream|Java String to InputStream]]
@@ -3655,6 +3770,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/convert-map-values-to-array-list-set|Convert a Map to an Array, List or Set in Java]]
 
 **May 2014**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/convert-list-to-set-and-set-to-list|Converting Between a List and a Set in Java]]
 * [[https://www.baeldung.com/convert-array-to-set-and-set-to-array|Converting Between an Array and a Set in Java]]
 * [[https://www.baeldung.com/convert-array-to-list-and-list-to-array|Converting between an Array and a List in Java]]
@@ -3668,6 +3784,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/2014-week-review-17|The Baeldung Weekly Review 17]]
 
 **April 2014**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/jpa-sort|Sorting with JPA]]
 * [[https://www.baeldung.com/2014-week-review-16|The Baeldung Weekly Review 16]]
 * [[https://www.baeldung.com/2014-week-review-15|The Baeldung Weekly Review 15]]
@@ -3677,12 +3794,14 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/2014-week-review-13|The Baeldung Weekly Review 13]]
 
 **March 2014**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/2014-week-review-12|The Baeldung Weekly Review 12]]
 * [[https://www.baeldung.com/2014-week-review-11|The Baeldung Weekly Review 11]]
 * [[https://www.baeldung.com/2014-week-review-10|The Baeldung Weekly Review 10]]
 * [[https://www.baeldung.com/2014-week-review-9|The Baeldung Weekly Review 9]]
 
 **February 2014**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/2014-week-review-8|The Baeldung Weekly Review 8]]
 * [[https://www.baeldung.com/how-to-use-resttemplate-with-basic-authentication-in-spring|Basic Authentication with the RestTemplate]]
 * [[https://www.baeldung.com/2014-week-review-7|The Baeldung Weekly Review 7]]
@@ -3690,47 +3809,51 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/2014-week-review-5|The Baeldung Weekly Review 5]]
 
 **January 2014**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/httpclient-4-basic-authentication|HttpClient Basic Authentication]]
 * [[https://www.baeldung.com/2014-week-review-4|The Baeldung Weekly Review 4]]
 * [[https://www.baeldung.com/httpclient-custom-http-header|Custom HTTP Header with the HttpClient]]
 * [[https://www.baeldung.com/2014-week-review-3|The Baeldung Weekly Review 3]]
 * [[https://www.baeldung.com/2014-week-review-2|The Baeldung Weekly Review 2]]
 * [[https://www.baeldung.com/jackson-deserialization|Getting Started with Custom Deserialization in Jackson]]
-* [[https://www.baeldung.com/jackson-custom-serialization|Jackson – Custom Serializer]]
+* [[https://www.baeldung.com/jackson-custom-serialization|Jackson &#8211; Custom Serializer]]
 * [[https://www.baeldung.com/spring-httpmessageconverter-rest|Http Message Converters with the Spring Framework]]
 * [[https://www.baeldung.com/2014-week-review-1|The Baeldung Weekly Review 1]]
 * [[https://www.baeldung.com/convert-input-stream-to-string|Java InputStream to String]]
 
 **December 2013**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/jackson-deserialize-json-unknown-properties|Jackson Unmarshalling JSON with Unknown Properties]]
 * [[https://www.baeldung.com/best-of-2013|Most Popular Articles of 2013]]
-* [[https://www.baeldung.com/httpclient-redirect-on-http-post|HttpClient 4 – Follow Redirects for POST]]
-* [[https://www.baeldung.com/httpclient-stop-follow-redirect|HttpClient 4 – Do Not Follow Redirects]]
+* [[https://www.baeldung.com/httpclient-redirect-on-http-post|HttpClient 4 &#8211; Follow Redirects for POST]]
+* [[https://www.baeldung.com/httpclient-stop-follow-redirect|HttpClient 4 &#8211; Do Not Follow Redirects]]
 * [[https://www.baeldung.com/java-read-lines-large-file|How to Read a Large File Efficiently with Java]]
-* [[https://www.baeldung.com/java-8-sort-lambda|Java 8 – Powerful Comparison with Lambdas]]
-* [[https://www.baeldung.com/jackson-jsonmappingexception|Jackson – JsonMappingException (No serializer found for class)]]
-* [[https://www.baeldung.com/httpclient-4-cookies|HttpClient 4 – Send Custom Cookie]]
+* [[https://www.baeldung.com/java-8-sort-lambda|Java 8 &#8211; Powerful Comparison with Lambdas]]
+* [[https://www.baeldung.com/jackson-jsonmappingexception|Jackson &#8211; JsonMappingException (No serializer found for class)]]
+* [[https://www.baeldung.com/httpclient-4-cookies|HttpClient 4 &#8211; Send Custom Cookie]]
 * [[https://www.baeldung.com/jackson-serialize-enums|How To Serialize and Deserialize Enums with Jackson]]
-* [[https://www.baeldung.com/httpclient-status-code|HttpClient 4 – Get the Status Code]]
+* [[https://www.baeldung.com/httpclient-status-code|HttpClient 4 &#8211; Get the Status Code]]
 * [[https://www.baeldung.com/java-immutable-list|Immutable ArrayList in Java]]
-* [[https://www.baeldung.com/jackson-json-to-jsonnode|Jackson – Marshall String to JsonNode]]
+* [[https://www.baeldung.com/jackson-json-to-jsonnode|Jackson &#8211; Marshall String to JsonNode]]
 * [[https://www.baeldung.com/jackson-ignore-null-fields|Ignore Null Fields with Jackson]]
-* [[https://www.baeldung.com/jackson-collection-array|Jackson – Unmarshall to Collection/Array]]
+* [[https://www.baeldung.com/jackson-collection-array|Jackson &#8211; Unmarshall to Collection/Array]]
 * [[https://www.baeldung.com/httpclient-cancel-request|HttpClient 4 – Cancel Request]]
 * [[https://www.baeldung.com/httpclient-user-agent-header|Custom User-Agent in HttpClient 4]]
-* [[https://www.baeldung.com/jackson-name-of-property|Jackson – Change Name of Field]]
+* [[https://www.baeldung.com/jackson-name-of-property|Jackson &#8211; Change Name of Field]]
 * [[https://www.baeldung.com/jackson-serialize-field-custom-criteria|Serialize Only Fields that meet a Custom Criteria with Jackson]]
 * [[https://www.baeldung.com/jackson-ignore-properties-on-serialization|Jackson Ignore Properties on Marshalling]]
 * [[https://www.baeldung.com/java-list-split|Partition a List in Java]]
 * [[https://www.baeldung.com/the-persistence-layer-with-spring-and-jpa|A Guide to JPA with Spring]]
 
 **November 2013**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/bootstraping-a-web-application-with-spring-and-java-based-configuration|Bootstrap a Web Application with Spring 5]]
 * [[https://www.baeldung.com/httpclient4|HttpClient 4 Cookbook]]
 * [[https://www.baeldung.com/mockito-behavior|Mockito When/Then Cookbook]]
 * [[https://www.baeldung.com/mockito-verify|Mockito Verify Cookbook]]
 
 **October 2013**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/guava-functions-predicates|Guava Functional Cookbook]]
 * [[https://www.baeldung.com/hamcrest-collections-arrays|Hamcrest Collections Cookbook]]
 * [[https://www.baeldung.com/exception-handling-for-rest-with-spring|Error Handling for REST with Spring]]
@@ -3739,15 +3862,17 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/properties-with-spring|Properties with Spring and Spring Boot]]
 
 **August 2013**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/spring-dao-jpa|The DAO with JPA and Spring]]
-* [[https://www.baeldung.com/hibernate-mappingexception-unknown-entity|Hibernate Mapping Exception – Unknown Entity]]
+* [[https://www.baeldung.com/hibernate-mappingexception-unknown-entity|Hibernate Mapping Exception &#8211; Unknown Entity]]
 * [[https://www.baeldung.com/unshorten-url-httpclient|Unshorten URLs with HttpClient]]
 * [[https://www.baeldung.com/httpclient-ssl|HttpClient with SSL]]
 * [[https://www.baeldung.com/resttemplate-digest-authentication|RestTemplate with Digest Authentication]]
-* [[https://www.baeldung.com/httpsessionlistener_with_metrics|HttpSessionListener Example – Monitoring]]
+* [[https://www.baeldung.com/httpsessionlistener_with_metrics|HttpSessionListener Example &#8211; Monitoring]]
 * [[https://www.baeldung.com/spring-security-remember-me|Spring Security Remember Me]]
 
 **July 2013**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/rest-versioning|Versioning a REST API]]
 * [[https://www.baeldung.com/servlet-session-timeout|Java Session Timeout]]
 * [[https://www.baeldung.com/httpclient-timeout|HttpClient Timeout]]
@@ -3755,20 +3880,22 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/spring_redirect_after_login|Redirect to Different Pages after Login with Spring Security]]
 * [[https://www.baeldung.com/unable-to-locate-spring-namespacehandler-for-xml-schema-namespace|Unable to Locate Spring NamespaceHandler for XML Schema Namespace]]
 * [[https://www.baeldung.com/spring-security-digest-authentication|Spring Security Digest Authentication]]
-* [[https://www.baeldung.com/no-bean-named-springsecurityfilterchain-is-defined|No Bean Named ‘springSecurityFilterChain' is Defined]]
+* [[https://www.baeldung.com/no-bean-named-springsecurityfilterchain-is-defined|No Bean Named &#8216;springSecurityFilterChain' is Defined]]
 * [[https://www.baeldung.com/spring-nosuchbeandefinitionexception|Spring NoSuchBeanDefinitionException]]
 * [[https://www.baeldung.com/spring-security-session|Control the Session with Spring Security]]
 
 **June 2013**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/spring-security-authentication-provider|Spring Security Authentication Provider]]
 * [[https://www.baeldung.com/spring-security-basic-authentication|Spring Security Basic Authentication]]
 
 **May 2013**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/security-spring|Security with Spring]]
 * [[https://www.baeldung.com/spring-exceptions|Spring Exceptions Tutorial]]
 * [[https://www.baeldung.com/spring-beancreationexception|Spring BeanCreationException]]
 * [[https://www.baeldung.com/spring-security-logout|Spring Security Logout]]
-* [[https://www.baeldung.com/security-none-filters-none-access-permitAll|Spring Security – security none, filters none, access permitAll]]
+* [[https://www.baeldung.com/security-none-filters-none-access-permitAll|Spring Security &#8211; security none, filters none, access permitAll]]
 * [[https://www.baeldung.com/spring-maven-repository|Spring Maven Repositories]]
 * [[https://www.baeldung.com/spring-dataIntegrityviolationexception|Spring DataIntegrityViolationException]]
 * [[https://www.baeldung.com/spring-requestmapping|Spring RequestMapping]]
@@ -3779,6 +3906,7 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/spring-security-login|Spring Security Form Login]]
 
 **April 2013**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/spring-security-with-maven|Spring Security with Maven]]
 * [[https://www.baeldung.com/maven-deploy-nexus|Maven Deploy to Nexus]]
 * [[https://www.baeldung.com/spring-with-maven|Spring with Maven]]
@@ -3788,25 +3916,31 @@ Wiki-Format: zim 0.4
 * [[https://www.baeldung.com/2013/04/01/upload-on-s3-with-jclouds/|Upload on S3 with the jclouds library]]
 
 **February 2013**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/tweeting-stackexchange-with-spring-social-part-1/|StackExchange REST Client with Spring and RestTemplate]]
 
 **January 2013**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/testing-rest-api-with-multiple-media-types|Testing REST with multiple MIME types]]
 * [[https://www.baeldung.com/etags-for-rest-with-spring|ETags for REST with Spring]]
 
 **January 2012**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/rest-api-pagination-in-spring|REST Pagination in Spring]]
 
 **December 2011**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/persistence-layer-with-spring-and-hibernate|The DAO with Spring and Hibernate]]
 
 **November 2011**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/rest-with-spring-series|REST with Spring Tutorial]]
 * [[https://www.baeldung.com/basic-and-digest-authentication-for-a-rest-api-with-spring-security|Basic and Digest Authentication for a REST Service with Spring Security]]
 * [[https://www.baeldung.com/rest-api-discoverability-with-spring|HATEOAS for a Spring REST Service]]
 * [[https://www.baeldung.com/restful-web-service-discoverability|REST API Discoverability and HATEOAS]]
 
 **October 2011**
+<ul class='car-monthlisting'>
 * [[https://www.baeldung.com/integration-testing-with-the-maven-cargo-plugin|Integration Testing with the Maven Cargo plugin]]
 * [[https://www.baeldung.com/integration-testing-a-rest-api|Test a REST API with Java]]
 * [[https://www.baeldung.com/testing-the-java-service-layer|Avoid brittle tests for the Service layer]]

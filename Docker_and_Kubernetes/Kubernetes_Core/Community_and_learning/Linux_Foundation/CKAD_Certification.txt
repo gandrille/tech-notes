@@ -11,6 +11,7 @@ Wiki-Format: zim 0.4
 * [[https://medium.com/chotot/tips-tricks-to-pass-certified-kubernetes-application-developer-ckad-exam-67c9e1b32e6e|Tips to pass Certified Kubernetes Application Developer (CKAD) exam]]
 * [[https://blog.heptio.com/kubectl-explain-heptioprotip-ee883992a243?gi=d7a9eb677b2c|kubectl explain command]]
 * [[https://github.com/twajr/ckad-prep-notes|CKAD prep notes]]
+* https://blog.ippon.fr/2021/04/21/certification-kubernetes-ckad/
 
 **Exercices**
 * [[https://github.com/dgkanatsios/CKAD-exercises|CKAD Exercises]]
