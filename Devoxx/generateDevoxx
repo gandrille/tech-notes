@@ -6,16 +6,15 @@ progName=$(basename $0)
 set -eu
 
 
+## fr
+fic=$dirName/fr.txt
+url="https://www.youtube.com/channel/UCsVPQfo5RZErDL41LoWvk0A/videos"
+title="DevoxxFR"
+zim-youtube-page --with-duration $url $title > $fic
 
 ## be
 fic=$dirName/be.txt
 url="https://www.youtube.com/channel/UCCBVCTuk6uJrN3iFV_3vurg/videos"
 title="DevoxxBE"
-
-## fr
-fic=$dirName/fr.txt
-url="https://www.youtube.com/channel/UCsVPQfo5RZErDL41LoWvk0A/videos"
-title="DevoxxFR"
-
 zim-youtube-page --with-duration $url $title > $fic
 

@@ -5,22 +5,22 @@ Wiki-Format: zim 0.6
 ''cat DevoxxFR.txt | grep -E "[0-9]:[0-9][0-9]:[0-9][0-9]|^[^*]"''
 
 ===== 2023 =====
-* [[https://youtube.com/watch?v=2kooPqDguyw|2:45:26 Sécurité de la chaîne logicielle avec Sigstore (Louis JACOMET et Hervé BOUTEMY) ]]
 * [[https://youtube.com/watch?v=8bvo5yj-5W0|2:44:08 Value types et Pattern matching : 1 partout, données au centre (José PAUMARD, Remi FORAX) ]]
+* [[https://youtube.com/watch?v=2kooPqDguyw|2:45:26 Sécurité de la chaîne logicielle avec Sigstore (Louis JACOMET et Hervé BOUTEMY) ]]
 * [[https://youtube.com/watch?v=V6tsSMWoEDs|2:23:22 Quizrd! A Journey into the Cloud (Marc COHEN) ]]
-* [[https://youtube.com/watch?v=3jI6TpzLU1c|2:51:14 Rendons le DDD aux devs (Dorra BARTAGUIZ et Arnaud THIEFAINE) ]]
-* [[https://youtube.com/watch?v=9mcwNHtOI5s|2:49:04 De Java à Scala 3, des lambdas à la programmation fonctionnelle: un code plus lisible, plus expl... ]]
-* [[https://youtube.com/watch?v=ZbWL2W53BXY|2:49:50 Comprendre et utiliser les modèles de langage d'IA (Sébastien COLLET) ]]
 * [[https://youtube.com/watch?v=gmpsOimdDi8|2:42:08 SQL (le retour): Démystifions les idées préconçues et utilisons la DB efficacement (Franck Pachot) ]]
-* [[https://youtube.com/watch?v=MflXKRBtFpY|2:45:27 Kotlin: web, mobile, multi-plateforme... l'ambition du couteau suisse ? (E. REMY et W. DE CARVALHO) ]]
-* [[https://youtube.com/watch?v=GXINfnVB21E|2:41:53 Construisons ensemble de A à Z un cloud opensource pour le datascientist ]]
-* [[https://youtube.com/watch?v=Zw-vNFOGwdw|2:46:49 Kubernetes, dépassionné et pour les ultra débutants (Sébastien BLANC, Horacio GONZALEZ, Sun TAN) ]]
-* [[https://youtube.com/watch?v=mgCa3M5tcH4|2:38:05 Jakarta en 2023, Quelle est la situation ? (Lilian BENOIT) ]]
-* [[https://youtube.com/watch?v=sTsiuydysiA|2:33:43 Java™ 19 & 20. What's new and noteworthy? (Piotr PRZYBYL) ]]
-* [[https://youtube.com/watch?v=tRkVUGzY330|2:31:18 Developer Productivity Engineering - Extended Session (Justin REOCK) ]]
+* [[https://youtube.com/watch?v=ZbWL2W53BXY|2:49:50 Comprendre et utiliser les modèles de langage d'IA (Sébastien COLLET) ]]
+* [[https://youtube.com/watch?v=9mcwNHtOI5s|2:49:04 De Java à Scala 3, des lambdas à la programmation fonctionnelle: un code plus lisible, plus expl... ]]
+* [[https://youtube.com/watch?v=3jI6TpzLU1c|2:51:14 Rendons le DDD aux devs (Dorra BARTAGUIZ et Arnaud THIEFAINE) ]]
 * [[https://youtube.com/watch?v=1oRiEzMW6QA|2:46:52 Des tuyaux sur les pipelines (Pierre-Antoine GREGOIRE et Philippe CHARRIÈRE) ]]
+* [[https://youtube.com/watch?v=MflXKRBtFpY|2:45:27 Kotlin: web, mobile, multi-plateforme... l'ambition du couteau suisse ? (E. REMY et W. DE CARVALHO) ]]
 * [[https://youtube.com/watch?v=FyAD_-LAMLo|2:46:41 Une Architecture GitOps from scratch : Gitlab, Ansible, Terraform, Kub et AWS (L.Ortola A.Moreau) ]]
+* [[https://youtube.com/watch?v=tRkVUGzY330|2:31:18 Developer Productivity Engineering - Extended Session (Justin REOCK) ]]
+* [[https://youtube.com/watch?v=sTsiuydysiA|2:33:43 Java™ 19 & 20. What's new and noteworthy? (Piotr PRZYBYL) ]]
+* [[https://youtube.com/watch?v=mgCa3M5tcH4|2:38:05 Jakarta en 2023, Quelle est la situation ? (Lilian BENOIT) ]]
 * [[https://youtube.com/watch?v=eXWOfvifrAw|2:40:00 Docker Compose 101 (Guillaume LOURS, Nicolas DE LOOF) ]]
+* [[https://youtube.com/watch?v=Zw-vNFOGwdw|2:46:49 Kubernetes, dépassionné et pour les ultra débutants (Sébastien BLANC, Horacio GONZALEZ, Sun TAN) ]]
+* [[https://youtube.com/watch?v=GXINfnVB21E|2:41:53 Construisons ensemble de A à Z un cloud opensource pour le datascientist ]]
 
 ===== 2022 =====
 * [[https://youtube.com/watch?v=VNmf1Wz16uk|2:48:21 Zero Trust : the new normal ! (Laurent Grangeau et Tony Jarriault)]]
