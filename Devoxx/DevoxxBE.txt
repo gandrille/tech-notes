@@ -4,7 +4,7 @@ Wiki-Format: zim 0.6
 ====== DevoxxBE ======
 [[https://www.youtube.com/channel/UCCBVCTuk6uJrN3iFV_3vurg/videos|Youtube Channel]]
 
-===== VDCLUJ2023 =====
+===== Voxxed Days Cluj Napoca 2023 =====
 * [[https://youtube.com/watch?v=gVAWKIHeYMQ|56:06 [VDCLUJ2023] PANEL: Unleashing the Future: The Impact of Gen AI on Development Productivity ]]
 * [[https://youtube.com/watch?v=VFMBAV4rrwY|5:05 [VDCLUJ2023] - Alex Proca & Andra Ghibuțiu - Welcome thoughts ]]
 * [[https://youtube.com/watch?v=QVCsJ0B3J_k|1:00:01 [VDCLUJ2023] Sander Hoogendoorn - Beyond the innovator’s dilemma ]]
@@ -245,7 +245,7 @@ Wiki-Format: zim 0.6
 * [[https://youtube.com/watch?v=IGB15U5bZrw|42 Devoxx Ukraine 2023 | Online | September 22 ]]
 * [[https://youtube.com/watch?v=TUaGelIGRKs|42 Devoxx Ukraine 2023: : AI – Friend or Foe? | Call for speakers ]]
 
-===== VDIASI23 =====
+===== Voxxed Days Iasi 2023 =====
 * [[https://youtube.com/watch?v=irV3KVIcoN0|44:00 [VDIASI23] - Ana-Maria Mihălceanu - A Glance At The Java Performance Toolbox ]]
 * [[https://youtube.com/watch?v=dHiya7Yi0I0|40:05 [VDIASI23] - Adrian Miron - Unlocking Your Team Potential: Discovering Your Unique Role for Success ]]
 * [[https://youtube.com/watch?v=vdZBz2v4g-s|34:32 [VDIASI23] - Erwin Manders - Test automation guide: How to move away from chain tests ]]
@@ -453,7 +453,7 @@ Wiki-Format: zim 0.6
 * [[https://youtube.com/watch?v=rEmx5HKX6b4|16:59 The future of our digital identity: NFTs or Verifiable Credentials? by Tommaso Agnola ]]
 * [[https://youtube.com/watch?v=rU1MsRTUm_w|50:16 Game of Loom: implementation patterns and performance implications by Mario Fusco ]]
 
-===== Voxxed Days CLUJ 2022 =====
+===== Voxxed Days Cluj 2022 =====
 * [[https://youtube.com/watch?v=2qSPdqHX-wo|2:20 Voxxed Days Cluj 2022 - How it feels like ]]
 * [[https://youtube.com/watch?v=GTULzf3TzCU|51:09 [VDCLUJ22] Kelly Jille - Unconference Day Keynote - Be Mr. Miyagi or find one]]
 * [[https://youtube.com/watch?v=jEZnEuaGjA4|48:13 [VDCLUJ22] Mete Atamel - Serverless beyond functions]]
