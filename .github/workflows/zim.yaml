@@ -59,21 +59,6 @@ jobs:
       - name: Generate website
         run: mkdir ./pages && zim --export --output ./pages --template ./zim-simple-web-template/SimpleWeb.html --overwrite --index-page index ./source
 
-      - name: Checkout latex Template
-        uses: actions/checkout@v4
-        with:
-          repository: 'gandrille/zim-simple-latex-template'
-          path: 'zim-simple-latex-template'
-
-      - name: Generate latex sources
-        run: mkdir ./latex && zim --export --format latex --output ./latex/notebook.tex --template ./zim-simple-latex-template/Template.tex --overwrite --singlefile ./source/notebook.zim
-
-      - name: Install Latex
-        run: sudo apt install --yes texlive texlive-latex-extra
-      
-      - name: Build pdf from latex
-        run: pdflatex -halt-on-error -output-directory latex ./latex/notebook.tex && pdflatex -halt-on-error -output-directory latex ./latex/notebook.tex && mv ./latex/notebook.pdf ./pages/${GITHUB_REPOSITORY##*/}.pdf && echo "Rename notebook.pdf => ${GITHUB_REPOSITORY##*/}.pdf"
-
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
