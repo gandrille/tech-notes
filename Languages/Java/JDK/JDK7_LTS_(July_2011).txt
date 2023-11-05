@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== JDK7 LTS (July 2011) ======
+**Sources**
+* [[https://en.wikipedia.org/wiki/Java_version_history#Java_SE_7|Wikipedia]]
+
+**Key features**
+* [[https://www.jcp.org/en/jsr/detail?id=292|JSR 292 invoque dynamic]]
+* [[https://www.jcp.org/en/jsr/detail?id=334|JSR 334 "coin" project]]
+	* ''switch'' with ''strings''
+	* underscore in literals, and 0B00101010101 (binary)
+	* multicatch
+	* diamond operator simplified
+	* Try with ressources and autoclosable
+* [[https://www.jcp.org/en/jsr/detail?id=203|JSR 203 e/s NIO2]] with [[http://thecodersbreakfast.net/index.php?post/2011/05/18/Filesystem-notifications-with-Java-7|notifications on file system update]]
+* [[http://www.oracle.com/technetwork/articles/java/fork-join-422606.html|Fork - Join Framework]] 

@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== JDK8 LTS (March 2014) ======
+**Sources**
+* [[https://en.wikipedia.org/wiki/Java_version_history#Java_SE_8|Wikipedia]]
+* [[https://howtodoinjava.com/java-8-tutorial/|Java 8 tutorial]]
+* [[https://dzone.com/articles/all-things-java-8|Ressources Java 8]]
+
+**Key features**
+* Lambda et Streams
+* Default methods in interfaces
+* Nashorn
+* Date & Time API
+
+**Misc**
+* ''List<String> unmodifiableList = Collections.unmodifiableList(list);''

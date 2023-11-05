@@ -1,0 +1,19 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Management Quizz ======
+* Sais-tu exactement ce qu’on attend de toi sur la mission ?
+* Apprécies-tu ce que tu fais sur la mission ?
+* As-tu le sentiment d’avoir l’aide dont tu as besoin de la part du management ?
+* Es-tu toujours motivé·e pour travailler sur ta mission ?
+* Penses-tu que la mission de ton équipe apporte de la valeur ?
+* As-tu le sentiment d’être reconnu·e comme un contributeur de ton équipe ?
+* As-tu le sentiment que le travail de qualité est reconnu et valorisé par le management ?
+* Au cours des 7 derniers jours, as-tu reçu une reconnaissance de ton équipe et/ou de ton management pour avoir fait du bon travail ?
+* Penses-tu que les décisions sont prises rapidement au sein de l’équipe ?
+* Penses-tu que les décisions sont prises rapidement par le management ?
+* Prends-tu le temps de travailler à l’amélioration continue de l’équipe ?
+* As-tu le sentiment de continuer à apprendre au sein de l’équipe ?
+* Disposes-tu des moyens nécessaires pour réaliser ta mission ?
+([[https://blog.octo.com/comment-prendre-simplement-le-pouls-dune-equipe-et-mesurer-lefficacite-de-son-management/|source]])
+

@@ -1,0 +1,18 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== GPL et LGPL ======
+The intention of the GPL (General Public License) is to promote free open source software. You can use the software under GPL, redistribute it, and modify it. But the result is always bound to be under the GPL license too. You can also combine GPL software with other software — as long as the combined work is licensed and distributed under GPL. This means that the GPL is “contagious” — if you use a GPL component in a system, the entire system has to be released under the GPL. The reasoning behind this is to promote open source. If a great library is only available under GPL it will force software that wants to use the library to be free and open source, too.
+
+The LGPL is a weaker form of the GPL that is not contagious over library boundaries. Originally, LGPL was read out as Library General Public License. It has now been reinterpreted to be read out as the Lesser General Public License. I assume they mean lesser, as in less strong in forcing software to be open source.
+
+Applying LGPL to a library ensures that the library itself and any modified versions of it will remain open source. But it can be used by closed source software.
+
+With web based products this reasoning doesn’t work. I can offer a service over the web, by using GPLed software. But I’m never distributing the software itself — it sits on my servers only. Which means I’m not bound to release the code of the product, even if it is using GPLed components. To remedy this, another license was born, the Affero General Public License, which requires anyone using the software to offer services to offer the source code to everyone that can access the services.
+
+But as far as plain GPL and LGPL are concerned, a web-based product is an internal application that doesn’t incur any requirement to distribute the source.
+
+LGPL
+* If you’re not distributing the software — you’re free to use and modify the library without doing something special.
+* If you distribute software using the library, you must offer to supply the source code of the library. If you’re just using the official builds, you don’t have to do anything special as the code is already available on GitHub.
+* If you distribute a modified version of the library, you must offer to supply the source of that modified version.

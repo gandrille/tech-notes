@@ -1,0 +1,20 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Ukraine ======
+https://en.wikipedia.org/wiki/Cyberwarfare_by_Russia
+
+===== 2014 Elections ukrainiennes : début des cyberattaques =====
+La révolution ukrainienne de Maïdan et le départ du président Viktor Yanoukovitch en février 2014, marque le début d'une vague de cyberattaques contre l'Ukraine. Lors de l'élection, le système de comptage des voix a été infecté par un virus afin de proclammé de faux résultats. 
+
+===== 23 décembre 2015 =====
+230 000 personnes se sont retrouvées dans le noir en raison d’une cyber attaque sur les SCADA qui nottament ciblé la centrale électrique à Ivano-Frankivsk ([[https://en.wikipedia.org/wiki/December_2015_Ukraine_power_grid_cyberattack|Wikipedia]])
+→ Malware BlackEnergy (mis-à-jour) déployé grâce à un phishing ciblé
+
+===== 16 décembre 2016 =====
+Kiev se voit partiellement privée d’électricité par [[https://en.wikipedia.org/wiki/Industroyer|Industroyer]] ([[https://www.welivesecurity.com/wp-content/uploads/2017/06/Win32_Industroyer.pdf|analyse du malware]])
+
+===== 27 juin 2017 =====
+[[https://en.wikipedia.org/wiki/2017_cyberattacks_on_Ukraine|Cyberattaque NotPetya]] : le [[https://fr.wikipedia.org/wiki/Cyberattaque_NotPetya|malware NotPetya]], distribué par une mise à jour du logiciel de comptabilité MeDoc paralyse l'Ukraine.
+
+"Dans les rues de Kiev, les distributeurs de billets ne fonctionnent plus. Ailleurs, des banques et des magasins sont contraints de fermer leurs portes. Les chemins de fer, le métro de Kiev, et l’aéroport Borispol sont atteints et doivent limiter leurs opérations, de même que des entreprises publiques de premier plan comme la poste ou l’opérateur de télécommunications UkrTelecom. Des chaînes de télévision et des stations de radio sont contraintes de rendre l’antenne, tandis que les ordinateurs de plusieurs ministères se retrouvent hors service." ([[https://www.numerama.com/politique/283573-en-ukraine-la-cyberguerre-au-quotidien-episode-1-la-menace-permanente.html|source]])

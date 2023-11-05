@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== 1990 Latanya Sweeney ======
+
+Une autre erreur est de sous-estimer la capacité à identifier les individus avec très peu d’information. Il n’est pas rare de conserver dans les fichiers, le sexe, la date de naissance et la commune dans laquelle une personne habite à des fins statistiques. Ces données étant peu précises, les conserver semble parfaitement légitime. Vraiment ? Pourtant, en 2010, Latanya Sweeney a montré dans son étude « Uniqueness of Simple Demographics in the U.S. Population, Laboratory for International Data Privacy Working Paper, LIDAP-WP4 (2000) » que ces données suffisent à identifier 87 % de la population américaine. Autrement dit, il suffit d’avoir un fichier contenant le nom de la personne, sa date de naissance, son sexe et la ville où elle habite pour la réidentifier dans 87 % des cas. Et vu que ces données sont les premières qu’on vous demande lorsque vous vous inscrivez quelque part, un tel fichier ne doit pas être difficile à trouver.
+
+En fait, ce n’est pas tout à fait le cas, parce que si vous multipliez 2 par 30 000, par 100 000, vous obtenez 9 milliards [6 milliards, NdT] ; ça veut dire qu’il y a 9 milliards [6 milliards, NdT] de combinaisons de trois informations qui sont le genre d’une personne, sa date de naissance et son code postal. Et comme nous sommes 60 millions de personnes vivant en France, nous sommes 100 fois moins de personnes que de combinaisons. Donc la plupart d’entre nous sont identifiés exactement par ces trois informations, leur genre, leur date de naissance et leur code postal. Sauf, par exemple, pour les baby-boomers qui vivent dans un arrondissement très peuplé de Paris, il se peut qu’il y en ait deux. Mais en général, 87 %, par exemple, des personnes qui vivent aux États-Unis sont identifiables par ces trois informations. Donc même si on supprime le prénom, même si on supprime beaucoup d’informations, on s’aperçoit qu’on peut toujours désanonymiser les données.
+[[https://www.april.org/ethique-et-algorithmes-gilles-dowek|Éthique et algorithmes, Gilles Dowek, 2017]]
+
+Latanya Sweeney : avec sexe, commune de naissance et commune d'habitation -> 87% de la pop américaine
+
+Uniqueness of Simple Demographics in the U.S. Population. by: Latanya Sweeney (LIDAP-WP4 Carnegie Mellon University, Laboratory for International Data...

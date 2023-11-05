@@ -1,0 +1,30 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== JDK16 (March 2021) ======
+**Sources**
+* [[https://en.wikipedia.org/wiki/Java_version_history#Java_SE_16|Wikipedia]]
+* [[https://openjdk.java.net/projects/jdk/16/|OpenJDK 16]]
+* [[https://mkyong.com/java/what-is-new-in-java-16/|Mkyong: What is new in Java 16]]
+
+**JEP list**
+* [[https://openjdk.java.net/jeps/338|338: Vector API (Incubator)]]
+* [[https://openjdk.java.net/jeps/347|347: Enable C++14 Language Features]]
+* [[https://openjdk.java.net/jeps/357|357: Migrate from Mercurial to Git]]
+* [[https://openjdk.java.net/jeps/369|369: Migrate to GitHub]]
+* [[https://openjdk.java.net/jeps/376|376: ZGC: Concurrent Thread-Stack Processing]]
+* [[https://openjdk.java.net/jeps/380|380: Unix-Domain Socket Channels]]
+* [[https://openjdk.java.net/jeps/386|386: Alpine Linux Port]]
+* [[https://openjdk.java.net/jeps/387|387: Elastic Metaspace]]
+* [[https://openjdk.java.net/jeps/388|388: Windows/AArch64 Port]]
+* [[https://openjdk.java.net/jeps/389|389: Foreign Linker API (Incubator)]]
+* [[https://openjdk.java.net/jeps/390|390: Warnings for Value-Based Classes]]
+* [[https://openjdk.java.net/jeps/392|392: Packaging Tool]]
+* [[https://openjdk.java.net/jeps/393|393: Foreign-Memory Access API (Third Incubator)]]
+* [[https://openjdk.java.net/jeps/394|394: Pattern Matching for instanceof]]
+* [[https://openjdk.java.net/jeps/395|395: Records]] → Great!!!
+* [[https://openjdk.java.net/jeps/396|396: Strongly Encapsulate JDK Internals by Default]]
+* [[https://openjdk.java.net/jeps/397|397: Sealed Classes (Second Preview)]]
+
+[[http://marxsoftware.blogspot.com/2020/12/jdk16-stream-to-list.html|J]][[http://marxsoftware.blogspot.com/2020/12/jdk16-stream-to-list.html|DK 16: Stream to List In One Easy Call]]
+

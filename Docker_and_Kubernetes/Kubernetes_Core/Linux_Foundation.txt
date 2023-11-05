@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+
+====== Linux Foundation ======
+**Free**
+[[https://courses.edx.org/courses/course-v1:LinuxFoundationX+LFS158x+2T2019/course/|LFS158x  - Introduction to Kubernetes]]
+
+**Cheap**
+[[https://training.linuxfoundation.org/training/kubernetes-fundamentals/|LFS258 - Kubernetes Fundamentals]] $299
+[[https://training.linuxfoundation.org/training/kubernetes-for-developers/|LFD259 - Kubernetes for Developers]] $299
+
+**Instructor-led**
+* [[https://training.linuxfoundation.org/training/kubernetes-administration/|LFS458 - Kubernetes Administration]] $3250
+* [[https://training.linuxfoundation.org/training/kubernetes-for-app-developers/|LFD459 - Kubernetes for App Developers]] $3250

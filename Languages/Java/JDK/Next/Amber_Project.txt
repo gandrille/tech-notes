@@ -1,0 +1,28 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+
+====== Amber Project ======
+**Small, productivity-oriented features**
+**Continuously improve developer productivity through evolutins of the Java language.**
+
+Led by Brian Goetz
+launched March 2017
+https://openjdk.org/projects/amber/
+
+| Jep                                                         | JDK 10   | JDK 11   | JDK 12  | JDK 13      | JDK 14      | JDK 15      | JDK 16      | JDK17    | JDK18       | JDK19       | JDK20          |
+|:------------------------------------------------------------|:---------|:---------|:--------|:------------|:------------|:------------|:------------|:---------|:------------|:------------|:---------------|
+| JEP 286 Local-Variable Type Inference (var)                 | released |          |         |             |             |             |             |          |             |             |                |
+| JEP 323 Local-Variable Syntax for Lambda Parameters         |          | released |         |             |             |             |             |          |             |             |                |
+| JEP 361 Switch Expressions                                  |          |          | preview | 2nd preview | released    |             |             |          |             |             |                |
+| JEP 378 Text Blocks                                         |          |          |         | preview     | 2nd preview | released    |             |          |             |             |                |
+| JEP 394 Pattern Matching for instanceof                     |          |          |         |             | preview     | 2nd preview | released    |          |             |             |                |
+| JEP 395 Records                                             |          |          |         |             | preview     | 2nd preview | released    |          |             |             |                |
+| JEP 409 Sealed Classes                                      |          |          |         |             |             | preview     | 2nd preview | released |             |             |                |
+| JEP 430 String Templates (Preview)                          |          |          |         |             |             |             |             |          |             |             | preview ou 21? |
+| JEP 432 Record Patterns and Array Patterns (Second preview) |          |          |         |             |             |             |             |          |             | preview     | 2nd preview    |
+| JEP 433 Pattern Matching for switch (fourth preview)        |          |          |         |             |             |             |             | preview  | 2nd preview | 3rd preview | 4th preview    |
+
+[[https://blogs.oracle.com/javamagazine/diving-into-java-records-serialization-marshaling-and-bean-state-validation|Diving into Java records: Serialization, marshaling, and bean state validation]]
+
+
+

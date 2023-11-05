@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Pokemon Go ======
+"Selon nous, le vrai défi consiste à motiver les joueurs à fournir leurs données de manière continue, même lorsque l’effervescence autour de la nouveauté se sera dissipée. […] Nous sommes convaincus que l’amusement et le divertissement sont la pierre angulaire d’un tel service de collecte de données"
+John_Hanke
+
+2016 [[https://theintercept.com/2016/08/09/privacy-scandal-haunts-pokemon-gos-ceo/|Privacy Scandal Haunts Pokemon Go’s CEO]]
+2016 [[https://www.lesechos.fr/2016/08/pokemon-go-quelles-donnees-niantic-collecte-t-il-et-que-compte-t-il-en-faire-214863|Pokémon Go : quelles données Niantic collecte-t-il et que compte-t-il en faire ?]]

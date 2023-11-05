@@ -1,0 +1,6 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== BND ======
+''index.xml'' files are used extensively by bnd. They provide access to the dependency information of bundles, and a location from which the bundle can be obtained. 
+

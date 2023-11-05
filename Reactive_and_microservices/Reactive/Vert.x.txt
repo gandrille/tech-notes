@@ -1,0 +1,93 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Vert.x ======
+
+===== Approche réactive =====
+Programmation réactive : programmation avec des flux de donnés
+* RxJava / RxJava2 / Reactor
+
+Inspiration
+* actor 
+* messaging
+* node js
+
+Systèmes réactifs
+* réponde
+* tolérant aux pannes
+* élastique
+* asynchrone (découplage temporel)
+
+Pourquoi ?
+* pas bloquer sur les I/O (exemple : accès base de données, framework web,…)
+* mieux utiliser les CPU : moins de threads, non bloquants…
+
+RxJava : pour traiter des flux continus de données, map,… C'est de la programmation réactive, pas un système réactif.
+
+Event bus : NON persistant ! pas comme rabbit MQ et Kafka.
+
+RxJava : pour des streams de données qui arrivent au fil de l'eau. Vert.x a des packages dédiés pour produire / consommer du RxJava.
+
+Verticle : cycle de vie simplissime : start stop
+
+===== Vert.x =====
+Toolkit.
+
+Versions
+* v1 en 2011
+* v2 en 2014
+* v3 en 2015
+	* [[https://github.com/vert-x3/wiki/wiki/3.1.0---Release-Notes|v3.1.0]] 8 oct 2015
+	* [[https://github.com/vert-x3/wiki/wiki/3.2.0---Release-Notes|v3.2.0]] 15 dec 2015
+	* [[https://github.com/vert-x3/wiki/wiki/3.3.0---Release-Notes|v3.3.0]] 24 juin 2016
+	* [[https://github.com/vert-x3/wiki/wiki/3.4.0---Release-Notes|v3.4.0]] 13 mars 2017
+	* [[https://github.com/vert-x3/wiki/wiki/3.5.0-Release-Notes|v3.5.0]] 21 oct 2017
+	* [[https://github.com/vert-x3/wiki/wiki/3.6.0-Release-Notes|v3.6.0]] 3 déc 2018
+	* [[https://github.com/vert-x3/wiki/wiki/3.7.0-Release-Notes|v3.7.0]] 2 avril 2019
+	* [[https://github.com/vert-x3/wiki/wiki/3.8.0-Release-Notes|v3.8.0]] 19 juillet 2019
+* v4 fin 2019?
+
+Cas d'utilisation
+* microservices
+* concurrence
+* proxy HTTP
+* alignement de protocoles → passe plat
+* CRUD classique / REST
+
+===== Concepts =====
+Verticle
+* encapsule la logique métier
+* contient de 1 à n handlers
+* classe java
+* cycle de vie start/stop
+* unité de scalabilité (load balance entre instances du même verticle)
+* n'interagissent qu'avaec l'event bus
+* A son déploiement, une event loop est affectée par instance
+
+Event/Bus
+* pour faire passer des messages (événement)
+* point à point
+* pub/sub
+* request/response
+
+Event loop
+* chaque event loop dispose d'une queue et dispatche les evenements entrants sur ses verticles
+* utilise le reactor pattern
+* autant d'event loop que de core CPU (en fait le double, parce que c'est ce qui donne les meilleures performances)
+
+Faire des appels bloquants ?
+* les briques de base (comme par exemple JDBC) masquent l'aspect synchrone… mais l'appel reste bien synchrone
+* vertex fourni execute blocking, worker verticle,…
+→ bien regarder comment faire pour gérer les pools de connexion
+
+Pas de persistance des messages au niveau de l'event bus comme au niveau des event loops.
+
+===== MQTT =====
+C'est [[https://paolopatierno.wordpress.com|Paolo Patierno]] ([[https://github.com/ppatierno|GitHub]]) qui gère ça
+
+===== Microservices =====
+* découverte
+* circuit breaker
+* bulk heads
+* location transparency
+* tolérance aux pannes

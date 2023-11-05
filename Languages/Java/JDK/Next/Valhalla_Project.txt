@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+
+====== Valhalla Project ======
+**Generic specialization and value types**
+
+“codes like a class, works like an int,” 
+The current plan is to introduce two new kinds of types: value classes and primitive classes.
+
+Higher memory desity, better performance of ML and big data apps through the introduction of value types.
+https://openjdk.java.net/projects/valhalla/
+
+**Long term goals**
+* value class: state expresses identity
+* universal generification: even primitives in generics

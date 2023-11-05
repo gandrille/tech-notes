@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== JavaScript ======
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript
+https://pouchdb.com/2015/05/18/we-have-a-problem-with-promises.html
+
+Livres ES6
+* https://leanpub.com/understandinges6/
+* http://exploringjs.com/

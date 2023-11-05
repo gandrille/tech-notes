@@ -1,0 +1,18 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+
+====== Loom Project ======
+**Lightweight threading model**
+* https://openjdk.java.net/projects/loom/
+* https://wiki.openjdk.java.net/display/loom/Main
+* [[https://blog.softwaremill.com/will-project-loom-obliterate-java-futures-fb1a28508232|Must read article ! (quite long)]] 
+* [[https://www.baeldung.com/openjdk-project-loom|Article]]
+
+| Topic                  | JDK19               | JDK20                      |
+|:-----------------------|:--------------------|:---------------------------|
+| Virtual Threads        | JEP 425 (Preview)   | JEP 436 (Second Preview)   |
+| Structured Concurrency | JEP 428 (Incubator) | JEP 437 (Second Incubator) |
+| Scoped values          |                     | JEP 429 (Incubator)        |
+
+
+

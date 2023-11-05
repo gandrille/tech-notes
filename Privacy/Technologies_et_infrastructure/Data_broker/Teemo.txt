@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Teemo ======
+2017 [[https://www.numerama.com/politique/282934-enquete-comment-les-apps-figaro-lequipe-ou-closer-participent-au-pistage-de-10-millions-de-francais.html|Enquête : comment les apps Figaro, L’Équipe ou Closer participent au pistage de 10 millions de Français]]
+
+Teemo : clients Le Figaro, L’Équipe, Météo France, Closer ou encore Télé Loisirs. Mais au total, une cinquantaine d’applications mainstream sont concernées.
+La Fnac, intersport, yves rocher, Casino, Celio, Le Parisien, Le Figaro, Marmiton, l'Equipe, Closer
+
+Une cinquantaine d'applications françaises fournissent à une entreprise tierce les données de localisation de 10 millions de Français, toutes les trois minutes, à des fins publicitaires. Cette traque massive de la population est organisée dans le secret d'une startup du neuvième arrondissement nommée Teemo, anciennement Databerries.
+
+Avec l’adresse et le lieu de travail, on déanonymise facilement.
+
+Lorsqu’une application ou un site demande à accéder à la localisation de son utilisateur, elle n’a pas à indiquer dans quel cadre, à quelle fréquence et pourquoi.
+
+On met des pubs dans les app... et on regarde si ça a conduit l'utilisateur à passer en boutique... ou chez le concurrent.

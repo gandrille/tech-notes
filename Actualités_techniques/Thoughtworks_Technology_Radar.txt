@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+
+====== Thoughtworks Technology Radar ======
+https://www.thoughtworks.com/radar
+
+* adopt : y aller !
+* trial : essayer sur des petits projets
+* assess : regarder pour comprendre les concepts, les impacts
+* hold  : conserver... avec prudence (penser à migrer)
+

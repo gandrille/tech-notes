@@ -1,0 +1,44 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== OAuth2 ======
+Pour comprendre un certain nombre de problèmes : [[https://www.mathieupassenaud.fr/faille-pole-emploi/|2 failles de sécurité (en cours) avec fuite de données chez pôle emploi]]
+
+**Sources**
+* https://auth0.com/docs/authorization/which-oauth-2-0-flow-should-i-use
+* [[https://milapneupane.com.np/2019/09/02/a-complete-guide-to-oauth2-protocol/|Une première introduction par Milap Neupane]]
+* [[http://www.bubblecode.net/fr/2016/01/22/comprendre-oauth2/|Article plus complet de Johann Reinke]]
+* [[https://medium.com/@darutk/diagrams-and-movies-of-all-the-oauth-2-0-flows-194f3c3ade85|Diagrams And Movies Of All The OAuth 2.0 Flows]]
+* Java Source Code by IBM
+	* [[https://www.ibm.com/developerworks/security/library/se-oauthjavapt1/index.html|Resource Owner Credentials Grant]]
+	* [[https://www.ibm.com/developerworks/security/library/se-oauthjavapt2/index.html|Client credentials grant]]
+	* [[https://www.ibm.com/developerworks/security/library/se-oauthjavapt3/index.html|Authorization code grant]]
+
+**QUATRE Acteurs**
+* **Resource Owner (Propriétaire de la ressource):** l’utilisateur final "en chair et en os", qui utilise le Client
+* **Client Application:** site internet ou application mobile utilisé par l'utilisateur
+* **Resource Server (Serveur de ressources):** le serveur qui possède les données
+* **Authorization Server (Serveur d’autorisation):** le serveur qui fourni des jetons (Token) quand un client s'est authentifié
+
+**QUATRE flows d'authentification, pour QUATRE usages distincts**
+* **Authorization Code Grant:** c'est pour le use case de l'appli PHP classique, avec un utilisateur qui pourra s'authentifier devant un écran. Tout est calculé sur le serveur client, et le résultat est renvoyé à l'utilisateur. Le token d'accès reste sur le serveur client qui maintient une session avec un refresh token. C'est le top côté sécurité.
+* **Implicit Grant:** historiquement, pour l'appli SPA type Angular. Comme c'est le javascript client qui va effectuer les appels, un système différent est mis en place. Le token est renvoyé dans l'URL de callback. → [[https://medium.com/oauth-2/why-you-should-stop-using-the-oauth-implicit-grant-2436ced1c926|ATTENTION : possibilité d'intercepter le token]]. C'est pourquoi il faut utiliser ''authorization_code flow'', qui ajoute une étape. Grâce à CORS, cette solution est aujourd'hui possible (elle ne l'était pas lors de l'écriture de la norme)
+* **Client Credentials Grant:** pour la communication serveur à serveur. Client id + client secret pour récupérer un token qui autorise l'accès… → Ici, on n'est PAS dans le contexte relatif aux données d'un utilisateur "en chair et en os".
+* **Resource Owner Credentials Grant:** quand le client est fait par la même personne que celle qui fait l'authorization server. A ce moment, on peut se permettre de donner login et password pour l'authentification au niveau du client (ex: on donne login/pwd facebook dans l'appli de facebook).
+
+**Exemple : le flow authorization code**
+* l'utilisateur est redirrigé vers une url chez (par ex) GitHub avec dans l'url client id, url de redirrection
+* l'utilisateur s'authentifie chez GitHub
+* redirection vers le callback avec un code
+* l'appli échange le code contre un access token
+* l'appli peut utiliser cet access token pour interoger GitHub SUR LES URL SPECIFIQUES DE GIT HUB
+
+**Problème**
+* l'access token ne comporte aucune identification. C'est une référence sur un profil. Il faut les urls (et json) spécifiques de GitHub, de Google,…
+* OAuth2 utilise des tokens qui ne sont PAS JWT. Ces tokens sont une simple référence. Il est nécessaire côté serveur de transformer cette référence en une identité en interrogeant une map.
+* pas de single sign out
+
+**Refresh token**
+* pour regénérer de manière transparente pour l'utilisateur l'access token
+* permet de s'adapter à l'évolution des droits de l'utilisateur
+→ bonne pratique : refresh token a durée de vie très longue (Celui de Google a probablement une durée de vie d'un an) mais access token a durée de vie de 5 minutes.

@@ -1,0 +1,94 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+
+====== Helm ======
+The //de facto// package manager for Kubernetes
+Great for third parties aplications that needs to be made available broadly.
+
+https://tanzu.vmware.com/developer/tv/enlightning/31/
+https://blog.wescale.fr/helm-pour-les-nuls-et-moins-nuls
+
+**Project Overview** __The latest version of Helm is v3! In blog posts, double check which version is used!__
+* https://helm.sh/
+* https://github.com/helm/helm
+* https://github.com/helm/helm/releases Download prebuild executable
+* https://hub.helm.sh
+* [[https://www.youtube.com/watch?v=-uZ25iO1Z1k|2019 Keynote: Getting to Know Helm 3]]
+
+* [[https://github.com/helm/hub|Helm Hub content (PR accepted!)]]
+* [[https://github.com/helm/monocular|monocular]] → Helm hub source code
+* [[https://chartmuseum.com/|ChartMuseum]] → open-source, easy to deploy, Helm Chart Repository server
+* [[https://github.com/helm/chart-testing|Chart Testing]] → CLI tool for linting and testing Helm charts 
+* [[https://github.com/helm/chart-releaser|Chart Releaser]] → Helps Turn GitHub Repositories into Helm Chart Repositories
+
+
+
+Top level CNCF Project
+* 2016 - Joined CNCF
+* 2020 - Graduated status
+
+===== Introduction =====
+**Scope :** template, package with versionning, register in a registry, deploy with configuration, monitor.
+
+templates + values = kubernetes yaml
+
+* **Package manager for Kubernetes**
+* encapsulates a set of kubernetes resources into an atomic unit of deployment (chart package)
+* A namespace must exists in order to store the release... even if Helm can create other namespaces.
+
+Regarding the templating part, the issue is that if a placeholder is missing... you need to fork !
+Or Kustomize to the rescue, before deploying. So we have helm, kustomize, deploy.
+An alternative is to templatize everything, which breaks the lisibility of the yaml definition.
+The advantage is that configuration is easy. Just a set of key value pairs.
+
+**Key concepts**
+* **Helm CLI** The Helm binary provides a mechanism for interacting with the Helm ecosystem
+* **Helm charts** Packages representing Kubernetes deployable resources
+	* **Templates (template/):** Templated resouces (using sprig)
+	* **Values (values.yaml):** Configuration variables that are injected into templated resources (default values)
+	* **Metadata file (Chart.yaml):** 
+* **Revisions** Configurations of a chart at a particular point in time
+
+===== Lifecycle management =====
+Helm release : set of deployed k8s resources using Helm
+
+* install: install a specific version of a chart package
+* upgrade : upgrades the version of a release (chart package already installed)
+* rollback
+* uninstall
+
+lifeycle management, and hooks available
+
+===== Helm repository =====
+Helm chart can be packaged using ''.tgz'' and hosted on a Helm repository, which is basically a HTTP server with an ''index.yaml'' file. ''index.yaml'' packages all Helm chart packages Chart.yaml file contents. So we can use github pages, for instance ;-)
+
+''helm repo add bitnami https://charts.bitnami.com/bitnami''
+''helm search repo bitnami''
+''helm repo update''
+
+Helm charts can be OCI artifacts now, and can be pushed to OCI registry.
+https://docs.docker.com/docker-hub/oci-artifacts/
+DockerHub, artifactory,...
+
+===== Templating =====
+* ''.Release''
+* ''.Values'' 
+* ''.Capabilities'': information about the kubernetes cluster you deploy to
+* ''.Files'' : access additional files inside. In order to inject a property file, for instance.
+See : https://helm.sh/docs/topics/charts/#predefined-values
+
+===== Reusable functions : partials =====
+* Name starts with an underscore
+* Helm chart with only partials: library chart, to be used as a dependency
+
+===== Quick start =====
+Commands are executed from the devlaptop, not from inside the cluster!
+
+''curl -fsSL -o get_helm.sh'' [[https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3|''https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3'']] ''| bash''
+''helm repo add bitnami'' [[https://charts.bitnami.com/bitnami|''https://charts.bitnami.com/bitnami'']]
+''helm repo update''
+''helm install ...''
+
+''helm status''
+''helm list''
+''helm upgrade''

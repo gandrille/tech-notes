@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Tests ======
+
+===== JUnit =====
+* [[https://github.com/nipafx/demo-junit-5/|Demo JUnit5 (GitHub)]] → very good examples by Nicolai Parlog (nipafx)
+* 2020 [[http://blog.codefx.org/libraries/junit-5-parameterized-tests/|JUnit 5 – Parameterized Tests (part of a blog series about JUnit 5)]]
+* 2020 [[https://blogs.oracle.com/javamagazine/migrating-from-junit-4-to-junit-5-important-differences-and-benefits|Migrating from JUnit 4 to JUnit 5: Important Differences and Benefits]]
+* 2019 [[https://medium.com/@jb.leduigou/junit-5-pourquoi-et-comment-migrer-f5005b6803b6|Junit 5 : pourquoi et comment migrer]]
+
+===== Mockito =====
+2020 [[https://blog.ippon.fr/2020/06/05/mockito-pour-les-debutants/|Mockito pour les débutants]]
+
+===== Testcontainers =====
+2020 [[https://mydeveloperplanet.com/2020/05/05/easy-integration-testing-with-testcontainers/|Easy Integration Testing With Testcontainers]]

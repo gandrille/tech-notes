@@ -1,0 +1,38 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== NodePort ======
+[[https://kubernetes.io/docs/concepts/services-networking/service/#nodeport|Documentation]]
+
+Exposes a container to the outside world.
+Provides a ''ClusterIP'' + opens a port (node port) on all the cluster nodes to contact the service from the outside.
+
+* ''port'' → the port that can be used by other pods, from inside the cluster, using DNS.
+* ''targetPort'' → the port to be opened on the pod
+* ''nodePort'' → the port exposed by all the cluster nodes to connect this service (between 30000 and 32767)
+{{./nodePort.png}}
+
+===== Node port creation =====
+
+==== Configuration file ====
+'''
+apiVersion: v1
+kind: Service
+metadata:
+  name: client-node-port
+spec:
+  type: NodePort
+  selector:
+    component: web
+  ports:
+    - port: 3050
+      targetPort: 3000
+      nodePort: 31512
+'''
+
+Note: here, the service does NOT reference the deployment. Only the pods, thanks to a selector.
+
+==== kubectl ====
+''kubectl expose deployment <deployment-name> --name=<new-service-name> --type=NodePort --target-port 3000 --port 3050 --node-port 3000''
+
+Note: here, the deployment referenced. It's selector is used to construct the service.

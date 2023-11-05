@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+
+====== JDK evolutions ======
+* [[https://slides.codefx.org/java-x/#/|Liste des nouveautés de Java 9 à 13 (Nicolai Parlog)]]
+* [[https://www.marcobehler.com/guides/a-guide-to-java-versions-and-features#_java_features_8_13|Java Features 8-13]]
+* [[https://advancedweb.hu/new-language-features-since-java-8-to-15/|New language features since Java 8 to 15]]
+
+
+https://www.oracle.com/java/technologies/java-se-support-roadmap.html

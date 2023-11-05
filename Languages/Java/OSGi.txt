@@ -1,0 +1,36 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== OSGi ======
+[[https://felix.apache.org/downloads.cgi|Apache Felix Downloads]]
+
+**Blogs**
+* [[http://aqute.biz|Peter Kriens]]
+* Dirk Fauth (on [[http://blog.vogella.com/author/fipro/|Vogella blog]])
+* [[https://developer.ibm.com/cics/author/brownal7/|Alexander.D.Brown]]
+* [[https://blog.osoco.de/blog/|Carsten Ziegeler]]
+
+**OSGi Demystified**
+* [[https://developer.ibm.com/cics/2016/07/12/java-ee-7-in-cics/|CICS is now arriving at the Java EE 7 Full Platform]]
+* [[https://developer.ibm.com/cics/2018/06/14/osgi-demystified-part-1-bundles-fun/|OSGi Demystified: 1.1 – Bundles of Fun]]
+* [[https://developer.ibm.com/cics/2018/06/14/osgi-demystified-1-2-bundles-liberty/|OSGi Demystified: 1.2 – Bundles in Liberty]]
+* [[https://developer.ibm.com/cics/2018/06/14/osgi-demystified-1-3-bundles-continued/|OSGi Demystified: 1.3 – Bundles continued]]
+* [[https://developer.ibm.com/cics/2018/06/14/osgi-demystified-1-4-osgi-services/|OSGi Demystified: 1.4 – OSGi Services]]
+* [[https://developer.ibm.com/cics/2018/06/14/osgi-demystified-1-5-jre-class-visibility-bootdelegation-system-packages-extra/|OSGi Demystified: 1.5 – JRE class visibility, bootdelegation & system.packages.extra]]
+* [[https://developer.ibm.com/cics/2018/07/12/osgi-demystified-2-1-osg-sigh/|OSGi Demystified: 2.1 – OSG-sigh]]
+* [[https://developer.ibm.com/cics/2018/07/12/osgi-demystified-2-2-the-mystery-explained-with-boot-delegation/|OSGI Demystified: 2.2 – The mystery explained with boot delegation]]
+* [[https://developer.ibm.com/cics/2018/07/12/osgi-demystified-2-3-osgi-resolution/|OSGi Demystified: 2.3 – OSGi resolution]]
+* [[https://developer.ibm.com/cics/2018/07/12/osgi-demystified-2-4-boot-compatibility/|OSGi Demystified: 2.4 – Boot Compatibility]]
+* [[https://developer.ibm.com/cics/2018/08/31/osgi-demystified-3-1-dynamic-class-loading/|OSGi Demystified: 3.1 – Dynamic Class Loading]]
+* [[https://developer.ibm.com/cics/2018/08/31/osgi-demystified-3-2-declarative-services/|OSGi Demystified: 3.2 – Declarative Services]]
+* [[https://developer.ibm.com/cics/2018/08/31/osgi-demystified-3-3-exploiting-osgi-services/|OSGi Demystified: 3.3 – Workarounds for exploiting OSGi Services effectively]]
+* [[https://developer.ibm.com/cics/2018/10/23/osgi-demystified-part-4-dont-bungle-bundles/|OSGi Demystified: 4.1 – Don’t bungle your bundles]]
+* [[https://developer.ibm.com/cics/2018/10/23/osgi-demystified-4-2-best-practices/|OSGi Demystified: 4.2 – Best Practices]]
+* [[https://developer.ibm.com/cics/2019/01/29/osgi-declarative-service-tutorial/|OSGi Demystified: 5.1 – Declarative Services: A Tutorial]]
+* [[https://developer.ibm.com/cics/2019/01/29/osgi-demystified-5-2-declarative-services-sample/|OSGi Demystified: 5.2 – Declarative Services sample]]
+
+**Infos**
+* https://github.com/cziegeler/samples.guessinggame
+
+
+

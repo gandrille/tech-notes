@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Docs ======
+* [[https://rieckpil.de/essential-spring-developer-resources/|Essential Learning Resources for the Spring Framework]]
+* [[https://dzone.com/articles/spring-boot-framework-tutorials|Spring Boot intro articles]]
+* [[https://rieckpil.de/howto-remote-debug-spring-boot-applications-intellij-idea-eclipse/|Remote debug with Spring Boot]]
+* [[https://www.marcobehler.com/guides/spring-boot|Understanding the magick : autoconfigurations]]
+
+[[https://github.com/spring-projects/spring-boot/tags|Releases list]]
+
+[[https://blog.jetbrains.com/idea/tag/tutorial-reactive-spring/|Reactive Spring Tutorial]]
+
+
+**Docker**
+* https://spring.io/blog/2020/01/27/creating-docker-images-with-spring-boot-2-3-0-m1

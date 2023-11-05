@@ -1,0 +1,27 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+
+====== GIT ======
+[[https://www.hanselman.com/blog/EasilyRenameYourGitDefaultBranchFromMasterToMain.aspx|Easily rename your Git default branch from master to main]]
+
+**Référence**
+* https://git-scm.com/
+* https://git-scm.com/doc
+* https://git-scm.com/book/en/v2
+* https://www.atlassian.com/git/tutorials
+* https://learngitbranching.js.org/
+
+**Serveur GIT**
+* [[https://gitea.io/en-us/|GITea]]
+
+**Cheat sheet**
+* http://ndpsoftware.com/git-cheatsheet.html
+* [[https://dev.to/lydiahallie/cs-visualized-useful-git-commands-37p1|Git commands visualized]]
+
+**n-curses "ui"**
+* [[https://github.com/jonas/tig|TIG]] 
+* [[https://github.com/jesseduffield/lazygit|Lazy GIT]]
+
+**Graphical UI**
+* [[https://wiki.gnome.org/Apps/Gitg|gitg]] : Gnome GIT repo viewer. Simple and beautiful (GTK+)
+* [[https://git-cola.github.io/|git-cola]] : QT based

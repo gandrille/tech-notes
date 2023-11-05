@@ -1,0 +1,22 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+
+====== Liquibase ======
+Database schema management
+Supports 53 databases !
+
+**Who is Liquibase / What we do**
+* Liquibase helps teams release software faster by bringing DevOps to the database
+* Build applications faster
+* Collaborate freely with your full team
+* Remove the manual, mindless tasks that keep you from innovating
+* Deliver continuously with full confidence and safety
+* Reduce friction for teams that depend on each other to deliver
+* Limit tradeoffs between speed and stability
+
+**Liquibase and Kubernetes**
+* Best Practice: use Liquibase as init container.
+* The init container will run Liquibase to update the database schema before the main application container starts.
+* We want fast application starts.
+* Do NOT run as part of application startup.
+→ I know, SpringBoot does this by default.

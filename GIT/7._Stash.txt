@@ -1,0 +1,41 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== 7. Stash ======
+
+===== Basic commands =====
+**git stash save**
+Adds an element to the stash list and restores the working directory to the index status.
+* ''git stash'' shortcut
+* ''git stash save'' full command
+* ''git stash save "my message"'' use a custom message
+* ''-u'' stasher même les fichiers "untrack".
+
+**git stash list**
+Lists all elements of the stash list.
+
+**git stash show**
+''git stash show stash@{0}''
+
+**git stash apply**
+Applies an element from the stash list to the working directory
+* ''git stash apply stash@{0}'' full command, with stash id
+* ''git stash apply'' by default, uses ''stash@{0}''
+
+**git stash drop**
+Removes an element from the stash list.
+* ''git stash drop stash@{0}'' full command, with stash id
+* ''git stash drop'' by default, uses ''stash@{0}''
+
+**git stash clear**
+Removes ALL the elements from the stash list.
+
+===== Composite commands =====
+**git stash pop**
+* ''git stash apply''
+* ''git stash drop''
+
+**git stash branch newBranchName**
+* ''git checkout -b newBranchName''
+* ''git stash apply''
+* ''git stash drop''

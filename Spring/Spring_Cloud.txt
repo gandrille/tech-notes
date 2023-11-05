@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Spring Cloud ======
+**Tutorials**
+* [[https://blog.scottlogic.com/2019/10/31/building-microservices-with-spring-boot.html|2019 Building Microservices with Spring Boot]]
+* [[https://javaetmoi.com/2019/11/desendettement-de-spring-cloud-netflix/|2019 Migration des projets spring cloud vers la nouvelle stack]]
+* [[https://www.infoq.com/articles/spring-cloud-hystrix/|2019 Hystrix → Resilience4j]]

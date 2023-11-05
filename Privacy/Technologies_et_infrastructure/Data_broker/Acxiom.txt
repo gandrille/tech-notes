@@ -1,0 +1,5 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Acxiom ======
+Acxiom, un courtier de données qui achète et qui revend nos données personnelles dans 60 pays, possède par exemple jusqu’à 5000 attributs par personne.

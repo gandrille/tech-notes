@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== JIB ======
+Jib is a Maven plugin for building Docker and OCI images for your Java applications.
+
+* [[https://github.com/GoogleContainerTools/jib|GitHub]]
+* [[https://www.baeldung.com/jib-dockerizing|Tutorial]]
+
+
+
+
+See also
+* https://phauer.com/2019/no-fat-jar-in-docker-image/
+* https://cloudplatform.googleblog.com/2018/07/introducing-jib-build-java-docker-images-better.html

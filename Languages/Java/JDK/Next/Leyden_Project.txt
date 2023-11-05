@@ -1,0 +1,7 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+
+====== Leyden Project ======
+**Improve start-up time to achieve peak performance.**
+https://blogs.oracle.com/javamagazine/post/java-leyden-static-images
+The primary goal of this Project is to improve the startup time, time to peak performance, and footprint of Java programs.

@@ -1,0 +1,28 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== JDK14 (March 2020) ======
+**Sources**
+* [[https://en.wikipedia.org/wiki/Java_version_history#Java_SE_14|Wikipedia]]
+* [[https://openjdk.java.net/projects/jdk/14/|OpenJDK 14]]
+* [[https://blogs.oracle.com/javamagazine/java-14-arrives-with-a-host-of-new-features|Java 14 Arrives with a Host of New Features]]
+* [[https://medium.com/@ssaurel/top-5-new-features-expected-in-java-14-82c0d85b295e|Top 5 New Features Expected In Java 14]]
+* [[https://mkyong.com/java/what-is-new-in-java-14/|Mkyong: What is new in Java 14]]
+
+**JEP list**
+* [[https://openjdk.java.net/jeps/305|305: Pattern Matching for instanceof (Preview)]]
+* [[https://openjdk.java.net/jeps/343|343: Packaging Tool (Incubator)]] → [[https://www.baeldung.com/java14-jpackage|article]]
+* [[https://openjdk.java.net/jeps/345|345: NUMA-Aware Memory Allocation for G1]]
+* [[https://openjdk.java.net/jeps/349|349: JFR Event Streaming]]
+* [[https://openjdk.java.net/jeps/352|352: Non-Volatile Mapped Byte Buffers]]
+* [[https://openjdk.java.net/jeps/358|358: Helpful NullPointerExceptions]]
+* [[https://openjdk.java.net/jeps/359|359: Records (Preview)]] 
+* [[https://openjdk.java.net/jeps/361|361: Switch Expressions (Standard)]] → Stephen Colebourne [[https://blog.joda.org/2019/11/java-switch-4-wrongs-dont-make-right.html|feedback]]
+* [[https://openjdk.java.net/jeps/362|362: Deprecate the Solaris and SPARC Ports]]
+* [[https://openjdk.java.net/jeps/363|363: Remove the Concurrent Mark Sweep (CMS) Garbage Collector]]
+* [[https://openjdk.java.net/jeps/364|364: ZGC on macOS]]
+* [[https://openjdk.java.net/jeps/365|365: ZGC on Windows]]
+* [[https://openjdk.java.net/jeps/366|366: Deprecate the ParallelScavenge + SerialOld GC Combination]]
+* [[https://openjdk.java.net/jeps/367|367: Remove the Pack200 Tools and API]]
+* [[https://openjdk.java.net/jeps/368|368: Text Blocks (Second Preview)]]
+* [[https://openjdk.java.net/jeps/370|370: Foreign-Memory Access API (Incubator)]]

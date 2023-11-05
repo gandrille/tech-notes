@@ -1,0 +1,27 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+
+====== Manifests ======
+* Kustomize: not well for distributing applications  
+* Helm: the defacto standard for defining applications
+* Carvel ytt:   
+* Jsonnet Tanka: not that easy...
+* cdk8s: manifest generated using code (Java, Python,...) → code 2 YAML
+→ not that easy to say, depends on usecases
+
+===== Helm vs Kustomize =====
+**Approach**
+* Helm: templating mechanism (placeholders and values)
+* Kustomize: patching mechanism → base definitions patched
+
+**Customization**
+* Helm is more intuitive and easy for end users
+* Kustomize can be... fully customized, even if this was not planned. This is nice... and be a mess.
+
+**Complexity**
+* Helm is easier (perfect if you are a dev)
+* Kustomize is harder (great if you are a sys ops)
+
+**Third pary app**
+* Helm: use it if the helm chart provide all the customization points you need
+* Kustomize: use it if you need to customize ssth specific

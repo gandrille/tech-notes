@@ -1,0 +1,22 @@
+#!/bin/bash
+
+dirName=$(dirname $0)
+progName=$(basename $0)
+
+set -eu
+
+fic=$dirName/../Baeldung.txt
+url="https://www.baeldung.com/full_archive"
+
+echo "Content-Type: text/x-zim-wiki"           > $fic
+echo "Wiki-Format: zim 0.4"                    >> $fic
+echo ""                                        >> $fic
+echo "====== Baeldung ======"                  >> $fic
+
+
+lynx -dump -list_inline -width 300 $url | sed -n "/Full Archive/,/Courses/p" | grep -E "#|@" | grep -v "# \[" | tr -s ' ' | sed "s/^ //" | sed "s/ ([0-9]*)$//" | sed "s/^#\(.*\)$/\n===== \1 =====/" | sed "s/^@ [0-9][0-9]: \[\(.*\)\]\(.*\)$/* \[\[\1|\2\]\]/" >> $fic
+
+
+
+
+

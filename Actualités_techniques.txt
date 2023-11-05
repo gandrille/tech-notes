@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Actualités techniques ======
+[[https://bitoduc.fr/|Bitoduc.fr : termes informatiques en français]]
+
+**Podcasts**
+* [[https://airhacks.fm/|airhacks.fm podcast]]
+* [[https://www.nolimitsecu.fr/|NoLimitSecu]]
+* [[https://www.tech.rocks/les-podcasts|Paroles de Tech Leaders]]
+* [[https://ifttd.io/|IFTTD – If This Then Dev]]
+* [[https://electro-monkeys.fr|Electro Monkeys]]
+* [[https://www.clever-cloud.com/fr/podcast/|Message à caractère informatique]]

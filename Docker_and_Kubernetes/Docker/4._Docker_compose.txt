@@ -1,0 +1,91 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== 4. Docker compose ======
+* https://docs.docker.com/compose/
+* https://docs.docker.com/compose/compose-file/
+* [[https://docs.docker.com/compose/compose-file/|Docker compose v3 reference]]
+
+**Note:** Docker compose can be used with a single container, in order to simplify (and document) a complex command line.
+
+===== Commands =====
+**docker-compose up**
+* ''-d'' detached
+* ''--build'' build containers before
+
+**docker-compose down**
+
+
+**docker-compose ps**
+→ to be executed in the directory of a ''docker-compose.yml'' file
+
+===== docker-compose.yml basic example =====
+'''
+version: "3"
+
+services:
+
+  # very basic setup
+  web:
+    image: steveltn/https-portal:1
+    environment:
+      ...
+    ports:
+      - 80:80
+      - 443:443
+
+  # not using an image, but a docker file located into ./service1
+  # wa have a restart policy as well
+  myservice1:
+    build: ./service1
+    restart: always
+
+  # custom Dockerfile name
+  myservice2:
+    build:
+      context: ./service2
+      dockerfile: Dockerfile.service2
+    restart: always
+'''
+
+'''
+  # custom CMD 
+  myservice3:
+    image: bash
+    command: echo hello world
+'''
+
+
+===== restart policies =====
+* '''no''' → don't forget quotes for this value!
+* ''always''
+* ''on-failure'' (based on exit code)
+* ''unless-stopped''
+
+===== Environment =====
+There are two syntaxes
+* ''KEY=value'' → make this env variable available at runtime with this value
+* ''KEY'' → make this env variable available at runtime. Find the value in the host env variable.
+
+===== depends_on =====
+Express dependency between services. Service dependencies cause the following behaviors:
+
+* ''docker-compose up'' starts services in dependency order. In the following example, db and redis are started before web.
+* ''docker-compose up SERVICE'' automatically includes ''SERVICE''’s dependencies. In the example below, ''docker-compose up web'' also creates and starts db and redis.
+* ''docker-compose stop'' stops services in dependency order. In the following example, web is stopped before db and redis.
+
+**Simple example:**
+
+'''
+version: "3.8"
+services:
+  web:
+    build: .
+    depends_on:
+      - db
+      - redis
+  redis:
+    image: redis
+  db:
+    image: postgres
+'''

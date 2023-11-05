@@ -1,0 +1,20 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Basic volumes ======
+A volume is tied to a pod. If the pod itself dies, the volume dies and goes away as well.
+So a volume will survive container restarts inside of a pod, but if the pod itself gets terminated or recreated for whatever reason, the pod and the volume inside of it fully gone.
+
+===== Configuration volumes =====
+**secret**
+With the secret Volume Type, we can pass sensitive information, such as passwords, to Pods. 
+
+**configMap**
+With configMap objects, we can provide configuration data, or shell commands and arguments into a Pod.
+
+===== Misc =====
+**emptyDir**
+An empty Volume is created for the Pod as soon as it is scheduled on the worker node. The Volume's life is tightly coupled with the Pod. If the Pod is terminated, the content of emptyDir is deleted forever.  
+
+**hostPath**
+With the hostPath Volume Type, we can share a directory from the host to the Pod. If the Pod is terminated, the content of the Volume is still available on the host.

@@ -1,0 +1,20 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== 1. Introduction ======
+* [[http://blog.vogella.com/2016/06/21/getting-started-with-osgi-declarative-services/|Best intro article ever!]]
+* [[http://blog.vogella.com/2017/02/13/control-osgi-ds-component-instances/|Control OSGi DS Component Instances]]
+* [[http://aqute.biz/appnotes/concurrency.html|DS and concurrency]]
+* [[https://enroute.osgi.org/FAQ/300-declarative-services.html|Declarative Services (DS)]] on EnRoute webpage
+* [[http://aqute.biz/2017/04/24/aggregate-state.html|OSGi has no Start Ordering]]
+
+The Component Description is an XML file that is processed by a Service Component Runtime (SCR, e.g. Equinox DS or Felix SCR) when a bundle is activated. It is responsible for managing the components and their life cycle. That means, if you want to use declarative services in your application, you need to ensure that a Service Component Runtime bundle is installed and activated in your environment.
+
+* **Service Component**: A Java class inside a bundle that is declared via Component Description and managed by a Service Component Runtime. Note that although we are talking about Declarative Services and Service Components, not every component provides a service!
+* **Component Description**: The declaration of a Service Component, contained in an XML document.
+* **Component Configuration**: A Component Description that is parameterized with component properties. It is used to track the component dependencies and manages the Component Instance.
+* **Component Instance**: The instance of the component implementation class. It is created when a Component Configuration is activated and discarded if the Component Configuration is deactivated.
+
+As nobody wants to write XML files manually nowadays, we will use the Declarative Service Annotations to get the Component Description generated.
+
+

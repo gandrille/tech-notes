@@ -1,0 +1,19 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+
+====== Rancher Desktop ======
+https://rancherdesktop.io/
+
+===== FEATURE 1: Local Kubernetes cluster =====
+[[https://rancherdesktop.io/|Rancher Desktop]] uses [[https://lima-vm.io/|Lima]]. This VM runs everything :
+* [[https://k3s.io/|k3s]] with [[https://containerd.io/|containerd]] → Kubernetes version can be selected to match prod!
+* [[https://traefik.io/traefik/|Traefik]], for the ingress
+
+===== FEATURE 2: GUI =====
+Out of the box.
+(Minikube does not provides this out of the box)
+
+===== FEATURE 3: Manage container images (build,...) =====
+Since Rancher can replace Docker, [[https://github.com/rancher/kim|Kim (Kubernetes Image Manager)]] can be used in order to build and manage container images, evenif Kim is still a bit green.
+
+Note: in order to build container images inside Kubernetes, Kim is gread in dev... but [[https://github.com/GoogleContainerTools/kaniko|Kaniko]] is preferable for prod.

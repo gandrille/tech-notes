@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== JWT ======
+JWT encodage de données signées par un tiers.
+
+**Talks** **JWT**
+* [[https://www.youtube.com/watch?v=A2-YImhNVMU|En français]]
+* [[https://www.youtube.com/watch?v=67mezK3NzpU|En anglais]]
+

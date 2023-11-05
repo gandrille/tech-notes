@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+
+====== GDPR ======
+[[https://lincnil.github.io/Guide-RGPD-du-developpeur/|Guide RGPD pour les développeurs (CNIL)]] - source sur [[https://github.com/LINCnil/Guide-RGPD-du-developpeur|GitHub]]
+
+https://www.cnil.fr/fr/la-cnil-publie-un-nouveau-modele-de-registre-simplifie
+2020 [[https://linc.cnil.fr/mecanismes-et-recueil-du-consentement|Mécanismes et (r)écueil du consentement]] → excellent article du LINC

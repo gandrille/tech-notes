@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+
+====== cdk8s ======
+https://cdk8s.io/
+
+**Software development framework to generate YAML resources definitions from code.**
+→ GoLang, TypeScript, Python and Java
+
+**Key points**
+* ONLY for complex scenarios
+* ONLY for dev, NOT for endusers
+* Autocompletion in the IDE ☺ 
+* Can import CRD... to manage them from the code
+
+

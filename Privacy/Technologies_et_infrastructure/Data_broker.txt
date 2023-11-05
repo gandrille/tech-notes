@@ -1,0 +1,6 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Data broker ======
+2020 [[https://www.les-crises.fr/voici-les-localisations-reelles-de-millions-d-americains/|Voici les localisations réelles de millions d’Américains]] - [[https://www.nytimes.com/interactive/2019/12/19/opinion/location-tracking-cell-phone.html|english source]]
+2017 [[https://crackedlabs.org/en/corporate-surveillance/|Corporate Surveillance in Everyday Life]] → **Très bon article**

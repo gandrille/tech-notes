@@ -1,0 +1,18 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== JDK18 (March 2022) ======
+**Sources**
+* [[https://en.wikipedia.org/wiki/Java_version_history#Java_SE_18|Wikipedia]]
+* [[https://openjdk.java.net/projects/jdk/18/|OpenJDK 18]]
+
+**JEP list**
+* [[https://openjdk.java.net/jeps/400|400: UTF-8 by Default]]
+* [[https://openjdk.java.net/jeps/408|408: Simple Web Server]]
+* [[https://openjdk.java.net/jeps/413|413: Code Snippets in Java API Documentation]] → [[https://docs.oracle.com/en/java/javase/18/code-snippet/index.html|guide]]
+* [[https://openjdk.java.net/jeps/416|416: Reimplement Core Reflection with Method Handles]]
+* [[https://openjdk.java.net/jeps/417|417: Vector API (Third Incubator)]]
+* [[https://openjdk.java.net/jeps/418|418: Internet-Address Resolution SPI]]
+* [[https://openjdk.java.net/jeps/419|419: Foreign Function & Memory API (Second Incubator)]]
+* [[https://openjdk.java.net/jeps/420|420: Pattern Matching for switch (Second Preview)]]
+* [[https://openjdk.java.net/jeps/421|421: Deprecate Finalization for Removal]]

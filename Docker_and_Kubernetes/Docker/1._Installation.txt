@@ -1,0 +1,28 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== 1. Installation ======
+
+===== Under Windows and Mac =====
+See [[https://www.docker.com/products/docker-desktop|Docker for Mac and Docker for Windows]].
+
+===== Under Linux =====
+* [[https://docs.docker.com/engine/install/ubuntu/|Ubuntu]]
+* [[https://docs.docker.com/engine/install/debian/|Debian]]
+* [[https://docs.docker.com/engine/install/centos/|CentOS]]
+
+...then [[https://docs.docker.com/compose/install/#install-compose|install Docker Compose]]
+
+**check install**
+* ''docker version''
+* ''docker run hello-world'' 
+* ''docker-compose -v''
+
+**Manage Docker as a non-root user**
+[[https://docs.docker.com/engine/install/linux-postinstall/|Documentation]]
+__WARNING: The docker group grants privileges equivalent to the root user.__ 
+
+* ''sudo groupadd docker''
+* ''sudo usermod -aG docker <<user>>''
+* **Important:** log out and log back in so that your group membership is re-evaluated.
+* ''docker run hello-world'' should work without sudo

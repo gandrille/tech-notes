@@ -1,0 +1,58 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== HTTP2 ======
+[[https://www.infoq.com/fr/presentations/mix-it-brian-clozel-http2-pour-le-developpeur-web|TRES bonne présentation HTTP2]]
+
+===== Situation actuelle =====
+Problème de HTTP1.1
+* la bande passante a augmenté, mais pas la latence! On arrive a un point de bloquage
+* cout d'une connexion TCP
+
+Contournement
+* domain charding (car chaque brower ne fait que 5 connexions par domaines)
+* concaténation des css / js
+* sprites pour les images
+
+===== HTTP2 =====
+Fonctionnement HTTP2
+* une seule connexion TCP entre cient et serveur
+* multiple streams dans une seule connexion
+* full duplex, multiplexé, possibilité de modifier l'ordre
+* controle de flux (aujourd'hui fenêtres TCP) qui existera au niveau HTTP
+* HPACK pour éviter de renvoyer toujours les mêmes headers (comme le user-agent)
+* TLS obligatoire (ou presque, car tous les browsers n'implanteront pas la version en clair)
+ 
+Support
+* JDK 7 et 8 : possible avec Xbootclasspath… assez sale
+* JDK9 : ALPN support, ciphers et client HTTP2 !
+* tomcat 8.5 supporte HTTP2 sans attendre servlet 4.0 qui est repporté…
+
+Server push (push promise)
+* c'est optionnel
+* envoyer d'autres ressources non demandées. (le serveur dit : tu ne le sais pas encore mais tu en aura besoin)
+
+Stream prioritization
+* le client dit ce dont il a besoin en priorité
+
+===== Préparer l'adoption à HTTP2 =====
+Improve TCP
+* avoir un kernel linux 3.2+
+* set initial Congestion Window to 10 segments
+* TCP fast open support
+* Proportional Rate reduction
+
+Enforce HTTP1.1
+* cache control and ETag headers
+* gzip deflate
+* image compression / media queries
+* get ready to remove/adapt HTTP1.1 workaround
+
+Infra
+* compatible with long-lived connexions
+* failover strategies, proxies, load balancer compatible
+* network devices/software relying on HTTP1.1
+
+TLS
+* TLS1.2 (limited list of ciphers)
+* certificate size

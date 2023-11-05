@@ -1,0 +1,33 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+
+====== Kustomize ======
+https://kustomize.io
+[[https://youtu.be/QwU3JmjyKoM?t=1134|5 minutes intro]]
+Comes with kubectl
+
+
+YAML overwrites based on overlays
+
+Kustomize only works with kubernetes yaml files... To work with any kind of files, have a look at [[https://carvel.dev/ytt/|Carvel ytt]], a templating and patch engine (does both !)
+
+Tool to customize Kubernetes resources using patches, not templates (≠ Helm).
+The advantage is that placeholders don't need to be defined up front.
+
+* **Base :** original set of kubernetes manifests
+* **Patch :** changes to be applied
+* **Overlay :** result achieved after a patch is applied
+
+It's a good practice to have fine grained patches that are going to be combined.
+
+===== Transformers =====
+Some updates are quite common : updating the number of replicas, the image name,...
+For this, transformers can create a patch for you.
+
+**Works using CLI**
+''kustomize edit set image monopole/hello:1=monopole/hello:latest''
+''kustomize build .''
+
+===== Generators =====
+To generate configmaps, secrets and... helm charts.
+''kustomize edit add secret sl-demo-app --from-literal=db-password=12345''

@@ -1,0 +1,21 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Mock ======
+
+===== Création du mock =====
+* ''MyClass myInstance = mock(MyClass.class);''
+* ''@Mock''     → injection d'un mock
+* ''@MockBean'' → define a Mockito mock for a bean inside your ApplicationContext
+
+===== Programmation du mock (BDD or std flavor) =====
+'''
+import static org.mockito.BDDMockito.given;
+given(myMock.getVehicleDetails(VIN)).willReturn(new VehicleDetails("Honda", "Civic"));
+'''
+
+
+'''
+import static org.mockito.Mockito.when;
+when(webdavFetcherService.update()).thenReturn(new UpdateResult(UpdateStatus.UPDATED, wdd));
+'''

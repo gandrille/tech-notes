@@ -1,0 +1,5 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+
+====== Docker Desktop ======
+The well known... paid software, as of now.

@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Cecill ======
+* En gros, c'est une GPL "made in France", produite (entre autres) par le CEA.
+* Le côté made in France simplifie la protection et les recours pour les français... mais comme elle est inconnue à l'international, ça ne simplifie rien pour les autres en terme de compréhension.
+* http://www.cecill.info/
+
+

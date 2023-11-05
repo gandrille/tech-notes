@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Flexbox et Grid Layout ======
+**Grid Layout et Flexbox sont du CSS natif.**
+Cela n'a donc rien à voir avec un framework!
+
+2020 [[https://www.youtube.com/playlist?list=PL-0MHjzdA9Exk_xUzkwzOsjaeoa2DVDyj|Css Flexbox masterclass (18 vidéos)]]
+2019 [[https://www.alsacreations.com/article/lire/1794-flexbox-ou-grid-layout.html|Flexbox ou Grid Layout ?]]
+2018 [[https://bigint.fr/blog/2018-12-19/CSS-Grid-ou-Flexbox-les-deux-bien-sr|CSS Grid ou Flexbox : les deux bien sûr !]]
+

@@ -1,0 +1,65 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Reactive ======
+see also: [[https://medium.com/@PaulDJohnston/serverless-best-practices-b3c97d551535|Serverless Best Practices]]
+2020 [[https://academy.lightbend.com/courses?search_query=FILTER_TOPIC_REACTIVE_ARCHITECTURE|Lightbend courses : Reactive Architecture]]
+
+===== Micoservices =====
+* Scaling stateless behavior is easy → ex: AWS lambda
+* Scaling stateful entities is hard !
+
+===== Reactive =====
+ReactiveManifesto.org
+
+**Vocabulary**
+* reactive programming is a subset of reactive systems.
+* reactive programming : asynchronous and non blocking, most often event driven
+* reactive systems : asyncronous message passing between distributed components, 
+
+==== Reactive programming ====
+**Reactive streams**
+* Publisher
+* Subscriber
+* Subscription
+* Processor
+
+**Code asynchrone**
+* rapide
+* parallélisable
+* visible
+
+**async…**
+* async I/O : not blocking thread
+* async comm : non blocking requests
+
+**Callbacks**
+* simple, pas de bloquage possible
+* ne se compose pas du tout! vite illisible
+
+**Depuis Java X : les futures, mais**
+* méthode get qui peut bloquer
+* se composent mal
+
+**Back pressure**
+* flow control
+
+==== Reactive systems ====
+https://www.reactivemanifesto.org/
+
+**Orienté message**
+* asynchrone, non bloquant
+* modèle d'acteur
+
+**Elastique : node, cluster**
+* disponible sous la charge, en scalant les ressources
+* utilisation des cpu…
+→ ex: netflix 
+
+**Résilient à l'échec**
+* reste disponible, même en cas d'échec.
+* l'echec fait partie de la vie de l'application. L'échec va se produire !
+* éviter l'effet domino
+
+**Disponible**
+* être responsive : temps d'attente court, en toutes conditions (lourdes charges, échec,…)

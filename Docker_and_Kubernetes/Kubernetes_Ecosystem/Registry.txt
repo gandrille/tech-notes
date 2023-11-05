@@ -1,0 +1,51 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+
+====== Registry ======
+Comparison : https://goharbor.io/docs/latest/build-customize-contribute/registry-landscape/
+
+===== Introduction =====
+**Objectives**
+* Server that stores and shares container image
+* Additionnal features
+	* vulnerability scanning
+	* access authorization
+	* signature verification
+	* multi architecture
+	* store other things : OCI compliant (Helm),...
+	* registry proxy / replication
+
+**List**
+* Artifactory
+* Docker Hub
+* Nexus
+* Harbor
+* Quay
+* and all the cloud providers registries...
+* and many more...
+
+**OCI image registry**
+* https://typeshare.co/ciberkleid/posts/whats-the-difference-between-an-ftp-server-and-an-oci-image-registry
+* Package anything inside an OCI image : [[https://carvel.dev/imgpkg/|Carvel imgpkg]]
+	* ''imgpkg push --image myRegistry/myAppLibs:latest --file $HOME/.m2''
+	* ''imgpkg pull --image myRegistry/myAppLibs:latest --output $HOME/.m2''
+
+===== Docker Hub =====
+* Most famous registry, in SaaS solution.
+* Everyone started with it!
+
+===== Harbor =====
+[[https://goharbor.io/|Website]]
+[[https://github.com/goharbor/harbor|GitHub]]
+
+**Created by VMWare**
+* 2016 opensourced
+* 2018 [[https://www.cncf.io/blog/2018/07/31/cncf-to-host-harbor-in-the-sandbox/|donated to the CNCF]] (sandbox)
+* 2020 [[https://www.cncf.io/announcements/2020/06/23/cloud-native-computing-foundation-announces-harbor-graduation/|graduated from incubation to graduation]]
+
+**Features**
+* registry for cloudnative artifacts: containers, helm charts,...
+* policies and role-based access control
+* replication
+* vulnerabilities scanning
+* ...

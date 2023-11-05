@@ -1,0 +1,5 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+
+====== Local distributions ======
+https://blog.palark.com/small-local-kubernetes-comparison/

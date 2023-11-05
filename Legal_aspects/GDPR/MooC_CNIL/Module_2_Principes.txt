@@ -1,0 +1,113 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+
+====== Module 2 Principes ======
+
+===== 4 Grands principes =====
+* Ne collecter que les données nécessaires
+* Être transparent
+* Penser aux droits des personnes : accès, rectification, suppression
+* Sécuriser les données
+
+===== 8 règles d'or =====
+
+==== Licéité (base légale) du traitement ====
+Doit valider l'une des six conditions suivantes
+* la personne a donné son consentement : libre, spécifique, éclairé, univoque
+* nécessaire à l'exécution d'un contrat avec la personne : ex : adresse de la personne pour Amazon
+* necessaire au respect d'une obligation légale : notamment pour les employeurs, banques…
+* nécessaire à la sauvegarde des intérêts vitaux d'une personne : épidémies, rappatriements d'urgence,…
+* nécessaire pour l'exécution d'une mission d'intérêt public : police, école,…
+* l'intérêt légitime : sécurité, communication aux salariés/membres,…
+
+==== Finalité du traitement ====
+→ Définie au préalable : impossible de collecter pour le cas où ça puisse servir…
+→ Légitime : par rapport aux activités de l'organisme et au service fourni
+3 finalités sont par principe jugées compatibles avec la finalité initiale
+* archivage dans l'intérêt public
+* traitement à des fins de recherche scientifique ou historique
+* traitement à des fins statistiques
+
+==== Minimisation des données ====
+* ne récolter que les données adéquates, pertinentes et limitées au strict nécessaire au regard de la finalité
+* Exemple : la date de naissance est-elle nécessaire au regard de la finalité ? Est-ce que l'année de naissance suffit ? Doit-elle être facultative ?
+* Pseudonymisation : un numéro de client peut suffire
+* Attention aux zones de commentaires sur les CRM
+
+==== Protection particulière des données sensibles ====
+* données sensibles
+	* origines ethniques
+	* opinions politiques
+	* convictions philosophiques ou religieuses
+	* appartenance syndicale
+	* santé physique ou mentale
+	* vie sexuelle ou orientation sexuelle
+	* données génétiques
+	* données biométriques
+* NIR : Numéro d'Inscription au Répertoire (n° de sécu)
+* données relatives à des condamnations
+→ traitement TOTALEMENT interdit, sauf exceptions au regard des finalités (ex : site de rencontre, protocole de recherche médical,…)
+
+==== Conservation limitée des données ====
+Il faut déterminer
+* la durée de conservation
+* le critère objectif pour déterminer cette durée (fonction de l'objectif de chaque traitement)
+→ Au terme de cette période, les données devront soit être détruites, anonymisées ou archivées pour une période plus longue.
+
+==== Obligation de sécurité ====
+Des moyens à la mesure de la sensibilité des informations doivent être mos en oeuvre pour assurer :
+* Disponibilité
+* Intégrité
+* Confidentialité
+→ les moyens peuvent inclure chiffrement, pseudonymisation,…
+→ aspect technique, aspect organisationnel, prévention,…
+
+==== Transparence ====
+→ justification de la collecte de données
+→ conditions de traitement des données
+→ faciliter l'exercice des droits
+Informations à fournir en cas de collecte directe de données
+* identité et coordonnées de l'organisme responsable du traitement
+* finalité et base juridique du traitement
+* caractère obligatoire ou non de la fourniture de ces informations, et conséquences d'un refus
+* durée de conservation ou critères pour la déterminer
+* droits sur les données : accès, rectification,…
+* droit d'introduire une réclamation (à la CNIL, en France)
+
+==== Droits des personnes ====
+* Droit d'accès (Article 15)
+	* finalité du traitement
+	* catégories de données
+	* durée de conservation
+	* origine des données
+	* l'existence éventuelle d'une prise de décision automatisée
+	* les destinataires auxquels ces données ont été ou seront communiquées 
+	* …
+* Droit de rectification
+	* correction d'erreur
+	* compléter les données
+* Droit d'opposition
+	* Opposition au traitement de données
+	* Ce n'est pas l'effacement !
+	→ certains motifs peuvent empêcher l'exercice de ce droit (ex : contrat en cours,…)
+* Droit à l'effacement, dans l'un des cas suivant
+	* les données ne sont plus nécessaires au regard de la finalité
+	* la personne retire son consentement
+	* la personne s'oppose au traitement et il n'existe pas de motif légitime impérieux
+	* …
+* Droit à la portabilité
+	* sont concernées les données fournies par la personne, ou les données d'activité (historique d'achat,…)
+	* ne sont pas concernées les données dérivées : credit score,…
+	* si changeent d'email, on peut demander la portabilité des messages, agendas, contacts
+* Droit à la limitation du traitement
+	* pour geler l'utilisation d'une donnée pendant une demande se suppression, par exemple
+	* ex: le retrait d'une photo sur un réseau social peut prendre un mois
+	* pour prolonger une durée de conservation
+	* ex: éviter que des données de video surveillance ne soient effacées pendant une procédure judiciaire
+* Droit de ne pas faire l'objet d'une décision individuelle automatisée
+	* "profilage"
+	* parcour'sup (!)
+
+===== Encadrement des transferts de données hors UE =====
+* Si les données sont transférées hors UE, le même niveau de protection doit être appliqué
+* ce domaine est complexe…

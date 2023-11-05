@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Autoscaling ======
+Uses a controller to monitor ssth (CPU, memory,...) and act accordingly.
+
+[[https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/|Horizontal Pod Autoscaler (HPA)]]
+HPA is an algorithm based controller API resource which automatically adjusts the number of replicas in a ReplicaSet, Deployment or Replication Controller based on CPU utilization.
+
+[[https://github.com/kubernetes/community/blob/master/contributors/design-proposals/autoscaling/vertical-pod-autoscaler.md|Vertical Pod Autoscaler (VPA)]]
+VPA automatically sets Container resource requirements (CPU and memory) in a Pod and dynamically adjusts them in runtime, based on historical utilization data, current resource availability and real-time events.
+
+[[https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler|Cluster Autoscaler]]
+Cluster Autoscaler automatically re-sizes the Kubernetes cluster when there are insufficient resources available for new Pods expecting to be scheduled or when there are underutilized nodes in the cluster.

@@ -1,0 +1,51 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Base images ======
+[[https://hub.docker.com/|DockerHub]]
+[[https://hub.docker.com/search?q=&type=image|Popular images]]
+
+===== Alpine Linux =====
+* [[https://hub.docker.com/_/alpine|DockerHub]]
+* [[https://wiki.alpinelinux.org/wiki/Alpine_Linux:Releases|Releases]] example: ''FROM alpine:3''
+* [[https://fr.wikipedia.org/wiki/Alpine_Linux|Wikipedia]]
+* Package manager: ''apk'' ([[https://wiki.alpinelinux.org/wiki/Alpine_Linux_package_management|wiki]]) → ''apk add --update <package-name>''
+
+===== Ubuntu =====
+* [[https://hub.docker.com/_/ubuntu|DockerHub]]
+* example: ''FROM ubuntu:20.04''
+
+===== OpenJdk =====
+* [[https://hub.docker.com/_/openjdk/|DockerHub]]
+* Releases
+	* ''FROM openjdk:8'' → JDK release
+	* ''FROM openjdk:8-jdk'' → ...
+	* ''FROM openjdk:8-jdk-slim'' → ...
+	* ''FROM openjdk:12-alpine'' → ...
+
+===== Postgres =====
+* [[https://hub.docker.com/_/postgres|DockerHub]]
+
+===== nginx =====
+* [[https://hub.docker.com/_/nginx|DockerHub]]
+* Releases
+	* ''FROM nginx:stable''
+	* ''FROM nginx:stable-alpine''
+	* ...
+
+===== Python =====
+* [[https://hub.docker.com/_/python|DockerHub]]
+* Releases
+	* ''python:2''
+	* ''python:3''
+
+===== Registry =====
+* [[https://hub.docker.com/_/registry|DockerHub]]
+* [[https://docs.docker.com/registry/|Documentation]]
+* Releases
+	* ''registry:2''
+
+===== Busybox =====
+* [[https://hub.docker.com/_/busybox/|DockerHub]]
+
+

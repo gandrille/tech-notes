@@ -1,0 +1,31 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== 2006 Netflix Prize ======
+A. Narayanan and V. Shmatikov, "Robust De-anonymization of Large Sparse Datasets," 2008 IEEE Symposium on Security and Privacy (sp 2008), Oakland, CA, 2008, pp. 111-125.
+https://www.cs.utexas.edu/~shmat/shmat_oak08netflix.pdf
+
+[[https://s3-eu-west-1.amazonaws.com/content.gresham.ac.uk/data/binary/2235/2016-06-14_MartynThomas_BigData.ppt|Big Data and the Broken Promise of Anonymisation]]
+
+**The Netflix Prize**
+
+* In October 2006, Netflix launched a $1m prize for an algorithm that was 10% better than its existing algorithm Cinematch
+* participants were given access to the contest training data set of more than 100 million ratings from over 480 thousand randomly-chosen, anonymous customers on nearly 18 thousand movie titles. 
+* How much information would you need to be able to identify customers?
+
+**Netflix**
+
+* Netflix said “to protect customer privacy, all personal information identifying individual customers has been removed and all customer ids have been replaced by randomly-assigned ids. The date of each rating and the title and year of release for each movie are provided. No other customer or movie information is provided.”
+* Two weeks after the prize was launched, Arvind Narayanan and Vitaly Shmatikov of the University of Texas at Austin announced that they could identify a high proportion of the 480,000 subscribers in the training data.
+
+**Narayanan and Shmatikov’s results**
+
+* How much does the attacker need to know about a Netflix subscriber in order to identify her record in the dataset, and thus completely learn her movie viewing history? Very little. 
+* For example, suppose the attacker learns a few random ratings and the corresponding dates for some subscriber, perhaps from coffee-time chat.
+* With 8 movie ratings (of which we allow 2 to be completely wrong) and dates that may have a 3-day error, 96% of Netflix subscribers whose records have been released can be uniquely identified in the dataset.
+* For 64% of subscribers, knowledge of only 2 ratings and dates is sufficient for complete deanonymization, and for 89%, 2 ratings and dates are enough to reduce the set of records to 8 out of almost 500,000, which can then be inspected for further deanonymisation.
+
+**Why are Narayanan and Shmatikov’s results important?**
+
+* They were results from probability theory, so they apply to all sparse datasets. (They tested the results later, using the Internet Movie Database IMDb as a source of data).
+* Psychologists at Cambridge University have shown that a small number of seemingly innocuous Facebook Likes can be used to automatically and accurately predict a range of highly sensitive personal attributes including: sexual orientation, ethnicity, religious and political views, personality traits, intelligence, happiness, use of addictive substances, parental separation, age, and gender). 

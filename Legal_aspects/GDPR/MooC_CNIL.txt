@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== MooC CNIL ======
+**MOOC de la CNIL**
+* https://atelier-rgpd.cnil.fr/
+* https://www.cnil.fr/fr/la-cnil-lance-sa-formation-en-ligne-sur-le-rgpd-ouverte-tous
+
+

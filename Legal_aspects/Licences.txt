@@ -1,0 +1,21 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Licences ======
+* OSI (Open Source Initiative) recommends using one of these licenses (https://opensource.org/licenses).
+* [[https://www.eclipse.org/legal/licenses.php|Third Party Content Licenses by Eclipse]]
+
+[[https://writing.kemitchell.com/2019/03/09/Deprecation-Notice.html|Eviter MIT et BSD !]]
+[[https://blueoakcouncil.org/license/1.0.0|Regarder Blue Oak]]
+
+**Redis (Redis Labs)**
+* [[https://redislabs.com/blog/redis-license-bsd-will-remain-bsd/|BSD + Common clauses]] pour les modules (DEPRECATED)
+* [[https://redislabs.com/wp-content/uploads/2019/02/Redis-Source-Available-License-PDF.pdf|Redis source available license]] : "RSAL grants equivalent rights to permissive open source licenses for the vast majority of users. With RSAL, developers can use the software; modify the source code’ integrate it with an application; and use, distribute or sell their application. The only restriction is that the application cannot be a database, a caching engine, a stream processing engine, a search engine, an indexing engine or an ML/DL/AI serving engine." [[https://redislabs.com/blog/redis-labs-modules-license-changes/|(source)]] 
+
+**Kafka components (Confluent)** 
+* [[https://www.confluent.io/confluent-community-license|Confluent Community License]] : "This new license allows you to freely download, modify, and redistribute the code (very much like Apache 2.0 does), but it does not allow you to provide the software as a SaaS offering. (…) This has no effect on Apache Kafka, which is developed as part of the Apache Software Foundation and remains under the Apache 2.0 license, and to which we continue to contribute actively. It just impacts the open source components that Confluent maintains." [[https://www.confluent.io/blog/license-changes-confluent-platform|(source)]]
+
+**MongoDB**
+* [[https://www.mongodb.com/licensing/server-side-public-license|Server Side Public License]]
+
+

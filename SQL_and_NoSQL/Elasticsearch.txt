@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Elasticsearch ======
+2020 [[https://facinating.tech/2020/02/22/in-depth-guide-to-running-elasticsearch-in-production/|In depth guide to running Elasticsearch in production]] ([[https://lescastcodeurs.com/2020/03/17/lcc-227-teletravailler-une-corona-dans-une-main-et-un-gamin-dans-l-autre/|source]])
+* les concepts de base (Clusters, Nodes, Indices and Shards)
+* Quorum
+* comment des noeuds rejoingnent le cluster
+* segments et le merge
+* gestion de la memoire (compressed pointers /!\ inversé, 30GB, 2x memoire sur la machine par rapport au heap) voir [[https://stackoverflow.com/questions/25120546/trick-behind-jvms-compressed-oops#25120926|explications]]
+* options par workload (write heavy vs read heavy)
+* topology
+* monitoring
+
+2017 [[https://blog.frankel.ch/elasticsearch-api-cheatsheet/|Elasticsearch API cheatsheet]]

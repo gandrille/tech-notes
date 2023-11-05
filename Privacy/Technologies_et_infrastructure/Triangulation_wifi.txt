@@ -1,0 +1,7 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Triangulation wifi ======
+* BHV / 4 temps : découverte par le grand public en 2017...
+* même quand le wifi est "éteint"
+* Article wifi inria : https://hal.inria.fr/hal-01575519

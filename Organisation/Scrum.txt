@@ -1,0 +1,5 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Scrum ======
+[[https://blog.ippon.fr/2021/01/22/passer-la-psmi/|PSM I: an Easy Story]]

@@ -1,0 +1,24 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+
+====== Tooling ======
+===== Krew =====
+https://krew.sigs.k8s.io/
+https://blog.wescale.fr/10-plugins-krew-incontournables-pour-kubernetes
+
+===== Ecrire un plugin =====
+https://blog.wescale.fr/comment-%C3%A9crire-un-plugin-kubectl
+
+===== Déprécations d'API =====
+Détecter les dépréciations d'API Kubernetes via Kube-no-trouble
+https://blog.wescale.fr/6-%C3%A9tapes-pour-d%C3%A9tecter-les-d%C3%A9pr%C3%A9ciations-dapi-kubernetes-via-kube-no-trouble
+
+===== Kube Linter =====
+* [[https://github.com/stackrox/kube-linter|kube-linter]] : KubeLinter is a static analysis tool that checks Kubernetes YAML files and Helm charts to ensure the applications represented in them adhere to best practices.
+
+===== Ksync =====
+[[https://ksync.github.io/ksync/|ksync]] : sync a local folder with a folder inside a container
+
+===== **UIs** =====
+* k9s
+* [[https://k8slens.dev/|Lens]]

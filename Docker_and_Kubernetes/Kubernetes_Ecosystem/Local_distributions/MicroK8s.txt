@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+Creation-Date: 2023-10-20T19:36:35+02:00
+
+====== MicroK8s ======
+MicroK8s, la solution de Canonical
+(et oui, forcément, ça s'installe avec snap)
+https://blog.wescale.fr/microk8s-le-kube-facile

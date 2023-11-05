@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Books ======
+* 2020 [[https://medium.com/javarevisited/10-books-java-developers-should-read-in-2020-e6222f25cc72|21 Books Java Developers Should Read in 2020]]
+* 2020 [[https://blog.ippon.fr/2020/10/19/les-livres-qui-ont-change-ma-vision-du-developpement/|Les livres qui ont changé ma vision du développement]]
+
+

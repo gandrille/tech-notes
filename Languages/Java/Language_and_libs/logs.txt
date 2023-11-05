@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== logs ======
+2020 [[https://snyk.io/blog/java-logging-what-should-you-log-and-what-not/|Java logging: what should you log and what not?]]
+
+===== Flogger =====
+[[https://google.github.io/flogger/|Google Flogger]]
+
+===== Java Util Logging... and Docker =====
+2020 [[https://rmannibucau.metawerx.net/post/jul-production-ready-pattern-with-simpleformatter|Configure Java Util Logging (JUL) to use a more production/docker ready pattern using SimpleFormatter]]
+''-Djava.util.logging.SimpleFormatter.format=%1$s [%4$s] [%2$s] %5$s%6$s%n''

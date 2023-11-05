@@ -1,0 +1,30 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+
+====== JDK ======
+
+https://whichjdk.com/
+
+
+[[https://javaalmanac.io/|API diff between Java releases]]
+[[https://adoptopenjdk.net|Download Java: AdoptOpenJDK]]
+[[https://www.marcobehler.com/guides/a-guide-to-java-versions-and-features|Understanding more about it...]]
+
+===== Thread dump =====
+https://blogg.bekk.no/thread-dump-the-simple-tool-for-debugging-java-applications-in-production-1cfed0d0d120
+
+'''
+# old schoool
+jstack <pid>
+
+# more modern
+jcmd <pid> Thread.print
+jcmd <class-name> Thread.print
+
+# If no JDK, SIGQUIT dumps threads to System.out, extract from there
+#   (this will just send a signal to the app, not trigger a shutdown)
+kill -QUIT <pid>
+
+# For a Kubernetes pod the java pid is typically 1
+kubectl exec <pod-name> -- jstack 1
+'''

@@ -1,0 +1,7 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== CORS ======
+Cross-Origin Resource Sharing (CORS). CORS allows browser-based apps to send requests to hosts outside of their origin given the destination permits it.
+
+[[https://frontendian.co/cors-fr|Très bon article en français]]

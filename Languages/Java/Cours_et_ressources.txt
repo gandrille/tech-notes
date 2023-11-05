@@ -1,0 +1,33 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Cours et ressources ======
+inside.java
+
+
+**Newsletter**
+* [[http://www.javamagazine.mozaicreader.com/|Java Magazine]]
+* [[https://info.jetbrains.com/Java-Annotated-Subscription.html|Java annotated Monthly]]
+* [[https://www.baeldung.com/java-web-weekly|Java weekly Baeldung]]
+
+**Podcasts**
+* [[https://lescastcodeurs.com/|Les castcodeurs]]
+* [[https://inside.java/podcast|Inside Java Podcast]]
+* [[https://www.javapubhouse.com/|Java Pub House]]
+
+[[https://medium.com/javarevisited/what-java-programmers-should-learn-in-2020-648050533c83|What Java Programmers should learn in 2020?]]
+1. Containers (Docker and Kubernetes)
+2. Cloud Platform (AWS, GCP, or Azure)
+3. Git
+4. Unit testing (JUnit and Mockito)
+5. New Java Features from JDK 9 to 13
+6. Spring Framework 5+
+7. DevOps (Jenkins)
+8. RESTful Web Service
+9. Spring Security 5.0 (OAuth)
+10. Spring Boot 2 and Microservices
+11. Angular 2+ or React JS
+12. Android 10
+13. Apache Spark and Kafka
+
+

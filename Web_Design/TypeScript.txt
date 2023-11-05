@@ -1,0 +1,7 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== TypeScript ======
+[[https://www.typescriptlang.org/|Website]]
+[[https://github.com/Microsoft/TypeScript/|GitHub]]
+[[https://github.com/microsoft/TypeScript/releases|Releases]]

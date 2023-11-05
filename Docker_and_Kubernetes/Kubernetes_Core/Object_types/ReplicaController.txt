@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== ReplicaController ======
+__No longer a recommended method__
+→ use Deployment with replica(set) instead.
+
+

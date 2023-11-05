@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+
+====== Carvel YTT ======
+[[https://youtu.be/QwU3JmjyKoM?t=1547|Carvel YTT in 5 minutes]]
+
+Yaml templating & patch engine (NOT kubernetes specific)
+FIRST does templating
+SECOND does patching
+
+https://carvel.dev/ytt/
+https://blog.stephane-robert.info/post/kubernetes-ytt-template-patch/
+
+
+

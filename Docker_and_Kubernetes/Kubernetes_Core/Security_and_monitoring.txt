@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Security and monitoring ======
+**Authentication**: Logs in a user.
+**Authorization**: Authorizes the API requests added by the logged-in user.
+**Admission Control**: Software modules that can modify or reject the requests based on some additional checks, like a pre-set Quota.
+

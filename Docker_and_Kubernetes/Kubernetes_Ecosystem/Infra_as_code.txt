@@ -1,0 +1,50 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+
+====== Infra as code ======
+===== Crossplane =====
+Crossplane is an open-source Infrastructure as Code (IaC) project that enables us to use Kubernetes to provision and manage infrastructure, services, and applications. Combined with Argo CD or Flux, it allows us to apply GitOps principles not only on infrastructure.
+
+gitops type
+drift detection automatic sync between desired and actual
+
+https://crossplane.io/
+REQUIRES A KUBERNETES CLUSTER
+
+Infrastructure as code
+
+===== Terraform vs Crossplane vs Plumi =====
+**State storage**
+* Terraform : 
+* Pulumi : cloud primary 
+* Crossplane : etcd, inside Kubernetes
+
+**Syntax**
+* Terraform : mostly declarative in HCL
+* Pulumi : declarative statements integrated inside programming languages (go, java,...)
+* Crossplane : pure Kubernetes resources (in YAML)
+
+**Plan / preview**
+* Terraform : ''terraform plan''
+* Pulumi : ''plumi preview --diff''
+* Crossplane : nothing available
+
+**Create / Update / Delete**
+* Terraform : ''terraform apply''
+* Pulumi : ''plumi up --diff''
+* Crossplane : ''kubeclt apply --filename ...''
+
+**Drift and sync**
+* Terraform : need to run a command
+* Pulumi : need to run a command
+* Crossplane : continus monitoring et reconciliation with desired state 
+
+**GitOps compliance**
+* Terraform : possible, but no tool available
+* Pulumi : possible, but no tool available
+* Crossplane : ArgoCD and Flux works out of the box for this. This is the avantage of being part of Kubernetes ecosystem
+
+**Support**
+* Terraform : manages everything that exists in the world, lot of documentation online
+* Pulumi : good support of main providers
+* Crossplane : not a lot of providers yet

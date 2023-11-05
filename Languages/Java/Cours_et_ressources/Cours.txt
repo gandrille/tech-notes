@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Cours ======
+**Links...**
+* [[https://github.com/forax/java-guide|Remi Forax Java guide]] (Java 17)
+* José Paumard : [[https://www.youtube.com/channel/UCIatmtIm9z5YEWuHbrUMLsw|50h de cours sur Youtube]]
+* [[https://www.baeldung.com/get-started-with-java-series|Learning Java]]
+* [[https://getawesomeness.herokuapp.com/get/java|Awesome Java]]
+
+[[https://www.youtube.com/watch?v=Wg_anWbDVsk|Java after 8 (8 → 14)]]

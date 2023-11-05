@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Juice Shop ======
+**Une appli volontairement mal sécurisée pour apprendre ce qu'il faut éviter de faire…**
+
+* https://korben.info/juice-shop-une-boutique-en-ligne-trouee-pour-sexercer-au-ethical-hacking.html
+* https://github.com/bkimminich/juice-shop
+* https://www.owasp.org/index.php/OWASP_Juice_Shop_Project
+
+
+
+

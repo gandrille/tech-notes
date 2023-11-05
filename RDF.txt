@@ -1,0 +1,164 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== RDF ======
+**See also…**
+* [[http://ogp.me/|The Open Graph protocol]]
+* https://jena.apache.org/
+* https://marmotta.apache.org/
+
+===== Key resources =====
+* [[https://www.w3.org/TR/rdf11-primer/|RDF primer]] Probablement le meilleur document pour avoir un panorama complet de RDF.
+* [[http://www.w3.org/People/Ivan/CorePresentations/SWTutorial/|Tutorial on Semantic Web]] de [[https://www.ivan-herman.net/|Ivan Herman]]
+* Firefox [[https://addons.mozilla.org/en-US/firefox/addon/openlink-structured-data-sniff/|Structured data sniff plugin]]
+
+===== Introduction =====
+
+==== Motivation ====
+Le web est classiquement organisé en documents, liés les uns aux autres par des liens hypertexte. Historiquement, la recherche (donc la compréhension par les machines) dans le web se fait à l'aide de mots clé… auquels aucune sémantique n'est donc associée, et qui ne connaissent pas les frontières des objets rencontrés dans chaque page. Se pose donc la question de fournir aux machines (pas directement aux humains !) un niveau plus élevé de compréhension des informations en les structurant sémantiquement. Pour cela, on va chercher à fournir une manière de lier les données les unes aux autres, de mettre ensemble les morceaux de connaissances relatifs à une même donnée et éparpillés sur le web. Par ce changement de perspective, le concept central n'est plus le document, mais la donnée. On passe ainsi des données sur le web au web des données.
+
+* since 2013 : [[https://www.w3.org/2013/data/|W3C Data]] mais rien depuis décembre 2015…
+* 2001-2013 : [[https://www.w3.org/2001/sw/|W3C Semantic Web]]
+
+"I will never touch that crap of RDF or the semantic web; this is a pipe dream of reality ignoring academics and I will not have it. I will only use JSON-LD."
+Phil Archer, W3C Data Activity Lead
+Keynote of Semantics 2014
+
+
+==== Les microformats adresse la préoccupation sémantique ====
+Ceci n'est pas une spécification du Web sémantique (du W3C). C'est une approche simple et pragmatique pour inclure des informations sémantiques dans une page HTML. Pour cela, les attributs `class`, `rel` et `rev` sont utilisés pour embarquer les informations spécifiques à des domaines bien identifiés. De nombreux domaines sont pris en charge par les principaux moteurs de recherche.
+
+* http://microformats.org/about
+* http://microformats.org/wiki/microformats2
+* https://en.wikipedia.org/wiki/Microformat
+
+Plusieurs vocabulaires spécifiques a un domaine sont standardisés :
+
+* hCard qui a un mapping 1:1 sur vcard
+* hCalendar vasé sur iCalendar
+* hProduct
+* hReview
+* and many more…
+
+Exemple avec microformat v1 (''vcard'') et v2 (''h-card''):
+
+'''
+<ul class="h-card vcard">
+   <li class="p-name fn">Joe Doe</li>
+   <li class="p-org org">The Example Company</li>
+   <li class="p-tel tel">604-555-1234</li>
+   <li><a class="u-url url" href="http://example.com/">http://example.com/</a></li>
+ </ul>
+'''
+
+
+A noter que les classes s'utilisent de manière imédiate sans nécessité de référence à une définition vocabulaire.
+
+
+==== Le concept de Linked data adresse le lien entre les données ====
+https://www.w3.org/DesignIssues/LinkedData.html
+
+
+==== Approche ====
+Pour que le web soit sémantique, il faut :
+
+* de la sémantique associée aux objets
+* des objets liés entre eux (linked data)
+
+→ c'est là tout le propos de RDF !
+
+===== RDF concepts et syntaxe abstratite =====
+
+Le document de référence sur cette partie est le suivant : https://www.w3.org/TR/rdf11-concepts/. Attention, la lecture de ce document nécessite une précompréhension de RDF que l'on peut facilement obtenir par la lecture du [[https://www.w3.org/TR/rdf11-primer/|RDF primer]].
+
+Cette section va présenter les concepts suivants :
+
+* statement RDF
+* terme RDF
+* graph RDF
+* dataset RDF
+* vocabulaire RDF
+
+Le concept de base de RDF est le `statement`. Chaque `statement` est une pensée sur le monde. Il permet permet de lier deux ressources par une connexion orientée qui est étiquetée (labeled connection).
+
+Chaque statement est représenté formellement par un `RDF triple`, un triplet `(s,p,o)` formé de :
+
+* sujet
+* predicat (ou par abus de langage une "propriété", car le prédicat référence une propriété)
+* objet
+
+Ainsi, dans "Dave likes cookies", Dave est le sujet, likes est le prédicat, et cookies est l'objet.
+
+Les termes RDF sont les suivants
+
+* [[https://tools.ietf.org/html/rfc3987|IRI]] : en pratique, souvent une URL
+* literal : un object qui peut avoir un [[https://www.w3.org/TR/rdf11-concepts/#xsd-datatypes|datatype]] et un language (fr, en,…) dans le cas ou le datatype est une chaîne de caractères. Notons que les datatypes valides ne font pas partie de la spec, même si une liste d'URI de data types "bien connus" est fournie (RDF-compatible XSD types).
+* blank node : un objet anonyme
+
+| termes RDF | sujet | predicat | object |
+|------------|-------|----------|--------|
+| IRI        | X     | X        | X      |
+| literal    |       |          | X      |
+| blank node | X     |          | X      |
+
+Notons que deux `literal` peuvent ne pas avoir le même terme RDF, mais représenter la même valeur. Par exemple `"1"^^xs:integer` et `"01"^^xs:integer`.
+
+La ressource pointée/référencée par une IRI est qualifiée de `referent`, et un litéral représentant une ressource est qualifié de `literal value`.
+
+* Un **graph RDF** est constitué d'un ensemble de statements RDF.
+* Un **dataset RDF** est constitué d'un ensemble de graphes RDF. 
+* Un **vocabulaire RDF** (RDF vocabulary) est une collection d'IRIs destinés à être utilisés dans des graphes RDF.
+
+**Les namespaces ne font PAS partie du data modèle RDF**, même s'ils sont très utilisés dans les formats de sérialisation. De plus, le terme "namespace" n'a pas de contenu bien défini dans le contexte de RDF, même s'il est souvent utilisé de manière informelle pour désigner un vocabulaire RDF ou la partie commune aux URIs de ce vocabulaire (souvent transformé en prefixe dans les sérialisations).
+
+
+===== Sémantic extensions =====
+
+==== RDF Schema ====
+RDF Schema est une [[https://www.w3.org/TR/rdf11-mt/#semantic-extensions-and-entailment-regimes|extension sémantique]] qui apporte un vocabulaire (donc un ensemble d'IRI) pour modéliser d'autres vocabulaires plus complexes en associant des règles sémantiques et logiques à ce vocabulaire de base. C'est donc un langage de description des vocabulaires RDF. Cette extension est tellement utilisée qu'elle fait presque partie de RDF.
+
+RDF Schema est écrit en RDF, et défini notamment
+
+* un système de typage et de sous typage (l'ensemble des instances d’une classe est appelée son extension)
+* des propriétés qui peuvent être arrangées en une hiérarchie
+* des datatypes
+* Les concepts de `domain` et de `range`
+
+Ce sont les deux concepts clé, qui sont cependant destabilisants au premier regard. Habituellement, en POO, on défini une classe qui a des attributs typés. Par exemple, nous définissons la classe `eg:Book` qui a un attribut `eg:author` de type `eg:Person`. Le problème de cette approche qui part de la classe est l'impossibilité de modifier une classe existante sans la sousclasser. C'est là le point que cherche à adresser les concepts de `domain` et de `range`.
+
+Avec les Schema RDF, nous dirons au contraire que la propriété `eg:author` a le domaine `eg:Book` et le range `eg:Person`. On vient donc greffer les attributs (propriétés) aux classes.
+
+**Référence**
+* [[https://www.w3.org/TR/rdf-schema/|RDF schema]]
+* [[https://www.w3.org/TR/rdf-schema/#ch_sumclasses|RDF classes]]
+* [[https://www.w3.org/TR/rdf-schema/#ch_sumproperties|RDF properties]]
+
+==== OWL ====
+Langage d'ontologies avec un vocabulaire plus comple et un pouvoir expressif plus important :
+
+* cardinalité des propriétés (min, max et exact)
+* propriétés (transitive, réflexive, symétrique, fonctionnelle, etc.)
+* vision ensembliste : intersection, union de classes,…
+
+==== RIF ====
+Generic framework to define rules on terms and data. 
+
+===== Vocabulaires RDF "standards de fait" basés sur RDF schema =====
+see : [[http://lov.okfn.org/dataset/lov/|Linked Open Vocabularies]]
+
+* dterms : Dublin Core terms
+* dce : Dublin Core Metadata Element Set
+* foaf : Friend of a Friend vocabulary
+* vann : vocabulary for annotating vocabulary descriptions
+* skos : Simple Knowledge Organization System (thesauri, glossaries,…)
+* cc : Creative Commons Rights Expression Language
+* schema : schema.org vocabulary, metadata for search engines ([[https://schema.org/docs/full.html|all vocabularies]]).
+
+
+===== SPARQL (Query Language for RDF) =====
+* [[http://www.w3.org/TR/rdf-sparql-query/|SPARQL Query Language]]
+* [[http://www.cambridgesemantics.com/semantic-university/sparql-by-example|SPARQL by Example]]
+
+
+===== Syntaxes concrètes pour sérialiser des statements RDF =====
+Un **document RDF** est un document qui encode un graphe RDF ou un dataset RDF dans une syntaxe concrète.

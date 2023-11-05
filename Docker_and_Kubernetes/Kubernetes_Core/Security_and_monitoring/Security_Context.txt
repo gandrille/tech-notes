@@ -1,0 +1,46 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Security Context ======
+[[https://kubernetes.io/docs/tasks/configure-pod-container/security-context/|Configure a Security Context for a Pod or Container]]
+[[https://kubernetes.io/docs/tasks/configure-pod-container/security-context/|Security Context documentation]]
+
+**Security Context can be defined**
+* at pod level
+* at container level
+
+'''
+apiVersion: v1
+kind: Pod
+metadata:
+  name: security-context-demo
+spec:
+  securityContext:
+    runAsUser: 1000
+    runAsGroup: 3000
+    fsGroup: 2000
+  volumes:
+  - name: sec-ctx-vol
+    emptyDir: {}
+  containers:
+  - name: sec-ctx-demo
+    image: busybox
+    command: [ "sh", "-c", "sleep 1h" ]
+    volumeMounts:
+    - name: sec-ctx-vol
+      mountPath: /data/demo
+    securityContext:
+      allowPrivilegeEscalation: false
+      capabilities:
+        add: ["NET_ADMIN", "SYS_TIME"]
+'''
+
+
+
+
+* ''CapInh'' bitmap of inheritable capabilities
+* ''CapPrm'' bitmap of permitted capabilities
+* ''CapEff'' bitmap of effective capabilities
+* ''CapBnd'' bitmap of capabilities bounding set
+* ''CapAmb'' bitmap of ambient capabilities
+

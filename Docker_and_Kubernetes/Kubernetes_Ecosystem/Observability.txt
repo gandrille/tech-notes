@@ -1,0 +1,40 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+
+====== Observability ======
+* OpenTelemetry (Instrumentation):   
+* Victoria metrics : more efficient than Prometheus, even if Prometheus is the de facto standard
+* Loki (Logs)
+* Grafana Tempo (Tracing)
+* Grafana (Dashboards): de facto standard
+* Robusta (Alerting)
+* Komodor (Troubleshooting)
+
+
+* Prometheus: https://prometheus.io
+* Loki: https://grafana.com/oss/loki
+* Grafana: https://grafana.com/oss/grafana
+
+===== Metrics =====
+The defacto standard is Prometheus
+It uses a pull based mechanism
+
+For legacy systems, it provides a pushgateway server that receives metrics, and make them availabe to Prometheus pull mechanism
+
+**Prometheus does**
+* pulls metrics
+* stores metics
+* provides a querry interface using [[https://prometheus.io/docs/prometheus/latest/querying/basics/|PromQL]]
+
+**Notes**
+* Inside Kubernetes, Prometheus can get metrics from a node exporter, kube API,...
+* An alert manager is provided : when conditions are met based on queries, it sends a notification (on slack, email,...)
+
+===== Logs =====
+**Most famous stack :** ELK
+
+**Chalenger for self hosted**
+* Prom Tail is installed on each node. It sends logs to loki which listens.
+* loki = db specialized in logs
+* Grafana
+

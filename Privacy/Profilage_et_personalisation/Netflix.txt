@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Netflix ======
+Le profilage fait partie du business model de Netflix (et ils l'assument parfaitement)
+
+2017 [[https://usbeketrica.com/fr/article/netflix-personnalisation-illustrations-algorithme|Comment Netflix choisit les images des séries selon votre profil]]
+Aujourd'hui, Netflix personnalise la liste de suggestion, les vignettes. Demain, ce sear le synopsis et les bandes annonces.

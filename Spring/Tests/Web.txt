@@ -1,0 +1,34 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Web ======
+[[https://www.baeldung.com/spring-mocking-webclient|Mocking webserver,  mocking webclient]]
+
+===== @RestClientTest =====
+'''
+@Autowired
+private MockRestServiceServer server;
+'''
+
+
+On mock un serveur, et on peut aisi tester si les appels à des serveurs tiers permettent d'obtenir les résultats escomptés.
+
+===== @TestRestTemplate et @WebTestClient =====
+Pour tester si tomcat répond convenablement. Là, on utilise des VRAIES sockets, contrairement au mock mvc.
+
+TestRestTemplate : oldfashion
+WebTestClient : new, avec du réactive
+
+===== Test AVEC le serveur tomcat =====
+''@SpringBootTest''
+
+'''
+@LocalServerPort // alias pour @Value("${local.server.port}")
+private int port;
+'''
+
+'''
+// connait le port de test... donc on peut utiliser directement des url relatives !
+// donc pas besoin du localserverport...
+@Autowired TestRestTemplate restTemplate;
+'''

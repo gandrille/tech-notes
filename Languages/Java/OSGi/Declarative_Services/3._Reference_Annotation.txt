@@ -1,0 +1,140 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== 3. Reference Annotation ======
+
+===== Terminology =====
+* **Reference:** The definition of a dependency to another service.
+* **Target Services:** The services that match the reference interface and target property filter. They are needed to satisfy a Component Configuration.
+* **Bound Services:** The services that are bound to a Component Configuration. The binding is done on activating a Component Configuration.
+
+===== Cardinality =====
+* 0..1 = OPTIONAL
+* 1..1 = MANDATORY
+* 0..n = MULTIPLE
+* 1..n = AT_LEAST_ONE
+
+===== Dynamicity management =====
+[[http://aqute.biz/appnotes/concurrency.html#static-references|IMPORTANT : read me first !]]
+The default and simplest model of DS is to use static references. If a component only has static references then it never sees any of the OSGi dynamics. This means that with the given ordering there is no need to use volatile or other synchronization constructs for static references. (Of course the service methods are still called from different threads.) Field injection is the most simple way but bind and the optional unbind methods do not require any synchronization constructs.
+
+Sadly, many developers that start using dynamic references making the grave error of premature optimization. Yes, you can wring more performance out of a computer making these components dynamic but it is rarely worth the added complexity. Only go to dynamics with things like the whiteboard and/or when you measure a significant cost for being static. In almost all cases the static model where the component is destroyed and then recreated works extremely well … really.
+
+* Policy (dynamicity)
+	* STATIC No update after activation (a bit more complicated, in fact)
+	* DYNAMIC The SCR can change the set of bound services without deactivating the Component Configuration.
+* policyOption
+	* RELUCTANT
+	* GREEDY
+→ [[https://osgi.org/specification/osgi.cmpn/7.0.0/service.component.html#service.component-policy.option.action|The important table : Action taken for policy-option when a new or higher ranking service becomes available]]
+
+
+===== Event Methods (DS 1.2) =====
+'''
+@Reference
+void bindFoo(FooInterface foo, Map<String, ?> properties) {
+    // ...
+}
+
+// automatic link thanks to naming convention : bind/unbind, set/unset, add/remove
+void unbindFoo(FooInterface foo, Map<String, ?> properties) {
+	// ...
+}
+'''
+
+
+===== Field Strategy (DS 1.3) =====
+* The name of the field is used for the name of the reference.
+* 1:1 cardinality if the field is not a collection. 0..n cardinality if the field is a collection.
+* Static reluctant policy if the field is not declared volatile. Dynamic reluctant policy if the field is declared volatile.
+* The requested service is the type of the field in case the field type is a service type.
+
+'''
+@Component(
+    property= {
+        "osgi.command.scope:String=fipro",
+        "osgi.command.function:String=invert"},
+    service=StringInverterCommand.class
+)
+public class StringInverterCommand {
+ 
+    @Reference
+    private StringInverter inverter;
+ 
+    public void invert(String input) {
+        System.out.println(inverter.invert(input));
+    }
+}
+'''
+
+'''
+// Pour foo, c'est now (creation) or NEVER...
+@Component(service=ReluctantOptionalReference.class)
+public class ReluctantOptionalReference {
+
+	@Reference(cardinality=ReferenceCardinality.OPTIONAL)
+	Foo reluctantOptionalReference;
+}
+'''
+
+
+'''
+// Pour foo, c'est now (creation) or LATER : dans ce cas, on reconstruit l'objet après coup
+@Component(service=GreedyOptionalReference.class)
+public class GreedyOptionalReference {
+
+	@Reference(
+		cardinality=ReferenceCardinality.OPTIONAL,
+		policyOption=ReferencePolicyOption.GREEDY)
+	Foo greedyOptionalReference;
+}
+'''
+
+
+'''
+// avec volatile, on passe automatiquement en DYNAMIC. La référence sera injectée sans créer à nouveau l'objet.
+@Component(service=DynamicOptionalReference.class)
+public class DynamicOptionalReference {
+
+	@Reference(cardinality=ReferenceCardinality.OPTIONAL)
+	volatile Foo dynamicOptionalReference;
+
+	void useFoo() {
+		// To ensure you are using the same foo instance in all the method
+		Foo foo = this.foo;
+		if ( foo != null )
+			foo.bar();
+	}
+}
+'''
+
+
+===== Lokup Strategy (DS 1.3) =====
+'''
+@Component(
+    property= {
+        "osgi.command.scope:String=fipro",
+        "osgi.command.function:String=invert"},
+    service=StringInverterCommand.class,
+    reference=@Reference(name="inverter", service=StringInverter.class)
+)
+public class StringInverterCommand {
+ 
+    private ComponentContext context;
+ 
+    @Activate
+    void activate(ComponentContext context) {
+        this.context = context;
+    }
+ 
+    public void invert(String input) {
+        StringInverter inverter =
+            (StringInverter) context.locateService("inverter");
+        if (inverter != null) {
+            System.out.println(inverter.invert(input));
+        } else {
+            System.out.println("StringInverter not available!");
+        }
+    }
+}
+'''

@@ -1,0 +1,6 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Maven4 ======
+2020 [[https://maarten.mulders.it/2020/11/whats-new-in-maven-4/|What's New in Maven 4]]
+

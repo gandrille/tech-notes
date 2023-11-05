@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== plugins ======
+* [[https://rieckpil.de/top-3-maven-plugins-to-ensure-quality-and-security-for-your-project/|Top 3 Maven Plugins to ensure Quality and Security for your project]]
+
+===== Old GroupIds Alerter - Maven Plugin =====
+* [[https://github.com/jonathanlermitage/oga-maven-plugin|GitHub]]
+
+===== SpotBugs =====
+https://spotbugs.github.io
+
+===== Testcontainers =====
+2020 [[https://bsideup.github.io/posts/local_development_with_testcontainers/|Local development with Testcontainers]]

@@ -1,0 +1,7 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Spring Framework ======
+* [[https://docs.spring.io/spring/docs/current/spring-framework-reference/|Spring Framework Reference]]
+* 2020 [[https://www.marcobehler.com/guides/spring-framework|A must read article for Spring newcomers]]
+

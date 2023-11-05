@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== JDK5 LTS (Sept 2004) ======
+**Sources**
+* [[https://en.wikipedia.org/wiki/Java_version_history#J2SE_5.0|Wikipedia]]
+
+**Key features**
+* Generics
+* Annotations
+* Enums
+* Varargs
+* boxing/unboxing
+* for-each loop
+* nouvelles classes pour l'API de concurrence

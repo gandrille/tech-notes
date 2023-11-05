@@ -1,0 +1,32 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+
+====== Minikube ======
+https://minikube.sigs.k8s.io
+
+* Minikube is using Docker Engine
+* Under macOS, uses [[https://minikube.sigs.k8s.io/docs/drivers/hyperkit/|HyperKit]], an open-source hypervisor
+* no GUI
+
+===== Commands =====
+''minikube version''
+
+**Lifecycle**
+* ''minikube start''
+* ''minikube status''
+* ''minikube stop''
+
+**Minikube CRI-O**
+[[https://cri-o.io/|CRI-O]] is a lightweight container runtime,  optimized for Kubernetes.
+To start Minikube with CRI-O as container runtime, instead of Docker: ''minikube start --container-runtime=cri-o'' 
+
+''minikube dashboard''
+
+''minikube ssh''
+''minikube ip''
+''minikube service my-service''
+
+''minikube docker-env'' → in order to link the docker client to the docker server inside minikube : ''eval $(minikube -p minikube docker-env)''
+
+Minikube ships with the Nginx Ingress Controller setup as an addon, disabled by default. It can be easily enabled by running the following command:
+''minikube addons enable ingress''

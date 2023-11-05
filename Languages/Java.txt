@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+
+====== Java ======
+
+OpenJDK : code source des versions majeures et patchs (6 mois par Open JDK, après par la communauté)
+
+* LTS : patch + support
+* non LTS : 6 mois de patch, pas de support
+
+
+
+
+
+
+

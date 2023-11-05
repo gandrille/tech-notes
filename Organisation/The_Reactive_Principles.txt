@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== The Reactive Principles ======
+[[https://principles.reactive.foundation/|The Reactive Principles]]
+
+1. **Stay Responsive :** Always respond in a timely manner.
+2. **Accept Uncertainty :** Build reliability despite unreliable foundations.
+3. **Embrace Failure :** Expect things to go wrong and design for resilience.
+4. **Assert Autonomy :** Design components that act independently and interact collaboratively.
+5. **Tailor Consistency :** Individualize consistency per component to balance availability and performance.
+6. **Decouple Time :** Process asynchronously to avoid coordination and waiting.
+7. **Decouple Space :** Create flexibility by embracing the network.
+8. **Handle Dynamics :** Continuously adapt to varying demand and resources.
+
+

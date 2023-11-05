@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Google Terms ======
+([[http://www.google.fr/intl/en/policies/terms/regional.html|source]])
+
+"…When you upload, submit, store, send or receive content to or through our Services, you give Google (and those we work with) a worldwide license to use, host, store, reproduce, modify, create derivative works (such as those resulting from translations, adaptations or other changes we make so that your content works better with our Services), communicate, publish, publicly perform, publicly display and distribute such content…"
+
+"…Quand vous téléversez, soumettez, enregistrez, envoyez ou recevez du contenu depuis ou avec nos services, vous donnez à Google (et à ses partenaires) une license d'utilisation mondiale pour utiliser, héberger, enregisrer, reproduire, modifier, créer des travaux dérivés (comme ceux résultant de traductions, adaptation ou d'autres changements qui améliorent la compatibilité de vos contenus avec nos services), communiquer, publier, représenter, afficher et publier un tel contenu…"

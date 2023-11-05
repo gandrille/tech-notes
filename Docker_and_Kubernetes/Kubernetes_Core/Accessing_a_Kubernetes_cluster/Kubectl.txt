@@ -1,0 +1,89 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Kubectl ======
+[[https://kubectl.docs.kubernetes.io/|Kubectl book]]
+[[https://kubernetes.io/docs/reference/kubectl/overview/|Documentation]]
+[[https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands|Kubectl commands]]
+[[https://kubernetes.io/docs/reference/kubectl/cheatsheet/|Cheat sheet]]
+
+''kubectl cluster-info''
+
+===== Configuration =====
+''kubectl config view''
+Prints the config file: ''~/.kube/config'' (it is created by minikube)
+
+It defines
+* clusters: server,...
+* users: credentials,...
+* context: cluster + user + ...
+
+''kubectl config current-context''
+''kubectl config get-contexts''
+''kubectl config set-contexts foo''
+
+**Change current namespace**
+''kubectl config set-context --current --namespace=<namespace-name>''
+**Current configuration**
+''kubectl config view --minify | grep namespace:''
+
+===== Resource types =====
+[[https://kubernetes.io/docs/reference/kubectl/overview/#resource-types|Documentation]]
+''kubectl api-resources''
+
+| Name                   | Shortnames | Api Group              | namespaced | Kind                  |
+|:-----------------------|:-----------|:-----------------------|:-----------|:----------------------|
+| apiservices            |            | apiregistration.k8s.io | false      | APIService            |
+| deployments            | deploy     | apps                   | true       | Deployment            |
+| namespaces             | ns         |                        | false      | Namespace             |
+| persistentvolumeclaims | pvc        |                        | true       | PersistentVolumeClaim |
+| persistentvolumes      | pv         |                        | false      | PersistentVolume      |
+| pods                   | po         |                        | true       | Pod                   |
+| replicasets            | rs         | apps                   | true       | ReplicaSet            |
+| secrets                |            |                        | true       | Secret                |
+| serviceaccounts        | sa         |                        | true       | ServiceAccount        |
+| services               | svc        |                        | true       | Service               |
+| storageclasses         | sc         | storage.k8s.io         | false      | StorageClass          |
+| volumeattachments      |            | storage.k8s.io         | false      | VolumeAttachment      |
+
+
+===== Basic commands =====
+''kubectl [command] [TYPE] [NAME] [flags]''
+
+**kubectl get**
+Retreive informations about a running object.
+''kubectl get deploy,rs,po -l app=mynginx''
+''kubectl get deploy,rs,po -L app,foo'' --> add columns for the specified labels (but does NOT filter)
+flags
+* ''-A'' or ''--all-namespaces'' list the requested objects across all namespaces
+* ''-n foo'' inside namespace foo only
+* ''-o wide'' format with more information (image names, selectors, node names,...)
+* ''-l ...'' or ''--selector ...'' label selector
+* ''-L ...'' add columns for the specified labels (but does NOT filter)
+* ''--watch''
+* ''--v 10'' set verbosity level
+
+**kubectl explain**
+This command describes the fields associated with each supported API resource.
+''kubectl explain pods --recursive''
+''kubectl explain pods''
+
+**kubectl edit** 
+Edit a resource from the default editor (YAML file).
+''kubectl edit deploy mynginx''
+
+**kubectl delete**
+Delete resources by filenames, stdin, resources and names, or by resources and label selector.
+''kubectl delete -f <filename>''
+''kubectl delete deployment mynginx''
+
+**kubectl describe**
+Show details of a specific resource or group of resources
+''kubectl describe pod''
+''kubectl describe pod <pod-name>''
+
+**kubectl apply**
+Apply a configuration to a resource by filename or stdin.
+''kubectl apply -f <filename>''
+''kubectl apply -f <foldername>''
+''kubectl apply -f <foldername> -R'' recursive apply

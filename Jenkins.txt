@@ -1,0 +1,37 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Jenkins ======
+Executor → job
+configuration
+phase, step,
+workspace
+build artifact
+
+Avec Jenkins, tout est plugins au dessus du coeur
+
+===== Installation =====
+* Follow instructions on [[https://www.jenkins.io/|Jenkins Website]]
+* home : ''/var/lib/jenkins''
+* Configutation files
+	* server config: ''/etc/default/jenkins''
+	* jenkins settings: ''/var/lib/jenkins/config.xml''
+* systemd service: ''jenkins''
+
+===== Plugins =====
+[[https://plugins.jenkins.io/|Plugins Index]]
+* [[https://plugins.jenkins.io/git/|GIT]]
+* [[https://plugins.jenkins.io/greenballs/|Green Balls]]
+* [[https://plugins.jenkins.io/maven-plugin/|Maven Integration]]
+* [[https://plugins.jenkins.io/config-file-provider/|Config File Provider]]
+* [[https://plugins.jenkins.io/deploy/|Deploy to container]]
+
+**Maven related plugins**
+* [[https://plugins.jenkins.io/junit/|Junit]]: installed with maven integration
+* [[https://plugins.jenkins.io/warnings-ng/|Warnings Next Generation]]: PMD, findbugs, checkstyle... see [[https://github.com/jenkinsci/warnings-ng-plugin/blob/master/SUPPORTED-FORMATS.md|amazing full list!]]
+* [[https://plugins.jenkins.io/repository/|Maven Repository Server]]: for small projects only, instead of using Nexus for example
+
+
+
+
+

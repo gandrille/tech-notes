@@ -1,0 +1,29 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+
+====== Telepresence ======
+**"Remote to local fast feedback development tool for Kubernetes"**
+→ Mainly for development purpose.
+https://www.telepresence.io
+
+[[https://www.youtube.com/watch?v=VLABvVtUZvk&t=5512s|Summary (1:31:52)]]
+
+**Connect**
+* Put the laptop inside the cluster
+* Makes remote local
+→ This way, using a PostgreSQL client, it is possible to troubleshoot a PostgreSQL server inside the cluster.
+
+**Intercept**
+* Using a side car container using envoy proxy (and a traffic manager inside the cluster)
+→ Now, all requests to a given pod (or pods, inside a deployment) are redirrected to the developper laptop... and the developper can catch the request inside his IDE.
+→ no need anymore to compile, build the image, push it to the registry, update the yaml, apply ☺
+
+**Advanced features**
+* Personal intercept : 
+* Mirror pod files locally (called mount volumes)
+* Copy env variables to the local machine
+* ...
+ 
+**Releases**
+* v1: proxy used to fully replace a microservice
+* v2: envoy proxy injected as a sidecar

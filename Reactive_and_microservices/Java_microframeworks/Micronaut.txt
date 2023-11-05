@@ -1,0 +1,23 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+
+====== Micronaut ======
+https://micronaut.io
+https://micronaut.io/tag/release/
+
+* par les équipes de Grails
+* pas de proxy (donc pas des stacktrace immenses)
+* nouvelles API
+
+**2018-10-23 Micronaut v1**
+* [[https://micronaut.io/blog/2018-10-23-micronaut-10-ga-released.html|Blog post]]
+* [[https://github.com/micronaut-projects/micronaut-core/releases/tag/v1.0.0|GitHub release]]
+
+**2020-06-26 Micronaut v2**
+* [[https://micronaut.io/blog/2020-06-26-announcing-micronaut-20.html|Blog post]]
+* [[https://github.com/micronaut-projects/micronaut-core/releases/tag/v2.0.0|GitHub release]]
+
+**2021-08-18 Micronaut v3**
+* [[https://micronaut.io/2021/08/18/micronaut-framework-3-released/|Blog post]]
+* [[https://github.com/micronaut-projects/micronaut-core/releases/tag/v3.0.0|GitHub release]]
+

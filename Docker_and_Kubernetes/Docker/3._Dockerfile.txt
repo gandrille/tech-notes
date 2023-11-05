@@ -1,0 +1,23 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== 3. Dockerfile ======
+[[https://docs.docker.com/develop/develop-images/dockerfile_best-practices/|Best practices for writing Dockerfiles]]
+
+2021 [[https://jkutner.github.io/2021/04/26/write-good-dockerfile.html|Write a Good Dockerfile in 19 'Easy' Steps]]
+2020 [[https://snyk.io/blog/docker-for-java-developers/|Docker for Java developers: 5 things you need to know not to fail your security]]
+2020 [[https://blog.frankel.ch/hitchhiker-guide-containerizing-java-apps/|A Hitchhiker's Guide to Containerizing (Spring Boot) Java Apps]] very good blog post for Java and Python
+2020 [[https://www.docker.com/blog/speed-up-your-development-flow-with-these-dockerfile-best-practices/|Speed Up Your Development Flow With These Dockerfile Best Practices]]
+2019 [[https://snyk.io/blog/10-docker-image-security-best-practices/|10 Docker Security Best Practices]]
+2019 [[https://www.docker.com/blog/intro-guide-to-dockerfile-best-practices/|Intro Guide to Dockerfile Best Practices]]
+
+**Best practices...**
+* one single process per container
+* use official/trusted base images
+* don't use latest tag in production
+* cleanup your layers (order...)
+* use multi-stage builds
+* avoid running as root
+* avoid curl bashing
+
+see also [[https://cloudberry.engineering/article/dockerfile-security-best-practices/|Docker Security Best Practices from the Dockerfile]] 

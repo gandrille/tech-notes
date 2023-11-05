@@ -1,0 +1,66 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+
+====== Module 3 Responsabilités ======
+
+===== Accountability =====
+Les organismes doivent pouvoir prouver la conformité avec le RGPD, avec une réévaluation des impacts en permanence.
+
+**Outils obligatoires**
+* registre des activités de traitement
+* délégué à la protection des données, dans certains cas
+* analyse d'impact pour certains traitements
+* notification de violations de données sous certaines conditions
+
+**Outils recommandés**
+* certification
+* codes de conduite
+* règles d'entreprise contraignantes (BCR)
+* …
+
+**Privacy**
+* By design : dès la conception
+* By default : limitation/minimisation des traitements à tous les étages
+
+===== Partage des responsabilités =====
+Dans le cas de collaborations (définition ensemble de finalités et de moyens), il est possible d'avoir une coresponsabilité
+* il faut alors clarifier les rôles de chacun : analyse d'impact, répose à des demandes d'accès,…
+* les demandes du public peuvent être transmises à nimporte quel coresponsable, qui devra faire suivre en interne
+
+===== Responsabilité spécifique des sous-traitants =====
+**Est sous-traitant (au sens RGPD) toute structure qui traite des données**
+* hébergeur
+* SSII
+* entreprise de télésurveillance
+* agence markéting
+* pertataire de gestion de paie
+
+**Obligation** 
+* lister les sous-traitants (dans le cadre du registre des traitements)
+* s'assurer du sérieux des sous-traitants
+
+**Obligation des sous-traitants**
+* transparence et traçabilité
+* sécurité des données traitées
+* encadrement de la sous-traitance ultérieure
+* accompagnement du responsable de traitement
+→ La protection des personnes doit être assurée tout au long de la chaîne de sous-traitance.
+
+===== Sanctions et voies de recours =====
+**Sanction max**
+* 10 millions d'euros ou 2% du CA mondial (le max, pas le min (!) des deux)
+* 20 millions d'euros ou 4% du CA mondial (le max, pas le min (!) des deux) 
+
+**Le montant est fonction**
+* gravité
+* nombre de personnes concernées
+* nature des personnes
+* nature des informations
+* durée du manquement
+* façon dont le manquement a été porté à la connaissance de la CNIL
+* bénéfice économique que l'organisme en a tiré
+* degré de coopération de l'organisme
+
+→ Notons que la sanction peut ou non être portée à la connaissance du public.
+
+

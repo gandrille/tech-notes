@@ -1,0 +1,20 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== JDK13 (Sept 2019) ======
+**Sources**
+* [[https://en.wikipedia.org/wiki/Java_version_history#Java_SE_13|Wikipedia]]
+* [[https://openjdk.java.net/projects/jdk/13/|OpenJDK 13]]
+* [[https://blog.codefx.org/java/java-13-guide/|Migrating to Java 13 + Java 13 guide]]
+* [[https://www.javaworld.com/article/3341388/jdk-13-the-new-features-coming-to-java-13.html|The new features coming to Java 13]]
+* [[https://www.baeldung.com/java-13-new-features|Baeldung article]]
+* [[https://mkyong.com/java/what-is-new-in-java-13/|Mkyong: What is new in Java 13]]
+
+**JEP list**
+* [[https://openjdk.java.net/jeps/350|350: Dynamic CDS Archives]] → Extends application class-data sharing to allow the dynamic archiving of classes at the end of Java application execution. 
+* [[https://openjdk.java.net/jeps/351|351: ZGC: Uncommit Unused Memory]] → Amélioration du garbage collector ZGC (G1 par défaut)
+* [[https://openjdk.java.net/jeps/353|353: Reimplement the Legacy Socket API]] → Réimplémentation de l'API socket (qui est là depuis 1.0) → pour les frameworks, et en particulier pour le projet Loom
+* [[https://openjdk.java.net/jeps/354|354: Switch Expressions (Preview)]] → second preview with ''yeld'' keyword
+* [[https://openjdk.java.net/jeps/355|355: Text Blocks (Preview)]] → Multiline text blocks 
+
+[[https://4comprehension.com/java-13-string-api-updates/|String API updates]]

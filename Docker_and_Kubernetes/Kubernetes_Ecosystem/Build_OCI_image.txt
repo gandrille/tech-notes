@@ -1,0 +1,41 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+
+====== Build OCI image ======
+===== Dockerfile =====
+Of course...
+
+===== Buildpacks =====
+https://buildpacks.io
+https://buildpacks.io/features/
+https://paketo.io
+Build images without docker files 
+Based on the application source code to build OCI containers image.
+
+===== Buildah =====
+https://buildah.io
+[[https://developers.redhat.com/blog/2021/01/11/getting-started-with-buildah#|Getting started]]
+A tool from the Podman ecosystem.
+
+===== Kbld =====
+https://carvel.dev/kbld/
+https://carvel.dev/kbld/docs/latest
+
+**What it does**
+* Orchestrates the image build using Docker, Docker buildx, buildpack (pack), BuildKit CLI for kubectl, [[https://ko.build/|Ko]], [[https://bazel.build/|Bazel]],...
+* Finds the immutable tag (resolved image tag) of the container image
+* Pushes image to a container registry if you wish (not necessary for local dev)
+* Modifies the configuration withe the appropriate immutable (hash) tag (k8s, swarm, CircleCI, Tekton,...). Can be done for third party as well
+→ more robust than using sed, yq, and others...
+
+===== kaniko =====
+Build Container Images In Kubernetes
+https://github.com/GoogleContainerTools/kaniko
+
+===== Bazel =====
+https://bazel.build/
+
+===== Ko =====
+For building Go lang 
+https://ko.build/
+https://github.com/ko-build/ko

@@ -1,0 +1,33 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+
+====== Dev environments ======
+* [[https://www.gitpod.io/|Gitpod]]: 
+* GitHub Codespaces: Gitpod equivalent
+* Okteto:
+* DevSpace:
+* Tilt:
+
+===== DevSpace =====
+https://www.devspace.sh
+https://github.com/devspace-sh/devspace
+https://slack.loft.sh/
+Goal : redeploy everytime local source code changes.
+File sync : local filesystem is synchronized with the running pod filesystem.
+Requires language hot reload to have the best experience
+''devspace_start.sh'' script to be executed on redeploy
+
+===== **Devfile** =====
+https://devfile.io/
+"An open standard defining containerized development environments."
+Express the tools that are required to build and test an application.
+Just a descrition, intented to be used by third parties.
+Can be used to provision a dev environment in the cloud or to setup a dev environment locally
+→ Maybe the future de facto standard for running in the cloud dev environments. 
+
+===== **Nocalhost** =====
+https://nocalhost.dev
+IDE plugin (JetBrains & Visual Studio Code)
+Debug running code
+
+

@@ -1,0 +1,83 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+
+====== CNI Providers ======
+2019 [[https://rancher.com/blog/2019/2019-03-21-comparing-kubernetes-cni-providers-flannel-calico-canal-and-weave/|Comparing Kubernetes CNI Providers: Flannel, Calico, Canal, and Weave]]
+2017 [[https://chrislovecnm.com/kubernetes/cni/choosing-a-cni-provider/|Choosing a CNI Network Provider for Kubernetes]]
+
+**CNI = technically a combination of multiple plugins**
+* **Policy**: Kubernetes network policies are implemented by network plugins rather than Kubernetes itself. Simply creating a network policy resource without a network plugin to implement it, will have no effect on network traffic.
+* **IPAM**: How Kubernetes assigns IP address to pods is determined by the IPAM (IP Address Management) plugin being used.
+* **CNI**: The CNI (Container Network Interface) plugin being used by Kubernetes determines the details of exactly how pods are connected to the underlying network.
+
+**Network layers**
+* Layer 2/switching: MAC
+* Layer 3/routing: IPv4, IPv6, ICMP,...
+
+**Tunneling protocols**
+* IPIP [[https://en.wikipedia.org/wiki/IP_in_IP|IP in IP]]
+* GRE [[https://en.wikipedia.org/wiki/Generic_Routing_Encapsulation|Generic Routing Encapsulation]]
+
+**Concepts**
+* **VXLAN**: Stands for “virtual extensible LAN”. VXLAN virtualization is similar to VLAN, but offers more flexibility and power
+* **Overlay network**: An overlay network is a virtual, logical network built on top of an existing network. It allows pods to communicate between nodes without the underlying network being aware of the pods or pod IP addresses. VXLAN does this very efficiently. Instead of an overlay network, bare BGP can be used.
+
+===== CNI providers (network providers) =====
+**Project Calico**
+[[https://docs.projectcalico.org/getting-started/kubernetes/quickstart|Website]]
+[*] VXLAN
+[ ] Layer 2
+[*] Layer 3
+[*] Network policies
+[*] TCP and UDP encryption
+
+**Canal**
+[[https://github.com/projectcalico/canal|Canal]] is a combination of Flannel and Calico.
+[*] VXLAN
+[*] Layer 2
+[ ] Layer 3
+[*] Network policies
+[ ] TCP and UDP encryption
+
+**Weave Net**
+[[https://www.weave.works/oss/net/|Weave Net]] by Weave Works.
+[*] VXLAN
+[*] Layer 2
+[ ] Layer 3
+[*] Network policies
+[*] TCP and UDP encryption
+
+**Flannel**
+[[https://github.com/coreos/flannel|Flannel]] is a project developed by CoreOS.
+[*] VXLAN
+[*] Layer 2
+[ ] Layer 3
+[ ] Network policies
+[ ] TCP and UDP encryption
+
+**Romana**
+[[https://romana.io/how/romana_basics/|Romana]] 
+[ ] VXLAN
+[ ] Layer 2
+[*] Layer 3
+[*] Network policies
+[ ] TCP and UDP encryption
+
+**Kube-Router**
+[[https://www.kube-router.io/|Kube-Router]]
+[ ] VXLAN
+[ ] Layer 2
+[*] Layer 3
+[*] Network policies
+[ ] TCP and UDP encryption
+
+**Kopeio**
+[*] VXLAN ([[https://github.com/kopeio/networking|Kopeio-networking]])
+[*] Layer 2
+[ ] Layer 3
+[ ] Network policies
+[*] TCP and UDP encryption
+
+**Cilium**
+https://cilium.io/blog/2019/08/20/cilium-16/
+

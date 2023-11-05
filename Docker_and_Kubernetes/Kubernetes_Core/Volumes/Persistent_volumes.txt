@@ -1,0 +1,80 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+
+====== Persistent volumes ======
+A Persistent Volume is a network-attached storage in the cluster, which is provisioned by the administrator.
+
+===== The big picture =====
+[[https://github.com/container-storage-interface/spec/blob/master/spec.md|Container Storage Interface (CSI)]] → API for integrating new Storage backends (block storage, such as AWS Elastic Block Storage).
+New features are added, such as [[https://kubernetes.io/blog/2019/12/09/kubernetes-1-17-feature-cis-volume-snapshot-beta/|Volume Snapshots]] abstraction in CSI.
+
+{{./volumes.png}}
+
+===== Volume declaration in pods =====
+'''
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-pod
+spec:
+    containers:
+    - name: mysql
+      image: mysql
+      volumeMounts:
+      - name: site-data
+        mountPath: /var/lib/mysql
+    volumes:
+    - name: site-data
+      persistentVolumeClaim:
+        claimName: my-claim-name
+'''
+
+
+===== Persistent Volume Claim (PVC) =====
+'''
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: my-claim-name
+spec:
+  accessModes:
+  - ReadWriteOnce
+  storageClassName: test
+  resources:
+    requests:
+      storage: 10Gi
+'''
+
+**Access modes**
+* ''ReadWriteOnce'' can be used by a single node
+* ''ReadOnlyMany'' multiple nodes can read from this
+* ''ReadWriteMany'' can be read an written to by many nodes
+
+===== Persistent Volume (PV) =====
+Abstracts a hardware resource in Kubernetes. 
+
+'''
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: pv1
+spec:
+  accessModes:
+  - ReadWriteOnce
+  storageClassName: test
+  capacity:
+    storage: 10Gi
+  persistentVolumeReclaimPolicy: Retain
+  gcePersistentDisk:
+    pdName: my-harware-or-cloud-disk-on-gce
+'''
+
+**Important!**
+* ''storage'' must be compliant with the PVC storage
+* ''accessModes'' must be the same as the one in the PVC
+* ''storageClassName''  must be the same as the one in the PVC
+
+**persistentVolumeReclaimPolicy**
+* ''Delete'' delete data once the volume has been released
+* ''Retain'' keep data → It is required to format the partition before using it with another PV!
+

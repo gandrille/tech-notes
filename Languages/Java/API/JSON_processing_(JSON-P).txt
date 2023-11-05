@@ -1,0 +1,17 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== JSON processing (JSON-P) ======
+**Main features**
+* Build JSON objects (using a fluent API)
+* Read JSON objects
+* Write JSON objects / Stream JSON data
+* Transform JSON
+	* [[https://tools.ietf.org/html/rfc6901|JsonPointer]] helps to get the value, remove it, replace it, add a new and check for existence
+	* [[https://tools.ietf.org/html/rfc6902|JsonPatch]] to define a set of operations to apply on a given JSON
+	* [[https://tools.ietf.org/html/rfc7386|JsonMergePatch]] for merging two JSON objects
+
+**Ressources**
+* [[https://rieckpil.de/whatis-json-processing-json-p/|2019 #WHATIS?: JSON Processing (JSON-P)]]
+
+

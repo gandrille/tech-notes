@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Records ======
+* 2020 [[https://angiejones.tech/deserializing-api-responses-into-java-records/|Deserializing API Responses Into Java Records]]
+* 2020 [[https://vladmihalcea.com/java-records-jpa-hibernate/|The best way to use Java Records with JPA and Hibernate]] → Why records can't be used with JPA. So sad...
+* 2020 [[https://www.morling.dev/blog/enforcing-java-record-invariants-with-bean-validation/|Enforcing Java Record Invariants With Bean Validation]] → Looks nice BUT published before Java 14 !!!!!!4
+* 2019 Stephen Colebourne [[https://mail.openjdk.java.net/pipermail/amber-dev/2019-November/005271.html|feedback,]] Vojtech Ruzicka [[https://www.vojtechruzicka.com/java-records/|article]], [[https://www.infoq.com/articles/java-14-feature-spotlight/|Brian Goetz]]
+

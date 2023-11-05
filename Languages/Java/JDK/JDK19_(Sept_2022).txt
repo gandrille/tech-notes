@@ -1,0 +1,16 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+
+====== JDK19 (Sept 2022) ======
+**Sources**
+* [[https://en.wikipedia.org/wiki/Java_version_history#Java_SE_19|Wikipedia]]
+* [[https://openjdk.java.net/projects/jdk/19/|OpenJDK 19]]
+
+**JEP list**
+* [[https://openjdk.org/jeps/405|405: Record Patterns (Preview)]]
+* [[https://openjdk.org/jeps/422|422: Linux/RISC-V Port]]
+* [[https://openjdk.org/jeps/424|424: Foreign Function & Memory API (Preview)]]
+* [[https://openjdk.org/jeps/425|425: Virtual Threads (Preview)]]
+* [[https://openjdk.org/jeps/426|426: Vector API (Fourth Incubator)]]
+* [[https://openjdk.org/jeps/427|427: Pattern Matching for switch (Third Preview)]]
+* [[https://openjdk.org/jeps/428|428: Structured Concurrency (Incubator)]]

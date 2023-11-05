@@ -1,0 +1,43 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== 4. Branches ======
+[[https://learngitbranching.js.org|Learn Git Branching]]
+
+===== Lister =====
+* ''git branch''
+	* par défaut, locales
+	* ''-r'' remotes
+	* ''-a'' locales et remotes
+* ''git branch -v'' : avec le dernier commit sur chaque branche
+* ''git branch --merged'' : branches mergées dans la branche courante
+* ''git branch --no-merged'' : branches NON mergées dans la branche courante
+
+**Afficher le graph des branches**
+* ''git log --oneline --decorate --graph --all''
+
+===== Création / suppression =====
+* ''git branch branchname'' : créé une branche (mais ne bascule pas dessus)
+* ''git checkout branchname'' : bascule sur la branche
+* ''git checkout -b branchname'' : effectue les deux commandes ci-dessus d'un coup
+* ''git branch -m oldname newname'' : rename (move) une branche
+* ''git branch -d branchname'' : supprime (delete) une branche locale (mais garde tous les commits)
+
+===== Fusion =====
+* ''git merge otherbranch'' : merge otherbranch sur la branche courante, avec du fast forward si possible
+* ''git merge otherbranch --no-ff'' : merge en empéchant le fast forward (un commit de merge est TOUJOURS créé)
+
+→ en cas de problème, résoudre les conflits, faire des ''add'', commiter.
+
+===== Suivi à distance =====
+* ''git branch -vv'' : connaitre les liens branches locales / branches distantes
+* ''git push origin branchname'' : Pousse une branche locale (par défaut elles ne son pas partagées). 
+* ''git checkout -b nomlocal origin/nomdistant'' : fournit une branche locale modifiable basée sur l’état actuel de origin/correctionserveur.
+* ''git checkout --track origin/correctionserveur'' : comme ci-dessus, en abbrégé :-)
+* ''git fetch'' : récupère les changements distants dans le dépôt local (mais PAS dans l'espace de travail)
+* ''git merge'' : fusionne les données du dépôt local dans l'espace de travail
+* ''git pull'' : fetch + merge
+* ''git push origin --delete branchname'' : supprime une branche distante (juste le nom, mais garde les commits)
+
+===== Feature branching =====
+[[http://nvie.com/posts/a-successful-git-branching-model/|voir aussi…]] 

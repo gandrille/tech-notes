@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Spring Security ======
+**2020**
+* [[https://www.baeldung.com/spring-security-openid-connect-legacy|Spring Security and OpenID Connect (Legacy)]]
+
+**2019**
+* [[https://spring.io/blog/2019/11/14/spring-security-oauth-2-0-roadmap-update|Spring Security OAuth 2.0 Roadmap Update]]
+* [[https://blog.codecentric.de/en/2019/03/secure-spring-boot-app-saml-keycloak/|How to secure a Spring Boot app with SAML and Keycloak]]
+* [[https://rieckpil.de/spring-webclient-oauth2-integration-using-github-as-an-example/|Spring WebClient OAuth2 Integration for Spring WebFlux]]
+* [[https://blog.jdriven.com/2019/11/spring-cloud-gateway-with-openid-connect-and-token-relay/|Spring Cloud Gateway with OpenID Connect and Token Relay]]
+* [[https://rieckpil.de/spring-webclient-oauth2-integration-for-spring-web-servlet/|Spring WebClient OAuth2 Integration for Spring Web (Servlet)]]

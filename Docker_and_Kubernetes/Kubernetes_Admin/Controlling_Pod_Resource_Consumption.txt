@@ -1,0 +1,29 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Controlling Pod Resource Consumption ======
+2021 [[https://www.openshift.com/blog/openshift-administrators-office-hour-controlling-pod-resource-consumption|OpenShift Administrator’s Office Hour - Controlling Pod Resource Consumption]]
+
+===== Two key concepts =====
+* request: reservation cpu/ram
+* limit: strong maximum cpu/ram
+
+===== QoS =====
+[[https://kubernetes.io/docs/tasks/configure-pod-container/quality-service-pod/|Documentation]]
+Policy that constrains pods resource allocation.
+
+* Guaranteed: request = limit
+* Burstable: request < limit
+* BestEffort: no request, no limit
+
+===== Quota =====
+[[https://kubernetes.io/docs/concepts/policy/resource-quotas/|Documentation]]
+Policy that constrains namespace (or OS project) resource allocations in a custer.
+limit and request.
+Quota can be also defined for storage
+
+===== Limit Range =====
+[[https://kubernetes.io/docs/concepts/policy/limit-range/|Documentation]]
+Policy that constrains Pods or Containers resource allocations in a namespace.
+
+→ Defines min, max and default for cpu and ram.

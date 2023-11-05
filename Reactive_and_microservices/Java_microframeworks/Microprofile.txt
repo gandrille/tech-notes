@@ -1,0 +1,24 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Microprofile ======
+**Key links**
+* [[http://microprofile.io|Website]]
+* [[https://github.com/eclipse/microprofile|GitHub]]
+* [[https://projects.eclipse.org/proposals/eclipse-microprofile|Eclipse project]]
+
+[[https://www.eclipse.org/community/eclipse_newsletter/2019/september/microprofile.php?mc_cid=2530b7bff4&mc_eid=b1f53f2ffa|Spring vs Microprofile]]
+→ [[https://www.eclipse.org/community/eclipse_newsletter/2018/april/microprofile.php|Basic examples]]
+
+**Tutorials / examples**
+* [[https://www.youtube.com/channel/UCEbZTcePN9QwMr1Lr1SED0Q|Rieckpil Youtube channel]]
+* [[https://rieckpil.de/bootstrap-a-jakarta-ee-8-maven-project-with-java-11-in-seconds/|Bootstrap a Jakarta EE 8 Maven project with Java 11 in seconds]]
+* [[https://rieckpil.de/howto-bootstrap-a-java-ee-8-and-microprofile-2-0-maven-project-in-seconds/|Bootstrap a Java EE 8 and MicroProfile 2.0.1 Maven project in seconds]]
+* [[https://rieckpil.de/create-real-time-applications-with-jakarta-ee-websocket/|Websockets]]
+
+**Philosophy**
+* Le micro signifie ici microservices. C'est donc un profile pour les microservices.
+* Open Community
+* High Cadence Release Philosophy (quaterly time boxed release)
+* Vendor neutral (unlike Spring)
+* App server neutral

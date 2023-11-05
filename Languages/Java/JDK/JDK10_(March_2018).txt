@@ -1,0 +1,28 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== JDK10 (March 2018) ======
+**Sources**
+* [[https://en.wikipedia.org/wiki/Java_version_history#Java_SE_10|Wikipedia]]
+* [[https://openjdk.java.net/projects/jdk/10/|OpenJDK 10]]
+* [[https://howtodoinjava.com/java10/java10-features/|Java 10 features]]
+* [[https://www.azul.com/109-new-features-in-jdk-10/|109 features in JDK10]]
+
+**JEP list**
+* [[https://openjdk.java.net/jeps/286|JEP 286: Local Variable Type Inference]]
+* [[https://openjdk.java.net/jeps/296|JEP 296: Consolidate the JDK Forest into a Single Repository]]
+* [[https://openjdk.java.net/jeps/304|JEP 304: Garbage-Collector Interface]]
+* [[https://openjdk.java.net/jeps/307|JEP 307: Parallel Full GC for G1]]
+* [[https://openjdk.java.net/jeps/310|JEP 310: Application Class-Data Sharing]]
+* [[https://openjdk.java.net/jeps/312|JEP 312: Thread-Local Handshakes]]
+* [[https://openjdk.java.net/jeps/313|JEP 313: Remove the Native-Header Generation Tool]]
+* [[https://openjdk.java.net/jeps/314|JEP 314: Additional Unicode Language-Tag Extensions]]
+* [[https://openjdk.java.net/jeps/316|JEP 316: Heap Allocation on Alternative Memory Devices]]
+* [[https://openjdk.java.net/jeps/317|JEP 317: Experimental Java-Based JIT Compiler]]
+* [[https://openjdk.java.net/jeps/319|JEP 319: Root Certificates]]
+* [[https://openjdk.java.net/jeps/322|JEP 322: Time-Based Release Versioning]]
+
+**Collectors API**
+* ''Collectors.toUnmodifiableList''
+* ''Collectors.toUnmodifiableSet''
+* ''Collectors.toUnmodifiableMap''

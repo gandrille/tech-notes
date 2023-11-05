@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+
+====== Operators ======
+https://operatorframework.io/operator-capabilities/
+
+{{./levels.png}}
+
+https://operatorhub.io/

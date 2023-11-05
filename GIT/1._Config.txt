@@ -1,0 +1,61 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== 1. Config ======
+[[https://dev.to/tastefulelk/conditional-git-profile-configuration-212b|Conditional git profile configuration]]
+
+
+===== Fonctionnement =====
+**Trois niveaux**
+
+* system : dans ''/etc/gitconfig''
+* global (user) : dans ''~/.gitconfig''
+* repository : dans ''.git/config'' du repository
+
+**Commandes de base**
+* ''git config user.name''
+* ''git config --global --list''
+* ''git config --global --edit''
+
+→ au niveau système, il faut utiliser ''--system''
+→ au niveau repository, ne pas mettre de flag spécifique
+
+===== Propriétés (souvent global) =====
+**Infos utilisateur**
+''git config --global user.name "John Doe"''
+''git config --global user.email johndoe@example.com''
+
+**Editeur de texte**
+''git config --global core.editor emacs''
+''git config --global core.editor vim''
+
+**Alias**
+''git config --global alias.hist "log --all --graph --decorate --oneline"''
+
+**Diff tool**
+* ''git config --global diff.tool meld''
+* ''git config --global difftool.prompt false''
+
+**Merge tool**
+* ''git config --global merge.tool meld''
+
+===== gitignore =====
+'''
+# pas de fichier .a
+*.a
+
+# mais suivre lib.a malgré la règle précédente
+!lib.a
+
+# ignorer uniquement le fichier TODO à la racine du projet
+/TODO
+
+# ignorer tous les fichiers dans le répertoire build
+build/
+
+# ignorer doc/notes.txt, mais pas doc/server/arch.txt
+doc/*.txt
+
+# ignorer tous les fichiers .txt sous le répertoire doc/
+doc/**/*.txt
+'''

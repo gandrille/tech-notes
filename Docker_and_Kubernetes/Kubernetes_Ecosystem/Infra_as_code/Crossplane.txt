@@ -1,0 +1,61 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+
+====== Crossplane ======
+https://www.crossplane.io
+
+**Features**
+* provider feature: what everyone talks about
+* compositions: an extra feature
+
+===== Provider feature =====
+The objective : define the instance of a CRD inside your custer, and crossplane will take care to create the infrastructure ! For instance, define an s3 bucket, crossplane will create it for you, and recreate it if it gets deleted !
+
+'''
+apiVersion: s3.aws.upbound.io/v1beta1
+kind: Bucket
+metadata:
+  generateName: crossplane-bucket-
+  labels:
+    docs.crossplane.io/example: provider-aws
+spec:
+  forProvider:
+    region: us-east-2
+  providerConfigRef:
+    name: default
+'''
+
+With [[https://marketplace.upbound.io/providers/upbound/provider-aws|AWS provider]], 900 CRD are defined !
+Providers are avilable for AWS, Azure, GCP... and many more
+
+→ In some way, comparable to terraform, with control loops (continuous monitoring).
+
+===== Compositions =====
+A way to create  new CRD, that are going to create several resources when instanciated.
+→ In some way, comparable to Helm.
+
+Build Abstractions on APIs
+Crossplane Composition maps "higher level" APIs to one or more implementations.
+Example: Database API that is implemented by
+* PostgreSQL Helm Chart
+* GCP CloudSQL
+* AWS RDS
+
+===== Configurations: package and Distribute APIs =====
+Crossplane Configuration packages bundle "higher level" APIs and declare their dependencies.
+Crossplane automatically resolves dependencies when a package is installed.
+Use Configuration packages as the foundation for future APIs.
+
+===== Common pattern =====
+ArgoCD or Flux  + Crossplane
+
+ArgoCD or Flux create ressources inside the cluster (both workload and CRD)
+Crossplane creates the infrastructure based on the CRD
+
+In that situation
+* For ArgoCD or Flux
+	* the desired state is GIT
+	* the actual state is the cluster
+* For Crossplane
+	* the desired state is the cluster (CRD)
+	* the actual state is AWS (for instance)

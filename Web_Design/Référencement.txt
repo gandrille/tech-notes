@@ -1,0 +1,10 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Référencement ======
+**JSON-LD**
+* https://www.alsacreations.com/article/lire/1780-donnees-semantiques-structurees-associees-le-choix-JSON-LD.html
+* https://developers.google.com/search/docs/guides/intro-structured-data
+* https://search.google.com/structured-data/testing-tool
+
+http://blog.smile.fr/Petit-guide-d-implementation-du-schema-howto-de-google

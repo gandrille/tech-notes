@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Gaydar ======
+2009 [[http://www.telegraph.co.uk/technology/facebook/6213590/Gay-men-can-be-identified-by-their-Facebook-friends.html|Gay men 'can be identified by their Facebook friends']]
+→ Radar gay, pour connaitre l'orientation sexuelle des personnes avec leur profil facebook.
+
+

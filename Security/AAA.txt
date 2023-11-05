@@ -1,0 +1,20 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== AAA ======
+**Deux TRES bons articles**
+* https://blog.octo.com/designer-une-api-rest/
+* https://blog.octo.com/securiser-une-api-rest-tout-ce-quil-faut-savoir/
+
+**Which Should I Use?**
+* Use **API keys** if you expect developers to build internal applications that don’t need to access more than a single user’s data.
+* Use **OAuth access tokens** if you want users to easily provide authorization to applications without needing to share private data or dig through developer documentation.
+* Use **JWT in concert with OAuth** if you want to limit database lookups and you don’t require the ability to immediately revoke access.
+
+See also : https://medium.com/@jcbaey/authentication-in-spa-reactjs-and-vuejs-the-right-way-e4a9ac5cd9a3
+
+
+**Différentes politiqes d'accès / autorisation**
+* RBAC
+* ABAC
+* ORBAC (Organization)

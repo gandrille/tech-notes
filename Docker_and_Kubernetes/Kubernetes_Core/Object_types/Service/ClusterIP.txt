@@ -1,0 +1,24 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== ClusterIP ======
+Exposes a set of pods to other objects in the cluster.
+Only accessible from inside the cluster, using cluster DNS service.
+This is the default service type.
+
+'''
+apiVersion : v1
+kind: Service
+metadata:
+  name: my-service
+spec:
+  type: ClusterIP
+  selector:
+    component: web
+  ports:
+    - port: 3000
+      targetPort: 3000
+'''
+
+
+{{./clusterIP.png}}

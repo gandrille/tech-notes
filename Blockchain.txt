@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Blockchain ======
+**Undestanding the blockchain**
+* [[https://www.youtube.com/watch?v=_160oMzblY8|2016 Blockchain 101 - Part 1 (17:49)]]
+* [[https://www.youtube.com/watch?v=xIDL_akeras|2017 Blockchain 101 - Part 2 (8:53)]]
+
+**Bitcoin**
+* [[https://framablog.org/2011/08/08/bitcoin/|2011 Bitcoin libérera-t-il la monnaie à l’échelle d’Internet ?]]
+* [[https://framablog.org/2013/11/19/ploum-et-la-monnaie-electronique/|2013 La monnaie électronique, 33 questions à Lionel Dricot (alias Ploum)]]
+* [[http://ploum.net/bitcoin-pour-les-nuls/|2013 Bitcoin pour les nuls]]
+* [[https://www.youtube.com/watch?v=Lx9zgZCMqXE|2013 How Bitcoin Works Under the Hood (22:24)]]
+* [[https://www.youtube.com/watch?v=l9jOJk30eQs|2014 How Bitcoin Works in 5 Minutes (5:25)]]
+

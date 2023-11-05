@@ -1,0 +1,31 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== 2020 Manifestante ======
+2020 [[https://www.presse-citron.net/le-fbi-a-utilise-les-informations-des-reseaux-sociaux-et-dune-boutique-en-ligne-pour-arreter-une-manifestante/|Le FBI a utilisé les informations des réseaux sociaux et d’une boutique en ligne pour arrêter une manifestante]]
+https://www.thesun.co.uk/news/11896821/lore-elisabeth-blumenthal-floyd-george-cops-car-fire/
+
+
+Avec seulement un profil LinkedIn, une poignée de vidéos Instagram, quelques recherches sur Google et un examen du site Etsy, le FBI a réussi à identifier une manifestante accusée d’avoir incendié deux véhicules de la police. Les faits reprochés se sont déroulés lors d’une manifestation récente à Philadelphie le 30 mai dernier en réponse au meurtre de George Floyd par la police.
+
+Cette affaire rapportée par The Philadelphia Inquirer met en lumière le process utilisé par les forces de l’ordre pour extraire des informations pertinentes sur des documents librement accessibles en ligne. La personne mise en examen par le FBI est âgée de 33 ans et s’appelle Lore Elisabeth Blumenthal. Si les faits pour lesquels elle est poursuivie sont avérés, elle encourt une peine de sept ans de prison et une amende se chiffrant à 250.000 dollars.
+
+**De simples informations accessibles en ligne pour mener une enquête**
+
+Les défenseurs des droits civiques ont alerté la population que les médias sociaux qui ont permis de dénoncer les violences policières sont également utilisés par la police elle-même dans un but de surveillance. En effet, selon Paul Hetznecker, l’avocat de Lore Elisabeth Blumenthal « Les médias sociaux […] sont également devenus un terrain fertile pour la surveillance du gouvernement » et il a ajouté « Je pense que les gens ont perdu conscience de cela. »
+
+Il convient d’ailleurs de préciser que des méthodes de recherche très simple comme de simples requêtes sur Google et une recherche sur les médias sociaux permettent d’identifier une personne très facilement à partie de bribes d’informations. Ces recherches s’avèrent souvent aussi efficaces que des outils très avancés de reconnaissance faciale.
+
+Au sujet de cet incendie, le procureur américain William M. McSwain a déclaré « Nous, au bureau du procureur américain, soutenons pleinement le droit du peuple au premier amendement de se réunir pacifiquement et de pétitionner leur gouvernement. Mais incendier une voiture de police n’a rien à voir avec une manifestation pacifique ou un message légitime. »
+
+Pour confondre la manifestante, au départ les policiers ne disposaient que d’images prises par hélicoptère sur lesquelles ils ont réussi à identifier une femme portant un bandana jetant un débris enflammé à travers la vitre brisée d’une voiture de police.
+
+Puis il ont remonté la piste en recherchant des vidéos publiées sur Viméo ou Instagram ayant capturé la scène sur lesquelles ils ont repéré la présence d’un tatouage signifiant « paix » sur l’avant-bras. C’est finalement avec des images prises par un photographe amateur que la police a réussi à récolter un élément décisif qui permettra d’identifier la manifestante. Sur cette série de 500 photos, la femme porte un t-shirt portant le message «Gardez les immigrants. Déportez les racistes. ».
+
+**Un commentaire laissé sur une boutique en ligne permet de remonter la piste**
+
+Ce t-shirt n’est pas commercialisé partout, en remontant la piste de l’achat de ce vêtement, il ont trouvé celui-ci était disponible sur une boutique en ligne ouverte sur le site Etsy. Lore Elisabeth Blumenthal avait laissé un commentaire sous cet article avec le pseudonyme « alleycatlore ». Grâce à celui-ci, la police a réussi à retrouver un autre profil sur le site de vente en ligne « poshmark » contenant une partie du véritable nom de la jeune femme « Lore-Elisabeth ».
+
+Grâce à ce prénom composé, ils ont fait une recherche sur LinkedIn où ils ont réussi à trouver le profil d’une certaine « Lore Elisabeth Blumenthal », travaillant dans un cabinet de massage de Philadelphie. Le site internet du cabinet contenant des vidéos montre une personne portant le même tatouage que celui identifié sur les clichés du photographe. Sous le nom de famille Blumenthal un numéro de téléphone et une adresse étaient associés. D’après les informations recueillies auprès de la boutique en ligne d’Etsy, suite à une assignation, un t-shirt identique à celui porté par la manifestante avait récemment été livré à la même adresse.
+
+Cette affaire démontre que de simples profils sur les réseaux sociaux voire de simples avis de consommateurs peuvent être des informations utilisées dans le cadre d’une surveillance par les forces de l’ordre. Hetznecker, l’avocat de la manifestante a d’ailleurs tenu à mettre en garde le public qui ne prend pas toujours conscience de l’utilisation possible de ces informations accessibles très facilement. Il a par ailleurs indiqué que cette affaire montrait de fortes similitudes avec des cas de surveillance excessive par la police américaine. Il rappelle par ailleurs que c’est la même méthode qui a été utilisée après le 11 septembre pour ficher les personnes de confession musulmane et qu’elle continue à être utiliser pour surveiller les Afro-Américains.

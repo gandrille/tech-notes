@@ -1,0 +1,23 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Dans JSON - JSON-LD ======
+**JSON-LD (JavaScript Object Notation for Linked Data)**
+* NOTE : jusqu'au draft de la [[https://www.w3.org/TR/2012/WD-json-ld-syntax-20120712/|version 1.0 de juillet 2012]], LD signifiait "Linking Data". Après, on parle de "Linked Data".
+* JSON-LD est un format de sérialisation de statements RDF dans un fichier JSON. Donc si on ne comprend pas RDF, on ne peut **RIEN** comprendre à JSON-LD.
+
+**Référence**
+* [[https://www.w3.org/TR/json-ld/|Dernière recommandation]]
+* [[https://json-ld.org/spec/latest/json-ld/|Dernier draft]]
+
+**Quick start**
+* [[https://json-ld.org/spec/latest/json-ld/#basic-concepts|Basic concepts]]
+* [[https://json-ld.org/spec/latest/json-ld/#advanced-concepts|Advanced concepts]]
+
+**Basic functionalities**
+* typage
+* language (internationalisation)
+* value (date, time, unit of mesure)
+* compaction/extension
+* signature
+* conversion RDF

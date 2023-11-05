@@ -1,0 +1,11 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Bulle de filtre ======
+Concept formulé en 2011 par Eli Pariser.
+On en a beaucoup parlé durant la présidentielle américaine (Trump / Clinton)
+
+Quand les algorithmes font une sélection, ils peuvent influenecer la manière avec laquelle nous percevons le monde (notre bulle de filtre). Cela peut nous influencer fortement.
+https://medium.com/@francois.chollet/what-worries-me-about-ai-ed9df072b704
+
+[[https://teleobs.nouvelobs.com/polemique/20170517.OBS9514/lisons-surtout-nos-adversaires.html|2017 Lisons surtout nos adversaires !]]

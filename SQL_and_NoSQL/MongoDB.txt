@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== MongoDB ======
+https://blog.ippon.fr/2018/12/17/trois-ans-en-compagnie-de-mongodb-part-1-souffrance/
+https://blog.ippon.fr/2019/01/10/trois-ans-en-compagnie-de-mongodb-part-2-joie/
+
+

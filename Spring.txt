@@ -1,0 +1,30 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Spring ======
+[[https://www.eclipse.org/community/eclipse_newsletter/2019/september/microprofile.php?mc_cid=2530b7bff4&mc_eid=b1f53f2ffa|Spring vs Microprofile]]
+
+2021 [[https://mydeveloperplanet.com/2021/03/03/how-to-monitor-a-spring-boot-app/|How to Monitor a Spring Boot App]] very good article about Spring Actuator, Micrometer, Prometheus and Grafana.
+
+
+**En 2019, deux trends (attendre un peu avant de mettre en prod)**
+* R2DBC
+* RSocket
+
+
+**misc**
+* https://www.baeldung.com/spring-rest-docs-vs-openapi
+* https://www.baeldung.com/spring-dependency-injection
+* http://www.baeldung.com/spring-state-machine
+
+
+'''
+@GetMapping("/actor/{id}")
+public String getActorName(@PathVariable("id") int id) {
+    try {
+        return actorService.getActor(id);
+    } catch (ActorNotFoundException ex) {
+        throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Actor Not Found", ex);
+    }
+}
+'''

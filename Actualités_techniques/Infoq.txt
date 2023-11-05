@@ -1,0 +1,6 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+
+====== Infoq ======
+https://www.infoq.com/articles/java-jvm-trends-2022/
+https://www.infoq.com/fr/articles/java-jvm-trends-2021/

@@ -1,0 +1,44 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+
+====== JDK21 LTS (Sept 2023) ======
+**Sources**
+* [[https://en.wikipedia.org/wiki/Java_version_history#Java_SE_21|Wikipedia]]
+* [[https://openjdk.java.net/projects/jdk/21/|OpenJDK 21]]
+
+**JEP list**
+* [[https://openjdk.org/jeps/444|444: Virtual Threads]]
+	* Jusque là, un thread plateforme, ce qui est coûteux en ressources
+	* Les threads passent bcp de temps à attendre les I/O
+	* Thread porteurs pour exécuter les threads virtuels en non bloquant. Attention, il ne faut pas bloquer les carrier threads !
+	* Modèle très efficace quand on a beaucoup de tâches, et peu de CPU
+* [[https://openjdk.org/jeps/453|453: Structured Concurrency (Preview)]]
+	* Rationnaliser l'écriture des traitements en parallèle
+	* Code facile à lire, à écrire, à débuger
+	* Les traitements sont exécutés dans de threads virtuels
+* [[https://openjdk.org/jeps/446|446: Scoped Values (Preview)]]
+	* Partager des objets immuables entre threads (≠ thread local)
+* [[https://openjdk.org/jeps/440|440: Record Patterns]]
+	* destructuration des records
+* [[https://openjdk.org/jeps/441|441: Pattern Matching for switch]]
+* [[https://openjdk.org/jeps/430|430: String Templates (Preview)]]
+	* interpollation de chaîne en prennant en comp sécurité avec des processeurs de template
+* [[https://openjdk.org/jeps/443|443: Unnamed Patterns and Variables (Preview)]]
+	* utilisation '_'
+* [[https://openjdk.org/jeps/445|445: Unnamed Classes and Instance Main Methods (Preview)]]
+	* Pour faire u hello workd facilement, sans crer une méthode et une ck class.
+* [[https://openjdk.org/jeps/431|431: Sequenced Collections]]
+	* get/set/remove premier et dernier élémet
+* [[https://openjdk.org/jeps/439|439: Generational ZGC]]
+	* Amélioration de ZGC
+* [[https://openjdk.org/jeps/451|451: Prepare to Disallow the Dynamic Loading of Agents]]
+	* Avertissement quand un agent est chargé dynamiquement dans une JVM (ex: Mockito)
+* [[https://openjdk.org/jeps/452|452: Key Encapsulation Mechanism API]]
+	* 
+* [[https://openjdk.org/jeps/442|442: Foreign Function & Memory API (Third Preview)]]
+	* Améliorer les interactions avec le service hôe
+	* Future alternative JNI
+* [[https://openjdk.org/jeps/448|448: Vector API (Sixth Incubator)]]
+	* RIEN à voir avec vector de Java 1.0
+	* Pour le calcul SIMD (Single Instruction Multilple Data) 
+* [[https://openjdk.org/jeps/449|449: Deprecate the Windows 32-bit x86 Port for Removal]]

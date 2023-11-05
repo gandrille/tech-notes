@@ -1,0 +1,31 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+
+====== Knative ======
+https://knative.dev/docs/
+https://www.redhat.com/fr/topics/microservices/what-is-knative
+https://www.youtube.com/watch?v=HZIKQwwSRXc
+
+https://docs.google.com/presentation/d/1m0zAcO55_GNq96oXQvVtWh4So6CYjin1bB7xzHu-rzQ/edit#slide=id.g43aac56bfe_1_0
+https://github.com/redhat-developer-demos/knative-tutorial
+
+**Knative is an Open-Source Enterprise-level solution to build Serverless and Event Driven Applications Serverless Containers in Kubernetes environments.**
+
+* Project started by Google in 2018
+* 2022 Donated by Google to CNCF in 2022
+
+Framework for scaling containers based on requests on HTTP endpoints,...
+
+===== Knative event source =====
+https://knative.dev/docs/eventing/sources/
+
+* Redis stream
+* GitHub / GitLab
+* Topic Kafka
+* PigSource (cron job)
+* AWS services, GCP services
+
+===== Usage =====
+
+
+

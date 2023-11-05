@@ -1,0 +1,15 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+
+====== Panama Project ======
+
+https://openjdk.java.net/projects/panama/
+
+**Vector API**
+* reliable CPU vector instructions
+
+**Interconnecting JVM and native code**
+* safe alternative to byteBuffer
+* Forein functions API : JNI replacement
+* native interrop building blocks
+

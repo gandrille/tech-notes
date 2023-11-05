@@ -1,0 +1,34 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== API server ======
+
+===== API description =====
+HTTP API space of Kubernetes can be divided into three independent groups
+
+**Core Group (/api/v1)**
+This group includes objects such as Pods, Services, nodes, namespaces, configmaps, secrets, etc.
+
+**Named Group**
+This group includes objects in ''/apis/$NAME/$VERSION'' format. These different API versions imply different levels of stability and support:
+* Alpha level - it may be dropped at any point in time, without notice. For example, ''/apis/batch/v2alpha1''.
+* Beta level - it is well-tested, but the semantics of objects may change in incompatible ways in a subsequent beta or stable release. For example, /apis/certificates.k8s.io/v1beta1.
+* Stable level - appears in released software for many subsequent versions. For example, ''/apis/networking.k8s.io/v1''.
+
+**System-wide**
+This group consists of system-wide API endpoints, like ''/healthz'', ''/logs'', ''/metrics'', ''/ui'', etc.
+
+===== Using API with kubectl proxy =====
+For starting the REST interface: ''kubectl proxy''
+Endpoints list: ''curl http://localhost:8001/''
+Then, for instance: ''curl http://localhost:8001/apis/apps/v1''
+
+===== Without kubectl proxy =====
+Get the token:
+''TOKEN=$(kubectl describe secret -n kube-system $(kubectl get secrets -n kube-system | grep default | cut -f1 -d ' ') | grep -E '^token' | cut -f2 -d':' | tr -d '\t' | tr -d " ")''
+
+Get the API server endpoint:
+''APISERVER=$(kubectl config view | grep https | cut -f 2- -d ":" | tr -d " ")''
+
+Endpoints list: ''curl $APISERVER --header "Authorization: Bearer $TOKEN" --insecure''
+Then, for instance: ''curl $APISERVER/apis/apps/v1 --header "Authorization: Bearer $TOKEN" --insecure''

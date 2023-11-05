@@ -1,0 +1,32 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+
+====== misc ======
+**sebastiandaschner blog**
+* 2020 [[https://blog.sebastian-daschner.com/entries/flyway-migrate-databases-managed-k8s|Database migrations in Kubernetes applications with Flyway (Video)]]
+* 2020 [[https://blog.sebastian-daschner.com/entries/flyway-migrate-databases-quarkus|Pragmatic database migrations with Quarkus and Flyway (Video)]]
+
+
+**vcluster**
+
+
+
+
+**kubeadm**
+[[https://github.com/kubernetes/kubeadm|kubeadm]] is a first-class citizen on the Kubernetes ecosystem. It is a secure and recommended way to bootstrap a single- or multi-node Kubernetes cluster. It has a set of building blocks to setup the cluster, but it is easily extendable to add more features. Please note that kubeadm does not support the provisioning of hosts.
+
+**kubespray**
+With [[https://kubernetes.io/docs/setup/production-environment/tools/kubespray/|kubespray]] (formerly known as kargo), we can install Highly Available Kubernetes clusters on AWS, GCE, Azure, OpenStack, or bare metal. Kubespray is based on Ansible, and is available on most Linux distributions. It is a Kubernetes Incubator project.
+
+**kops**
+With [[https://kubernetes.io/docs/setup/production-environment/tools/kops/|kops]], we can create, destroy, upgrade, and maintain production-grade, highly-available Kubernetes clusters from the command line. It can provision the machines as well. Currently, AWS is officially supported. Support for GCE is in beta, and VMware vSphere in alpha stage, and other platforms are planned for the future.
+
+**kube-aws**
+With [[https://github.com/kubernetes-incubator/kube-aws|kube-aws]] we can create, upgrade and destroy Kubernetes clusters on AWS from the command line. Kube-aws is also a Kubernetes Incubator project.
+
+
+And also, [[https://github.com/kelseyhightower/kubernetes-the-hard-way|Kubernetes The Hard Way GitHub project]]
+
+===== See also =====
+* [[https://k3s.io/|K3s]]
+* [[https://kind.sigs.k8s.io/|Kind]]

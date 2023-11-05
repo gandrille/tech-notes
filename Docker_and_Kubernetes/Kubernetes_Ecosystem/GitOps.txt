@@ -1,0 +1,18 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+
+====== [[GitOps]] ======
+
+* Flux:   
+* Argo CD:   
+* Rancher Fleet: desined for massive scale... and very green.
+→ Argo CD has better adoption than flux.
+
+===== ArgoCD =====
+Very good article : https://blog.wescale.fr/flux-et-argocd-d
+
+**ArgoCD uses the concept of Application which defines**
+* source: a git repository hosting, for instance, helm contents
+* destination: a kubernetes platform and namespace
+* syncPolicy: how to stay or not in sync with the git repository
+

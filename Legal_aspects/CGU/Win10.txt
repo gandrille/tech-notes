@@ -1,0 +1,35 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Win10 ======
+* https://www.microsoft.com/fr-fr/privacystatement/default.aspx
+* http://www.numerama.com/magazine/33357-windows-10-microsoft-et-vos-donnees-privees-ce-que-vous-devez-savoir.html
+
+
+**L'ESSENTIEL A SAVOIR**
+
+Par défaut, "lorsque vous vous connectez à Windows grâce à un compte Microsoft, Windows synchronise certains de vos paramètres et de vos données avec les serveurs Microsoft", dont "l'historique de votre navigateur, vos favoris et les sites web que vous avez ouverts" ainsi que "les noms et mots de passe pour la sauvegarde de vos applis, sites web, borne portables et réseau Wi-Fi". Pour désactiver ce transfert vers les serveurs de Microsoft, il faut penser à se rendre dans la section "Comptes de Paramètres / Paramètres de synchronisation".
+     
+"Windows génère un identifiant publicitaire unique pour chaque utilisateur d'un appareil. Votre identifiant publicitaire peut être utilisé par les développeurs d'applications et les réseaux publicitaires pour proposer des publicités plus pertinentes" ;
+     
+"Lorsque le dispositif de cryptage est activé, Windows chiffre automatiquement le disque dur sur lequel Windows est installé et génère une clé de récupération. La clé de récupération de BitLocker pour votre appareil est automatiquement sauvegardée en ligne dans votre compte Microsoft OneDrive" (en clair, si vous utilisez l'outil de chiffrement fourni par Microsoft, Microsoft conserve la clé chez lui, et pourra donc la mettre à disposition de toute autorité publique qui demande par voie légale à y avoir accès) ;
+     
+"Microsoft recueille régulièrement des informations basiques à propos de votre appareil Windows. (…) Ces données sont transmises à Microsoft et stockées à l'aide d'un ou plusieurs identifiants uniques". Il s'agit notamment "données d'utilisation des applis pour les applis qui fonctionnent sur Windows", ou des "données sur les réseaux auxquels vous vous connectez, comme les réseaux mobiles, Bluetooth, les identifiants (BSSID et SSID), les critères de connexion et la vitesse des réseaux Wi-Fi auxquels vous êtes connecté". Microsoft précise que "certaines données diagnostiques sont essentielles au fonctionnement de Windows et ne peuvent pas être désactivées si vous utilisez Windows" ;
+     
+Dans le nouveau navigateur Microsoft Edge, lorsque AutoSearch et Search Suggestions sont activés, le navigateur envoie à Bing "les informations que vous entrez dans la barre d'adresse du navigateur", "même si vous avez sélectionné un autre fournisseur de recherche par défaut". Microsoft ajoute que "les données de navigation recueillies en relation avec ces fonctionnalités sont utilisées dans les données globales", c'est-à-dire qu'elles participent à établir le profil publicitaire de l'utilisateur ;
+
+**DIVERS SUR CORTANA, WINDOWS 10, MICROSOFT EDGE, OUTLOOK…**
+
+"Pour permettre à Cortana de fournir des expériences personnalisées et des suggestions pertinentes, Microsoft recueille et utilise différents types de données, comme la localisation de votre appareil, les données de votre calendrier, les applis que vous utilisez, les données de vos emails et de vos messages textes, les personnes que vous appelez, vos contacts et la fréquence de vos interactions avec eux sur votre appareil. Cortana en apprend également à votre sujet en recueillant des données sur votre manière d'utiliser votre appareil et d'autres services Microsoft, comme votre musique, vos réglages d'alarme, si l'écran verrouillé est activé, ce que vous regardez et achetez, votre historique de navigation et de recherche Bing, et bien plus."
+     
+"Lorsque vous utilisez OneDrive, nous recueillons des données sur votre utilisation du service, ainsi que sur le contenu que vous stockez" (c'est ici très flou sur ce qu'il fait des "informations sur le contenu) ;
+     
+"Pour fournir une reconnaissance vocale personnalisée, nous enregistrons l'entrée de votre voix, ainsi que vos nom et surnom, les événements récents de votre calendrier et les noms des personnes avec qui vous avez rendez-vous, et des informations sur vos contacts, notamment leurs noms et surnoms" ;
+
+"Microsoft n'utilise pas ce que vous dites dans les emails, les discussions, les appels vidéo ou la messagerie vocale, ni vos documents, photos ou autres fichiers personnels pour vous envoyer des annonces ciblées", mais il utilise tout de même "d'autres informations que nous recueillons à votre sujet au fil du temps en utilisant vos données démographiques, vos requêtes de recherche, vos centres d'intérêt et vos favoris, vos données d'utilisation, et vos données de localisation" ;
+     
+"Nous accéderons à, divulguerons et préserverons les données personnelles, notamment votre contenu (comme le contenu de vos emails, d'autres communications privées ou des fichiers de dossiers privés), lorsque nous pensons de bonne foi qu'il est nécessaire de le faire", notamment pour "répondre à des requêtes légales valides"; 
+     
+"Les données personnelles recueillies par Microsoft peuvent être stockées et traitées aux États-Unis ou dans tout autre pays dans lequel Microsoft, ses filiales ou prestataires de services sont implantés" ;
+     
+"Dans Outlook.com, lorsque votre dossier Éléments supprimés est vidé, ces éléments effacés restent dans notre système pendant 30 jours maximum avant suppression définitive" ;

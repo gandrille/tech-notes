@@ -1,0 +1,9 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+
+====== kind ======
+* Kubernetes in Docker (so, uses Docker)
+* Don't manages images (rely on Docker for that)
+
+''kind create cluster''
+''kind delete cluster''

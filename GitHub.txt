@@ -1,0 +1,26 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== GitHub ======
+2020 [[https://blog.ippon.fr/2020/11/20/a-la-decouverte-de-github-codespaces/|A la découverte de GitHub Codespaces]]
+2020 [[https://lab.github.com/githubtraining/github-actions:-publish-to-github-packages|GitHub Actions: Publish to GitHub Packages]] 
+2021 [[https://www.touilleur-express.fr/2021/02/15/github-actions-le-tueur-de-jenkins/|Github Actions]]
+
+
+[[https://help.github.com/en/github|GitHub.com Documentation]]
+[[https://blog.sebastian-daschner.com/entries/hub-github-cli|GitHub command line]]
+[[https://guides.github.com/introduction/flow/|GitHub flow]]
+[[https://rieckpil.de/github-actions-for-java-automate-your-maven-workflows/|GitHub Actions for Java]]
+[[https://blog.codeleak.pl/2020/06/gh-actions-maven-junit5.html|Getting started with Github Actions: Run JUnit 5 tests in a Java project with Maven]] 
+[[https://blog.frankel.ch/github-actions-maven-releases/|GitHub Actions and Maven releases]]
+
+Note : clés publiques données à github https://github.com/username.keys
+
+**Faire un checkout de la pull request GitHub**
+'''
+git config --global --add remote.origin.fetch "+refs/pull/*/head:refs/remotes/origin/pr/*"
+git fetch origin
+
+# And then
+git checkout pr/123
+'''

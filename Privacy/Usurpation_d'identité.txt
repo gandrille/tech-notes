@@ -1,0 +1,168 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Usurpation d'identité ======
+[[https://linuxfr.org/users/malizor/journaux/j-ai-teste-pour-vous-se-faire-usurper-son-identite|2020 J’ai testé pour vous : se faire usurper son identité]]
+
+===== L’histoire =====
+
+==== Le commencement ====
+En février 2018, j’ai reçu un appel d’une entreprise de crédit m’annonçant que le prélèvement de ma première mensualité avait échoué, et qu’il fallait donc que je fasse quelque chose au plus vite.
+
+J’ai nié avoir ouvert un quelconque crédit et dit qu’ils devaient se tromper de personne.
+Mon interlocuteur me raccroche alors au nez en me disant sèchement « très bien, vous allez donc être interdit bancaire et vous vous débrouillerez avec les huissiers ».
+
+Assez sonné par ce que je venais d’entendre, je rappelle l’entreprise en question. J’ai la chance de tomber sur quelqu’un de plus aimable.
+Évidemment, on me demande des numéros de dossiers que je n’ai pas, mais ils finissent par retrouver un contrat à mon nom, portant sur un crédit à la consommation d’environ 2 000€.
+
+On me dit que si je ne suis pas à l’origine de ce contrat, il faut que j’aille porter plainte pour usurpation d’identité, muni du numéro de contrat qu’on me communique ainsi que de certains détails comme les adresses mail et postale qui ont été utilisées pour ouvrir le contrat (et qui ne sont effectivement pas les miennes).
+Et qu’il faut que je le fasse au plus vite car, en attendant, la procédure de recouvrement continue.
+
+Dont acte. Je me rends, fleur au fusil, auprès du commissariat de police de ma ville.
+
+==== De l’inutilité de la police ====
+Je passe sur les heures d’attente (le tout à proximité d’un bureau où les agents en présence se racontent LONGUEMENT leur week-end, alors qu’il n’y a qu’un pauvre type qui s’occupe de prendre les plaintes).
+
+Quand c’est enfin mon tour, on me dit qu’on ne peut pas prendre ma plainte car je n’ai pas la copie du contrat que je n’aurais soi-disant pas signé.
+J’ai essayé de parlementer, en expliquant que je leur fournissais tous les détails nécessaires (incluant même le contact de la responsable du service fraude de l’entreprise de crédit), mais en vain.
+Apparemment, une enquête est insoluble si elle nécessite de passer un coup de téléphone.
+
+Je repars malgré tout avec une main courante, que j’envoie à l’entreprise de crédit.
+
+Le lendemain, on me rappelle pour me dire qu’un vrai dépôt de plainte est absolument nécessaire et que la procédure de recouvrement continue.
+J’explique la situation et demande une copie du contrat, sans quoi ma plainte sera encore refusée.
+On me dit que c’est impossible et que la police ne peut pas refuser de plainte (la théorie et la pratique…).
+À défaut, je demande au moins un courrier, un document concret, indiquant noir sur blanc que ce contrat existe, ainsi que toutes les références qui me sont communicables.
+
+Je reçois ce courrier quelques jours plus tard (entre-temps l’entreprise a continué de me harceler tous les jours pour savoir où j’en étais).
+Je retourne donc au commissariat. Même résultat : longue attente, refus de plainte et énorme frustration.
+
+La police ne veut pas de plainte tant que je n’ai pas le contrat.
+Et l’entreprise refuse de me communiquer le contrat (elle serait par contre ravie de le communiquer à la police).
+
+À ce stade, je ne sais plus quoi faire.
+
+==== « À titre exceptionnel, on accepte de vous aider » ====
+Après des heures au téléphone, je finis par réaliser que le crédit dont il est question a été souscrit suite à un achat en ligne.
+L’usurpateur a acheté quelque chose et a sélectionné une offre du type « payez en plusieurs fois, première mensualité dans X mois ».
+Le créancier avec qui je parle depuis le début est en fait l’organisme de financement rattaché à la boutique en ligne sur laquelle l’achat a été fait.
+
+Je décide donc de contacter le service réclamation du site en question.
+J’ai la chance de tomber sur quelqu’un de compréhensif, qui confirme l’absurdité de ma situation.
+En effet, légalement, ils n’ont pas le droit de me fournir une copie d’une facture d’un achat que je n’ai pas effectué.
+Sinon je pourrais être n’importe qui et demander la facture de n’importe quoi, en prétextant être la victime d’une usurpation.
+C’est bien pour ça que seule la police, dans le cadre d’une enquête, pourrait légitimement y accéder.
+
+Cette personne accepte malgré tout, à titre exceptionnel, de m’envoyer une copie de la facture.
+L’usurpateur a acheté une TV en ligne et est allé la retirer en magasin, en présentant certainement une fausse carte d’identité.
+
+En tout cas, je peux enfin aller porter plainte !
+Ma satisfaction d’en finir avec cette galère ne sera même pas entamée par la mauvaise volonté évidente et l’absence complète d’empathie de l’agent de police que j’ai eu en face ce jour-là.
+
+==== Ce n’est pas fini… ====
+Six mois plus tard, alors que j’avais joyeusement repris le cours de mon existence, je suis convoqué par mon employeur.
+Celui-ci a en effet reçu un courrier d’un huissier, lui demandant si je travaillais toujours chez lui et, le cas échéant, de me demander de le rappeler au plus vite.
+
+C’est fou comme ce genre de chose met tout de suite une bonne ambiance au bureau !
+
+Bref, j’appelle et on m’explique que je suis un mauvais payeur, car j’ai cette fois souscrit à un crédit renouvelable pour plus de 6 000€, sans jamais le rembourser.
+
+L’avantage, c’est que je sais maintenant à quoi m’attendre : j’insiste tout de suite pour obtenir le contrat en question avant d’essayer d’aller porter plainte.
+Et comme j’ai affaire avec un huissier qui en a apparemment déjà vu d’autres, les choses se passent plus sereinement.
+Je réussis à porter plainte quelques jours plus tard.
+
+==== L’explication ====
+Après encore 6 mois de trêve, je reçois une lettre d’un nouvel agent de recouvrement, concernant un crédit de 7 000€.
+Je suis habitué maintenant, donc la procédure se passe relativement simplement.
+
+La nouveauté ici, c’est qu’au lieu d’une simple copie du contrat, on me transmet tout un dossier, incluant tous les justificatifs fournis par l’usurpateur.
+
+Dans le lot, je trouve une copie de ma véritable carte d’identité ainsi qu’une fiche de paie contrefaite, mais néanmoins basée sur une vraie (si la date a été changée et les montants recalculés en fonction, tout le reste colle).
+
+Jusqu’à présent je ne savais pas d’où venait l’usurpation : j’envisageais par exemple quelqu’un qui m’en voulait personnellement, un voisin ou quelqu’un qui aurait fouillé mes poubelles.
+Mais s’il a pu m’arriver de présenter ma carte d’identité a de multiples reprises (elle aurait donc pu être scannée sans que je le sache), je ne laisse pas traîner mes fiches de paie n’importe où.
+
+La fuite ne peut donc venir que de fin 2017, lorsque je cherchais un logement. C’est la seule occasion où j’ai pu fournir tous ces documents, via des dossiers de locations.
+Malheureusement, ayant déposé plusieurs dossiers pour plusieurs appartements, je ne peux pas remonter la piste plus loin par moi-même.
+De plus, l’usurpateur n’est pas forcément un des bailleurs à qui j’ai eu à faire : l’un d’eux a pu mal se débarrasser des documents, qui ont donc pu être récupérés par un tiers.
+
+J’ai bien entendu transmis toutes ces informations à la police.
+
+==== Où je décide de prendre le problème à bras-le-corps ====
+À ce moment de l’histoire, je réalise qu’il n’y a pas de raison que les demandes de recouvrement cessent d’elles-mêmes, et qu’il faut donc que je prenne les devants.
+Je fais des recherches, et je tombe sur le site de la Banque de France, qui me conseille de prendre rendez-vous pour voir si je ne suis pas fiché chez eux.
+
+En faisant cela, je constate alors que je suis fiché pour des incidents de paiement concernant 6 crédits différents !
+Parmi ceux-là je retrouve les trois dossiers précédents, qui n’ont pas été annotés avec la mention « identité usurpée », alors que j’avais pourtant bien fait toutes les démarches.
+
+On me conseille également d’envoyer un courrier à la CNIL pour demander un accès au Fichier des COmptes BAncaires (FICOBA), pour voir si des comptes ont également été ouverts à mon insu.
+L’idée était judicieuse, car je découvre ainsi deux comptes courants usurpés auprès de deux grandes banques.
+
+Je signale évidemment tout ceci à la police.
+
+Pour en finir, j’envoie enfin tout un dossier à la Banque de France afin que l’usurpation de mon identité soit reconnue pour l’ensemble des incidents de paiement qui me sont rattachés.
+La procédure se terminera avec succès quelques semaines plus tard.
+
+===== Si c’était à refaire ? (TL;DR) =====
+Me concernant, le problème principal est que j’ai mis du temps avant de comprendre de quoi j’étais vraiment victime.
+J’ai perdu un an à traiter les créanciers au fil de l’eau, alors que j’aurais pu réaliser les démarches auprès de la Banque de France et de la CNIL dès le premier incident.
+
+De ce point de vue, j’en veux réellement aux policiers du commissariat de ma ville.
+L’aide aux victimes est absolument lamentable, avec des agents qui font le maximum pour refuser les plaintes et qui, lorsqu’ils sont obligés de les prendre, font le strict minimum.
+J’avais une véritable appréhension à chaque fois que j’ai dû me rendre à nouveau au commissariat pour réaliser une démarche. C’est clairement ce qui m’a poussé à vouloir passer à autre chose au plus vite après les premières affaires, sans chercher à creuser plus pour trouver la source de l’usurpation dont j’étais victime.
+
+==== Conseils aux victimes ====
+Si vous êtes contacté par un créancier comme je l’ai été, gardez votre calme et exigez qu’on vous envoie une copie du contrat que vous avez supposément signé. Et gardez bien en tête que la personne qui vous contact peut-être un sous-traitant : il vous faudra alors remonter la chaîne jusqu’au véritable organisme auprès duquel le contrat a été signé.
+
+N’attendez cependant surtout pas une réponse avant de continuer à agir et d’essayer de porter plainte : j’ai eu d’autres témoignages où l’affaire est allée jusqu’à la convocation au tribunal avant que le contrat ne soit fourni.
+
+Évidemment, vérifiez que vous ne voyez pas de mouvement suspect sur votre compte, et faites opposition si c’est le cas (ou faites-le tout de même, par précaution).
+
+L’autre chose primordiale à faire est d’aller voir si vous êtes fiché à la Banque de France (fichier FICP, pour Fichier des Incidents de Crédits aux Particuliers).
+Vous pouvez faire une demande en ligne ou également prendre rendez-vous dans l’antenne locale la plus proche de chez vous.
+Je vous recommande de vous déplacer au moins la première fois car, en plus d’une réponse immédiate, le fait d’échanger de vive voix avec quelqu’un qui connaît ces problématiques est vraiment appréciable.
+
+Si des incidents de paiements sont enregistrés vous concernant et donc que vous êtes bien fichés, vous serez en mesure d’aller porter plainte immédiatement avec le document qui vous sera remis, même si vous n’avez pas de copie du ou des contrats associés.
+Faites bien en sorte que la plainte liste explicitement tous les incidents et tous les numéros de contrats associés.
+En effet, pour mettre un terme aux litiges, les créanciers ont besoin que la plainte cite précisément le dossier qui les intéresse (si la plainte dit "je joins le relevé des incidents", ça ne suffira pas. Même si c’est plus simple pour l’agent de police…).
+
+Envoyez également un courrier à la CNIL pour savoir si des comptes ont été ouverts à votre nom sans que vous le sachiez.
+Vous n’aurez pas de réponse avant plusieurs semaines, donc si la pêche est bonne vous pourrez aller faire un complément de plainte pour joindre le document que vous obtiendrez au dossier.
+
+Tout ceci fait, vous pourrez ensuite envoyer à la Banque de France une copie de votre/vos plainte.s dans un dossier expliquant vos démarches.
+La Banque de France se chargera alors pour vous de contacter les différents créanciers pour faire reconnaître votre usurpation d’identité et donc lever votre fichage.
+
+La subtilité de ce qui précède est que si vous faites ces démarches assez tôt, il est possible que d’autres créanciers ne vous aient pas encore fiché (voir que vous ne soyez pas fiché du tout).
+Me concernant, les fichages ont été enregistrés entre 3 et 10 mois APRÈS que le premier créancier m’a contacté.
+Il faut donc consulter régulièrement le fichier de la Banque de France (via des demandes en ligne), pour s’assurer que de nouveaux incidents n’y apparaissent pas.
+
+==== Conseils pour tout le monde ====
+Voici quelques règles « d’hygiène » pour diminuer les risques d’usurpation :
+
+Premièrement, même si ça n’aurait pas aidé dans mon cas précis, achetez un broyeur de documents.
+Pas besoin de dépenser beaucoup : un broyeur manuel fera largement l’affaire. Mais appliquez cette règle simple : aucun document mentionnant votre nom, adresse ou toute autre information personnelle ne doit se retrouver dans une poubelle. C’est valable pour les prospectus nominatifs mais aussi les emballages de colis (arrachez les étiquettes).
+
+Si vous avez déménagé, profitez-en pour rapidement renouveler vos papiers d’identité.
+En effet, dans le cadre de votre recherche de logement vous avez pu fournir ces papiers à plusieurs personnes, pas forcément dignes de confiance.
+Le renouvellement pour changement d’adresse est gratuit et permet d’invalider les papiers précédents. Il serait bête de s’en priver.
+
+Si vous cherchez un logement et devez déposer des dossiers contenant vos fiches de paie ou autres documents sensibles, dans la mesure du possible essayez de marquer les documents.
+L’idée est que si un dossier est utilisé pour usurper votre identité, vous puissiez identifier exactement d’où provient la fuite (si vous réussissez à mettre la main sur les justificatifs que l’usurpateur a utilisé).
+Il faut donc que chaque dossier soit rendu unique, d’une manière que vous seul reconnaîtrez.
+Vous pouvez par exemple rajouter de faux artefacts de photocopie, ou autres petits détails que l’usurpateur ne prendra pas la peine de modifier mais que vous pourrez repérer.
+
+Enfin, si vous en avez les moyens, réfléchissez à souscrire à une assistance/assurance juridique. Je n’en avais pas personnellement, mais quand on a à faire avec des huissiers et une police récalcitrante, j’aurais bien aimé pouvoir me reposer sur l’aide de professionnels. Sans assurance, je n’ai pas pu me résoudre à dépenser des centaines d’euros pour consulter un avocat.
+Je m’en suis finalement sorti, mais disons qu’une protection juridique m’aurait permis de garder l’esprit plus tranquille.
+
+==== Dans un monde idéal ====
+Que pourrait-on changer plus globalement, pour diminuer les risques et l’impact des usurpations d’identité ?
+
+Premièrement, comme j’ai essayé de le faire modestement ici, informer.
+Pas seulement les particuliers, mais aussi les forces de l’ordre, qui devraient savoir mieux gérer ces cas et donc mieux conseiller les victimes.
+
+Enfin, pour parler de ce qu’il faudrait changer dans la loi, je suggère un système de fichage volontaire auprès de la Banque de France.
+En effet, si le fichage empêche de souscrire à de nouveaux prêts, il a pour avantage de bloquer également tous les usurpateurs.
+Ce qui fait que, en faisant reconnaître son usurpation, la victime rouvre potentiellement la voie pour que les usurpations reprennent de plus belle !
+
+Une solution radicale pour les personnes comme moi qui ne souscrivent à des crédits que très rarement, serait de pouvoir autoriser ou non l’ouverture de prêts à son nom depuis un compte en ligne sur le site de la Banque de France.
+Si j’avais cet outil à disposition, je l’activerais immédiatement pour ne le lever que ponctuellement, lorsque j’aurais vraiment besoin de faire un crédit.

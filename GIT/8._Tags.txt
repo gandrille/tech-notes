@@ -1,0 +1,30 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== 8. Tags ======
+**Lister par ordre alphabétique (et NON chronologique)**
+* ''git tag''
+* ''git tag -l "v2019*"''
+* ''git tag --list "v2019*"''
+* ''git show tagname''
+
+**Tags légers (lightweight)**
+* Autre nom pour un commit
+* Création : ''git tag <nom> <hash>''
+* Suppression : ''git tag --delete <nom>''
+
+**Tag annoté**
+* créé un commit pour le tag. On a donc un nom de tag, et un message de commit et une date de commit… le tout référençant un autre commit
+* Création : ''git tag -a <nom> -m 'mon message de commit' <hash>''
+
+**Déplacer un tag**
+* Solution 1 : le supprimer et le recréer
+* Solution 2 : le créer au nouvel endroit avec le flag ''-f''
+
+**Pousser un tag**
+Par défaut, les tags restent locaux !
+* Pour publier un tag, il faut faire : ''git push origin <tag>''
+* Pour publier tous les tags : ''git push origin --tags''
+
+**Supprimer un tag distant**
+''git push origin :<tag>'' → caractère ':' devant le nom du tag

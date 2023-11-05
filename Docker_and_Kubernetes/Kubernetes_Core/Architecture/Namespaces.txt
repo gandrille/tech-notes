@@ -1,0 +1,27 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Namespaces ======
+To partition the cluster into virtual sub-clusters.
+**This feature does NOT provides any security by itself!**
+
+**DNS**
+* ''foo'': foo service in the same namespace
+* ''foo.bar.srv.cluster.local'': foo service in bar namespace
+
+**Default namespaces**
+* The ''kube-system'' Namespace contains the objects created by the Kubernetes system, mostly the control plane agents.
+* The ''default'' Namespace contains the objects and resources created by administrators and developers. 
+* The ''kube-public'' Namespace is unsecured and readable by anyone. It is used for special purposes such as exposing public (non-sensitive) information about the cluster.
+* The ''kube-node-lease'' Namespace holds node lease objects used for node heartbeat data.
+
+**Not All Objects are in a Namespace**
+namespace resources are not themselves in a namespace. And low-level resources, such as nodes and persistentVolumes, are not in any namespace.
+
+'''
+# In a namespace
+kubectl api-resources --namespaced=true
+
+# Not in a namespace
+kubectl api-resources --namespaced=false
+'''

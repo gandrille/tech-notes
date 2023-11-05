@@ -1,0 +1,52 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Dans du HTML ou XML ======
+
+===== RDF/XML =====
+Le format historique de sérialisation, uniquement dédié à XML. Pas forcément une bonne idée de partir dessus aujourd'hui…
+
+
+===== Microdata =====
+Fonctionalité HTML5
+This specification defines new HTML attributes to embed machine-readable data in HTML documents in a style similar to RDFa. 
+
+* [[https://en.wikipedia.org/wiki/Microdata_(HTML)|Wikipedia]]
+* https://www.w3.org/TR/microdata/
+
+Pb : pas possibilité de mixer des vocabulaires,…
+
+
+===== RDFa (RDF awesome) =====
+Pour inclure un modèle RDF dans une page HTML ou XML
+
+'''
+<body xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <span about="#jane" instanceof="foaf:Person" property="#name">
+'''
+	'''
+	Jane McJanerson
+	  </span>
+	  <span about="#mac" instanceof="foaf:Person" property="#name">
+	Mac McJanerson
+	  </span>
+	  <span about="#jane" rel="foaf:knows" resource="#mac">
+	Jane is friend with Mac !
+	  </span>
+	</body>
+	'''
+
+* [[http://rdfa.info/|RDFa]]
+* [[https://www.youtube.com/watch?v=ldl0m-5zLz4|RDFa Basics]]
+
+
+===== Quand utiliser Microdata ou RDFa ? =====
+Microdata has been optimized for simpler use cases:
+
+* one vocabulary at a time
+* tree shaped data
+* no datatypes
+
+RDFa provides a full serialization of RDF in XML or HTML. The price is an extra complexity compared to microdata
+
+https://developers.google.com/search/docs/guides/intro-structured-data

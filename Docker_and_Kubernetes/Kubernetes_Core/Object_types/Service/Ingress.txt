@@ -1,0 +1,93 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Ingress ======
+Exposes a set of services to the outside world.  With Ingress, users do not connect directly to a Service. Users reach the Ingress endpoint, and, from there, the request is forwarded to the desired Service. Under the hood, it can use a loadbalancer... but a single one, for many services!
+
+https://www.joyfulbikeshedding.com/blog/2018-03-26-studying-the-kubernetes-ingress-system.html
+https://kubernetes.github.io/ingress-nginx/deploy/
+
+**ingress controllers / Edge and service proxies**
+* [[https://nginx.org|nginx]] → Ingress/nginx have SEVERAL IMPLEMENTATIONS!
+	* A community project: ingress-nginx → https://github.com/kubernetes/ingress-nginx/
+	* A commercial project, led by the company nginx → https://github.com/nginxinc/kubernetes-ingres[[https://github.com/nginxinc/kubernetes-ingress|s]]
+* [[https://www.haproxy.com/blog/haproxy-2-0-and-beyond/|HAProxy 2.0]]
+* [[https://docs.traefik.io/v2.0/|Traefik 2.0]]
+* [[https://www.envoyproxy.io/|Envoy]]
+
+**IMPORTANT**
+* Ingress is configured with an **Ingress resource** (defined by a config file, for instance)
+* Ingress does NOT route traffic itself. It relies on something else (nginx, for example)
+* Ingress configures and monitors something else (nginx, for example)
+→ In K8s terminology, it is a **controller**
+
+'''
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  name: virtual-host-ingress
+  namespace: default
+spec:
+  rules:
+  - host: blue.example.com
+    http:
+      paths:
+      - backend:
+          serviceName: webserver-blue-svc
+          servicePort: 80
+  - host: green.example.com
+    http:
+      paths:
+      - backend:
+          serviceName: webserver-green-svc
+          servicePort: 80
+'''
+
+
+
+
+'''
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  name: fan-out-ingress
+  namespace: default
+spec:
+  rules:
+  - host: example.com
+    http:
+      paths:
+      - path: /blue
+        backend:
+          serviceName: webserver-blue-svc
+          servicePort: 80
+      - path: /green
+        backend:
+          serviceName: webserver-green-svc
+          servicePort: 80
+'''
+
+
+
+'''
+apiVersion: networking.k8s.io/v1beta1
+kind: Ingress
+metadata:
+  name: ingress-service
+  annotations:
+    kubernetes.io/ingress.class: nginx
+    nginx.ingress.kubernetes.io/rewrite-target: /$1
+    # UPDATE THIS LINE ABOVE
+spec:
+  rules:
+    - http:
+        paths:
+          - path: /?(.*)
+            backend:
+              serviceName: client-cluster-ip-service
+              servicePort: 3000
+          - path: /api/?(.*)
+            backend:
+              serviceName: server-cluster-ip-service
+              servicePort: 5000
+'''

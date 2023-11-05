@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== JDK6 LTS (Dec 2006) ======
+**Sources**
+* [[https://en.wikipedia.org/wiki/Java_version_history#Java_SE_6|Wikipedia]]
+
+**Key features**
+* annotation processing
+* Hexadecimal floatingpoint numbers
+* API scripting (Rhino JS)
+* améliorations sur la performance

@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Uber ébriété ======
+CNN a ainsi révélé en juin 2018 que l’entreprise utilisait l’intelligence artificielle pour déterminer votre degré d’ébriété et vous pénaliser en conséquence. Comment connaître le nombre de bières que vous avez consommées avant de commander votre taxi? Uber analyse la vitesse à laquelle vous tapez votre adresse dans l’application, le nombre d’erreurs et de corrections que vous effectuez et peut décider de ne pas vous accorder la course - le chauffeur est prévenu et peut décider de vous refuser ou non - ou de ne vous proposer que des voitures non partagées, donc des courses plus onéreuses.
+2018 [[https://usbeketrica.com/fr/article/les-montres-connectees-capables-de-deviner-notre-code-bancaire|Mouvements de la main, vitesse de frappe : des gestes anodins qui peuvent vous trahir]]
+2018 [[https://money.cnn.com/2018/06/07/technology/uber-patent-identify-drunks/index.html|Uber wants to patent a way to use AI to identify drunk passengers]]
+

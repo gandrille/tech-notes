@@ -1,0 +1,38 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+
+====== Service Mesh ======
+===== Objectives =====
+* retry
+* timeout
+* security, mutual TLS
+* observability
+* and more...
+
+===== Actual landscape =====
+**How it works**
+admission controller with policy → side-car injection! a container is inserted int every single pod.
+
+[[https://smi-spec.io|SMI Service ]][[https://smi-spec.io|Mesh]][[https://smi-spec.io| Interface]]
+
+* [[https://istio.io|Istio]] (Google) : Istio trademarks were donated to the Open Usage Commons. Injects an [[https://www.envoyproxy.io|Envoy proxy]] in every pod.
+* [[https://linkerd.io/|Linkerd ]](CNCF project) lightweigh, minimized, service mesh
+* [[https://www.consul.io|Consul]] (HashiCorp) : GA for managed-Consul on AKS -- fully configured for "production".
+* [[https://openservicemesh.io/|Open Service Mesh]] (Microsoft) : based on the popular and powerful Envoy proxy
+
+https://www.solo.io/products/webassembly-hub/
+Customize Envoy Proxy with WebAssembly
+Simply and securely extend Envoy Proxy, Gloo API gateway and Istio service mesh with a Wasm module in the language of your choice.
+
+===== Cilium and eBPF as a game changer ? =====
+https://cilium.io
+"Cilium is an open source software for providing, securing and observing network connectivity between container workloads - cloud native, and fueled by the revolutionary Kernel technology eBPF."
+
+Today, popular service mesh such as [[https://linkerd.io/|Linkerd]] and [[https://istio.io/latest/about/service-mesh/|Istio]] are using sidecar. For instance Istio is using the popular [[https://www.envoyproxy.io/|Envoy proxy]]. The drawback of this approach is that it adds a lot of ressources (one sidecar per pod !) which is... bad.
+
+eBPF is a new approach in order to do the same without sidecars. And cilium is a service mesh that implements this approch. It provides as well [[https://docs.cilium.io/en/stable/gettingstarted/hubble_intro/|Hubble]], a nice interface for observability.
+
+**Take aways**
+* eBPF may be a game changer
+* keep an eye on Cilium... and its policy engine
+* Cilim is not only a service mesh... but this is what it is known to be

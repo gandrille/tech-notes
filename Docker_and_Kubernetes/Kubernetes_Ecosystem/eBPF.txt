@@ -1,0 +1,39 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+
+====== eBPF ======
+
+https://ebpf.io
+https://ebpf.io/what-is-ebpf/
+https://en.wikipedia.org/wiki/EBPF
+
+===== eBPF key points =====
+
+https://www.groundcover.com → Monitoring : 
+https://cilium.io → Networking
+https://falco.org → Security
+https://pixielabs.ai/ → Observabilité
+
+===== Cilium =====
+https://cilium.io
+
+Strong ambition if we have a look at the official webpage.
+
+Great for network policy solution.
+
+Green for
+* cluster mesh
+* service mesh
+* ingress
+
+Cilium can NOT replace Istio and Linkerd service mesh for now.
+
+
+
+
+
+
+
+
+
+

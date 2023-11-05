@@ -1,0 +1,6 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Criteo ======
+2020 [[https://www.pixeldetracking.com/fr/criteo-geant-marketing-surveillance-francais|Criteo, un géant du marketing de surveillance français]]
+

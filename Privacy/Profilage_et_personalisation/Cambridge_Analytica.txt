@@ -1,0 +1,81 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Cambridge Analytica ======
+**→ Cambridge Analytica, c'est le profilage et la personnalisation poussés au max avec un profilage psychologique.**
+
+2017 [[https://www.liberation.fr/futurs/2017/08/17/cambridge-analytica-big-data-et-gros-degats_1590468|Cambridge Analytica, big data et gros dégâts]]
+2018 [[https://www.mediapart.fr/journal/international/190318/cambridge-analytica-le-big-brother-electoral-de-donald-trump|Cambridge Analytica, le Big Brother électoral de Donald Trump]] 
+2018 [[https://www.lemonde.fr/pixels/article/2018/03/18/comment-une-entreprise-proche-de-la-campagne-de-trump-a-siphonne-les-donnees-de-millions-d-utilisateurs-de-facebook_5272744_4408996.html|Comment une entreprise proche de Trump a siphonné les données de millions d’utilisateurs de Facebook]]
+
+* [[https://www.youtube.com/watch?v=n8Dd5aVXLCc|Cambridge Analytica - The Power of Big Data and Psychographics]]
+* [[https://www.youtube.com/watch?v=arS5q_iP4Yc|Micro-targeting by Cambridge analytics (EU referendum and Donald Trump election)]]
+* [[https://www.youtube.com/watch?v=dyJJmhlp4fY|Data collection, psychometric profiling and their impact on politics - Paul-Olivier Dehaye]]
+
+===== Résumé =====
+
+==== Cambrdge Analytica ====
+Cambridge Analytica, c’est une boîte d’analyse de données qui verse dans le façonnage de l’opinion et la propagande. Financée par Robert Mercer, milliardaire ultraconservateur et climatosceptique, l’entreprise a été fondée relativement récemment et avait Steve Bannon, ancien conseiller de Donald Trump et admirateur de Marine Le Pen dans son comité d’administration.
+
+Cambridge Analytica est basée à Londres, mais utilise le nom de l’université de Cambridge pour faire valoir l’aspect scientifique de sa démarche : pouvoir extraire des donnée psychologiques de gens à partir de leurs données Facebook (likes, partages, mots-clé dans des statuts, etc). 
+
+==== Trump ====
+"Les électeurs afro-américains habitant dans les swing states ont fait l’objet d’une attention toute particulière sur Facebook, en étant exposés à des messages anxiogènes sur la candidate démocrate"
+https://usbeketrica.com/article/data-brokers-du-marketing-a-la-surveillance-de-masse
+
+Lors du troisième débat entre Trump et Clinton, l’équipe du républicain aurait testé jusqu’à 175 000 variations de publicités
+
+==== Brexit ====
+Cambridge Analytica a admis la semaine dernière avoir effectivement travaillé avec le groupe de campagne «Leave.EU»
+
+===== Scandale Facebook =====
+
+==== Origine des données ====
+Christopher Wylie, 28 ans, ex-directeur de recherche 
+premier lanceur d’alerte auprès de la journaliste du Guardian Carole Cadwalladr. Il a été suivi par Shahmir Sanni et un autre lanceur d’alerte qui préfère garder l’anonymat. 
+
+c’est l’application « ThisIsYourDigitalLife » du chercheur de Cambridge University, Aleksandr Kogan, qui avait l’autorisation de Facebook de récupérer toutes les données de tous les «amis» des utilisateurs, mais c’est Cambridge Analytica qui a approuvé et financé le projet.
+
+Les données ont été recueillies par Kogan dans un faux but : il avait promis à Facebook qu’il travaillait dessus à des fins académiques, il les a revendues dans un but de propagande ; elles avaient ceci de particulier qu’elles ciblaient non seulement les utilisateurs de Facebook qui avaient utilisé ses apps, mais aussi tous leurs contacts. Si je répondais à un quizz, vous, mes 900-et-quelques amis, aviez vos données communiquées par Facebook à ce chercheur.
+
+Facebook affirme que l'affaire Cambridge Analytica a touché 87 millions de comptes
+
+76 personnes en France ont utilisé l'application thisisyourdigitallife, qui a ensuite transmis ses données à Cambridge Analytica. En comptant leurs amis, dont les informations ont aussi pu être récupérées, 211.667 
+
+Légalement, Aleksandr Kogan n'avait pas le droit de donner les données de facebook à des tiers.
+
+Facebook ne peut donc pas parler d’un “vol” de données pour ce que Cambridge Analytica et sans doutes des dizaines d’autres organisations ont fait.
+
+==== Méthodes ====
+D'ailleurs, c'est très insidieux: ce ne sont pas tant nos publications sur Facebook qui révèlent nos centres d'intérêt et nos préférences, mais les «likes» que nous distribuons, parfois sans trop y réfléchir, au gré de notre navigation sur le réseau. C'est ce qu'a révélé dans une tribune au Monde le chercheur Michael Wade, qui a enquêté sur l'affaire Cambridge Analytica et la manière dont la segmentation et l'analyse des données ont été menées.
+
+→ Avec 60 likes, on peut positionner Trump et le Brexit
+
+Cambridge Analytica se targue d’utiliser les données des réseaux sociaux pour exploiter les peurs des électeurs.  « Des choses qui n’ont pas besoin d’être vraies, dès lors qu’elles sont crues », a dit Alexander Nix.
+http://www.rfi.fr/europe/20180322-royaume-uni-methodes-douteuses-cambridge-analytica
+
+Vous trouvez un groupe qui est plus susceptible qu’un autre de croire aux théories conspirationnistes, puis vous le nourrissez avec les rumeurs qu’il attend. Le travail [de Cambridge Analytica] n’était pas seulement pour des clients privés, il consistait aussi à créer des narrations qui répondaient aux attentes de certaines personnes et permettaient de renforcer la cause non seulement des Républicains, mais des candidats de l’alt-right.
+http://www.liberation.fr/planete/2018/03/26/sans-cambridge-analytica-il-n-y-aurait-pas-eu-de-brexit_1638940
+
+"Ça ne sert à rien de faire campagne en s'appuyant sur des faits, parce qu'en fait, tout repose sur l'émotion. Une des grandes erreurs que font les partis politiques, est d'essayer de gagner le débat plutôt que de se concentrer sur son aspect émotionnel, pour ensuite parler directement de ça."
+20 mars 2018
+Mark Turnbull, directeur général de Cambridge Analytica Political Global 
+https://www.dailymotion.com/video/x6gn8rw
+
+===== Discussion =====
+C'est ni plus ni moins le devenir politique de la première puissance mondiale qui pourrait s'être joué de manière frauduleuse entre les murs de Cambridge Analytica… De plus, on découvre aujourd'hui que cette société utilisait des méthodes quasi mafieuses d'intimidation, de chantage ou de prostitution pour arriver à ses fins politiques.
+
+Il est possible que Cambridge Analytica ait surjoué son impact sur les élections dans le but d’obtenir de nouveaux clients.
+
+Il est intéressant de noter qu’en 2012, la campagne de Barack Obama avait utilisé les mêmes techniques de micro-ciblage, mais différemment : en effet, les données utilisées par sa campagne avaient été soumises par les concernés eux-mêmes ; les apps et quizz Facebook utilisés par sa campagne ne récupéraient que les données des utilisateurs, et pas celles de leurs contacts. Ce procédé n’en est pas moins questionnable.
+
+La campagne d’Obama en 2008 a démontré l’intérêt de la «data» dans la conquête du pouvoir. Les équipes du candidat démocrate ciblaient ainsi certaines catégories de population dans leurs opérations de porte-à-porte ou de démarchage téléphonique.
+
+Vous serez intéressés d’apprendre que Emmanuel Macron, Jean-Luc Mélenchon ou François Fillon ont fait appel à des startups d’analyse de big-data lors de la campagne de l’an dernier, mais aucune n’a pour l’instant été accusée d’avoir utilisé trop de données de Facebook.
+
+
+
+Trump Fan de flingues
+* autodéfense
+* droit s fondamentaux 2nd amendement
+→ argumentaires ciblé

@@ -1,0 +1,6 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Server-side tagging ======
+
+2020 [[https://www.pixeldetracking.com/fr/google-tag-manager-server-side-tagging|Google Tag Manager, la nouvelle arme anti adblock]]

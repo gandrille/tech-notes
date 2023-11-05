@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+
+====== CI - CD ======
+* Tekton: k8s native but complex
+* Argo Workflows & Events: close to Tekton, well integrated with the Argo ecosystem
+* Jenkins: here for a long time
+* GitHub Actions: the simplest

@@ -1,0 +1,6 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== Tinder ======
+2017 [[https://medium.com/personaldata-io/tinder-must-be-joking-with-their-dowload-your-data-option-88fdd7b3950d|Tinder must be joking with their “download your data” option]]
+

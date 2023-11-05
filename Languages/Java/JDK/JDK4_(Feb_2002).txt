@@ -1,0 +1,14 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== JDK4 (Feb 2002) ======
+**Sources**
+* [[https://en.wikipedia.org/wiki/Java_version_history#J2SE_1.4|Wikipedia]]
+
+**Key features**
+* assertions
+* exceptions chaining
+* non-blocking IO
+* API XML
+* sécurité et crypto
+* Regexp

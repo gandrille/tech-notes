@@ -1,0 +1,26 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== JDK17 LTS (Sept 2021) ======
+Le guide de Rémi Forax sera releasé pour Java 17 : https://github.com/forax/java-guide
+
+**Sources**
+* [[https://en.wikipedia.org/wiki/Java_version_history#Java_SE_17|Wikipedia]]
+* [[https://openjdk.java.net/projects/jdk/17/|OpenJDK 17]]
+* [[https://mkyong.com/java/what-is-new-in-java-17/|Mkyong: What is new in Java 17]]
+
+**JEP list**
+* [[https://openjdk.java.net/jeps/306|306: Restore Always-Strict Floating-Point Semantics]]
+* [[https://openjdk.java.net/jeps/356|356: Enhanced Pseudo-Random Number Generators]]
+* [[https://openjdk.java.net/jeps/382|382: New macOS Rendering Pipeline]]
+* [[https://openjdk.java.net/jeps/391|391: macOS/AArch64 Port]]
+* [[https://openjdk.java.net/jeps/398|398: Deprecate the Applet API for Removal]]
+* [[https://openjdk.java.net/jeps/403|403: Strongly Encapsulate JDK Internals]]
+* [[https://openjdk.java.net/jeps/406|406: Pattern Matching for switch (Preview)]]
+* [[https://openjdk.java.net/jeps/407|407: Remove RMI Activation]]
+* [[https://openjdk.java.net/jeps/409|409: Sealed Classes]]
+* [[https://openjdk.java.net/jeps/410|410: Remove the Experimental AOT and JIT Compiler]]
+* [[https://openjdk.java.net/jeps/411|411: Deprecate the Security Manager for Removal]]
+* [[https://openjdk.java.net/jeps/412|412: Foreign Function & Memory API (Incubator)]]
+* [[https://openjdk.java.net/jeps/414|414: Vector API (Second Incubator)]]
+* [[https://openjdk.java.net/jeps/415|415: Context-Specific Deserialization Filters]]

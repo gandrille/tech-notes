@@ -1,0 +1,39 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== FAQ ======
+https://blog.xebia.fr/2011/05/16/reponses-au-quizz-licences-open-source/
+
+**Comment des éditeurs commerciaux peuvent-ils distribuer des programmes « close source » pour Linux alors que Linux utilise la licence « business unfriendly » GPL qui est censée être « contaminante » ?**
+
+L'essentiel du code source de Linux est distribué sous la licence business unfriendly GPL qui est contaminante et requiert donc que le code qui lui est linké soit distribué sous une licence compatible GPL avec le code source disponible.
+
+Cependant, pour s'exécuter sur Linux, un programme n'a pas besoin d'être compilé et/ou linké à ce code contaminant ; il lui suffit d'être compilé et linké sur les API POSIX / « Portable Operating System Interface for Unix » (e.g. cpio.h) qui ont une licence non contaminante BSD (en plus de licences LGPL et GPL) ou sur des librairies aux licences non contaminantes comme glibc (licence LGPL). Quant au compilateur GCC, il ne contamine pas non plus avec sa GCC Runtime Library Exception.
+
+**Comment CentOS peut-il distribuer gratuitement une version de Linux qui reprend quasiment toute la distribution payante Red Hat Enterprise Linux ?**
+
+Comme Noel Rocher (Red Hat / JBoss) nous l'a expliqué, Red Hat tient à disposition de ses clients RHEL le code source de l'OS ; c'est conforme à la licence GPL de Linux. En revanche, les logos et les termes Red Hat, RHEL, etc sont sous copyright Red Hat.
+
+Il suffit aux membres du projet CentOS d'acheter une licence RHEL, de demander le source et de faire disparaitre les logos et termes copyrightés (RHEL, Red Hat, etc) pour constituer une version qu'ils ont le droit de distribuer gratuitement.
+
+Il est donc possible d'obtenir une quasi-RHEL gratuitement mais on perd alors le support et les services que Red Hat propose à ses clients.
+
+**Pourquoi ai-je le droit de distribuer un logiciel « close source » qui embarque une JVM OpenJDK alors que celle-ci utilise la licence « contaminante » dérivée de la GPL ? Ai-je ce droit sur toutes les plateformes ? Y compris sur les terminaux mobiles ?**
+
+La JVM OpenJDK est disponible sous GNU General Public License, version 2, with the Classpath Exception. Le classpath exception protège le code qui s'exécute sur la JVM de la contamination habituelle des licences GPL. Une application peut donc être livrée avec une JVM OpenJDK sans être contaminée et donc sans devoir rendre son code source disponible sous licence compatible GPL.
+
+Cela ressemble presque plus à une licence LGPL qu'à une licence GPL.
+
+Pour ce qui est du monde mobile, Oracle (à l'époque Sun) n'a pas posé de classpath exception à la JVM ME (aka Mobile Edition). De ce fait, une application qui embarque une JVM ME open source d'Oracle est contaminée et doit proposer son code source sous licence compatible GPL. Cette disposition a incité les fabricants de téléphones mobiles et systèmes embarqués qui utilisaient Java ME à continuer à utiliser des JVM ME commerciale.
+
+En revanche, rien n'interdit de bénéficier de la classpath exception en utilisant un Open JDK sur téléphone mobile ou tout autre embedded device. Le OpenJDK : Zero - Assembler Project travaille justement à porter OpenJDK sur les processeurs ARM qui sont communément utilisés dans les smartphones.
+
+**L'Affero General Public License (aka Affero GPL) étend la notion de distribution de la licence GPL à la distribution sur le réseau. Quel est l'impact sur des sites web accessibles sur Internet ? Citer une librairie Java très connue licenciée sous AGPL ? Utilisez-vous iText ?**
+
+L'Affero General Public License a été introduite en complément de la GPL pour combler l'oubli des Application Service Providers.
+
+Cette licence stipule que la distribution ne se limite pas à la forme de binaires comme le définit la licence GPL mais concerne aussi la fourniture en mode service de ce logiciel au travers d'un réseau.
+
+De ce fait, exposer un logiciel à des clients sous forme de services web relève d'une distribution aux yeux de l'Affero GPL. Par conséquent, une application web visible sur internet qui embarque une librairie Affero GPL est contaminée et doit rendre tout son code source disponible sous licence compatible AGPL !
+
+Avis aux utilisateurs d'iText : la librairie est passée en dual licensing Affero GPL / commercial depuis la version 5. Si vous voulez continuer à bénéficier de la business friendly Mozilla Public License, il faut rester sur la version 2.1.7 d'iText (merci à Bertrand Dechoux pour l'historique).

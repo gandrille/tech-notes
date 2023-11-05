@@ -1,0 +1,35 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.6
+
+====== SchemaHero ======
+===== The approach =====
+**The legacy approach**
+[[https://www.liquibase.org/|Liquibase]], [[https://flywaydb.org/|Flyway]] and [[https://pressly.github.io/goose/|pressly/goose]] are patching the database using imperative patches, and this way, defining a migration path.
+See also : https://www.baeldung.com/liquibase-vs-flyway
+
+**ORM**
+The can initialize tables as well...
+
+===== SchemaHero =====
+**The pitch**
+[[https://schemahero.io|SchemaHero]] allows to define using a CRD the desired schema of a postgress or mysql database. Then an operator computes the drift and executes SQL commands in order to have the actual state matching the desired state.
+→ [[https://www.youtube.com/watch?v=_fMmRgThGyA&t=3s|4 minutes intro]]
+
+**Workflow**
+* With SchemaHero, the developper is defining the desired state
+* Then, a migration is computed by SchemaHero
+* This migration can be applied automatically, or validated manually
+
+**Benefits**
+* Enables GitOps approach for DB (makes sense to couple it with Flux or Argo CD)
+* No need to browse the full history (with create or delete... only the desired state is covered)
+
+**Notes**
+* Databases support : SchemaHero only supports a [[https://schemahero.io/databases/|small set of databases]] (Postgresql, CockroachDB, MySQL, Cassandra, TimescaleDB, SQLite, RQlite) and has specific configuration files for each database, because they can have different specific capabilities
+* Drift detection is NOT continuous, but performed every time the desired state is updated.
+* Can seed a small set of data in a table
+* Had scenario such as splitting columns is not covered
+
+===== Other considerations =====
+* Remember that databases extensions may not be supported by the db migration tool
+* Is it good or bad to have database migration definition coupled with the source code? It depends, but you need to ask yoursef this question!

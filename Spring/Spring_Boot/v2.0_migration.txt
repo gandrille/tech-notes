@@ -1,0 +1,41 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== v2.0 migration ======
+
+===== Migration guides =====
+* https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-2.0-Migration-Guide
+* https://dzone.com/articles/migrating-springboot-applications-to-latest-java-v
+
+===== What's new =====
+**Infrastructure upgrades**
+* Java 8
+* Tomcat 8+
+* Thymeleaf 3
+* Hibernate 5.2
+
+**Spring Framework 5 with Reactive Spring**
+* Servlet Container → Netty, Servlet 3.1
+* Servlet API → Reactive HTTP layer
+* Spring MVC → Spring WebFlux
+→ Spring MVC reste dispo
+
+**Micrometer support**
+* utilise actuator et micrometer.io
+* compatible avec : Datadog, Atlas, prometheus, NewRelic,…
+→ Note : facile à inégrer avec Grafana
+
+===== What has changed =====
+**Configuration properties**
+* support des listes plus consistant
+* support des sets
+* @DurationUnit and 1s, 2m, 3d,…
+* IMPORTANT : properties names have been updated !!!! use 'spring-boot-properties-migrator' dependency !!!
+→ regarder les binders https://spring.io/blog/2018/03/28/property-binding-in-spring-boot-2-0
+
+**Actuator endpoint**
+* @Endpoint, @ReadOperation, @WriteOperation, @DeleteOperation et aussi @WebEndpoint, @JmxEndpoint
+
+**Security**
+* nouveau format pour exprimer les authorisations (avec constantes)
+* OAuth

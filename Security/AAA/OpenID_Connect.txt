@@ -1,0 +1,26 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+
+====== OpenID Connect ======
+Surcouche de OAuth2 pour faire de la gestion d'identité → pour autoriser une application cliente à récupérer de manière sécurisée l’identité de l’utilisateur, en se connectant au Fournisseur d’Identité (Identity Provider).
+→ Pour la fédération d'identités
+
+
+**Specs**
+* [[https://openid.net/developers/specs/|Spec List]]
+* [[https://openid.net/specs/openid-connect-core-1_0.html|OpenID Connect Core 1.0]]
+→ The current version of OpenID is OpenID Connect 1.0, finalized and published in February 2014, and updated with corrections in November 2014.
+
+**OIDC gère DEUX tokens**
+* ''access_token'': c'est le token OAuth2 "legacy", sans signification cachée → il faut un serveur d'authentification pour savoir s'il est valide
+* ''id_token'': spécifique à OIDC, c'est un token JWT qui donne des informations sur l'identité et le mode d'authentification (les [[https://openid.net/specs/openid-connect-core-1_0.html#StandardClaims|claims]]). 
+
+**Nouvelle terminologie**
+* Authorization Server (Serveur d’autorisation) OAuth2 → OpenID Provider avec OIDC
+* Client OAuth2 → Relying Party OIDC
+
+**TROIS Flows **([[https://blog.octo.com/securiser-une-api-rest-tout-ce-quil-faut-savoir/#oidc_flows|regarder des détails]])
+* Authorization Code (à partir du scénario d’OAuth2): pour les applis PHP
+* Implicit (à partir du scénario OAuth2): pour les SPA
+* Hybrid (spécifique à OIDC)
+
