@@ -34,6 +34,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       ZIM_VERSION: 0.75.2
+      GENERATE_PDF: false
     steps:
     
       - name: Install Zim
@@ -58,6 +59,29 @@ jobs:
 
       - name: Generate website
         run: mkdir ./pages && zim --export --output ./pages --template ./zim-simple-web-template/SimpleWeb.html --overwrite --index-page index ./source
+
+      - name: Checkout latex Template
+        if: ${{ env.GENERATE_PDF == 'true' }}
+        uses: actions/checkout@v4
+        with:
+          repository: 'gandrille/zim-simple-latex-template'
+          path: 'zim-simple-latex-template'
+
+      - name: Generate latex sources
+        if: ${{ env.GENERATE_PDF == 'true' }}
+        run: mkdir ./latex && zim --export --format latex --output ./latex/notebook.tex --template ./zim-simple-latex-template/Template.tex --overwrite --singlefile ./source/notebook.zim
+
+      - name: Install Latex
+        if: ${{ env.GENERATE_PDF == 'true' }}
+        run: sudo apt install --yes texlive texlive-latex-extra
+      
+      - name: Build pdf from latex
+        if: ${{ env.GENERATE_PDF == 'true' }}
+        run: pdflatex -halt-on-error -output-directory latex ./latex/notebook.tex && pdflatex -halt-on-error -output-directory latex ./latex/notebook.tex && mv ./latex/notebook.pdf ./pages/${GITHUB_REPOSITORY##*/}.pdf && echo "Rename notebook.pdf => ${GITHUB_REPOSITORY##*/}.pdf"
+
+      - name: Patch intex in order to reference pdf file
+        if: ${{ env.GENERATE_PDF == 'true' }}
+        run: sed -i "s|</body>|<script type=\"text/javascript\">\$(\"#content\").append(\"<div><a href='https://${GITHUB_REPOSITORY%%/*}.github.io/${GITHUB_REPOSITORY##*/}/${GITHUB_REPOSITORY##*/}.pdf'>Full content exported as a pdf file.</a></div>\")</script>\n</body>|" ./pages/index.html
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
