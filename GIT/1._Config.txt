@@ -1,9 +1,12 @@
 Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
+Wiki-Format: zim 0.6
 
 ====== 1. Config ======
 [[https://dev.to/tastefulelk/conditional-git-profile-configuration-212b|Conditional git profile configuration]]
 
+Multiple ssh keys with GIT
+* https://vmaerten.io/posts/comment-avoir-plusieurs-profils-git/
+* https://gist.github.com/yinzara/bbedc35798df0495a4fdd27857bca2c1
 
 ===== Fonctionnement =====
 **Trois niveaux**
